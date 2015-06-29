@@ -1,0 +1,170 @@
+body {
+  padding: 1em;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content {
+  width: 650px;
+}
+
+a {
+  color: #0071c5;
+}
+
+img {
+  max-width: 100%;
+}
+
+.footnote {
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+
+/* ==========================================================================
+   Headings
+   ========================================================================== */
+
+.subtitle, h1, h2, h3, h4 {
+  color: #0071c5;
+  font-family: "Intel Clear";
+  font-weight: bold;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 12pt;
+  padding: 12pt 0;
+}
+
+h1 {
+  font-size: 20pt;
+}
+
+h2 {
+  font-size: 16pt;
+  margin-top: 28pt;
+  padding-bottom: 2pt;
+  border-bottom: 1px solid #0071c5;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 13pt;
+  margin-top: 16pt;
+  padding-bottom: 6pt;
+  border-bottom: 1px dotted #0071c5;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-size: 11pt;
+  padding-bottom: 0pt;
+  font-style: italic;
+}
+
+
+/* ==========================================================================
+   Callout boxes
+   ========================================================================== */
+
+.callout {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ccc;
+  padding: 1em;
+}
+
+.callout.warning {
+
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+  padding-top: 0;
+  margin-top:0;
+} 
+
+/*
+.callout first-child {
+  padding-top: 0;
+  margin-top:0;
+}
+.callout last-child {
+  margin-bottom: 0;
+}
+*/
+
+/* ==========================================================================
+   Other boxes
+   ========================================================================== */
+
+.toc {
+  border: 2px solid #eee;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+/*
+.toc ul {
+  margin: 0;
+  padding: 0;
+}
+*/
+/*
+.toc:first-child{
+  margin-top: 0;
+}
+
+.toc:last-child{
+  margin-top: 0;
+}
+*/
+
+.related-videos {
+  padding: 0em 1em 1em 1em;
+  background-color: #d9eaf6;
+  font-size: 0.9em;
+  color: #0071c5;
+  margin-left: calc(1em + 40px); /* icon width + left box margin */
+}
+
+.related-videos::before {
+  content: '';
+  background-image: url(/img/icons/callout_icon_arrow_blue.png);
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1em; /* same as body padding */
+}
+
+.related-videos:first-child {
+  padding-top: 1em;
+}
+
+.tldr {
+  background-color: #d9eaf6;
+  color: #0071c5;
+  font-size: 0.9em;
+  background-image: url(/img/icons/roadsign_icon_23x25.png);
+  background-repeat: no-repeat;
+  background-position: 12px 18px;
+  padding: 10px;
+  padding-left: 45px;
+}
+
+.tldr p {
+  margin: 5px 0;
+}
+
+
+.next-steps {
+  padding: 1em;
+  background-color: #d9eaf6;
+  font-size: 0.9em;
+  color: #0071c5;
+}
