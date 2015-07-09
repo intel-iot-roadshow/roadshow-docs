@@ -1,0 +1,215 @@
+body {
+  padding: 1em;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content {
+  width: 650px;
+}
+
+a {
+  color: #0071c5;
+}
+
+img {
+  max-width: 100%;
+}
+
+.footnote {
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+
+/* ==========================================================================
+   Headings
+   ========================================================================== */
+
+.subtitle, h1, h2, h3, h4 {
+  color: #0071c5;
+  font-family: "Intel Clear";
+  font-weight: bold;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 12pt;
+  padding: 12pt 0;
+}
+
+h1 {
+  font-size: 20pt;
+}
+
+h2 {
+  font-size: 16pt;
+  margin-top: 28pt;
+  padding-bottom: 2pt;
+  border-bottom: 1px solid #0071c5;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 13pt;
+  margin-top: 16pt;
+  padding-bottom: 6pt;
+  border-bottom: 1px dotted #0071c5;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-size: 11pt;
+  padding-bottom: 0pt;
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 0.5em;
+}
+
+/* ==========================================================================
+   Callout boxes (with outer icon)
+   ========================================================================== */
+
+.callout {
+  padding: 1em;
+  padding-top: 0em; /* to align the icon in ::before */
+  font-size: 0.9em;
+  color: #0071c5;
+  margin-left: calc(1em + 40px); /* icon width + left box margin */
+}
+
+.callout > *:first-child {
+  display: block;
+  margin-top: 1em; /* to align the icon in ::before */
+}
+
+.callout > *:last-child {
+  margin-bottom: 0;
+}
+
+.callout::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1.2em; /* a little bit more than body padding */
+}
+
+.video.callout {
+  border: 2px solid #d9eaf6;
+}
+
+.video.callout::before {
+  background-image: url(/img/icons/callout_icon_video_lightblue.png);
+}
+
+.goto.callout {
+  background-color: #d9eaf6;
+}
+
+.goto.callout::before {
+  background-image: url(/img/icons/callout_icon_arrow_blue.png);
+}
+
+/* ==========================================================================
+   Grey outline boxes (no icons)
+   ========================================================================== */
+
+.box {
+  padding: 1em;
+  border: 2px solid #eee;
+  margin-bottom: 1em;
+}
+
+.box > *:first-child {
+  margin-top: 0;
+}
+
+.box > *:last-child {
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   Table of contents (which is a .box)
+   ========================================================================== */
+
+
+#toc {
+  position: absolute;
+  left: 690px;
+  display: block;
+  min-width: 300px;
+}
+
+#toc > ul {
+  padding-left: 0;
+}
+
+#toc > ul > li {
+  list-style: none;
+}
+
+#toc > ul > li > ul {
+  padding-left: 2em;
+}
+
+/* ==========================================================================
+   TLDR boxes (with inner road sign icon)
+   ========================================================================== */
+
+.tldr {
+  background-color: #d9eaf6;
+  color: #0071c5;
+  font-size: 0.9em;
+  background-image: url(/img/icons/roadsign_icon_23x25.png);
+  background-repeat: no-repeat;
+  background-position: 12px 18px;
+  padding: 10px;
+  padding-left: 45px;
+}
+
+.tldr a {
+  font-weight: bold;
+}
+
+.tldr p {
+  margin: 5px 0;
+}
+
+/* ==========================================================================
+   Blue solid boxes (no icons)
+   ========================================================================== */
+
+.note {
+  padding: 1em;
+  background-color: #d9eaf6;
+  color: #0071c5;
+}
+
+.note > *:first-child {
+  margin-top: 0;
+}
+
+.note > *:last-child {
+  margin-bottom: 0;
+}
+
+.note p {
+  font-size: 0.9em;
+}
+
+.note a {
+  font-weight: bold;
+}
+
+#next-steps.note {
+  margin: 2.5em 0;
+}
