@@ -1,8 +1,59 @@
-<!DOCTYPE html><html class=no-js><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Getting Started</title><meta name=description content=""><meta name=viewport content="width=device-width,initial-scale=1"><!-- Place favicon.ico and apple-touch-icon(s) in the root directory --><!-- build:css(app) /css/main.css --><link rel=stylesheet href=/getting-started-guides/_bower_components/normalize-css/normalize.css><link rel=stylesheet href=/getting-started-guides/css/main.css><link rel=stylesheet href=/getting-started-guides/css/docs.css><!-- endbuild --><!-- build:js(app) /js/head-scripts.js --><!-- Replace with a custom modernizer build for production --><script src=/getting-started-guides/_bower_components/modernizr/modernizr.js></script><!-- endbuild --></head><body><!--[if lt IE 8]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--><div class=content><h2 id=confirm-installation-of-intel-edison-drivers>Confirm installation of Intel® Edison Drivers</h2><p>Look for both “Intel Edison USB Composite Device” and “Intel Edison Virtual Com Port” items in Device Manager under “Ports (COM &amp; LPT)” after plugging in the device mode USB cable.</p><p><img src=images/confirm_edison_drivers-animated.gif alt="Animated gif: confirming the installation of Intel Edison drivers"></p><hr><ol><li>Connect a micro-USB cable to the <strong>device mode</strong> micro-USB port of the Intel® Edison expansion board, and the other end to your computer.</li></ol><p><img src=/docs/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png alt="Micro-USB cable being plugged into the top micro-USB connector"></p><p>Refer to <a href=/docs/assembly/arduino_expansion_board/details-device_mode_cable.html>Device mode micro-USB cable</a> for more detailed cable connection information.</p><hr><p>If you see both “<strong>Intel Edison USB Composite Device</strong>” and “<strong>Intel Edison Virtual Com Port</strong>” items show up in Device Manager under “Ports (COM &amp; LPT)”, the drivers have been successfully installed.</p><p><img src=images/device_manager-intel_edison.png alt="Two &quot;Intel Edison&quot; entries in Device Manager"></p><hr><h3 id=troubleshooting>Troubleshooting</h3><p><strong>Do not see Intel® Edison devices show up in Device Manager?</strong></p><ul><li>Check that the Intel® Edison is in <strong>device mode</strong>.<ul><li>Arduino expansion board: the microswitch is toggled downwards.</li><li>Xadow expansion board: the microswitch is toggled towards “Device” label.</li></ul></li><li>Check that the micro-USB cable is securely connected to the device mode micro-USB port of the Intel® Edison expansion board.</li><li>Restart your computer to ensure driver changes to take effect.</li><li>Try a different micro-USB cable to eliminate errors due to a bad cable.</li><li>Update the firmware on the Intel® Edison. Refer to <a href=/docs/flash_firmware/manually.html>Flash Edison Firmware Manually</a>.</li></ul></div><script src=//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js></script><script>window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.min.js"><\/script>')</script><!-- build:js(app) /js/script.js --><script src=/js/plugins.js></script><script src=/js/main.js></script><!-- endbuild --><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-  e.src='//www.google-analytics.com/analytics.js';
-  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X');ga('send','pageview');</script></body></html>
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/getting-started-guides/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="confirm-installation-of-intel-edison-drivers">Confirm installation of Intel® Edison Drivers</h2>
+
+<p>Look for both “Intel Edison USB Composite Device” and “Intel Edison Virtual Com Port” items in Device Manager under “Ports (COM &amp; LPT)” after plugging in the device mode USB cable.</p>
+
+<p><img src="images/confirm_edison_drivers-animated.gif" alt="Animated gif: confirming the installation of Intel Edison drivers" /></p>
+
+<hr />
+
+<ol>
+  <li>Connect a micro-USB cable to the <strong>device mode</strong> micro-USB port of the Intel® Edison expansion board, and the other end to your computer.</li>
+</ol>
+
+<p><img src="/docs/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png" alt="Micro-USB cable being plugged into the top micro-USB connector" /></p>
+
+<p>Refer to <a href="/docs/assembly/arduino_expansion_board/details-device_mode_cable.html">Device mode micro-USB cable</a> for more detailed cable connection information.</p>
+
+<hr />
+
+<p>If you see both “<strong>Intel Edison USB Composite Device</strong>” and “<strong>Intel Edison Virtual Com Port</strong>” items show up in Device Manager under “Ports (COM &amp; LPT)”, the drivers have been successfully installed. </p>
+
+<p><img src="images/device_manager-intel_edison.png" alt="Two &quot;Intel Edison&quot; entries in Device Manager" /></p>
+
+<hr />
+
+<h3 id="troubleshooting">Troubleshooting</h3>
+
+<p><strong>Do not see Intel® Edison devices show up in Device Manager?</strong></p>
+
+<ul>
+  <li>Check that the Intel® Edison is in <strong>device mode</strong>.
+    <ul>
+      <li>Arduino expansion board: the microswitch is toggled downwards.</li>
+      <li>Xadow expansion board: the microswitch is toggled towards “Device” label.</li>
+    </ul>
+  </li>
+  <li>Check that the micro-USB cable is securely connected to the device mode micro-USB port of the Intel® Edison expansion board.</li>
+  <li>Restart your computer to ensure driver changes to take effect.</li>
+  <li>Try a different micro-USB cable to eliminate errors due to a bad cable.</li>
+  <li>Update the firmware on the Intel® Edison. Refer to <a href="/docs/flash_firmware/manually.html">Flash Edison Firmware Manually</a>.</li>
+</ul>
+
+    
+    </div>
+
+  </body>
+</html>

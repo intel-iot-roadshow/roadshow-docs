@@ -1,8 +1,82 @@
-<!DOCTYPE html><html class=no-js><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Getting Started</title><meta name=description content=""><meta name=viewport content="width=device-width,initial-scale=1"><!-- Place favicon.ico and apple-touch-icon(s) in the root directory --><!-- build:css(app) /css/main.css --><link rel=stylesheet href=/getting-started-guides/_bower_components/normalize-css/normalize.css><link rel=stylesheet href=/getting-started-guides/css/main.css><link rel=stylesheet href=/getting-started-guides/css/docs.css><!-- endbuild --><!-- build:js(app) /js/head-scripts.js --><!-- Replace with a custom modernizer build for production --><script src=/getting-started-guides/_bower_components/modernizr/modernizr.js></script><!-- endbuild --></head><body><!--[if lt IE 8]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--><div class=content><h2 id=install-java>Install Java</h2><p>Eclipse depends on either a Java Runtime Engine (JRE) or Java Development Kit (JDK). Check if you have Java installed and, if you do not, install it.</p><hr><p><strong>Platform-specific instructions:</strong></p><ul><li><a href=#windows>Windows »</a></li><li><a href=#mac>Mac »</a></li><li><a href=#linux>Linux »</a></li></ul><h3 id=windows>Windows</h3><p>If you do not know if you have Java installed, refer to <a href=https://www.java.com/en/download/help/version_manual.xml>How can I find which version of Java is installed without running an applet in Windows or Mac?</a> on java.com for instructions.</p><ol><li>Download the Oracle distribution of a Java JRE or JDK from <a href=http://www.oracle.com/technetwork/java/javase/downloads/index.html>oracle.com/technetwork/java/javase/downloads/index.html</a>.</li></ol><p><img src=images/java-download_page.png alt="Oracle Java download page for Windows"></p><h3 id=mac>Mac</h3><p>A Java runtime ships with the Mac operating system however, if you are running OS X 10.9.4 or older, you may need to update your version of Java.</p><ol><li>If needed, download the Oracle distribution of Java for Mac from <a href=https://www.java.com/en/download/mac_download.jsp>java.com/en/download/mac_download.jsp</a>.</li></ol><p><img src=images/java-download_page_mac.png alt="Oracle Java download page for Mac"></p><h3 id=linux>Linux</h3><ol><li><p>Check if you have Java installed.</p><ol><li><p>Open a Terminal window.</p></li><li><p>Type:</p></li></ol><p><code>java</code></p><p>If you see a “The program ‘java’ can not be found” message, you do not have Java installed and you will need to install it.</p></li><li><p>Install a Java runtime using the <code>apt-get</code> command. You may need to enter your user password.</p></li></ol><p><code>sudo apt-get install default.jre</code></p></div><script src=//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js></script><script>window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.min.js"><\/script>')</script><!-- build:js(app) /js/script.js --><script src=/js/plugins.js></script><script src=/js/main.js></script><!-- endbuild --><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-  e.src='//www.google-analytics.com/analytics.js';
-  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X');ga('send','pageview');</script></body></html>
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/getting-started-guides/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="install-java">Install Java</h2>
+
+<p>Eclipse depends on either a Java Runtime Engine (JRE) or Java Development Kit (JDK). Check if you have Java installed and, if you do not, install it.</p>
+
+<hr />
+
+<p><strong>Platform-specific instructions:</strong></p>
+
+<ul>
+  <li><a href="#windows">Windows »</a></li>
+  <li><a href="#mac">Mac »</a></li>
+  <li><a href="#linux">Linux »</a></li>
+</ul>
+
+<h3 id="windows">Windows</h3>
+
+<p>If you do not know if you have Java installed, refer to <a href="https://www.java.com/en/download/help/version_manual.xml">How can I find which version of Java is installed without running an applet in Windows or Mac?</a> on java.com for instructions.</p>
+
+<ol>
+  <li>Download the Oracle distribution of a Java JRE or JDK from <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">oracle.com/technetwork/java/javase/downloads/index.html</a>.</li>
+</ol>
+
+<p><img src="images/java-download_page.png" alt="Oracle Java download page for Windows" /></p>
+
+<h3 id="mac">Mac</h3>
+
+<p>A Java runtime ships with the Mac operating system however, if you are running OS X 10.9.4 or older, you may need to update your version of Java.</p>
+
+<ol>
+  <li>If needed, download the Oracle distribution of Java for Mac from <a href="https://www.java.com/en/download/mac_download.jsp">java.com/en/download/mac_download.jsp</a>.</li>
+</ol>
+
+<p><img src="images/java-download_page_mac.png" alt="Oracle Java download page for Mac" /></p>
+
+<h3 id="linux">Linux</h3>
+
+<ol>
+  <li>
+    <p>Check if you have Java installed.</p>
+
+    <ol>
+      <li>
+        <p>Open a Terminal window.</p>
+      </li>
+      <li>
+        <p>Type:</p>
+      </li>
+    </ol>
+
+    <p><code>
+ java
+</code></p>
+
+    <p>If you see a “The program ‘java’ can not be found” message, you do not have Java installed and you will need to install it.</p>
+  </li>
+  <li>
+    <p>Install a Java runtime using the <code>apt-get</code> command. You may need to enter your user password.</p>
+  </li>
+</ol>
+
+<p><code>
+  sudo apt-get install default.jre
+ </code></p>
+
+    
+    </div>
+
+  </body>
+</html>

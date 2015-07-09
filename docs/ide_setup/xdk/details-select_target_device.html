@@ -1,8 +1,85 @@
-<!DOCTYPE html><html class=no-js><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Getting Started</title><meta name=description content=""><meta name=viewport content="width=device-width,initial-scale=1"><!-- Place favicon.ico and apple-touch-icon(s) in the root directory --><!-- build:css(app) /css/main.css --><link rel=stylesheet href=/getting-started-guides/_bower_components/normalize-css/normalize.css><link rel=stylesheet href=/getting-started-guides/css/main.css><link rel=stylesheet href=/getting-started-guides/css/docs.css><!-- endbuild --><!-- build:js(app) /js/head-scripts.js --><!-- Replace with a custom modernizer build for production --><script src=/getting-started-guides/_bower_components/modernizr/modernizr.js></script><!-- endbuild --></head><body><!--[if lt IE 8]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--><div class=content><h3 id=select-a-target-iot-device>Select a target IoT device</h3><p>The Intel® XDK IoT Edition will automatically detect Intel® IoT devices on your network and display them in the “IoT Device” drop down list.</p><p><img src=images/select_target_device-animated.gif alt="Animated gif: selecting a target device in &quot;IoT Device&quot; drop down list"></p><hr><ol><li>In the bottom left corner of the Intel® XDK, click the “<strong>IoT Device</strong>” drop down list which currently indicates “ - Select a Device - “.</li></ol><p><img src=images/xdk-iot_device_dropdown_highlighted.png alt="&quot;IoT Device&quot; drop down list highlighted"></p><ol><li>Select your target Intel® Galileo or Intel® Edison from the list. If there are multiple devices, choose based on the device name and IP address.</li></ol><p><img src=images/xdk-iot_device_dropdown_options_and_devices.png alt="A target device being selected in &quot;IoT Device&quot; drop down list"></p><hr><p>Wait a moment for the connection to be established. A popup window will appear to confirm the connection status.</p><p><img src=images/xdk-connection_established.png alt="Connection established message"></p><hr><p><em>Problems with Wi-Fi? Need to program while offline?</em></p><p>The Intel® XDK requires the IP address of your IoT board in order to program it. If your IoT board is online, the IP address is automatically detected in most cases.</p><p>However, if you are unable to get your IoT board online to the same network as your computer due to restricted or busy Wi-Fi networks, try a direct cable-based method and <a href=troubleshooting.html#add-a-device-manually>Add a device manually</a> to the drop down list.</p><ul><li><p><strong>Intel® Galileo users:</strong></p><p>Connect an Ethernet cable directly from your computer to the Intel® Galileo.</p></li><li><p><strong>Intel® Edison users:</strong></p><p>Use the device mode micro-USB cable to establish an “Ethernet over USB” connection. Refer to <a href="/docs/connectivity/ethernet_over_usb/">Ethernet over USB</a> for further instruction.</p></li></ul><hr><p><strong>Do not see your device in the “IoT Device” drop down list?</strong></p><ul><li><p>Check that your Intel® IoT board is online via Wi-Fi or ethernet, and that your development computer is on the same network as the IoT board.</p></li><li><p>If your internet network requires additional login credentials (e.g. a university Wi-Fi network), you may need to add the IP address manually. Refer to <a href=troubleshooting.html#add-a-device-manually>Add a device manually</a> in the Troubleshooting appendix.</p></li><li><p>If you are using Ethernet over USB for the Intel® Edison, or a direct Ethernet connection for the Intel® Galileo, you may need to add the IP address manually. Refer to <a href=troubleshooting.html#add-a-device-manually>Add a device manually</a> in the Troubleshooting appendix.</p></li><li><p>For more detailed troubleshooting steps, refer to <a href=troubleshooting.html#dont-see-your-device-in-the-iot-device-drop-down-list>Don’t see your device in the “IoT Device” drop down list?</a> in the Troubleshooting appendix.</p></li></ul></div><script src=//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js></script><script>window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.min.js"><\/script>')</script><!-- build:js(app) /js/script.js --><script src=/js/plugins.js></script><script src=/js/main.js></script><!-- endbuild --><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-  e.src='//www.google-analytics.com/analytics.js';
-  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X');ga('send','pageview');</script></body></html>
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/getting-started-guides/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h3 id="select-a-target-iot-device">Select a target IoT device</h3>
+
+<p>The Intel® XDK IoT Edition will automatically detect Intel® IoT devices on your network and display them in the “IoT Device” drop down list.</p>
+
+<p><img src="images/select_target_device-animated.gif" alt="Animated gif: selecting a target device in &quot;IoT Device&quot; drop down list" /></p>
+
+<hr />
+
+<ol>
+  <li>In the bottom left corner of the Intel® XDK, click the “<strong>IoT Device</strong>” drop down list which currently indicates “ - Select a Device - “.</li>
+</ol>
+
+<p><img src="images/xdk-iot_device_dropdown_highlighted.png" alt="&quot;IoT Device&quot; drop down list highlighted" /></p>
+
+<ol>
+  <li>Select your target Intel® Galileo or Intel® Edison from the list. If there are multiple devices, choose based on the device name and IP address. </li>
+</ol>
+
+<p><img src="images/xdk-iot_device_dropdown_options_and_devices.png" alt="A target device being selected in &quot;IoT Device&quot; drop down list" /></p>
+
+<hr />
+
+<p>Wait a moment for the connection to be established. A popup window will appear to confirm the connection status. </p>
+
+<p><img src="images/xdk-connection_established.png" alt="Connection established message" /></p>
+
+<hr />
+
+<p><em>Problems with Wi-Fi? Need to program while offline?</em></p>
+
+<p>The Intel® XDK requires the IP address of your IoT board in order to program it. If your IoT board is online, the IP address is automatically detected in most cases. </p>
+
+<p>However, if you are unable to get your IoT board online to the same network as your computer due to restricted or busy Wi-Fi networks, try a direct cable-based method and <a href="troubleshooting.html#add-a-device-manually">Add a device manually</a> to the drop down list.</p>
+
+<ul>
+  <li>
+    <p><strong>Intel® Galileo users:</strong></p>
+
+    <p>Connect an Ethernet cable directly from your computer to the Intel® Galileo.</p>
+  </li>
+  <li>
+    <p><strong>Intel® Edison users:</strong></p>
+
+    <p>Use the device mode micro-USB cable to establish an “Ethernet over USB” connection. Refer to <a href="/docs/connectivity/ethernet_over_usb/">Ethernet over USB</a> for further instruction.</p>
+  </li>
+</ul>
+
+<hr />
+
+<p><strong>Do not see your device in the “IoT Device” drop down list?</strong></p>
+
+<ul>
+  <li>
+    <p>Check that your Intel® IoT board is online via Wi-Fi or ethernet, and that your development computer is on the same network as the IoT board.</p>
+  </li>
+  <li>
+    <p>If your internet network requires additional login credentials (e.g. a university Wi-Fi network), you may need to add the IP address manually. Refer to <a href="troubleshooting.html#add-a-device-manually">Add a device manually</a> in the Troubleshooting appendix.</p>
+  </li>
+  <li>
+    <p>If you are using Ethernet over USB for the Intel® Edison, or a direct Ethernet connection for the Intel® Galileo, you may need to add the IP address manually. Refer to <a href="troubleshooting.html#add-a-device-manually">Add a device manually</a> in the Troubleshooting appendix.</p>
+  </li>
+  <li>
+    <p>For more detailed troubleshooting steps, refer to <a href="troubleshooting.html#dont-see-your-device-in-the-iot-device-drop-down-list">Don’t see your device in the “IoT Device” drop down list?</a> in the Troubleshooting appendix.</p>
+  </li>
+</ul>
+
+
+    
+    </div>
+
+  </body>
+</html>

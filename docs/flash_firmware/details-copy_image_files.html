@@ -1,8 +1,72 @@
-<!DOCTYPE html><html class=no-js><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Getting Started</title><meta name=description content=""><meta name=viewport content="width=device-width,initial-scale=1"><!-- Place favicon.ico and apple-touch-icon(s) in the root directory --><!-- build:css(app) /css/main.css --><link rel=stylesheet href=/getting-started-guides/_bower_components/normalize-css/normalize.css><link rel=stylesheet href=/getting-started-guides/css/main.css><link rel=stylesheet href=/getting-started-guides/css/docs.css><!-- endbuild --><!-- build:js(app) /js/head-scripts.js --><!-- Replace with a custom modernizer build for production --><script src=/getting-started-guides/_bower_components/modernizr/modernizr.js></script><!-- endbuild --></head><body><!--[if lt IE 8]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--><div class=content><h2 id=step-2-copy-over-the-latest-image>Step 2: Copy over the latest image</h2><p>Extract the contents of the <a href=http://software.intel.com/iot/hardware/edison/downloads>Yocto complete image</a> zip, then copy the contents to your Intel® Edison drive.</p><p><img src=images/copy_image_files-animated.gif alt="Animated gif: copying images files to flash storage"></p><hr><ol><li>Get the latest Yocto firmware image for the Intel® Edison.</li></ol><p><strong>Hackathon attendees:</strong></p><ol><li>On the USB key: files → Firmware - Edison Yocto complete image</li><li>Copy <strong>edison-image-[version].zip</strong> to your computer.</li></ol><p><strong>Online option:</strong></p><ol><li>Visit the Intel® Edison Software Downloads page: <a href=http://software.intel.com/iot/hardware/edison/downloads>software.intel.com/iot/hardware/edison/downloads</a>.</li><li>Scroll down to the “<strong>Intel® Edison firmware and operating system image</strong>” section.</li><li>Click “<strong>Yocto complete image</strong>” to download the latest <strong>edison-image-[version].zip</strong> to your computer.</li></ol><hr><p><strong>Interested in finding out what’s new with each firmware release?</strong></p><p>Visit <a href=http://www.intel.com/support/edison/sb/CS-035253.htm>Intel® Edison Boards and Compute Modules — Support Package Release Notes</a> to view the release notes PDF.</p><hr><ol><li><p>Extract the contents of <strong>edison-image-[version].zip</strong> to your hard drive.</p></li><li><p>Copy the <strong>entire</strong> contents of the <strong>edison-image-[version]</strong> folder to the “<strong>Edison</strong>” drive that shows up after plugging the Intel® Edison to your computer.</p></li></ol><p>Do <strong>not</strong> include the containing/parent edison-image-[version] folder; just the contents of the folder.</p><p><img src=images/windows-copying_files.jpg alt="Progress of copying files to Edison drive"></p><hr><p>Your “Edison” drive should now look similar to this:</p><p><img src=images/windows-edison_drive_with_files.jpg alt="All edison-image files copied to the Edison drive"></p></div><script src=//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js></script><script>window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.min.js"><\/script>')</script><!-- build:js(app) /js/script.js --><script src=/js/plugins.js></script><script src=/js/main.js></script><!-- endbuild --><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-  e.src='//www.google-analytics.com/analytics.js';
-  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X');ga('send','pageview');</script></body></html>
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/getting-started-guides/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="step-2-copy-over-the-latest-image">Step 2: Copy over the latest image</h2>
+
+<p>Extract the contents of the <a href="http://software.intel.com/iot/hardware/edison/downloads">Yocto complete image</a> zip, then copy the contents to your Intel® Edison drive.</p>
+
+<p><img src="images/copy_image_files-animated.gif" alt="Animated gif: copying images files to flash storage" /></p>
+
+<hr />
+
+<ol>
+  <li>Get the latest Yocto firmware image for the Intel® Edison.</li>
+</ol>
+
+<p><strong>Hackathon attendees:</strong></p>
+
+<ol>
+  <li>On the USB key: files → Firmware - Edison Yocto complete image</li>
+  <li>Copy <strong>edison-image-[version].zip</strong> to your computer.</li>
+</ol>
+
+<p><strong>Online option:</strong></p>
+
+<ol>
+  <li>Visit the Intel® Edison Software Downloads page: <a href="http://software.intel.com/iot/hardware/edison/downloads">software.intel.com/iot/hardware/edison/downloads</a>.</li>
+  <li>Scroll down to the “<strong>Intel® Edison firmware and operating system image</strong>” section.</li>
+  <li>Click “<strong>Yocto complete image</strong>” to download the latest <strong>edison-image-[version].zip</strong> to your computer.</li>
+</ol>
+
+<hr />
+
+<p><strong>Interested in finding out what’s new with each firmware release?</strong></p>
+
+<p>Visit <a href="http://www.intel.com/support/edison/sb/CS-035253.htm">Intel® Edison Boards and Compute Modules — Support Package Release Notes</a> to view the release notes PDF.</p>
+
+<hr />
+
+<ol>
+  <li>
+    <p>Extract the contents of <strong>edison-image-[version].zip</strong> to your hard drive.</p>
+  </li>
+  <li>
+    <p>Copy the <strong>entire</strong> contents of the <strong>edison-image-[version]</strong> folder to the “<strong>Edison</strong>” drive that shows up after plugging the Intel® Edison to your computer. </p>
+  </li>
+</ol>
+
+<p>Do <strong>not</strong> include the containing/parent edison-image-[version] folder; just the contents of the folder.</p>
+
+<p><img src="images/windows-copying_files.jpg" alt="Progress of copying files to Edison drive" /></p>
+
+<hr />
+
+<p>Your “Edison” drive should now look similar to this:</p>
+
+<p><img src="images/windows-edison_drive_with_files.jpg" alt="All edison-image files copied to the Edison drive" /></p>
+
+    
+    </div>
+
+  </body>
+</html>

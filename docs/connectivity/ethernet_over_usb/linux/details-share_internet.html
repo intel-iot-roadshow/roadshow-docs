@@ -1,8 +1,76 @@
-<!DOCTYPE html><html class=no-js><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Getting Started</title><meta name=description content=""><meta name=viewport content="width=device-width,initial-scale=1"><!-- Place favicon.ico and apple-touch-icon(s) in the root directory --><!-- build:css(app) /css/main.css --><link rel=stylesheet href=/getting-started-guides/_bower_components/normalize-css/normalize.css><link rel=stylesheet href=/getting-started-guides/css/main.css><link rel=stylesheet href=/getting-started-guides/css/docs.css><!-- endbuild --><!-- build:js(app) /js/head-scripts.js --><!-- Replace with a custom modernizer build for production --><script src=/getting-started-guides/_bower_components/modernizr/modernizr.js></script><!-- endbuild --></head><body><!--[if lt IE 8]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--><div class=content><h2 id=share-your-computers-wifi-connection-optional>Share your computer’s WiFi connection (optional)</h2><p>Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing your computer’s internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison. Internet sharing is an optional step but is highly recommended if you are at a hackathon.</p><hr><ol><li><p>(These steps coming soon! Please do a pull request with screenshots/commands if you can.)</p></li><li><p>Use Terminal to establish a serial connection to the Intel® Edison.</p></li></ol><p><em>Don’t know how? Refer to <a href=/docs/shell_access/linux/serial_connection.html>Shell Access</a>.</em></p><ol><li>On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface (<code>wpa_cli</code>) command:</li></ol><p><code>wpa_cli disconnect</code></p><ol><li>Then use the <code>route</code> command to add a default gateway. Use the same static IP address you set in the <strong>Network</strong> settings in the previous section.</li></ol><p><code>route add default gw 192.168.2.2</code></p><hr><p>You can now use the Intel® Edison as if it is connected to the internet on its own as long as you keep the device mode micro-USB cable plugged in.</p><p>Try pinging a network from Terminal to make sure the Intel® Edison is connected to the internet through your computer’s network connection:</p><p><code>ping google.com</code></p><p>(Use the Ctrl+C keyboard command to exit the ping process.)</p><p>To re-enable WiFi on the Intel® Edison, use the <code>configure_edison --wifi</code> command as described in <a href=/docs/connectivity/wifi/connect.html>Connect Your Intel Edison to Wi-Fi</a>.</p><hr><h3 id=troubleshooting>Troubleshooting</h3><p>Unable to ping anything from the Intel® Edison?</p><ul><li>Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.</li></ul></div><script src=//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js></script><script>window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.min.js"><\/script>')</script><!-- build:js(app) /js/script.js --><script src=/js/plugins.js></script><script src=/js/main.js></script><!-- endbuild --><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-  e.src='//www.google-analytics.com/analytics.js';
-  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X');ga('send','pageview');</script></body></html>
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/getting-started-guides/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="share-your-computers-wifi-connection-optional">Share your computer’s WiFi connection (optional)</h2>
+
+<p>Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing your computer’s internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison.
+Internet sharing is an optional step but is highly recommended if you are at a hackathon.</p>
+
+<hr />
+
+<ol>
+  <li>
+    <p>(These steps coming soon! Please do a pull request with screenshots/commands if you can.)</p>
+  </li>
+  <li>
+    <p>Use Terminal to establish a serial connection to the Intel® Edison.</p>
+  </li>
+</ol>
+
+<p><em>Don’t know how? Refer to <a href="/docs/shell_access/linux/serial_connection.html">Shell Access</a>.</em></p>
+
+<ol>
+  <li>On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface (<code>wpa_cli</code>) command:</li>
+</ol>
+
+<p><code>
+  wpa_cli disconnect
+ </code></p>
+
+<ol>
+  <li>Then use the <code>route</code> command to add a default gateway. Use the same static IP address you set in the <strong>Network</strong> settings in the previous section.</li>
+</ol>
+
+<p><code>
+  route add default gw 192.168.2.2
+ </code></p>
+
+<hr />
+
+<p>You can now use the Intel® Edison as if it is connected to the internet on its own as long as you keep the device mode micro-USB cable plugged in.</p>
+
+<p>Try pinging a network from Terminal to make sure the Intel® Edison is connected to the internet through your computer’s network connection:</p>
+
+<p><code>
+ping google.com
+</code></p>
+
+<p>(Use the Ctrl+C keyboard command to exit the ping process.)</p>
+
+<p>To re-enable WiFi on the Intel® Edison, use the <code>configure_edison --wifi</code> command as described in <a href="/docs/connectivity/wifi/connect.html">Connect Your Intel Edison to Wi-Fi</a>.</p>
+
+<hr />
+
+<h3 id="troubleshooting">Troubleshooting</h3>
+
+<p>Unable to ping anything from the Intel® Edison?</p>
+
+<ul>
+  <li>Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.</li>
+</ul>
+
+    
+    </div>
+
+  </body>
+</html>

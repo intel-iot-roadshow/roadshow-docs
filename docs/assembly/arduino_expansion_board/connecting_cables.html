@@ -1,8 +1,115 @@
-<!DOCTYPE html><html class=no-js><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Getting Started</title><meta name=description content=""><meta name=viewport content="width=device-width,initial-scale=1"><!-- Place favicon.ico and apple-touch-icon(s) in the root directory --><!-- build:css(app) /css/main.css --><link rel=stylesheet href=/getting-started-guides/_bower_components/normalize-css/normalize.css><link rel=stylesheet href=/getting-started-guides/css/main.css><link rel=stylesheet href=/getting-started-guides/css/docs.css><!-- endbuild --><!-- build:js(app) /js/head-scripts.js --><!-- Replace with a custom modernizer build for production --><script src=/getting-started-guides/_bower_components/modernizr/modernizr.js></script><!-- endbuild --></head><body><!--[if lt IE 8]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--><div class=content><h1 id=connecting-cables>Connecting cables</h1><p>Explore when and how to use all the cables ports on the Intel® Edison kit for Arduino.</p><div class=toc><p><strong>Table of contents</strong></p><ul><li><a href=#device-mode-vs-host-mode>Device mode vs host mode »</a></li><li><a href=#device-mode-micro-usb-cable>Device mode micro-USB cable »</a></li><li><a href=#uartserial-micro-usb-cable>UART/serial micro-USB cable »</a></li><li><a href=#dc-power-supply>DC power supply »</a></li><li><a href=#host-mode-usb-cable>Host mode USB cable »</a></li></ul></div><div class=related-videos><p><strong>Related video</strong></p><p><a href=https://software.intel.com/en-us/videos/intel-edison-kit-for-arduino><img src=images/video_screenshot-connecting_cables.png alt="Intel Edison Kit for Arduino: Connecting Cables"></a></p></div><h2 id=device-mode-vs-host-mode>Device mode vs host mode</h2><p>The hardware slider on the Arduino expansion board switches between USB <em>host mode</em> and USB <em>device mode</em>.</p><p><strong>Device mode:</strong> The switch is toggled down and a micro-USB cable can be used to turn the Intel® Edison into a computer peripheral. Device mode allows you to do such things as: program the board over USB, or mount the onboard flash memory like a disk drive. Refer to <a href=#device-mode-micro-usb-cable>Device mode micro-USB cable »</a></p><p><img src=images/microswitch-device_mode-zoom_in.png alt="Microswitch toggled down for device mode"></p><p><strong>Host mode:</strong> The switch is toggled up and USB peripherals with a standard-sized USB cable (such as mice, keyboards, etc) can be plugged into the Intel® Edison. USB host mode requires the use of an external power adapter. Refer to <a href=#host-mode-usb-cable>Host mode USB cable »</a></p><p><img src=images/microswitch-host_mode-zoom_in.png alt="Microswitch toggled up for host mode"></p><h2 id=device-mode-micro-usb-cable>Device mode micro-USB cable</h2><p>Use the top micro-USB port in USB device mode for:</p><ul><li>5V power,</li><li>programming the Intel® Edison using the Arduino IDE,</li><li>programming the Intel® Edison using the Intel® XDK or Eclipse IDE included in the Intel® IoT Developer Kit via Ethernet over USB (not Wi-Fi), and</li><li>writing to the onboard flash memory from your computer.</li></ul><p><a href=details-device_mode_cable.html>View detailed instructions »</a></p><p><img src=images/device_mode-animated.gif alt="Animated gif: using device mode"></p><h2 id=uartserial-micro-usb-cable>UART/serial micro-USB cable</h2><p>Use the bottom micro-USB port to send serial commands to your Intel® Edison via Terminal or PuTTY. Use these commands to flash firmware, configure Wi-Fi, or identify the board’s IP address. <a href=details-serial_cable.html>View detailed instructions »</a></p><p><img src=images/serial-animated.gif alt="Animated gif: using UART/serial cable"></p><h2 id=dc-power-supply>DC power supply</h2><p>If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable. <a href=details-power_barrel.html>View detailed instructions »</a></p><p><img src=images/power_barrel-animated.gif alt="Animated gif: using power barrel connector"></p><h2 id=host-mode-usb-cable>Host mode USB cable</h2><p>Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc. <a href=details-host_mode_cable.html>View detailed instructions »</a></p><p><img src=images/host_mode-animated.gif alt="Animated gif: using host mode"></p><hr><h3 id=next-steps>Next Steps</h3><p>Install software and drivers specifically for your computer’s operating system.</p><ul><li><p><strong>Mac or Linux user?</strong></p><p>You have no special setup. Skip to <a href=#3-shell-access>Step 3</a> below.</p></li><li><p><strong>Windows user?</strong></p><ul><li><p><strong>Do you have 64-bit Windows and a reliable internet connection?</strong></p><p><a href=/docs/computer_setup/windows/64bit_integrated_installer.html>Set Up Your Computer - Windows (64-bit integrated installer) »</a></p></li><li><p><strong>At a hackathon with unreliable internet? Or can’t click ‘Next’ in the 64-bit integrated installer wizard?</strong></p><p><a href=/docs/computer_setup/windows/manual_installation.html>Set Up Your Computer - Windows (manual installation) »</a></p></li></ul></li></ul></div><script src=//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js></script><script>window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.min.js"><\/script>')</script><!-- build:js(app) /js/script.js --><script src=/js/plugins.js></script><script src=/js/main.js></script><!-- endbuild --><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-  e.src='//www.google-analytics.com/analytics.js';
-  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X');ga('send','pageview');</script></body></html>
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/getting-started-guides/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h1 id="connecting-cables">Connecting cables</h1>
+
+<p>Explore when and how to use all the cables ports on the Intel® Edison kit for Arduino. </p>
+
+<div class="toc">
+  <p><strong>Table of contents</strong></p>
+
+  <ul>
+    <li><a href="#device-mode-vs-host-mode">Device mode vs host mode »</a></li>
+    <li><a href="#device-mode-micro-usb-cable">Device mode micro-USB cable »</a></li>
+    <li><a href="#uartserial-micro-usb-cable">UART/serial micro-USB cable »</a></li>
+    <li><a href="#dc-power-supply">DC power supply »</a></li>
+    <li><a href="#host-mode-usb-cable">Host mode USB cable »</a></li>
+  </ul>
+</div>
+
+<div class="related-videos">
+  <p><strong>Related video</strong></p>
+
+  <p><a href="https://software.intel.com/en-us/videos/intel-edison-kit-for-arduino"><img src="images/video_screenshot-connecting_cables.png" alt="Intel Edison Kit for Arduino: Connecting Cables" /></a></p>
+</div>
+
+<h2 id="device-mode-vs-host-mode">Device mode vs host mode</h2>
+
+<p>The hardware slider on the Arduino expansion board switches between USB <em>host mode</em> and USB <em>device mode</em>. </p>
+
+<p><strong>Device mode:</strong> The switch is toggled down and a micro-USB cable can be used to turn the Intel® Edison into a computer peripheral. Device mode allows you to do such things as: program the board over USB, or mount the onboard flash memory like a disk drive. Refer to <a href="#device-mode-micro-usb-cable">Device mode micro-USB cable »</a></p>
+
+<p><img src="images/microswitch-device_mode-zoom_in.png" alt="Microswitch toggled down for device mode" /></p>
+
+<p><strong>Host mode:</strong> The switch is toggled up and USB peripherals with a standard-sized USB cable (such as mice, keyboards, etc) can be plugged into the Intel® Edison. USB host mode requires the use of an external power adapter. Refer to <a href="#host-mode-usb-cable">Host mode USB cable  »</a></p>
+
+<p><img src="images/microswitch-host_mode-zoom_in.png" alt="Microswitch toggled up for host mode" /></p>
+
+<h2 id="device-mode-micro-usb-cable">Device mode micro-USB cable</h2>
+
+<p>Use the top micro-USB port in USB device mode for:</p>
+
+<ul>
+  <li>5V power, </li>
+  <li>programming the Intel® Edison using the Arduino IDE, </li>
+  <li>programming the Intel® Edison using the Intel® XDK or Eclipse IDE included in the Intel® IoT Developer Kit via Ethernet over USB (not Wi-Fi), and</li>
+  <li>writing to the onboard flash memory from your computer.</li>
+</ul>
+
+<p><a href="details-device_mode_cable.html">View detailed instructions »</a></p>
+
+<p><img src="images/device_mode-animated.gif" alt="Animated gif: using device mode" /></p>
+
+<h2 id="uartserial-micro-usb-cable">UART/serial micro-USB cable</h2>
+
+<p>Use the bottom micro-USB port to send serial commands to your Intel® Edison via Terminal or PuTTY. Use these commands to flash firmware, configure Wi-Fi, or identify the board’s IP address. <a href="details-serial_cable.html">View detailed instructions »</a></p>
+
+<p><img src="images/serial-animated.gif" alt="Animated gif: using UART/serial cable" /></p>
+
+<h2 id="dc-power-supply">DC power supply</h2>
+
+<p>If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable. <a href="details-power_barrel.html">View detailed instructions »</a></p>
+
+<p><img src="images/power_barrel-animated.gif" alt="Animated gif: using power barrel connector" /></p>
+
+<h2 id="host-mode-usb-cable">Host mode USB cable</h2>
+
+<p>Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc. <a href="details-host_mode_cable.html">View detailed instructions »</a></p>
+
+<p><img src="images/host_mode-animated.gif" alt="Animated gif: using host mode" /></p>
+
+<hr />
+
+<h3 id="next-steps">Next Steps</h3>
+
+<p>Install software and drivers specifically for your computer’s operating system. </p>
+
+<ul>
+  <li>
+    <p><strong>Mac or Linux user?</strong> </p>
+
+    <p>You have no special setup. Skip to <a href="#3-shell-access">Step 3</a> below.</p>
+  </li>
+  <li>
+    <p><strong>Windows user?</strong></p>
+
+    <ul>
+      <li>
+        <p><strong>Do you have 64-bit Windows and a reliable internet connection?</strong>  </p>
+
+        <p><a href="/docs/computer_setup/windows/64bit_integrated_installer.html">Set Up Your Computer - Windows (64-bit integrated installer) »</a></p>
+      </li>
+      <li>
+        <p><strong>At a hackathon with unreliable internet? Or can’t click ‘Next’ in the 64-bit integrated installer wizard?</strong> </p>
+
+        <p><a href="/docs/computer_setup/windows/manual_installation.html">Set Up Your Computer - Windows (manual installation) »</a></p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+    
+    </div>
+
+  </body>
+</html>

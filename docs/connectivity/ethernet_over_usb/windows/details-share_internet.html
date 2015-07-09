@@ -1,8 +1,119 @@
-<!DOCTYPE html><html class=no-js><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>Getting Started</title><meta name=description content=""><meta name=viewport content="width=device-width,initial-scale=1"><!-- Place favicon.ico and apple-touch-icon(s) in the root directory --><!-- build:css(app) /css/main.css --><link rel=stylesheet href=/getting-started-guides/_bower_components/normalize-css/normalize.css><link rel=stylesheet href=/getting-started-guides/css/main.css><link rel=stylesheet href=/getting-started-guides/css/docs.css><!-- endbuild --><!-- build:js(app) /js/head-scripts.js --><!-- Replace with a custom modernizer build for production --><script src=/getting-started-guides/_bower_components/modernizr/modernizr.js></script><!-- endbuild --></head><body><!--[if lt IE 8]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--><div class=content><h2 id=share-your-computers-wifi-connection-optional>Share your computer’s WiFi connection (optional)</h2><p>Turn on Internet Connection Sharing (ICS) to cut down on Wi-Fi traffic in a crowded room. Sharing your computer’s internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison.</p><p>Internet sharing is an optional step but is highly recommended if you are at a hackathon.</p><hr><ol><li><p>Open your <strong>Network Connections</strong> again.</p></li><li><p><strong>Right-click</strong> on the “<strong>Wi-Fi</strong>” network adapter entry, then select “<strong>Properties</strong>”.</p></li></ol><p><img src=images/control_panel-wifi_adapter-properties.png alt="Select &quot;Properties&quot; from context menu"></p><ol><li><p>Select the “<strong>Sharing</strong>” tab.</p></li><li><p>Check “<strong>Allow other network users to connect through this computer’s Internet connection</strong>” to enable Internet Connection Sharing (ICS).</p></li></ol><p><img src=images/wifi_properties-sharing_tab.png alt="Sharing tab of WiFi"></p><ol><li><p>Click “<strong>Ok</strong>”.</p></li><li><p>You will receive an alert about enabling ICS. Click “<strong>Yes</strong>” to continue.</p></li></ol><p><img src=images/ics-warning_message.png alt="Internet Connection Sharing warning message"></p><hr><p>Enabling ICS may have changed the IPv4 LAN settings you set in the previous section. Follow the steps in <a href=#add-static-ipv4-address>Add static IPv4 address</a> to confirm that “Use the following IP address” is still set to “192.168.2.2”.</p><hr><ol><li><p>Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.</p></li><li><p>Use PuTTY to establish a serial connection to the Intel® Edison.</p></li></ol><p><em>Don’t know how? Refer to <a href=/docs/shell_access/windows/serial_connection.html>Shell Access</a>.</em></p><ol><li>On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface (<code>wpa_cli</code>) command:</li></ol><p><code>wpa_cli disconnect</code></p><ol><li>Then use the <code>route</code> command to add a default gateway. Use the same static IPv4 address you set in the <strong>Network Connections</strong> LAN settings in the previous section.</li></ol><p><code>route add default gw 192.168.2.2</code></p><hr><p>You can now use the Intel® Edison as if it is connected to the internet on its own as long as you keep the device mode micro-USB cable plugged in.</p><p>Try pinging a network from PuTTY to make sure the Intel® Edison is connected to the internet through your computer’s network connection:</p><p><code>ping google.com</code></p><p>(Use the Ctrl+C keyboard command to exit the ping process.)</p><p>To re-enable WiFi on the Intel® Edison, use the <code>configure_edison --wifi</code> command as described in <a href=/docs/connectivity/wifi/connect.html>Connect Your Intel Edison to Wi-Fi</a>.</p><hr><h3 id=troubleshooting>Troubleshooting</h3><p>Unable to ping anything from the Intel® Edison?</p><ul><li>Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.</li><li>Turn your computer’s WiFi connections off, then back on.</li><li>Restart your computer.</li><li>Check that the IP address set in the IPv4 LAN settings is “192.168.2.2”</li></ul></div><script src=//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js></script><script>window.jQuery || document.write('<script src="/_bower_components/jquery/jquery.min.js"><\/script>')</script><!-- build:js(app) /js/script.js --><script src=/js/plugins.js></script><script src=/js/main.js></script><!-- endbuild --><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-  e.src='//www.google-analytics.com/analytics.js';
-  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X');ga('send','pageview');</script></body></html>
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/getting-started-guides/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="share-your-computers-wifi-connection-optional">Share your computer’s WiFi connection (optional)</h2>
+
+<p>Turn on Internet Connection Sharing (ICS) to cut down on Wi-Fi traffic in a crowded room. Sharing your computer’s internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison.</p>
+
+<p>Internet sharing is an optional step but is highly recommended if you are at a hackathon.</p>
+
+<hr />
+
+<ol>
+  <li>
+    <p>Open your <strong>Network Connections</strong> again.</p>
+  </li>
+  <li>
+    <p><strong>Right-click</strong> on the “<strong>Wi-Fi</strong>” network adapter entry, then select “<strong>Properties</strong>”.</p>
+  </li>
+</ol>
+
+<p><img src="images/control_panel-wifi_adapter-properties.png" alt="Select &quot;Properties&quot; from context menu" /></p>
+
+<ol>
+  <li>
+    <p>Select the “<strong>Sharing</strong>” tab. </p>
+  </li>
+  <li>
+    <p>Check “<strong>Allow other network users to connect through this computer’s Internet connection</strong>” to enable Internet Connection Sharing (ICS).</p>
+  </li>
+</ol>
+
+<p><img src="images/wifi_properties-sharing_tab.png" alt="Sharing tab of WiFi" /></p>
+
+<ol>
+  <li>
+    <p>Click “<strong>Ok</strong>”. </p>
+  </li>
+  <li>
+    <p>You will receive an alert about enabling ICS. Click “<strong>Yes</strong>” to continue.</p>
+  </li>
+</ol>
+
+<p><img src="images/ics-warning_message.png" alt="Internet Connection Sharing warning message" /></p>
+
+<hr />
+
+<p>Enabling ICS may have changed the IPv4 LAN settings you set in the previous section. Follow the steps in <a href="#add-static-ipv4-address">Add static IPv4 address</a> to confirm that “Use the following IP address” is still set to “192.168.2.2”.</p>
+
+<hr />
+
+<ol>
+  <li>
+    <p>Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.</p>
+  </li>
+  <li>
+    <p>Use PuTTY to establish a serial connection to the Intel® Edison.</p>
+  </li>
+</ol>
+
+<p><em>Don’t know how? Refer to <a href="/docs/shell_access/windows/serial_connection.html">Shell Access</a>.</em></p>
+
+<ol>
+  <li>On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface (<code>wpa_cli</code>) command:</li>
+</ol>
+
+<p><code>
+  wpa_cli disconnect
+ </code></p>
+
+<ol>
+  <li>Then use the <code>route</code> command to add a default gateway. Use the same static IPv4 address you set in the <strong>Network Connections</strong> LAN settings in the previous section.</li>
+</ol>
+
+<p><code>
+  route add default gw 192.168.2.2
+ </code></p>
+
+<hr />
+
+<p>You can now use the Intel® Edison as if it is connected to the internet on its own as long as you keep the device mode micro-USB cable plugged in.</p>
+
+<p>Try pinging a network from PuTTY to make sure the Intel® Edison is connected to the internet through your computer’s network connection:</p>
+
+<p><code>
+ping google.com
+</code></p>
+
+<p>(Use the Ctrl+C keyboard command to exit the ping process.)</p>
+
+<p>To re-enable WiFi on the Intel® Edison, use the <code>configure_edison --wifi</code> command as described in <a href="/docs/connectivity/wifi/connect.html">Connect Your Intel Edison to Wi-Fi</a>.</p>
+
+<hr />
+
+<h3 id="troubleshooting">Troubleshooting</h3>
+
+<p>Unable to ping anything from the Intel® Edison?</p>
+
+<ul>
+  <li>Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.</li>
+  <li>Turn your computer’s WiFi connections off, then back on.</li>
+  <li>Restart your computer.</li>
+  <li>Check that the IP address set in the IPv4 LAN settings is “192.168.2.2”</li>
+</ul>
+
+    
+    </div>
+
+  </body>
+</html>
