@@ -13,22 +13,19 @@ Use Device Manager to find the COM port number for the "**USB Serial Port**" con
 
 1. Open Device Manager.
 
-  _Don't know how? Refer to [Confirm Drivers → Open Device Manager](/docs/computer_setup/windows/confirm_drivers.html#open-windows-device-manager)._
+    _Don't know how? Refer to [Confirm Drivers → Open Device Manager](/docs/computer_setup/windows/confirm_drivers.html#open-windows-device-manager)._
 
 2. Scroll down to the "**Ports (COM & LPT)**" section.
 
 3. **Make a note of your COM #** for the "**USB Serial Port**" device. 
 
-  Do ***not*** use the COM number for "Intel Edison USB Composite Device" or "Intel Edison Virtual Com Port". Those are for other features.
+    Do ***not*** use the COM number for "Intel Edison USB Composite Device" or "Intel Edison Virtual Com Port". Those are for other features.
 
-  ![USB Serial Port entry in Device Manager](images/device_manager-usb_serial_highlighted.png)
+    ![USB Serial Port entry in Device Manager](images/device_manager-usb_serial_highlighted.png)
 
-  Use the COM # shown on ***your*** computer's Device Manager. In the screenshot, it is "COM3" but your computer will have unique COM port number assignments and may be different from the screenshot.
+    Use the COM # shown on ***your*** computer's Device Manager. In the screenshot, it is "COM3" but your computer will have unique COM port number assignments and may be different from the screenshot.
 
----
-
-### Troubleshooting 
-
+<div class="callout troubleshooting" markdown="1">
 **Don't see a "USB Serial Port" device listed?**
 
 * **Do you have the serial drivers installed?**
@@ -37,3 +34,4 @@ Use Device Manager to find the COM port number for the "**USB Serial Port**" con
 * **Do you have the UART/serial cable connected?** Refer to [UART/serial micro-USB cable](/docs/assembly/arduino_expansion_board/details-serial_cable.html).
 
 * Is your IoT board powered on?
+</div>

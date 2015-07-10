@@ -1,3 +1,8 @@
+---
+layout: default
+title: Getting Started
+---
+
 ## Download a terminal client (PuTTY)
 
 Windows does not come with a built-in terminal emulator so download and use the [PuTTY](http://www.putty.org/) client.
@@ -10,8 +15,8 @@ Windows does not come with a built-in terminal emulator so download and use the 
 
 2. Under the "**For Windows on Intel x86**" heading, click on the "[putty.exe](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)" link to download the latest release version to your computer. 
 
-  ![Download PuTTY link](images/download_putty.png)
+    ![Download PuTTY link](images/download_putty.png)
 
 3. Double-click putty.exe on your computer to launch PuTTY.
 
-  ![Launch PuTTY](images/launch_putty.png)
+    ![Launch PuTTY](images/launch_putty.png)

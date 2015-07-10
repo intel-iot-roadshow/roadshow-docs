@@ -5,9 +5,7 @@ title: Getting Started
 
 # Using Screen - Mac / Linux
 
-<div class="toc" markdown="1">
-**Table of contents**
-
+<div id="toc" class="box" markdown="1">
 * [Cancel/exit an already submitted command »](#cancelexit-an-already-submitted-command)
 * [Disconnect from the serial connection »](#disconnect-from-the-serial-connection)
 </div>
@@ -35,6 +33,6 @@ Failing to close the Screen connection fully may stop you from being able to log
 
 2. At the bottom of the Terminal window, you should see "Really quit and kill all your windows [y/n]". Type "**y**".
 
-  ![A confirmation to quit screen will show up in the bottom left corner of Terminal](images/screen-quit.png)
+    ![A confirmation to quit screen will show up in the bottom left corner of Terminal](images/screen-quit.png)
 
 3. You are now back in your regular Terminal command line.

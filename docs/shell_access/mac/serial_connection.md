@@ -11,36 +11,38 @@ If you need to configure your IoT board, you will need to remotely connect to th
 
 You can then execute special Linux commands such: changing the hostname and password, setting up Wi-Fi, or flashing new firmware.
 
-
-<div class="related-videos" markdown="1">
-**Related video**
-
-[Shell Access – Mac](https://software.intel.com/en-us/videos/shell-access-mac)
-</div>
-
-<div class="toc" markdown="1">
-**Table of contents**
-
+<div id="toc" class="box" markdown="1">
 * [Identify the "usbserial" device name »](#identify-the-usbserial-device-name)
 * [Establish a serial connection »](#establish-a-serial-connection)
 </div>
 
+<!-- <div id="related-videos" class="callout video">
+[Shell Access – Mac](https://software.intel.com/en-us/videos/shell-access-mac)
+</div> -->
+
 ## Identify the "usbserial" device name 
 
-Use the `ls /dev/tty.*` command in Terminal to find the device name of the "**usbserial**" connection. You will need the exact device name for use in [Establish a serial connection](#establish-a-serial-connection) next. [View detailed instructions »](details-identify_usbserial.html)
+<div class="tldr" markdown="1">
+Use the `ls /dev/tty.*` command in Terminal to find the device name of the "**usbserial**" connection. You will need the exact device name for use in [Establish a serial connection](#establish-a-serial-connection) next. 
 
-![Animated gif: using Terminal to find the USB device name](images/identify_usbserial-animated.gif)
+[View detailed instructions »](details-identify_usbserial.html)
+</div>
+
+[![Animated gif: using Terminal to find the USB device name](images/identify_usbserial-animated.gif)](details-identify_usbserial.html)
 
 
 ## Establish a serial connection
 
-Use the Screen utility in Terminal to gain command line access of your IoT board. For example: `screen /dev/tty.usbserial-A102GW3T 115200`. [View detailed instructions »](details-screen_connection.html)
+<div class="tldr" markdown="1">
+Use the Screen utility in Terminal to gain command line access of your IoT board. For example: `screen /dev/tty.usbserial-A102GW3T 115200`. 
 
-![Animated gif: using Screen utility to connect to IoT board](images/screen_connection-animated.gif)
+[View detailed instructions »](details-screen_connection.html)
+</div>
+
+[![Animated gif: using Screen utility to connect to IoT board](images/screen_connection-animated.gif)](details-screen_connection.html)
 
 
----
-
+<div class="callout done" markdown="1">
 You are now logged into your IoT board and can run shell commands. For example, to output the version number of the firmware running on your board:
 
 ```
@@ -50,16 +52,17 @@ cat /etc/version
 ![example output after running cat command](../images/firmware_version_output.png)
 
 The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
+</div>
 
----
-
-### Additional resources
-
+<div class="callout goto" markdown="1">
 For more info on using Screen such as quitting, read [Using Screen »](/docs/shell_access/mac-and-linux/using_screen.html)
+</div>
 
 
+<div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
+Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
 
-Go to [Flash Edison Firmware Manually »](/docs/flash_firmware/manually.html)
+* [Get Your Edison Board Online »](/docs/connectivity/wifi/connect.html)
+</div>
