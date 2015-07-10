@@ -13,14 +13,14 @@ Use devkit-launcher.bat to launch Eclipse with all the necessary Intel® IoT env
 
 2. Double-click on *devkit-launcher* to launch the IoT dev kit Eclipse IDE.
 
-  On Windows, you may need to right-click on *devkit-launcher.bat* and select "**Run as administrator**".
+    On Windows, you may need to right-click on *devkit-launcher.bat* and select "**Run as administrator**".
 
-  ![The batch file highlighted in the iotdk_ide folder](images/iotdk_ide_folder.png)
+    ![The batch file highlighted in the iotdk_ide folder](images/iotdk_ide_folder.png)
 
----
-
+<div class="callout done" markdown="1">
 You should see a command line window appear (and quickly disappear, if you are on Windows) and the Eclipse IDE will launch using the iot-devkit workspace. 
 
 Note the example projects already loaded in the "Project Explorer" panel on the left.
 
 ![Projects already loaded in the "Project Explorer" panel](images/eclipse-existing_projects_in_project_explorer.png)
+</div>

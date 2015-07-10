@@ -7,9 +7,7 @@ title: Getting Started
 
 Some common issues have been listed below. For additional troubleshooting and FAQ, visit [software.intel.com/en-us/articles/eclipse-faq-for-iot-build](https://software.intel.com/en-us/articles/eclipse-faq-for-iot-build). 
 
-<div class="toc" markdown="1">
-**Table of contents**
-
+<div id="toc" class="box" markdown="1">
 * [Do you have spaces in any of your folder names?](#do-you-have-spaces-in-any-of-your-folder-names)
 * [Mac only: Get a "devkit-launcher can’t be opened because it is from an unidentified developer" message?](#mac-only-get-a-devkit-launcher-cant-be-opened-because-it-is-from-an-unidentified-developer-message)
 * [Windows only: Get a "No Java virtual machine" message?](#windows-only-get-a-no-java-virtual-machine-message)
@@ -47,7 +45,7 @@ export DEVKIT_HOME="/my parent folder/iotdk-ide-mac/"
 
 ![No Java message on Windows](images/java-not_installed_message.png)
 
-Refer to [Install Java](details-install-java.html) to install a JRE or JDK.
+Refer to [Install Java](details-install-java.md) to install a JRE or JDK.
 
 
 ## Windows only: Get a "Windows cannot find eclipse.exe" message?
@@ -64,17 +62,17 @@ You are trying to open this dev kit package on a 32-bit Windows OS. You will nee
 
 4. Edit the devkit-launcher.bat script using Notepad or any other text editor. 
 
-  Change this line: 
+    Change this line: 
 
-  ```
-  set PATH=%PATH%;%DEVKIT_HOME%\devkit-x86\sysroots\x86_64-pokysdk-mingw32\usr\bin\i586-poky-linux;%DEVKIT_HOME%\iot-devkit\devkit-debugger
-  ```
+    ```
+    set PATH=%PATH%;%DEVKIT_HOME%\devkit-x86\sysroots\x86_64-pokysdk-mingw32\usr\bin\i586-poky-linux;%DEVKIT_HOME%\iot-devkit\devkit-debugger
+    ```
 
-  To be:
+    To be:
 
-  ```
-  set PATH=%PATH%;%DEVKIT_HOME%\devkit-x86\sysroots\i686-pokysdk-mingw32\usr\bin\i586-poky-linux;%DEVKIT_HOME%\iot-devkit\devkit-debugger
-  ```
+    ```
+    set PATH=%PATH%;%DEVKIT_HOME%\devkit-x86\sysroots\i686-pokysdk-mingw32\usr\bin\i586-poky-linux;%DEVKIT_HOME%\iot-devkit\devkit-debugger
+    ```
 
 5. Download the "Windows 32-bit" version of Eclipse IDE for C/C++ Developers from https://eclipse.org/downloads/packages/eclipse-ide-cc-developers/keplersr2.
 

@@ -21,7 +21,7 @@ If you do not know if you have Java installed, refer to [How can I find which ve
 
 1. Download the Oracle distribution of a Java JRE or JDK from [oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-  ![Oracle Java download page for Windows](images/java-download_page.png)
+    ![Oracle Java download page for Windows](images/java-download_page.png)
 
 
 ### Mac
@@ -30,7 +30,7 @@ A Java runtime ships with the Mac operating system however, if you are running O
 
 1. If needed, download the Oracle distribution of Java for Mac from [java.com/en/download/mac_download.jsp](https://www.java.com/en/download/mac_download.jsp).
 
-  ![Oracle Java download page for Mac](images/java-download_page_mac.png)
+    ![Oracle Java download page for Mac](images/java-download_page_mac.png)
 
 
 ### Linux
@@ -41,14 +41,14 @@ A Java runtime ships with the Mac operating system however, if you are running O
 
     2. Type:
 
-    ```
-    java
-    ```
-    
-    If you see a "The program ‘java’ can not be found" message, you do not have Java installed and you will need to install it.
+        ```
+        java
+        ```
+      
+      If you see a "The program ‘java’ can not be found" message, you do not have Java installed and you will need to install it.
 
 2. Install a Java runtime using the `apt-get` command. You may need to enter your user password.
 
-  ```
-  sudo apt-get install default.jre
-  ```
+    ```
+    sudo apt-get install default.jre
+    ```

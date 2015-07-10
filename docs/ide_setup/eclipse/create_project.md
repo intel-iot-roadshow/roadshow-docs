@@ -5,64 +5,68 @@ title: Getting Started
 
 # Set Up Intel® IoT Dev Kit Eclipse - Part 2: Run a Sample Project
 
-This document will guide you through creating and running a Hello Word project (blinking the onboard LED) on either the Intel® Galileo or the Intel® Edison.
+This document will guide you through creating and running a Hello Word project (blinking the onboard LED) on the Intel® Edison.
 
-<div class="toc" markdown="1">
-**Table of contents**
+**Create a New Project**
 
-* [Select a target IoT device »](#select-a-target-iot-device)
-* [Build and run a sample application »](#build-and-run-a-sample-application)
-</div>
+1. Select **IoT DevKit > Create C/C++ IoT Project.**
 
-<div class="related-videos" markdown="1">
-**Related video**
+   ![Create IoT Project](images/create-project-eclipse.png)
 
-* [Set Up Intel IoT Dev Kit Eclipse – Part 2: Run a Sample Project](https://software.intel.com/en-us/videos/set-up-intel-iot-dev-kit-eclipse-part-2-run-a-sample-project)
-</div>
+2. Type a name for your project in the **Project name** field.
+   
+   ![Name your IoT Project](images/project-name-eclipse.png)
 
-## Select a target IoT device
+3. From the Project list, select **On board LED blink C++**. Click **Next**. The SSH Connection page displays.
+4. To search for connections and select your board from a list, click **Search Target**. The Create Target Connection page opens.
+   
+   ![Create Target Connection](images/target-connection-eclipse.png)
 
-To connect to your IoT board, you will need to configure Eclipse with your Intel® Edison or Intel® Galileo's IP address. [View detailed instructions »](details-select_target_device.html)
+5. By default, Eclipse searches for boards available via the Bonjour service and displays them in a list. If your board is not displayed in the list, select the **Enable broadcast target search** check box to widen your search to all devices on    your network.
+6. From the list, select your board and click **OK**.
 
-![Editing "Host name" in the "Properties" panel](images/eclipse-properties-host_name.png)
+   ![Target list](images/target-list-eclipse.png)
 
+   Note: If you already know your board's connection information, you can type it manually. Do the following:
+    * In the Connection Name field, type a name to use for the connection to your board.
+    * In the Target Name field, type the IP address or host name of your board.
 
-## Build and run a sample application
+7. Click **Finish**. Your project is created.
+8. From the **Run** drop-down list in the toolbar, select the name of your project.
 
-The version of Eclipse distributed with the developer kit has some example projects already built in. To start, build a blinking LED project from a pre-existing sample. [View detailed instructions »](details-build.html)
+   ![Run the application](images/run-app-eclipse.png)
+   
+9. In the **User ID** field, type the user name to log in to your board.
 
-![Select "debug" verison of project to run](images/eclipse-run_debug_project.png)
+10. In the **Password** field, type the password for your board.
 
+    ![Enter the Edison password](images/password-eclipse.png)
+   
+11. If a warning message about host authenticity displays, click Yes to upload and run your project.
 
----
+    ![Accept the warning and upload the project](images/ssh-eclipse.png)
 
-**Look at your Intel® IoT board for a blinking light.**
+12. Once your project runs, you'll see an LED blinking on your board, as shown below.
 
-* **Intel® Galileo Gen 2**
-  
-  A green LED is located near the USB port.
-  
-  ![Green LED on Intel® Galileo Gen 2](/docs/assembly/galileo_gen_2/images/on_board_led.png)
-
-* **Intel® Edison Kit for Arduino**
+<div class="callout done" markdown="1">
+**Look at your Intel® Edison board for a blinking light.**
   
   The LED is located near the center of the board.
 
   ![Green LED on Intel® Edison](/docs/assembly/arduino_expansion_board/images/on_board_led.png)
 
-**Congratulations, you just ran your first Intel® XDK application!**
+**Congratulations, you just ran your first C++ application!**
+</div>
 
----
+<div class="callout troubleshooting" markdown="1">
+Refer to the [Troubleshooting - Intel XDK »](troubleshooting.md)
+</div>
 
-### Having troubles?
-
-Refer to the [Troubleshooting - Intel XDK »](troubleshooting.html)
-
----
-
+<div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
 Experiment with sample code supplied for available sensors and actuators.
 
-* **[Grove Starter Kit - Intro »](/docs/sensor_examples/grove_starter_kit/)**
+* **[Grove Starter Kit - Intro »](/docs/sensor_examples/grove_starter_kit/index.html)**
   * [C++ »](/docs/sensor_examples/grove_starter_kit/c/samples.html)
+</div>
