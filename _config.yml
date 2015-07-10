@@ -7,7 +7,7 @@ author:
 baseurl: ""
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
 
 highlighter: pygments
 
