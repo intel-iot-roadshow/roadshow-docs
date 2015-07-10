@@ -23,6 +23,18 @@ img {
   margin-top: 1em;
 }
 
+.content > hr {
+  margin: 3em 0 1em 0;
+}
+
+/* ==========================================================================
+   Images in list items
+   ========================================================================== */
+li img {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
 /* ==========================================================================
    Headings
    ========================================================================== */
@@ -87,7 +99,7 @@ dd {
 
 .callout > *:first-child {
   display: block;
-  margin-top: 1em; /* to align the icon in ::before */
+  padding-top: 1em; /* to align the icon in ::before */
 }
 
 .callout > *:last-child {
@@ -111,12 +123,45 @@ dd {
   background-image: url(/img/icons/callout_icon_video_lightblue.png);
 }
 
+// dark blue icons:
+
 .goto.callout {
   background-color: #d9eaf6;
 }
 
 .goto.callout::before {
   background-image: url(/img/icons/callout_icon_arrow_blue.png);
+}
+
+// light blue icons:
+
+.info.callout {
+  background-color: #f2f8fc;
+}
+
+.info.callout hr {
+  border: 0;
+  border-bottom: 1px dashed #0071c5;
+}
+
+.info.callout::before {
+  background-image: url(/img/icons/callout_icon_pencil_lightblue.png);
+}
+
+// green icons:
+
+.done.callout {
+  background-color: #e5f2e5;
+  color: #53a653;
+}
+
+.done.callout hr {
+  border: 0;
+  border-bottom: 1px dashed #53a653;
+}
+
+.done.callout::before {
+  background-image: url(/img/icons/callout_icon_check_green.png);
 }
 
 /* ==========================================================================
