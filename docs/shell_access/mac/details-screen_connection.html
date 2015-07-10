@@ -20,40 +20,40 @@
 <hr />
 
 <ol>
-  <li>Connect to the USB serial device using the Terminal “screen” utility. </li>
-</ol>
-
-<p><code>
-  screen /dev/xx.usbserial-XXXXXXXX 115200
- </code></p>
-
-<ul>
   <li>
-    <p><strong>Replace “/dev/xx.usbserial-XXXXXXXX” with your device’s unique name.</strong> </p>
+    <p>Connect to the USB serial device using the Terminal “screen” utility. </p>
+
+    <p><code>
+ screen /dev/xx.usbserial-XXXXXXXX 115200
+</code></p>
+
+    <ul>
+      <li>
+        <p><strong>Replace “/dev/xx.usbserial-XXXXXXXX” with your device’s unique name.</strong> </p>
+      </li>
+      <li>
+        <p>“115200” indicates the baud rate. <strong>Always use 115200.</strong></p>
+      </li>
+      <li>
+        <p>“-L” turns on output logging so you can see what the result of your commands are.</p>
+      </li>
+    </ul>
   </li>
   <li>
-    <p>“115200” indicates the baud rate. <strong>Always use 115200.</strong></p>
+    <p>When you see a blank screen, <strong>press the Enter key</strong>.</p>
+
+    <p><strong>For Intel® Edison boards running older firmware</strong>: You may need to press the Enter key <strong>twice</strong>.</p>
+
+    <p><img src="images/screen-blank_screen.png" alt="blank screen" /></p>
   </li>
   <li>
-    <p>“-L” turns on output logging so you can see what the result of your commands are.</p>
+    <p>Once connected you will see a login prompt. </p>
+
+    <p>Type in “<strong>root</strong>” for the username and press <strong>Enter</strong>.</p>
+
+    <p><img src="images/screen-login_root.png" alt="login as &quot;root&quot;" /></p>
   </li>
-</ul>
-
-<ol>
-  <li>When you see a blank screen, <strong>press the Enter key</strong>.</li>
 </ol>
-
-<p><strong>For Intel® Edison boards running older firmware</strong>: You may need to press the Enter key <strong>twice</strong>.</p>
-
-<p><img src="images/screen-blank_screen.png" alt="blank screen" /></p>
-
-<ol>
-  <li>Once connected you will see a login prompt. </li>
-</ol>
-
-<p>Type in “<strong>root</strong>” for the username and press <strong>Enter</strong>.</p>
-
-<p><img src="images/screen-login_root.png" alt="login as &quot;root&quot;" /></p>
 
     
     </div>

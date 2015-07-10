@@ -17,77 +17,81 @@
 
 <p>This document will guide you through the manual process required to flash the firmware on the Intel® Edison using any OS platform.</p>
 
-<p>There are 3 parts to updating the firmware on the Intel® Edison:</p>
+<div id="toc" class="box">
+  <p>There are 3 parts to updating the firmware on the Intel® Edison:</p>
 
-<ul>
-  <li><a href="#step-1-prepare-built-in-flash-storage">Step 1: Prepare built-in flash storage »</a></li>
-  <li><a href="#step-2-copy-over-the-latest-image">Step 2: Copy over the latest image »</a></li>
-  <li><a href="#step-3-flash-the-image">Step 3: Flash the image »</a></li>
-</ul>
-
-<hr />
-
-<p><strong>Using a 64-bit Windows computer?</strong></p>
-
-<p>A streamlined firmware flashing process is included with the Windows 64-bit integrated installer. Refer to <a href="/docs/computer_setup/windows/64bit_integrated_installer.html">Set Up Your Computer - Windows (64-bit integrated installer)</a> for more info.</p>
-
-<hr />
-
-<p><strong>Want to know if your current firmware is old before flashing?</strong></p>
-
-<p>Refer to <a href="check_firmware_version.html">Check installed firmware version</a>.</p>
-
-<hr />
-
-<div class="related-videos">
-  <p><strong>Related video</strong></p>
-
-  <p><a href="https://drive.google.com/open?id=0B2ywC78pxngCWkNUT3dkWklBdDg&amp;authuser=0">How to Flash Firmware Manually on the Intel® Edison (preview)</a></p>
+  <ul>
+    <li><a href="#step-1-prepare-built-in-flash-storage">Step 1: Prepare built-in flash storage »</a></li>
+    <li><a href="#step-2-copy-over-the-latest-image">Step 2: Copy over the latest image »</a></li>
+    <li><a href="#step-3-flash-the-image">Step 3: Flash the image »</a></li>
+  </ul>
 </div>
+
+<div class="callout info">
+  <p><strong>Want to know if your current firmware is old before flashing?</strong></p>
+
+  <p>Refer to <a href="check_firmware_version.html">Check installed firmware version</a>.</p>
+</div>
+
+<!-- <div id="related-videos" class="callout video">
+[How to Flash Firmware Manually on the Intel® Edison (preview)](https://drive.google.com/open?id=0B2ywC78pxngCWkNUT3dkWklBdDg&authuser=0)
+</div> -->
 
 <h2 id="step-1-prepare-built-in-flash-storage">Step 1: Prepare built-in flash storage</h2>
 
-<p>Make sure there are no files on the built-in flash storage of the Intel® Edison by formatting the storage. The storage <strong>must</strong> be formatted as FAT32.</p>
+<div class="tldr">
+  <p>Make sure there are no files on the built-in flash storage of the Intel® Edison by formatting the storage. The storage <strong>must</strong> be formatted as FAT32.</p>
+
+  <ul>
+    <li><a href="details-format_storage-windows.html">View detailed instructions for Windows »</a></li>
+    <li><a href="details-format_storage-mac.html">View detailed instructions for Mac »</a></li>
+    <li><a href="details-format_storage-linux.html">View detailed instructions for Linux »</a></li>
+  </ul>
+</div>
 
 <p><img src="images/format_storage-windows-animated.gif" alt="Animated gif: formatting the Edison flash storage" /></p>
 
-<ul>
-  <li><a href="details-format_storage-windows.html">View detailed instructions for Windows »</a></li>
-  <li><a href="details-format_storage-mac.html">View detailed instructions for Mac »</a></li>
-  <li><a href="details-format_storage-linux.html">View detailed instructions for Linux »</a></li>
-</ul>
-
 <h2 id="step-2-copy-over-the-latest-image">Step 2: Copy over the latest image</h2>
 
-<p>Extract the contents of the <a href="http://software.intel.com/iot/hardware/edison/downloads">Yocto complete image</a> zip, then copy the contents to your Intel® Edison drive. <a href="details-copy_image_files.html">View detailed instructions »</a></p>
+<div class="tldr">
+  <p>Extract the contents of the <a href="http://software.intel.com/iot/hardware/edison/downloads">Yocto complete image</a> zip, then copy the contents to your Intel® Edison drive. </p>
 
-<p><img src="images/copy_image_files-animated.gif" alt="Animated gif: copying images files to flash storage" /></p>
+  <p><a href="details-copy_image_files.html">View detailed instructions »</a></p>
+</div>
+
+<p><a href="details-copy_image_files.html"><img src="images/copy_image_files-animated.gif" alt="Animated gif: copying images files to flash storage" /></a></p>
 
 <h2 id="step-3-flash-the-image">Step 3: Flash the image</h2>
 
-<p>Run the <code>reboot ota</code> command on the Intel® Edison to flash the board with the files you copied over in Step 2. <a href="details-reboot_ota.html">View detailed instructions »</a></p>
+<div class="tldr">
+  <p>Run the <code>reboot ota</code> command on the Intel® Edison to flash the board with the files you copied over in Step 2. </p>
 
-<p><img src="images/reboot_ota-animated.gif" alt="Animated gif: flashing the Intel® Edison" /></p>
+  <p><a href="details-reboot_ota.html">View detailed instructions »</a></p>
+</div>
 
-<h3 id="next-steps">Next Steps</h3>
+<p><a href="details-reboot_ota.html"><img src="images/reboot_ota-animated.gif" alt="Animated gif: flashing the Intel® Edison" /></a></p>
 
-<p>Get your board online in order to turn your IoT board into a true “Internet of Things” device. You also need the IP address of your IoT board to program it using the dev kit IDEs.</p>
+<div id="next-steps" class="note">
+  <h3 id="next-steps">Next Steps</h3>
 
-<p><strong>At a hackathon? On a busy or restricted Wi-Fi network?</strong></p>
+  <p>Get your board online in order to turn your IoT board into a true “Internet of Things” device. You also need the IP address of your IoT board to program it using the dev kit IDEs.</p>
 
-<p>Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as “Ethernet over USB”:</p>
+  <p><strong>At a hackathon? On a busy or restricted Wi-Fi network?</strong></p>
 
-<ul>
-  <li><a href="/docs/connectivity/ethernet_over_usb/windows/connect.html">Windows »</a></li>
-  <li><a href="/docs/connectivity/ethernet_over_usb/linux/connect.html">Linux »</a></li>
-  <li>Note: At this time, Ethernet over USB on <a href="/docs/connectivity/ethernet_over_usb/mac/connect.html">Mac</a> is not officially supported.</li>
-</ul>
+  <p>Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as “Ethernet over USB”:</p>
 
-<p><strong>At home? Have a dependable Wi-Fi connection?</strong></p>
+  <ul>
+    <li><a href="/docs/connectivity/ethernet_over_usb/windows/connect.html">Windows »</a></li>
+    <li><a href="/docs/connectivity/ethernet_over_usb/linux/connect.html">Linux »</a></li>
+    <li>Note: At this time, Ethernet over USB on Mac is not officially supported.</li>
+  </ul>
 
-<ul>
-  <li><a href="/docs/connectivity/wifi/connect.html">Get Your Edison Board Online »</a></li>
-</ul>
+  <p><strong>At home? Have a dependable Wi-Fi connection?</strong></p>
+
+  <ul>
+    <li><a href="/docs/connectivity/wifi/connect.html">Get Your Edison Board Online »</a></li>
+  </ul>
+</div>
 
     
     </div>
