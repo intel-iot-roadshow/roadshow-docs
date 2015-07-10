@@ -52,7 +52,7 @@ Look for "USB Serial Port" in Device Manager under “Ports (COM & LPT)” after
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi. 
+Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
 
-[Shell Access - Windows »](/docs/shell_access/windows/serial_connection.html)
+* [Install Edison Flash Tool »](/docs/flash_firmware/windows_install.html)
 </div>

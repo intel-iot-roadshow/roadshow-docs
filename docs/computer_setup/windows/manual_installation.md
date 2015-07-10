@@ -7,12 +7,6 @@ title: Getting Started
 
 This setup document will guide you through manually preparing your Windows 32-bit or 64-bit computer with any Windows-specific software or drivers required for Intel® Edison development. 
 
-<div class="callout info" markdown="1">
-**Are you running 64-bit Windows and have a good internet connection?**
-
-For a more streamlined setup process, try the integrated program installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer) »](64bit_integrated_installer.html). 
-</div>
-
 <div id="toc" class="box" markdown="1">
 * [Install Intel® Edison standalone drivers »](#install-intel-edison-standalone-drivers)
 * [Install FTDI serial drivers »](#install-ftdi-serial-drivers)
@@ -27,7 +21,7 @@ For a more streamlined setup process, try the integrated program installer. Refe
 ## Install Intel® Edison standalone drivers
 
 <div class="tldr" markdown="1">
-The [Windows standalone drivers](https://software.intel.com/iot/hardware/edison/downloads) for Intel® Edison include several USB drivers in one installer package. These drivers enable important features, such as:
+The Windows standalone drivers for Intel® Edison include several USB drivers in one installer package. These drivers enable important features, such as:
 
 * Composite Device Class (CDC) for programming the board via the Arduino IDE,
 * Remote Network Driver Interface Spec (RNDIS) for Ethernet over USB, and
