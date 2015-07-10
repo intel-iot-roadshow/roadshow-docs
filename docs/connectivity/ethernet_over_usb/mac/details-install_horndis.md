@@ -15,7 +15,7 @@ Install the HoRNDIS (pronounced "horrendous") kernel extension to use Ethernet o
 
 2. Double-click on the downloaded *HoRNDIS-rel[version].pkg* to start the installation wizard.
 
-  ![HoRNDIS install wizard](images/horndis-install.png)
+    ![HoRNDIS install wizard](images/horndis-install.png)
 
 3. Follow the installation wizard prompts. Click "**Next**" where needed.
 

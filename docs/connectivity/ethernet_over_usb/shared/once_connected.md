@@ -6,20 +6,16 @@ title: Getting Started
 # Once connected...
 
 
-<div class="toc" markdown="1">
-**Table of contents**
-
+<div id="toc" class="box" markdown="1">
 * [Ping or visit 192.168.2.15 »](#ping-or-visit-192168215)
 * [Use SSH instead of a serial connection »](#use-ssh-instead-of-a-serial-connection)
 * [Program IoT board while offline »](#program-iot-board-while-offline)
 </div>
 
-<div class="related-videos" markdown="1">
-**Related video**
-
+<!-- <div id="related-videos" class="callout video">
 * [Ethernet over USB - Intel Edison - Windows (preview)](https://drive.google.com/open?id=0B2ywC78pxngCUWJxZXJiYngycU0&authuser=0)
 * [Ethernet over USB - Intel Edison - Mac (preview)](https://drive.google.com/open?id=0B2ywC78pxngCSlJtbTNmNGhVVEU&authuser=0)
-</div>
+</div> -->
 
 ## Ping or visit 192.168.2.15
 
@@ -45,8 +41,7 @@ The Intel® XDK IoT Edition IDE should automatically detect your Intel® Edison 
 
 !["192.168.2.15:58888" entry selected in "IoT Device" drop down](images/xdk-select_dot_15.png)
 
----
-
+<div class="callout troubleshooting" markdown="1">
 **Ethernet over USB device not showing up Intel® XDK?**
 
 Shell into your board and restart the XDK Daemon.
@@ -54,11 +49,12 @@ Shell into your board and restart the XDK Daemon.
 ```
 systemctl restart xdk-daemon
 ```
+</div>
 
----
-
+<div class="callout goto" markdown="1">
 Return to **Ethernet over USB** for:
 
 * [Windows »](windows.html)
 * [Mac »](mac.html)
 * [Linux »](linux.html)
+</div>

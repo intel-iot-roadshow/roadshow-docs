@@ -14,22 +14,21 @@ Internet sharing is an optional step but is highly recommended if you are at a h
 
 2. Use Terminal to establish a serial connection to the Intel® Edison.
 
-  _Don't know how? Refer to [Shell Access](/docs/shell_access/linux/serial_connection.html)._
+    _Don't know how? Refer to [Shell Access](/docs/shell_access/linux/serial_connection.html)._
 
 3. On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface (`wpa_cli`) command:
 
-  ```
-  wpa_cli disconnect
-  ```
+    ```
+    wpa_cli disconnect
+    ```
 
 4. Then use the `route` command to add a default gateway. Use the same static IP address you set in the **Network** settings in the previous section.
 
-  ```
-  route add default gw 192.168.2.2
-  ```
+    ```
+    route add default gw 192.168.2.2
+    ```
 
----
-
+<div class="callout done" markdown="1">
 You can now use the Intel® Edison as if it is connected to the internet on its own as long as you keep the device mode micro-USB cable plugged in.
 
 Try pinging a network from Terminal to make sure the Intel® Edison is connected to the internet through your computer's network connection:
@@ -41,11 +40,10 @@ ping google.com
 (Use the Ctrl+C keyboard command to exit the ping process.)
 
 To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Connect Your Intel Edison to Wi-Fi](/docs/connectivity/wifi/connect.html).
+</div>
 
----
+<div class="callout troubleshooting" markdown="1">
+**Unable to ping anything from the Intel® Edison?**
 
-### Troubleshooting 
-
-Unable to ping anything from the Intel® Edison?
-
-* Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.
+Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.
+</div>
