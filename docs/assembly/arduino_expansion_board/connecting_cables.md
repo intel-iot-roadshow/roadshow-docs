@@ -15,9 +15,9 @@ Explore when and how to use all the cables ports on the Intel® Edison kit for A
 * [Host mode USB cable »](#host-mode-usb-cable)
 </div>
 
-<div id="related-videos" class="callout video">
+<!-- <div id="related-videos" class="callout video">
   <object id="flashObj" width="565" height="367" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,47,0"><param name="movie" value="http://c.brightcove.com/services/viewer/federated_f9?isVid=1" /><param name="bgcolor" value="#FFFFFF" /><param name="flashVars" value="videoId=4117768692001&playerID=741496470001&playerKey=AQ~~,AAAArH1stHk~,LuRqJUw7MaeYQkat5frTpWWPINh71g7p&domain=embed&dynamicStreaming=true" /><param name="base" value="http://admin.brightcove.com" /><param name="seamlesstabbing" value="false" /><param name="allowFullScreen" value="true" /><param name="swLiveConnect" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://c.brightcove.com/services/viewer/federated_f9?isVid=1" bgcolor="#FFFFFF" flashVars="videoId=4117768692001&playerID=741496470001&playerKey=AQ~~,AAAArH1stHk~,LuRqJUw7MaeYQkat5frTpWWPINh71g7p&domain=embed&dynamicStreaming=true" base="http://admin.brightcove.com" name="flashObj" width="565" height="367" seamlesstabbing="false" type="application/x-shockwave-flash" allowFullScreen="true" swLiveConnect="true" allowScriptAccess="always" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed></object>
-</div>
+</div> -->
 
 ## Device mode vs host mode
 
