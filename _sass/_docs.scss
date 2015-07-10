@@ -32,7 +32,7 @@ code {
 }
 
 /* ==========================================================================
-   Images in list items
+   List items
    ========================================================================== */
 // li img {
   // margin-top: 1em;
@@ -41,6 +41,10 @@ code {
 
 ol li {
   margin-bottom: 1.5em;
+}
+
+ol li ul li ol li {
+   margin-bottom: 0em;
 }
 
 /* ==========================================================================
@@ -129,6 +133,10 @@ li .callout::before {
   left: 3.9em; /* a little bit more than body padding */
 }
 
+.callout a {
+  font-weight: bold;
+}
+
 .video.callout {
   border: 2px solid #d9eaf6;
   padding-top: 1em; /* to align the icon in ::before */
@@ -186,6 +194,10 @@ li .callout::before {
   background-image: url(/img/icons/callout_icon_check_green.png);
 }
 
+.done.callout a {
+  color: #53a653;
+}
+
 // orange callouts:
 
 .warning.callout {
@@ -203,6 +215,31 @@ li .callout::before {
   background-image: url(/img/icons/callout_icon_caution_yellow.png);
 }
 
+.warning.callout a {
+  color: #b75f00;
+}
+
+
+// red callouts:
+
+.danger.callout {
+  border: 2px solid #e21f20;
+  background-color: #f2dede;
+  color: #e21f20;
+}
+
+.danger.callout hr {
+  border: 0;
+  border-bottom: 1px dashed #e21f20;
+}
+
+.danger.callout::before {
+  background-image: url(/img/icons/callout_icon_bomb_red.png);
+}
+
+.danger.callout a {
+  color: #e21f20;
+}
 
 /* ==========================================================================
    Grey outline boxes (no icons)
