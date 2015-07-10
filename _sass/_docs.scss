@@ -27,12 +27,20 @@ img {
   margin: 3em 0 1em 0;
 }
 
+code {
+  font-family: Consolas, Courier, monospace;
+}
+
 /* ==========================================================================
    Images in list items
    ========================================================================== */
-li img {
-  margin-top: 1em;
-  margin-bottom: 2em;
+// li img {
+  // margin-top: 1em;
+  // margin-bottom: 1em;
+// }
+
+ol li {
+  margin-bottom: 1.5em;
 }
 
 /* ==========================================================================
@@ -92,6 +100,7 @@ dd {
 .callout {
   border: 2px solid #fff;
   padding: 1em;
+  margin-bottom: 1em;
   padding-top: 0em; /* to align the icon in ::before */
   font-size: 0.9em;
   color: #0071c5;
@@ -114,6 +123,10 @@ dd {
   height: 40px;
   position: absolute;
   left: 1.2em; /* a little bit more than body padding */
+}
+
+li .callout::before {
+  left: 3.9em; /* a little bit more than body padding */
 }
 
 .video.callout {
