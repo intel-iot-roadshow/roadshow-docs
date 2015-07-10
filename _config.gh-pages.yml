@@ -9,4 +9,10 @@ baseurl: "/getting-started-guides" # the subpath of your site, e.g. /blog/
 # Build settings
 markdown: kramdown
 
+kramdown:
+  auto_ids: true
+  input: GFM
+
+highlighter: pygments
+
 exclude: ['Gemfile']
