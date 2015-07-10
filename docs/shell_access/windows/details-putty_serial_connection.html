@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h1 id="establish-a-serial-connection">Establish a serial connection</h1>
+
+<p>Use PuTTY to establish a <strong>serial</strong> connection to the IoT board using the COM # you noted in the previous <a href="details-identify_com_port.html">Identify the serial COM port</a> section and the baud rate <strong>115200</strong>.</p>
+
+<hr />
+
+<ol>
+  <li>In PuTTY, double-check that you are in the “Session” screen. </li>
+</ol>
+
+<p><img src="images/putty-session_tab.png" alt="Session tab in PuTTY" /></p>
+
+<ol>
+  <li>Select the “<strong>Serial</strong>” radio button under “Connection type”.</li>
+</ol>
+
+<p><img src="images/putty-serial_radio_button.png" alt="Serial radio button in PuTTY" /></p>
+
+<ol>
+  <li>Specify the destination you want to connect to:</li>
+</ol>
+
+<ul>
+  <li><strong>Serial Line</strong>: use the <strong>COM #</strong> (e.g. “COM3”) noted in <a href="details-identify_com_port.html">Identify the serial COM port</a></li>
+  <li><strong>Speed</strong>: use “115200” for the baud rate</li>
+</ul>
+
+<p><img src="images/putty-serial_line_and_speed.png" alt="Serial line and speed text fields in PuTTY" /></p>
+
+<ol>
+  <li>Click “<strong>Open</strong>” to connect to the board.</li>
+</ol>
+
+<p><img src="images/putty-open_button.png" alt="Open connection button in PuTTY" /></p>
+
+<ol>
+  <li>When you see a blank screen, <strong>press the Enter key</strong>.</li>
+</ol>
+
+<p><strong>For Intel® Edison boards running older firmware</strong>: You may need to press the Enter key <strong>twice</strong>.</p>
+
+<p><img src="images/putty-blank_screen.png" alt="Blank screen in PuTTY after connecting to Intel® Edison" /></p>
+
+<ol>
+  <li>Once connected you will see a login prompt. </li>
+</ol>
+
+<p>Type in “<strong>root</strong>” for the username and press <strong>Enter</strong>.</p>
+
+<p><img src="images/putty-login_as_root.png" alt="Login as root user" /></p>
+
+    
+    </div>
+
+  </body>
+</html>

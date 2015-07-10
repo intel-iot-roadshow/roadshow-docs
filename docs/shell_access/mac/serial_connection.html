@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h1 id="shell-access---mac">Shell Access - Mac</h1>
+
+<p><img src="../images/icon-computer_shell.png" alt="computer icon with command prompt" /></p>
+
+<p>If you need to configure your IoT board, you will need to remotely connect to the Intel® Edison or Intel® Galileo. Once connected to your Intel® IoT board, you have access to the Linux-based Yocto operating system running on the board. </p>
+
+<p>You can then execute special Linux commands such: changing the hostname and password, setting up Wi-Fi, or flashing new firmware.</p>
+
+<div class="related-videos">
+  <p><strong>Related video</strong></p>
+
+  <p><a href="https://software.intel.com/en-us/videos/shell-access-mac">Shell Access – Mac</a></p>
+</div>
+
+<div class="toc">
+  <p><strong>Table of contents</strong></p>
+
+  <ul>
+    <li><a href="#identify-the-usbserial-device-name">Identify the “usbserial” device name »</a></li>
+    <li><a href="#establish-a-serial-connection">Establish a serial connection »</a></li>
+  </ul>
+</div>
+
+<h2 id="identify-the-usbserial-device-name">Identify the “usbserial” device name</h2>
+
+<p>Use the <code>ls /dev/tty.*</code> command in Terminal to find the device name of the “<strong>usbserial</strong>” connection. You will need the exact device name for use in <a href="#establish-a-serial-connection">Establish a serial connection</a> next. <a href="details-identify_usbserial.html">View detailed instructions »</a></p>
+
+<p><img src="images/identify_usbserial-animated.gif" alt="Animated gif: using Terminal to find the USB device name" /></p>
+
+<h2 id="establish-a-serial-connection">Establish a serial connection</h2>
+
+<p>Use the Screen utility in Terminal to gain command line access of your IoT board. For example: <code>screen /dev/tty.usbserial-A102GW3T 115200</code>. <a href="details-screen_connection.html">View detailed instructions »</a></p>
+
+<p><img src="images/screen_connection-animated.gif" alt="Animated gif: using Screen utility to connect to IoT board" /></p>
+
+<hr />
+
+<p>You are now logged into your IoT board and can run shell commands. For example, to output the version number of the firmware running on your board:</p>
+
+<p><code>
+cat /etc/version
+</code></p>
+
+<p><img src="../images/firmware_version_output.png" alt="example output after running cat command" /></p>
+
+<p>The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.</p>
+
+<hr />
+
+<h3 id="additional-resources">Additional resources</h3>
+
+<p>For more info on using Screen such as quitting, read <a href="/docs/shell_access/mac-and-linux/using_screen.html">Using Screen »</a></p>
+
+<h3 id="next-steps">Next Steps</h3>
+
+<p>Some Edison boards have older firmware images on them. You <strong><em>may</em></strong> need to update the firmware to a newer version to get access to important features.</p>
+
+<p>Go to <a href="/docs/flash_firmware/manually.html">Flash Edison Firmware Manually »</a></p>
+
+    
+    </div>
+
+  </body>
+</html>

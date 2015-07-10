@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="share-your-computers-wifi-connection-optional">Share your computer’s WiFi connection (optional)</h2>
+
+<p>Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing your computer’s internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison.
+Internet sharing is an optional step but is highly recommended if you are at a hackathon.</p>
+
+<hr />
+
+<ol>
+  <li>
+    <p>Open your <strong>Sharing</strong> preference settings.
+  (i.e. In the OS X menu bar, choose <img src="/docs/icons/os_icon_mac.png" alt="Mac OS icon" /> → System Preferences → Sharing)</p>
+  </li>
+  <li>
+    <p>If “<strong>Internet Sharing</strong>” is currently checked in the lefthand services list, <strong>uncheck it</strong> in order to make changes to your Mac Sharing settings.</p>
+  </li>
+</ol>
+
+<p><img src="images/sharing_settings-sharing_off.png" alt="Internet Sharing settings screen with nothing checked" /></p>
+
+<ol>
+  <li>Select “<strong>Wi-Fi</strong>” from the “<strong>Share your connection from</strong>” dropdown list, if not already selected.</li>
+</ol>
+
+<p><img src="images/sharing_settings-wifi_selected.png" alt="&quot;Wi-Fi&quot; option selected in the &quot;&quot;Share your connection from&quot; dropdown" /></p>
+
+<ol>
+  <li>Check “<strong>Edison</strong>” under “<strong>To computers using</strong>”.</li>
+</ol>
+
+<p><img src="images/sharing_settings-edison_selected.png" alt="&quot;To computers using&quot; option selected under &quot;To computers using&quot;" /></p>
+
+<ol>
+  <li>
+    <p>Enable sharing by checking “<strong>Internet Sharing</strong>” in the lefthand services list.</p>
+  </li>
+  <li>
+    <p>You will see a warning. Click “<strong>Start</strong>” to continue.</p>
+  </li>
+</ol>
+
+<p><img src="images/sharing_settings-enable_warning.png" alt="System warning shown before Internet Sharing can be enabled" /></p>
+
+<ol>
+  <li>
+    <p>Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.</p>
+  </li>
+  <li>
+    <p>Use Terminal to establish a serial connection to the Intel® Edison.</p>
+  </li>
+</ol>
+
+<p><em>Don’t know how? Refer to <a href="/docs/shell_access/mac/serial_connection.html">Shell Access</a>.</em></p>
+
+<ol>
+  <li>On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface (<code>wpa_cli</code>) command:</li>
+</ol>
+
+<p><code>
+  wpa_cli disconnect
+ </code></p>
+
+<ol>
+  <li>Then use the <code>route</code> command to add a default gateway. Use the same static IP address you set in the <strong>Network</strong> settings in the previous section.</li>
+</ol>
+
+<p><code>
+  route add default gw 192.168.2.2
+ </code></p>
+
+<hr />
+
+<p>You can now use the Intel® Edison as if it is connected to the internet on its own as long as you keep the device mode micro-USB cable plugged in.</p>
+
+<p>Try pinging a network from Terminal to make sure the Intel® Edison is connected to the internet through your computer’s network connection:</p>
+
+<p><code>
+ping google.com
+</code></p>
+
+<p>(Use the Ctrl+C keyboard command to exit the ping process.)</p>
+
+<p>To re-enable WiFi on the Intel® Edison, use the <code>configure_edison --wifi</code> command as described in <a href="/docs/connectivity/wifi/connect.html">Connect Your Intel Edison to Wi-Fi</a>.</p>
+
+<hr />
+
+<h3 id="troubleshooting">Troubleshooting</h3>
+
+<p>Unable to ping anything from the Intel® Edison?</p>
+
+<ul>
+  <li>Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.</li>
+  <li>Turn your computer’s WiFi connections off, then back on.</li>
+  <li>Restart your computer.</li>
+  <li>Check that the IP address set in the IPv4 LAN settings is “192.168.2.2”</li>
+</ul>
+
+    
+    </div>
+
+  </body>
+</html>

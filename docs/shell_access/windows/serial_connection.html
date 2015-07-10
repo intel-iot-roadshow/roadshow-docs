@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h1 id="shell-access---windows">Shell Access - Windows</h1>
+
+<p><img src="../images/icon-computer_shell.png" alt="computer icon with command prompt" /></p>
+
+<p>If you need to configure your IoT board, you will need to remotely connect to the Intel® Edison or Intel® Galileo. Once connected to your Intel® IoT board, you have access to the Linux-based Yocto operating system running on the board. </p>
+
+<p>You can then execute special Linux commands such: changing the hostname and password, setting up Wi-Fi, or flashing new firmware.</p>
+
+<div class="toc">
+  <p><strong>Table of contents</strong></p>
+
+  <ul>
+    <li><a href="#download-a-terminal-client-putty">Download a terminal client (PuTTY) »</a></li>
+    <li><a href="#identify-the-serial-com-port">Identify the serial COM port »</a></li>
+    <li><a href="#establish-a-serial-connection">Establish a serial connection »</a></li>
+  </ul>
+</div>
+
+<div class="related-videos">
+  <p><strong>Related video</strong></p>
+
+  <p><a href="https://software.intel.com/en-us/videos/shell-access-windows">Shell Access – Windows</a></p>
+</div>
+
+<h2 id="download-a-terminal-client-putty">Download a terminal client (PuTTY)</h2>
+
+<p>Windows does not come with a built-in terminal emulator so download and use the <a href="http://www.putty.org/">PuTTY</a> client. <a href="details-putty.html">View detailed instructions »</a></p>
+
+<p><img src="images/install_putty-animated.gif" alt="Animated gif: downloading and installing PuTTY" /></p>
+
+<h2 id="identify-the-serial-com-port">Identify the serial COM port</h2>
+
+<p>Use Device Manager to find the COM port number for the “<strong>USB Serial Port</strong>” connection. You will need the COM # to configure PuTTY in Establish a serial connection. <a href="details-identify_com_port.html">View detailed instructions »</a></p>
+
+<p><img src="images/identify_com_port-animated.gif" alt="Animated gif: identifying the serial COM port" /></p>
+
+<h2 id="establish-a-serial-connection">Establish a serial connection</h2>
+
+<p>Use PuTTY to establish a <strong>serial</strong> connection to the IoT board using the COM # you noted in the previous <a href="#identify-the-serial-com-port">Identify the serial COM port</a> section and the baud rate <strong>115200</strong>. <a href="details-putty_serial_connection.html">View detailed instructions »</a></p>
+
+<p><img src="images/putty_serial_connection-animated.gif" alt="Animated gif: logging into the IoT board via a PuTTY serial connection" /></p>
+
+<hr />
+
+<p>You are now logged into your IoT board and can run shell commands. For example, to output the version number of the firmware running on your board:</p>
+
+<p><code>
+cat /etc/version
+</code></p>
+
+<p><img src="../images/firmware_version_output.png" alt="example output after running cat command" /></p>
+
+<p>The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.</p>
+
+<hr />
+
+<h3 id="additional-resources">Additional resources</h3>
+
+<p>For more info on using PuTTY such as saving profiles, read <a href="using_putty.html">Using PuTTY »</a></p>
+
+<h3 id="next-steps">Next Steps</h3>
+
+<p>Some Edison boards have older firmware images on them. You <em>may</em> need to update the firmware to a newer version to get access to important features.</p>
+
+<p>Go to <a href="/docs/flash_firmware/manually.html">Flash Edison Firmware Manually »</a></p>
+
+    
+    </div>
+
+  </body>
+</html>

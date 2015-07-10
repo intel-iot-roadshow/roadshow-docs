@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h1 id="c-samples-for-the-grove-starter-kit">C++ samples for the Grove Starter Kit</h1>
+
+<p>To follow the instructions in this guide, should have already completed the <a href="/docs/ide_setup/eclipse/setup.html">Set Up IoT Dev Kit Eclipse »</a> guide, and you can successfully <a href="/docs/ide_setup/eclipse/create_project.html">blink the onboard LED</a> on your Intel® Edison or Intel® Galileo.</p>
+
+<div class="toc">
+  <p><strong>Table of contents</strong></p>
+
+  <ul>
+    <li><a href="#grove-component-types">Grove component types »</a>
+      <ul>
+        <li><a href="#digital-outputs">Digital outputs »</a></li>
+        <li><a href="#digital-inputs">Digital inputs »</a></li>
+        <li><a href="#analog-inputs">Analog inputs »</a></li>
+        <li><a href="#analog-outputs">Analog outputs »</a></li>
+        <li><a href="#i2c">I2C »</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<h2 id="grove-component-types">Grove component types</h2>
+
+<p>The simpler components in the Grove Starter Kit fall into 2 categories: input or output. These two categories further subdivide into digital or analog. </p>
+
+<p>Other components in the Grove Starter Kit may use more complex communications protocols such as UART or I2C.</p>
+
+<p>Identifying which category a component falls under is required in order to correctly attach the component to the Grove Base Shield and to understand what code library and commands are needed to control the component.</p>
+
+<h3 id="digital-outputs">Digital outputs</h3>
+
+<p>A digital output can write a value of either on (1) or off (0).</p>
+
+<p>Connect to any pin labelled “D” (for “digital”) on the Grove Base Shield such as D2 to D8.</p>
+
+<table>
+  <tr>
+    <td>Grove LED Socket Kit</td>
+    <td>Grove Smart Relay</td>
+  </tr>
+  <tr>
+    <td>UPM sample code</td>
+    <td>UPM sample code</td>
+  </tr>
+  <tr>
+    <td>require('jsupm_grove')</td>
+    <td>require('jsupm_grove')</td>
+  </tr>
+</table>
+
+<p><strong>Low level MRAA-only example:</strong></p>
+
+<p>```</p>
+
+<p>```</p>
+
+<p><strong>Higher level UPM example:</strong></p>
+
+<p>```</p>
+
+<p>```</p>
+
+<p>If you want to make the LED turn on and off, add a setTimeout() or setInterval() to toggle between writing 1 or 0 to the digital pin.  </p>
+
+<h3 id="digital-inputs">Digital inputs</h3>
+
+<p>A digital input can read a value as either on (1) or off (0).</p>
+
+<p>Connect to any pin labelled “D” (for “digital”) such as D2 to D8 on the Grove Base Shield.</p>
+
+<table>
+  <tr>
+    <td>Grove Button</td>
+    <td>Grove Touch Sensor (TTP223)</td>
+  </tr>
+  <tr>
+    <td>UPM code samples</td>
+    <td>UPM code samples</td>
+  </tr>
+  <tr>
+    <td>require('jsupm_grove')</td>
+    <td>require('jsupm_ttp223')</td>
+  </tr>
+</table>
+
+<p><strong>Low level MRAA-only example:</strong></p>
+
+<p>```</p>
+
+<p>```</p>
+
+<p><strong>Higher level UPM example:</strong></p>
+
+<p>```</p>
+
+<p>```</p>
+
+<p>To react to button press beyond application startup, add a <code>setTimeout()</code> or <code>setInterval()</code> to periodically poll the pin state.</p>
+
+<h3 id="analog-inputs">Analog inputs</h3>
+
+<p>An analog input will read a value as between 0 and 1024.</p>
+
+<p>Connect to any pin labelled “A” (for “analog”) on the Grove Base Shield such as A0 to A3.</p>
+
+<table>
+  <tr>
+    <td>Grove Light Sensor</td>
+    <td>Grove Rotary Angle</td>
+    <td>Grove Temperature</td>
+    <td>Grove Sound Sensor</td>
+  </tr>
+  <tr>
+    <td>UPM code samples</td>
+    <td>UPM code samples</td>
+    <td>UPM code samples</td>
+    <td>UPM code samples</td>
+  </tr>
+  <tr>
+    <td>require('jsupm_grove')</td>
+    <td>require('jsupm_grove')</td>
+    <td>require('jsupm_grove')</td>
+    <td>require("jsupm_mic")</td>
+  </tr>
+</table>
+
+<p><strong>Low level MRAA-only example:</strong></p>
+
+<p>```</p>
+
+<p>```</p>
+
+<p><strong>Higher level UPM example:</strong></p>
+
+<p>```</p>
+
+<p>```</p>
+
+<p>To react to changes in light beyond application startup, add a <code>setTimeout()</code> or <code>setInterval()</code> to periodically poll the sensor value.</p>
+
+<h3 id="analog-outputs">Analog outputs</h3>
+
+<p>An analog output is a digital output in disguise. Intel® IoT boards are digital microcontrollers that can pretend to be analog using a concept called Pulse Width Modulation (PWM). </p>
+
+<p>Analog outputs will accept a floating-point value representing a duty cycle percentage between 0 (always off), 1.0 (always on). For example, a value of 0.5 will rapidly pulse equally between on and off.</p>
+
+<p>Components will only work when connected to PWM-enabled pins! By factory default, these PWM pins are D3, D5, and D6. (Digital pin #9 is also available on the Arduino expansion board via the standard female header pin.)</p>
+
+<table>
+  <tr>
+    <td>Grove LED Socket Kit</td>
+    <td>Grove Buzzer</td>
+    <td>Grove Servo Motor (ES08A)</td>
+  </tr>
+  <tr>
+    <td>(no UPM sample)</td>
+    <td>UPM sample code</td>
+    <td>UPM sample code</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>require("jsupm_buzzer")</td>
+    <td>require("jsupm_servo")</td>
+  </tr>
+</table>
+
+<p><strong>Low level MRAA-only example:</strong></p>
+
+<p>```</p>
+
+<p>```</p>
+
+<p><strong>Higher level UPM example:</strong></p>
+
+<p>Please see: <a href="https://github.com/intel-iot-devkit/upm/blob/master/examples/c++/es08a.js">https://github.com/intel-iot-devkit/upm/blob/master/examples/c++/es08a.js</a></p>
+
+<h3 id="i2c">I2C</h3>
+
+<p>I²C (Inter-Integrated Circuit), pronounced both “I-two-C” or “I-squared-C”, is a multi-master, multi-slave, single-ended, serial computer bus used for attaching lower-speed peripherals to processors on computer motherboards and embedded systems.</p>
+
+<table>
+  <tr>
+    <td>Grove LCD RGB Backlight (JHD1313M1)</td>
+  </tr>
+  <tr>
+    <td>UPM code samples</td>
+  </tr>
+  <tr>
+    <td>require ('jsupm_i2clcd')</td>
+  </tr>
+</table>
+
+<p><strong>Higher level UPM example:</strong></p>
+
+<p>```</p>
+
+<p>```</p>
+
+<hr />
+
+<h3 id="next-steps">Next Steps</h3>
+
+<p>You’re done! Now make your own creation. </p>
+
+<p>Return back to <a href="/docs/arduino_expansion_board.html#now-make-your-own-creation">START HERE »</a></p>
+
+    
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="add-static-ipv4-address">Add static IPv4 address</h2>
+
+<p>If you have the Intel® Edison Drivers installed, update your computer’s Network Adapter configuration with a static IP address to use Ethernet over USB.</p>
+
+<p><img src="images/ipv4_windows-animated.gif" alt="Animated gif: adding static IPv4 address in Windows" /></p>
+
+<hr />
+
+<p><strong>Have you installed the Intel® Edison Drivers?</strong></p>
+
+<p>If you have not followed <a href="/docs/computer_setup/windows/64bit_integrated_installer.html">Set Up Your Computer - Windows (64-bit integrated installer)</a> or <a href="/docs/computer_setup/windows/manual_installation.html">Set Up Your Computer - Windows (manual installation)</a>, please do so now. RNDIS drivers are included with the Intel® Edison Drivers.</p>
+
+<hr />
+
+<ol>
+  <li>View your <strong>Network Connections</strong>.</li>
+</ol>
+
+<ul>
+  <li><strong>Windows 8</strong>: 
+    <ol>
+      <li>Right-click on the Start menu button.</li>
+      <li>Select “<strong>Network Connections</strong>”.</li>
+    </ol>
+  </li>
+  <li><strong>Windows 7 and below</strong>: 
+    <ol>
+      <li>Go to the Windows Control Panel. </li>
+      <li>
+        <p>Under “<strong>Network and Internet</strong>”, click “<strong>View network status and tasks</strong>”.</p>
+
+        <p><img src="images/control_panel-view_network_status_and_tasks.png" alt="&quot;View network status and tasks&quot; under &quot;Network and Internet&quot; in Control Panel" /></p>
+      </li>
+      <li>Click “<strong>Change Adapter Settings</strong>” in sidebar.</li>
+    </ol>
+
+    <p><img src="images/control_panel-chanage_adpater_settings.png" alt="&quot;Change Adapter Settings&quot; in sidebar" /></p>
+  </li>
+</ul>
+
+<ol>
+  <li>Make sure your IoT board has the microswitch set to <strong>device mode</strong> and plug in the <strong>device mode micro-USB cable</strong> from your Intel® Edison to your computer. </li>
+</ol>
+
+<p>Wait one minute for the Intel® Edison to finish booting up.</p>
+
+<p><img src="/docs/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png" alt="Micro-USB cable being plugged into the top micro-USB connector" /></p>
+
+<p><em>Refer to <a href="/docs/assembly/arduino_expansion_board/details-device_mode_cable.html">Device mode micro-USB cable</a> for full assembly instructions.</em></p>
+
+<ol>
+  <li><strong>Right-click</strong> on the “<strong>Local Area Connection</strong>” network adapter entry with the label “<strong>Intel Edison USB RNDIS Device</strong>”, then select “<strong>Properties</strong>”.</li>
+</ol>
+
+<p><img src="images/control_panel-lan_adapter.png" alt="&quot;Local Area Connection&quot; network adapter entry with label &quot;Intel Edison USB RNDIS Device&quot;" /></p>
+
+<p><img src="images/control_panel-context_menu-properties.png" alt="Select &quot;Properties&quot; in context menu" /></p>
+
+<ol>
+  <li>In the new “Local Area Connection Properties” window, select “<strong>Internet Protocol Version 4 (TCP/IPv4)</strong>” from the list, then click “<strong>Properties</strong>”.</li>
+</ol>
+
+<p><img src="images/lan_properties-ipv4-properties_button.png" alt="&quot;Internet Protocol Version 4 (TCP/IPv4)&quot; selected. Click &quot;Properties&quot; button." /></p>
+
+<ol>
+  <li>In the new dialog window, select “<strong>Use the following IP address</strong>” and change the IP information as follows:</li>
+</ol>
+
+<ul>
+  <li>
+    <p><strong>IP address</strong>: 192.168.2.2</p>
+  </li>
+  <li>
+    <p><strong>Subnet m</strong><strong>ask</strong>: 255.255.255.0 (default)</p>
+  </li>
+</ul>
+
+<p><img src="images/ipv4_properties-add_static_ip.png" alt="Adding 192.168.2.2 static IP address" /></p>
+
+<ol>
+  <li>Click “OK” to apply your changes and close the IPv4 properties window. </li>
+</ol>
+
+<hr />
+
+<p><strong>IP address taken?</strong></p>
+
+<p>If you get a system notification that 192.168.2.2 is taken, try any IP address within the ranges of 192.168.2.1 to 192.168.2.14. </p>
+
+<p>Do <strong><em>not</em></strong> use 192.168.2.15 which is already reserved for the USB Gadget network interface.</p>
+
+<hr />
+
+<ol>
+  <li>Click “Close” in any remaining network dialog windows that are open.</li>
+</ol>
+
+<hr />
+
+<p>There is no noticeable difference to the “Local Area Connection” adapter icon. See <a href="/docs/connectivity/ethernet_over_usb/shared/once_connected.html">Once connected…</a> to confirm a successful connection to the Intel® Edison.</p>
+
+<hr />
+
+    
+    </div>
+
+  </body>
+</html>
