@@ -7,11 +7,8 @@ author:
 baseurl: ""
 
 # Build settings
-markdown: kramdown
-kramdown:
-  auto_ids: true
-  input: GFM
-  
+markdown: rdiscount
+
 highlighter: pygments
 
 exclude: ['Gemfile']
