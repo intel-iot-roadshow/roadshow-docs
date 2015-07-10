@@ -50,9 +50,7 @@ See what you can do [once connected »](/docs/connectivity/ethernet_over_usb/sha
 
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
-* **For C/C++:**
-  * [Set Up IoT Dev Kit Eclipse »](/docs/ide_setup/eclipse/)
-
-* **For JavaScript:**
-  * [Set Up Intel XDK for IoT »](/docs/ide_setup/xdk/)
+* For C/C++: [Set Up IoT Dev Kit Eclipse »](/docs/ide_setup/eclipse/setup.html)
+* For JavaScript: [Set Up Intel XDK for IoT »](/docs/ide_setup/xdk/setup.html)
+* For Arduino: [Set Up Arduino IDE »](/docs/ide_setup/arduino/setup.html)
 </div>
