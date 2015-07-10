@@ -21,4 +21,4 @@ title: Getting Started
 
 3. Follow the instructions in the installation wizard.
 
-  ![First screen of the Bonjour Print Services installer](images/bonjor_installer.jpg)
+    ![First screen of the Bonjour Print Services installer](images/bonjor_installer.jpg)
