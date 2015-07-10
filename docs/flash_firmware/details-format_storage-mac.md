@@ -13,46 +13,44 @@ Make sure there are no files on the built-in flash storage of the Intel® Edison
 
 1. In order to read or write to the Intel® Edison's built-in flash storage, connect the Intel® Edison to your computer via the **device mode** micro-USB connector.
 
-  ![Micro-USB cable being plugged into the top micro-USB connector](/docs/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
+    ![Micro-USB cable being plugged into the top micro-USB connector](/docs/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
 
 2. Use Disk Utility to format the flash storage drive. 
 
-  **Option 1:**
+    **Option 1:**
 
-  * Launch Spotlight (type Cmd+Space).
-  * Type "disk". 
-  * Select the "Disk Utility" app.
+    1. Launch Spotlight (type Cmd+Space).
+    2. Type "disk". 
+    3. Select the "Disk Utility" app.
 
-  **Option 2:**
-  
-  * Go to Applications on your Mac.
-  * Open Utilities. 
-  * Launch Disk Utility.app.
+    **Option 2:**
+    
+    1. Go to Applications on your Mac.
+    2. Open Utilities. 
+    3. Launch Disk Utility.app.
 
 3. In the left hand sidebar of Disk Utility, select the "**Edison**" drive.
 
-  ![Edison drive in Disk Utility sidebar](images/disk_utility-select_drive.png)
+    ![Edison drive in Disk Utility sidebar](images/disk_utility-select_drive.png)
 
 4. Select the "**Erase**" tab.
 
-  ![Erase tab in Disk Utility](images/disk_utility-erase_tab.png)
+    ![Erase tab in Disk Utility](images/disk_utility-erase_tab.png)
 
 5. For "**Format**", make sure "**MS-DOS (FAT)**" is selected.
 
-  ![FAT32 selected in Disk Utility](images/disk_utility-format_fat.png)
+    ![FAT32 selected in Disk Utility](images/disk_utility-format_fat.png)
 
-  ---
-  
-  The Intel® Edison will not flash properly if the memory is not formatted as FAT32. Make sure "MS-DOS (FAT)" is selected which is FAT32.
-  
-  ---
+    <div class="callout warning" markdown="1">
+    The Intel® Edison will not flash properly if the memory is not formatted as FAT32. Make sure "MS-DOS (FAT)" is selected which is FAT32.
+    </div>
 
 6. Click the "**Erase**" button.
 
-  ![image alt text](images/disk_utility-erase_button.png)
+    ![image alt text](images/disk_utility-erase_button.png)
 
 7. In the popup, click "**Erase**" to confirm.
 
----
-
+<div class="callout done" markdown="1">
 The Intel® Edison on-board storage memory should now be formatted as FAT32 and empty. 
+</div>
