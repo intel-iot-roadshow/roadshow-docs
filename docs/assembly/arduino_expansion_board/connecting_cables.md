@@ -7,10 +7,7 @@ title: Getting Started
 
 Explore when and how to use all the cables ports on the Intel® Edison kit for Arduino. 
 
-
-<div class="toc" markdown="1">
-**Table of contents**
-
+<div id="toc" class="box" markdown="1">
 * [Device mode vs host mode »](#device-mode-vs-host-mode)
 * [Device mode micro-USB cable »](#device-mode-micro-usb-cable)
 * [UART/serial micro-USB cable »](#uartserial-micro-usb-cable)
@@ -18,11 +15,8 @@ Explore when and how to use all the cables ports on the Intel® Edison kit for A
 * [Host mode USB cable »](#host-mode-usb-cable)
 </div>
 
-<div class="related-videos" markdown="1">
-**Related video**
-
-[![Intel Edison Kit for Arduino: Connecting Cables](images/video_screenshot-connecting_cables.png
-)](https://software.intel.com/en-us/videos/intel-edison-kit-for-arduino)
+<div id="related-videos" class="callout video">
+  <object id="flashObj" width="565" height="367" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,47,0"><param name="movie" value="http://c.brightcove.com/services/viewer/federated_f9?isVid=1" /><param name="bgcolor" value="#FFFFFF" /><param name="flashVars" value="videoId=4117768692001&playerID=741496470001&playerKey=AQ~~,AAAArH1stHk~,LuRqJUw7MaeYQkat5frTpWWPINh71g7p&domain=embed&dynamicStreaming=true" /><param name="base" value="http://admin.brightcove.com" /><param name="seamlesstabbing" value="false" /><param name="allowFullScreen" value="true" /><param name="swLiveConnect" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://c.brightcove.com/services/viewer/federated_f9?isVid=1" bgcolor="#FFFFFF" flashVars="videoId=4117768692001&playerID=741496470001&playerKey=AQ~~,AAAArH1stHk~,LuRqJUw7MaeYQkat5frTpWWPINh71g7p&domain=embed&dynamicStreaming=true" base="http://admin.brightcove.com" name="flashObj" width="565" height="367" seamlesstabbing="false" type="application/x-shockwave-flash" allowFullScreen="true" swLiveConnect="true" allowScriptAccess="always" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed></object>
 </div>
 
 ## Device mode vs host mode
@@ -40,6 +34,7 @@ The hardware slider on the Arduino expansion board switches between USB _host mo
 
 ## Device mode micro-USB cable
 
+<div class="tldr" markdown="1">
 Use the top micro-USB port in USB device mode for:
 
 * 5V power, 
@@ -48,40 +43,52 @@ Use the top micro-USB port in USB device mode for:
 * writing to the onboard flash memory from your computer.
 
 [View detailed instructions »](details-device_mode_cable.html)
+</div>
 
-![Animated gif: using device mode](images/device_mode-animated.gif)
+[![Animated gif: using device mode](images/device_mode-animated.gif)](details-device_mode_cable.html)
 
 
 ## UART/serial micro-USB cable
 
-Use the bottom micro-USB port to send serial commands to your Intel® Edison via Terminal or PuTTY. Use these commands to flash firmware, configure Wi-Fi, or identify the board's IP address. [View detailed instructions »](details-serial_cable.html)
+<div class="tldr" markdown="1">
+Use the bottom micro-USB port to send serial commands to your Intel® Edison via Terminal or PuTTY. Use these commands to flash firmware, configure Wi-Fi, or identify the board's IP address. 
 
-![Animated gif: using UART/serial cable](images/serial-animated.gif)
+[View detailed instructions »](details-serial_cable.html)
+</div>
+
+[![Animated gif: using UART/serial cable](images/serial-animated.gif)](details-serial_cable.html)
 
 
 ## DC power supply
 
-If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable. [View detailed instructions »](details-power_barrel.html)
+<div class="tldr" markdown="1">
+If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable. 
 
-![Animated gif: using power barrel connector](images/power_barrel-animated.gif)
+[View detailed instructions »](details-power_barrel.html)
+</div>
+
+[![Animated gif: using power barrel connector](images/power_barrel-animated.gif)](details-power_barrel.html)
 
 
 ## Host mode USB cable
 
-Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc. [View detailed instructions »](details-host_mode_cable.html)
+<div class="tldr" markdown="1">
+Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc. 
 
-![Animated gif: using host mode](images/host_mode-animated.gif)
+[View detailed instructions »](details-host_mode_cable.html)
+</div>
+
+[![Animated gif: using host mode](images/host_mode-animated.gif)](details-host_mode_cable.html)
 
 
----
-
+<div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
 Install software and drivers specifically for your computer's operating system. 
 
 * **Mac or Linux user?** 
 
-  You have no special setup. Skip to [Step 3](#3-shell-access) below.
+  You have no special setup. Skip to [Shell Access »](/docs/shell_access/).
 
 * **Windows user?**
 
@@ -92,3 +99,4 @@ Install software and drivers specifically for your computer's operating system.
   * **At a hackathon with unreliable internet? Or can't click 'Next' in the 64-bit integrated installer wizard?** 
 
       [Set Up Your Computer - Windows (manual installation) »](/docs/computer_setup/windows/manual_installation.html)
+</div>
