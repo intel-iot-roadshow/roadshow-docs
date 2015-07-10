@@ -20,54 +20,53 @@
 <hr />
 
 <ol>
-  <li>Launch Terminal.</li>
-</ol>
-
-<p><strong>Option 1:</strong></p>
-
-<ol>
-  <li>Launch Spotlight (type Cmd+Space).</li>
-  <li>Type “terminal”. </li>
-  <li>Select the “Terminal” app.</li>
-</ol>
-
-<p><strong>Option 2:</strong></p>
-
-<ol>
-  <li>Go to Applications on your Mac. </li>
-  <li>Open Utilities. </li>
   <li>
-    <p>Launch Terminal.app.</p>
-  </li>
-  <li>Use the “ls” command to list any connected devices.</li>
-</ol>
+    <p>Launch Terminal.</p>
 
-<p><code>
-  ls /dev/tty.*
- </code></p>
+    <p><strong>Option 1:</strong></p>
 
-<ol>
-  <li>Look for a device that contains “<strong>usbserial</strong>”.</li>
-</ol>
+    <ol>
+      <li>Launch Spotlight (type Cmd+Space).</li>
+      <li>Type “terminal”. </li>
+      <li>Select the “Terminal” app.</li>
+    </ol>
 
-<p><img src="images/terminal-usbserial_device_highlighted.png" alt="the device found was &quot;/dev/tty.usbserial-A402YSYU&quot;" /></p>
+    <p><strong>Option 2:</strong></p>
 
-<p>In this case, the device found was “/dev/tty.usbserial-A402YSYU”.</p>
-
-<hr />
-
-<h3 id="troubleshooting">Troubleshooting</h3>
-
-<p><strong>Don’t see a “usbserial” device listed?</strong></p>
-
-<ul>
-  <li>
-    <p><strong>Do you have the UART/serial cable connected?</strong> Refer to <a href="/docs/assembly/arduino_expansion_board/details-serial_cable.html">UART/serial micro-USB cable</a>.</p>
+    <ol>
+      <li>Go to Applications on your Mac. </li>
+      <li>Open Utilities. </li>
+      <li>Launch Terminal.app.</li>
+    </ol>
   </li>
   <li>
-    <p>Is your IoT board powered on?</p>
+    <p>Use the “ls” command to list any connected devices.</p>
+
+    <p><code>
+ ls /dev/tty.*
+</code></p>
   </li>
-</ul>
+  <li>
+    <p>Look for a device that contains “<strong>usbserial</strong>”.</p>
+
+    <p><img src="images/terminal-usbserial_device_highlighted.png" alt="the device found was &quot;/dev/tty.usbserial-A402YSYU&quot;" /></p>
+
+    <p>In this case, the device found was “/dev/tty.usbserial-A402YSYU”.</p>
+  </li>
+</ol>
+
+<div class="callout troubleshooting">
+  <p><strong>Don’t see a “usbserial” device listed?</strong></p>
+
+  <ul>
+    <li>
+      <p><strong>Do you have the UART/serial cable connected?</strong> Refer to <a href="/docs/assembly/arduino_expansion_board/details-serial_cable.html">UART/serial micro-USB cable</a>.</p>
+    </li>
+    <li>
+      <p>Is your IoT board powered on?</p>
+    </li>
+  </ul>
+</div>
 
     
     </div>

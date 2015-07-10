@@ -26,84 +26,75 @@
 <hr />
 
 <ol>
-  <li>Get the latest Intel® Edison 64-bit Windows installer.</li>
-</ol>
-
-<p><strong>Hackathon attendees:</strong></p>
-
-<ol>
-  <li>On the USB key: files → Windows</li>
-  <li>Copy <strong>iotdk_win_installer.exe</strong> to your computer.</li>
-</ol>
-
-<p><strong>Online option:</strong></p>
-
-<ol>
-  <li>Visit the Intel® Edison Software Downloads page: <a href="https://software.intel.com/iot/hardware/edison/downloads">http://software.intel.com/iot/hardware/edison/downloads</a>.</li>
-  <li>Scroll down to the “<strong>Driver software</strong>” section. </li>
-  <li>
-    <p>Click the “<strong>Windows 64-bit Integrated Installer</strong>” link to download <strong>iotdk_win_installer.exe</strong> to your computer</p>
+  <li>Get the latest Intel® Edison 64-bit Windows installer.
+    <ul>
+      <li><strong>Hackathon attendees:</strong>
+        <ol>
+          <li>On the USB key: files → Windows</li>
+          <li>Copy <strong>iotdk_win_installer.exe</strong> to your computer.</li>
+        </ol>
+      </li>
+      <li><strong>Online option:</strong>
+        <ol>
+          <li>Visit the Intel® Edison Software Downloads page: <a href="https://software.intel.com/iot/hardware/edison/downloads">http://software.intel.com/iot/hardware/edison/downloads</a>.</li>
+          <li>Scroll down to the “<strong>Driver software</strong>” section. </li>
+          <li>Click the “<strong>Windows 64-bit Integrated Installer</strong>” link to download <strong>iotdk_win_installer.exe</strong> to your computer</li>
+        </ol>
+      </li>
+    </ul>
   </li>
-  <li>Connect a micro-USB cable to the <strong>device mode</strong> micro-USB port of the Intel® Edison expansion board, and the other end to your computer.</li>
+  <li>
+    <p>Connect a micro-USB cable to the <strong>device mode</strong> micro-USB port of the Intel® Edison expansion board, and the other end to your computer.
+  <img src="/docs/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png" alt="Micro-USB cable being plugged into the top micro-USB connector" />
+  Refer to <a href="/docs/assembly/arduino_expansion_board/details-device_mode_cable.html">Device mode micro-USB cable</a> for more detailed cable connection information.</p>
+  </li>
+  <li>
+    <p>Double-click on the <strong>iotdk_win_installer.exe</strong> on your computer to begin installation. 
+  <img src="images/integrated_installer_wizard.png" alt="Intel® Edison 64-bit integrated installer wizard" /></p>
+  </li>
+  <li>
+    <p>Follow the installation wizard. Click “<strong>Next</strong>” where needed. </p>
+  </li>
+  <li>When done, click “<strong>Finish</strong>” to close the installation wizard. 
+  If there are any errors during installation, you will need to resolve them manually.</li>
 </ol>
 
-<p><img src="/docs/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png" alt="Micro-USB cable being plugged into the top micro-USB connector" /></p>
+<div class="callout troubleshooting">
+  <p><strong>Is the “Next” button greyed out?</strong></p>
 
-<p>Refer to <a href="/docs/assembly/arduino_expansion_board/details-device_mode_cable.html">Device mode micro-USB cable</a> for more detailed cable connection information.</p>
+  <p>The integrated installer is unable to detect your Intel® Edison. Ensure that the board is powered on and plugged into your computer via the device mode micro-USB port on the expansion board.</p>
 
-<ol>
-  <li>Double-click on the <strong>iotdk_win_installer.exe</strong> on your computer to begin installation. </li>
-</ol>
-
-<p><img src="images/integrated_installer_wizard.png" alt="Intel® Edison 64-bit integrated installer wizard" /></p>
-
-<ol>
-  <li>Follow the installation wizard. Click “<strong>Next</strong>” where needed. </li>
-</ol>
+  <p>Otherwise you will need to install the Windows drivers manually. Go to <a href="manual_installation.html">Set Up Your Computer - Windows (manual installation) »</a> </p>
+</div>
 
 <hr />
 
-<p><strong>Is the “Next” button greyed out?</strong></p>
-
-<p>The integrated installer is unable to detect your Intel® Edison. Ensure that the board is powered on and plugged into your computer via the device mode micro-USB port on the expansion board.</p>
-
-<p>Otherwise you will need to install the Windows drivers manually. Go to <a href="manual_installation.html">Set Up Your Computer - Windows (manual installation) »</a> </p>
-
-<hr />
-
-<ol>
-  <li>The default settings can be adjusted to your needs, or leave the defaults as is. </li>
-</ol>
+<p>The default settings can be adjusted to your needs, or leave the defaults as is. </p>
 
 <p><img src="images/integrated_installer_wizard-config_screen.png" alt="Configure Intel® Edison 64-bit integrated installion" /></p>
 
 <p>In the component selection screen, check the options you would like to install:</p>
 
-<pre><code>* **Drivers:** 
+<ul>
+  <li>
+    <p><strong>Drivers:</strong> 
+Installs the Intel® Edison drivers and FTDI serial drivers for Windows.</p>
+  </li>
+  <li>
+    <p><strong>Update image:</strong> 
+Flashes the latest firmware image directly on your Intel® Edison.</p>
 
-  Installs the Intel® Edison drivers and FTDI serial drivers for Windows.
-
-* **Update image:** 
-
-  Flashes the latest firmware image directly on your Intel® Edison.
-  
-  (Note: You will not be able to use this option until after you have installed the drivers. Re-run the integrated installer if you wish to use it to flash Intel® Edison firmware.)
-
-* **Development Environment:** Choose from 
-
-    * **Arduino Software** (simplified C++), 
-
-    * **Intel® XDK IoT Edition** (JavaScript), and/or 
-
-    * **Eclipse** (C/C++).
-</code></pre>
-
-<ol>
-  <li>When done, click “<strong>Finish</strong>” to close the installation wizard. </li>
-</ol>
-
-<p>If there are any errors during installation, you will need to resolve them manually.</p>
-
+    <p>(Note: You will not be able to use this option until after you have installed the drivers. Re-run the integrated installer if you wish to use it to flash Intel® Edison firmware.)</p>
+  </li>
+  <li>
+    <p><strong>Development Environment:</strong> Choose from </p>
+    <ul>
+      <li><strong>Arduino Software</strong> (simplified C++), </li>
+      <li><strong>Intel® XDK IoT Edition</strong> (JavaScript), and/or </li>
+      <li><strong>Eclipse</strong> (C/C++).</li>
+    </ul>
+  </li>
+</ul>
 
     
     </div>

@@ -23,50 +23,46 @@
   </li>
   <li>
     <p>Connect to the USB serial device using Screen.</p>
+
+    <p><code>
+ sudo screen /dev/ttyUSB0 115200
+</code></p>
+
+    <ul>
+      <li>
+        <p>“115200” indicates the baud rate. Always use 115200.</p>
+      </li>
+      <li>
+        <p>You may be asked for your root password. Type in your root password and press Enter.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>When you see a blank screen, <strong>press the Enter key</strong>. </p>
+
+    <p><strong>For Intel® Edison boards running older firmware</strong>: You may need to press the Enter key <strong>twice</strong>.</p>
+  </li>
+  <li>
+    <p>Once connected you will see a login prompt. </p>
+
+    <p>Type in “<strong>root</strong>” for the username and press <strong>Enter</strong>.</p>
+
+    <p><img src="images/screen-login_prompt.jpg" alt="Login prompt" /></p>
   </li>
 </ol>
 
-<p><code>
-  sudo screen /dev/ttyUSB0 115200
- </code></p>
+<div class="callout troubleshooting">
+  <p><strong>Don’t see a “usbserial” device listed?</strong></p>
 
-<ul>
-  <li>
-    <p>“115200” indicates the baud rate. Always use 115200.</p>
-  </li>
-  <li>
-    <p>You may be asked for your root password. Type in your root password and press Enter.</p>
-  </li>
-</ul>
-
-<ol>
-  <li>When you see a blank screen, <strong>press the Enter key</strong>. </li>
-</ol>
-
-<p><strong>For Intel® Edison boards running older firmware</strong>: You may need to press the Enter key <strong>twice</strong>.</p>
-
-<ol>
-  <li>Once connected you will see a login prompt. </li>
-</ol>
-
-<p>Type in “<strong>root</strong>” for the username and press <strong>Enter</strong>.</p>
-
-<p><img src="images/screen-login_prompt.jpg" alt="Login prompt" /></p>
-
-<hr />
-
-<h3 id="troubleshooting">Troubleshooting</h3>
-
-<p><strong>Don’t see a “usbserial” device listed?</strong></p>
-
-<ul>
-  <li>
-    <p><strong>Do you have the UART/serial cable connected?</strong> Refer to <a href="/docs/assembly/arduino_expansion_board/details-serial_cable.html">UART/serial micro-USB cable</a>.</p>
-  </li>
-  <li>
-    <p>Is your IoT board powered on?</p>
-  </li>
-</ul>
+  <ul>
+    <li>
+      <p><strong>Do you have the UART/serial cable connected?</strong> Refer to <a href="/docs/assembly/arduino_expansion_board/details-serial_cable.html">UART/serial micro-USB cable</a>.</p>
+    </li>
+    <li>
+      <p>Is your IoT board powered on?</p>
+    </li>
+  </ul>
+</div>
 
     
     </div>

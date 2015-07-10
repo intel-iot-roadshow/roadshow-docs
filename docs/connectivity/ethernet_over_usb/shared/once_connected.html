@@ -13,9 +13,7 @@
     
         <h1 id="once-connected">Once connected…</h1>
 
-<div class="toc">
-  <p><strong>Table of contents</strong></p>
-
+<div id="toc" class="box">
   <ul>
     <li><a href="#ping-or-visit-192168215">Ping or visit 192.168.2.15 »</a></li>
     <li><a href="#use-ssh-instead-of-a-serial-connection">Use SSH instead of a serial connection »</a></li>
@@ -23,14 +21,10 @@
   </ul>
 </div>
 
-<div class="related-videos">
-  <p><strong>Related video</strong></p>
-
-  <ul>
-    <li><a href="https://drive.google.com/open?id=0B2ywC78pxngCUWJxZXJiYngycU0&amp;authuser=0">Ethernet over USB - Intel Edison - Windows (preview)</a></li>
-    <li><a href="https://drive.google.com/open?id=0B2ywC78pxngCSlJtbTNmNGhVVEU&amp;authuser=0">Ethernet over USB - Intel Edison - Mac (preview)</a></li>
-  </ul>
-</div>
+<!-- <div id="related-videos" class="callout video">
+* [Ethernet over USB - Intel Edison - Windows (preview)](https://drive.google.com/open?id=0B2ywC78pxngCUWJxZXJiYngycU0&authuser=0)
+* [Ethernet over USB - Intel Edison - Mac (preview)](https://drive.google.com/open?id=0B2ywC78pxngCSlJtbTNmNGhVVEU&authuser=0)
+</div> -->
 
 <h2 id="ping-or-visit-192168215">Ping or visit 192.168.2.15</h2>
 
@@ -56,25 +50,25 @@ ssh root@192.168.2.15
 
 <p><img src="images/xdk-select_dot_15.png" alt="&quot;192.168.2.15:58888&quot; entry selected in &quot;IoT Device&quot; drop down" /></p>
 
-<hr />
+<div class="callout troubleshooting">
+  <p><strong>Ethernet over USB device not showing up Intel® XDK?</strong></p>
 
-<p><strong>Ethernet over USB device not showing up Intel® XDK?</strong></p>
+  <p>Shell into your board and restart the XDK Daemon.</p>
 
-<p>Shell into your board and restart the XDK Daemon.</p>
-
-<p><code>
+  <p><code>
 systemctl restart xdk-daemon
 </code></p>
+</div>
 
-<hr />
+<div class="callout goto">
+  <p>Return to <strong>Ethernet over USB</strong> for:</p>
 
-<p>Return to <strong>Ethernet over USB</strong> for:</p>
-
-<ul>
-  <li><a href="windows.html">Windows »</a></li>
-  <li><a href="mac.html">Mac »</a></li>
-  <li><a href="linux.html">Linux »</a></li>
-</ul>
+  <ul>
+    <li><a href="windows.html">Windows »</a></li>
+    <li><a href="mac.html">Mac »</a></li>
+    <li><a href="linux.html">Linux »</a></li>
+  </ul>
+</div>
 
     
     </div>

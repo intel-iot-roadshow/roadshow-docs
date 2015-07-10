@@ -19,9 +19,7 @@
 
 <p>You can then execute special Linux commands such: changing the hostname and password, setting up Wi-Fi, or flashing new firmware.</p>
 
-<div class="toc">
-  <p><strong>Table of contents</strong></p>
-
+<div id="toc" class="box">
   <ul>
     <li><a href="#install-a-shell-session-manager-screen">Install a shell session manager (Screen) »</a></li>
     <li><a href="#establish-a-serial-connection">Establish a serial connection »</a></li>
@@ -30,35 +28,57 @@
 
 <h2 id="install-a-shell-session-manager-screen">Install a shell session manager (Screen)</h2>
 
-<p>Your computer may not have come with a pre-installed shell session manager. Download and install the GNU Screen utility using <code>sudo apt-get install screen</code>. <a href="details-install_screen.html">View detailed instructions »</a></p>
+<div class="tldr">
+  <p>Your computer may not have come with a pre-installed shell session manager. Download and install the GNU Screen utility using <code>sudo apt-get install screen</code>. </p>
+
+  <p><a href="details-install_screen.html">View detailed instructions »</a></p>
+</div>
 
 <h2 id="establish-a-serial-connection">Establish a serial connection</h2>
 
-<p>Use the Screen utility that you installed in the previous section to gain command line access of your IoT board. For example: <code>sudo screen /dev/ttyUSB0 115200</code>. <a href="details-screen_connection.html">View detailed instructions »</a></p>
+<div class="tldr">
+  <p>Use the Screen utility that you installed in the previous section to gain command line access of your IoT board. For example: <code>sudo screen /dev/ttyUSB0 115200</code>. </p>
 
-<hr />
+  <p><a href="details-screen_connection.html">View detailed instructions »</a></p>
+</div>
 
-<p>You are now logged into your IoT board and can run shell commands. For example, to output the version number of the firmware running on your board:</p>
+<p><br /></p>
 
-<p><code>
+<div class="callout done">
+  <p>You are now logged into your IoT board and can run shell commands. For example, to output the version number of the firmware running on your board:</p>
+
+  <p><code>
 cat /etc/version
 </code></p>
 
-<p><img src="../images/firmware_version_output.png" alt="example output after running cat command" /></p>
+  <p><img src="../images/firmware_version_output.png" alt="example output after running cat command" /></p>
 
-<p>The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.</p>
+  <p>The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.</p>
+</div>
 
-<hr />
+<div class="callout goto">
+  <p>For more info on using Screen such as quitting, read <a href="/docs/shell_access/mac-and-linux/using_screen.html">Using Screen »</a></p>
+</div>
 
-<h3 id="additional-resources">Additional resources</h3>
+<div id="next-steps" class="note">
+  <h3 id="next-steps">Next Steps</h3>
 
-<p>For more info on using Screen such as quitting, read <a href="/docs/shell_access/mac-and-linux/using_screen.html">Using Screen »</a></p>
+  <p>Get your board online in order to turn your IoT board into a true “Internet of Things” device. You also need the IP address of your IoT board to program it using the dev kit IDEs.</p>
 
-<h3 id="next-steps">Next Steps</h3>
+  <p><strong>At a hackathon? On a busy or restricted Wi-Fi network?</strong></p>
 
-<p>Some Edison boards have older firmware images on them. You <strong><em>may</em></strong> need to update the firmware to a newer version to get access to important features.</p>
+  <p>Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as “Ethernet over USB”:</p>
 
-<p>Go to <a href="/docs/flash_firmware/manually.html">Flash Edison Firmware Manually »</a></p>
+  <ul>
+    <li><a href="/docs/connectivity/ethernet_over_usb/linux/connect.html">Linux »</a></li>
+  </ul>
+
+  <p><strong>At home? Have a dependable Wi-Fi connection?</strong></p>
+
+  <ul>
+    <li><a href="/docs/connectivity/wifi/connect.html">Get Your Edison Board Online »</a></li>
+  </ul>
+</div>
 
     
     </div>
