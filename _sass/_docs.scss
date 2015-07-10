@@ -90,6 +90,7 @@ dd {
    ========================================================================== */
 
 .callout {
+  border: 2px solid #fff;
   padding: 1em;
   padding-top: 0em; /* to align the icon in ::before */
   font-size: 0.9em;
@@ -99,7 +100,7 @@ dd {
 
 .callout > *:first-child {
   display: block;
-  padding-top: 1em; /* to align the icon in ::before */
+  // padding-top: 1em; /* to align the icon in ::before */
 }
 
 .callout > *:last-child {
@@ -117,13 +118,14 @@ dd {
 
 .video.callout {
   border: 2px solid #d9eaf6;
+  padding-top: 1em; /* to align the icon in ::before */
 }
 
 .video.callout::before {
   background-image: url(/img/icons/callout_icon_video_lightblue.png);
 }
 
-// dark blue icons:
+// dark blue callouts:
 
 .goto.callout {
   background-color: #d9eaf6;
@@ -133,13 +135,15 @@ dd {
   background-image: url(/img/icons/callout_icon_arrow_blue.png);
 }
 
-// light blue icons:
+// light blue callouts:
 
-.info.callout {
+.info.callout,
+.troubleshooting.callout {
   background-color: #f2f8fc;
 }
 
-.info.callout hr {
+.info.callout hr,
+.troubleshooting.callout hr {
   border: 0;
   border-bottom: 1px dashed #0071c5;
 }
@@ -148,7 +152,12 @@ dd {
   background-image: url(/img/icons/callout_icon_pencil_lightblue.png);
 }
 
-// green icons:
+.troubleshooting.callout::before {
+  background-image: url(/img/icons/callout_icon_question_lightblue.png);
+}
+
+
+// green callouts:
 
 .done.callout {
   background-color: #e5f2e5;
@@ -163,6 +172,24 @@ dd {
 .done.callout::before {
   background-image: url(/img/icons/callout_icon_check_green.png);
 }
+
+// orange callouts:
+
+.warning.callout {
+  border: 2px solid #b75f00;
+  background-color: #fff3a0;
+  color: #b75f00;
+}
+
+.warning.callout hr {
+  border: 0;
+  border-bottom: 1px dashed #b75f00;
+}
+
+.warning.callout::before {
+  background-image: url(/img/icons/callout_icon_caution_yellow.png);
+}
+
 
 /* ==========================================================================
    Grey outline boxes (no icons)
@@ -189,6 +216,7 @@ dd {
 
 #toc {
   position: absolute;
+  top: 5.4em;
   left: 690px;
   display: block;
   min-width: 300px;
