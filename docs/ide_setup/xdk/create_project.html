@@ -13,11 +13,9 @@
     
         <h1 id="set-up-intel-xdk-iot-edition---part-2-run-a-sample-project">Set Up Intel® XDK IoT Edition - Part 2: Run a Sample Project</h1>
 
-<p>This document will guide you through creating and running a Hello Word project (blinking the onboard LED) on either the Intel® Galileo or the Intel® Edison.</p>
+<p>This document will guide you through creating and running a Hello Word project (blinking the onboard LED) on the Intel® Edison.</p>
 
-<div class="toc">
-  <p><strong>Table of contents</strong></p>
-
+<div id="toc" class="box">
   <ul>
     <li><a href="#create-a-project">Create a project »</a></li>
     <li><a href="#select-a-target-iot-device">Select a target IoT device »</a></li>
@@ -27,86 +25,93 @@
   </ul>
 </div>
 
-<div class="related-videos">
-  <p><strong>Related video</strong></p>
-
-  <p><a href="https://software.intel.com/en-us/videos/setting-up-the-intel-xdk-iot-edition-part-2-run-a-sample-project">Setting Up The Intel XDK IoT Edition Part 2: Run a Sample Project</a></p>
-</div>
+<!-- <div id="related-videos" class="callout video">
+[Setting Up The Intel XDK IoT Edition Part 2: Run a Sample Project](https://software.intel.com/en-us/videos/setting-up-the-intel-xdk-iot-edition-part-2-run-a-sample-project)
+</div> -->
 
 <h3 id="create-a-project">Create a project</h3>
 
-<p>The Intel® XDK IoT Edition has various project creation options. To start, create a blinking LED project from a pre-existing sample. <a href="details-create_project.html">View detailed instructions »</a></p>
+<div class="tldr">
+  <p>The Intel® XDK IoT Edition has various project creation options. To start, create a blinking LED project from a pre-existing sample. </p>
 
-<p><img src="images/create_xdk_project-animated.gif" alt="Animated gif: creating a project in the Intel® XDK" /></p>
+  <p><a href="details-create_project.html">View detailed instructions »</a></p>
+</div>
+
+<p><a href="details-create_project.html"><img src="images/create_xdk_project-animated.gif" alt="Animated gif: creating a project in the Intel® XDK" /></a></p>
 
 <h3 id="select-a-target-iot-device">Select a target IoT device</h3>
 
-<p>The Intel® XDK IoT Edition will automatically detect Intel® IoT devices on your network and display them in the “IoT Device” drop down list. <a href="details-select_target_device.html">View detailed instructions »</a></p>
+<div class="tldr">
+  <p>The Intel® XDK IoT Edition will automatically detect Intel® IoT devices on your network and display them in the “IoT Device” drop down list. </p>
 
-<p><img src="images/select_target_device-animated.gif" alt="Animated gif: selecting a target device in &quot;IoT Device&quot; drop down list" /></p>
+  <p><a href="details-select_target_device.html">View detailed instructions »</a></p>
+</div>
+
+<p><a href="details-select_target_device.html"><img src="images/select_target_device-animated.gif" alt="Animated gif: selecting a target device in &quot;IoT Device&quot; drop down list" /></a></p>
 
 <h3 id="sync-device-clocks">Sync device clocks</h3>
 
-<p>Sync your computer’s time with the clock on the target board to avoid timing issues. Do this step any time you connect to a new target IoT device or the device has been powered off. <a href="details-sync_clock.html">View detailed instructions »</a></p>
+<div class="tldr">
+  <p>Sync your computer’s time with the clock on the target board to avoid timing issues. Do this step any time you connect to a new target IoT device or the device has been powered off. </p>
 
-<p><img src="images/sync_clock-animated.gif" alt="Animated gif: syncing PC time w/ clock on target device" /></p>
+  <p><a href="details-sync_clock.html">View detailed instructions »</a></p>
+</div>
+
+<p><a href="details-sync_clock.html"><img src="images/sync_clock-animated.gif" alt="Animated gif: syncing PC time w/ clock on target device" /></a></p>
 
 <h3 id="build-the-application">Build the application</h3>
 
-<p>Fetch all the Node modules specified in package.json and install them on the IoT device. Run build any time you create a new project, or add/remove Node modules from an existing project. <a href="details-build.html">View detailed instructions »</a></p>
+<div class="tldr">
+  <p>Fetch all the Node modules specified in package.json and install them on the IoT device. Run build any time you create a new project, or add/remove Node modules from an existing project. </p>
 
-<p><img src="images/build-animated.gif" alt="Animated gif: building the app" /></p>
+  <p><a href="details-build.html">View detailed instructions »</a></p>
+</div>
 
-<hr />
+<p><a href="details-build.html"><img src="images/build-animated.gif" alt="Animated gif: building the app" /></a></p>
 
 <h3 id="upload-and-run-the-application">Upload and run the application</h3>
 
-<p>Upload the project files to the IoT device and run it. Remember that every time you make changes to files and you want to see the changes: (1) save the file, (2) upload, (3) run. <a href="details-upload_run.html">View detailed instructions »</a></p>
+<div class="tldr">
+  <p>Upload the project files to the IoT device and run it. Remember that every time you make changes to files and you want to see the changes: (1) save the file, (2) upload, (3) run. </p>
 
-<p><img src="images/upload_run-animated.gif" alt="Animated gif: creating a project in the Intel® XDK" /></p>
+  <p><a href="details-upload_run.html">View detailed instructions »</a></p>
+</div>
 
-<hr />
+<p><a href="details-upload_run.html"><img src="images/upload_run-animated.gif" alt="Animated gif: creating a project in the Intel® XDK" /></a></p>
 
-<p><strong>Look at your Intel® IoT board for a blinking light.</strong></p>
+<div class="callout done">
+  <p><strong>Look at your Intel® IoT board for a blinking light.</strong></p>
 
-<ul>
-  <li>
-    <p><strong>Intel® Galileo Gen 2</strong></p>
+  <ul>
+    <li>
+      <p><strong>Intel® Edison Kit for Arduino</strong></p>
 
-    <p>A green LED is located near the USB port.</p>
+      <p>The LED is located near the center of the board.</p>
 
-    <p><img src="/docs/assembly/galileo_gen_2/images/on_board_led.png" alt="Green LED on Intel® Galileo Gen 2" /></p>
-  </li>
-  <li>
-    <p><strong>Intel® Edison Kit for Arduino</strong></p>
+      <p><img src="/docs/assembly/arduino_expansion_board/images/on_board_led.png" alt="Green LED on Intel® Edison" /></p>
+    </li>
+  </ul>
 
-    <p>The LED is located near the center of the board.</p>
+  <p><strong>Congratulations, you just ran your first Intel® XDK application!</strong></p>
+</div>
 
-    <p><img src="/docs/assembly/arduino_expansion_board/images/on_board_led.png" alt="Green LED on Intel® Edison" /></p>
-  </li>
-</ul>
+<div class="callout troubleshooting">
+  <p><strong>Having troubles?</strong> Refer to the <a href="troubleshooting.html">Troubleshooting »</a></p>
+</div>
 
-<p><strong>Congratulations, you just ran your first Intel® XDK application!</strong></p>
+<div id="next-steps" class="note">
+  <h3 id="next-steps">Next Steps</h3>
 
-<hr />
+  <p>Experiment with sample code supplied for available sensors and actuators.</p>
 
-<h3 id="having-troubles">Having troubles?</h3>
-
-<p>Refer to the <a href="troubleshooting.html">Troubleshooting »</a></p>
-
-<hr />
-
-<h3 id="next-steps">Next Steps</h3>
-
-<p>Experiment with sample code supplied for available sensors and actuators.</p>
-
-<ul>
-  <li><strong><a href="/docs/sensor_examples/grove_starter_kit/">Grove Starter Kit - Intro »</a></strong>
-    <ul>
-      <li><a href="/docs/sensor_examples/grove_starter_kit/javascript/samples.html">JavaScript »</a></li>
-    </ul>
-  </li>
-</ul>
+  <ul>
+    <li><strong><a href="/docs/sensor_examples/grove_starter_kit/index.html">Grove Starter Kit - Intro »</a></strong>
+      <ul>
+        <li><a href="/docs/sensor_examples/grove_starter_kit/javascript/samples.html">JavaScript »</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
     
     </div>

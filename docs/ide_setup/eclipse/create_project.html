@@ -13,79 +13,86 @@
     
         <h1 id="set-up-intel-iot-dev-kit-eclipse---part-2-run-a-sample-project">Set Up Intel® IoT Dev Kit Eclipse - Part 2: Run a Sample Project</h1>
 
-<p>This document will guide you through creating and running a Hello Word project (blinking the onboard LED) on either the Intel® Galileo or the Intel® Edison.</p>
+<p>This document will guide you through creating and running a Hello Word project (blinking the onboard LED) on the Intel® Edison.</p>
 
-<div class="toc">
-  <p><strong>Table of contents</strong></p>
+<p><strong>Create a New Project</strong></p>
 
-  <ul>
-    <li><a href="#select-a-target-iot-device">Select a target IoT device »</a></li>
-    <li><a href="#build-and-run-a-sample-application">Build and run a sample application »</a></li>
-  </ul>
-</div>
-
-<div class="related-videos">
-  <p><strong>Related video</strong></p>
-
-  <ul>
-    <li><a href="https://software.intel.com/en-us/videos/set-up-intel-iot-dev-kit-eclipse-part-2-run-a-sample-project">Set Up Intel IoT Dev Kit Eclipse – Part 2: Run a Sample Project</a></li>
-  </ul>
-</div>
-
-<h2 id="select-a-target-iot-device">Select a target IoT device</h2>
-
-<p>To connect to your IoT board, you will need to configure Eclipse with your Intel® Edison or Intel® Galileo’s IP address. <a href="details-select_target_device.html">View detailed instructions »</a></p>
-
-<p><img src="images/eclipse-properties-host_name.png" alt="Editing &quot;Host name&quot; in the &quot;Properties&quot; panel" /></p>
-
-<h2 id="build-and-run-a-sample-application">Build and run a sample application</h2>
-
-<p>The version of Eclipse distributed with the developer kit has some example projects already built in. To start, build a blinking LED project from a pre-existing sample. <a href="details-build.html">View detailed instructions »</a></p>
-
-<p><img src="images/eclipse-run_debug_project.png" alt="Select &quot;debug&quot; verison of project to run" /></p>
-
-<hr />
-
-<p><strong>Look at your Intel® IoT board for a blinking light.</strong></p>
-
-<ul>
+<ol>
   <li>
-    <p><strong>Intel® Galileo Gen 2</strong></p>
+    <p>Select <strong>IoT DevKit &gt; Create C/C++ IoT Project.</strong></p>
 
-    <p>A green LED is located near the USB port.</p>
-
-    <p><img src="/docs/assembly/galileo_gen_2/images/on_board_led.png" alt="Green LED on Intel® Galileo Gen 2" /></p>
+    <p><img src="images/create-project-eclipse.png" alt="Create IoT Project" /></p>
   </li>
   <li>
-    <p><strong>Intel® Edison Kit for Arduino</strong></p>
+    <p>Type a name for your project in the <strong>Project name</strong> field.</p>
 
-    <p>The LED is located near the center of the board.</p>
-
-    <p><img src="/docs/assembly/arduino_expansion_board/images/on_board_led.png" alt="Green LED on Intel® Edison" /></p>
+    <p><img src="images/project-name-eclipse.png" alt="Name your IoT Project" /></p>
   </li>
-</ul>
+  <li>From the Project list, select <strong>On board LED blink C++</strong>. Click <strong>Next</strong>. The SSH Connection page displays.</li>
+  <li>
+    <p>To search for connections and select your board from a list, click <strong>Search Target</strong>. The Create Target Connection page opens.</p>
 
-<p><strong>Congratulations, you just ran your first Intel® XDK application!</strong></p>
-
-<hr />
-
-<h3 id="having-troubles">Having troubles?</h3>
-
-<p>Refer to the <a href="troubleshooting.html">Troubleshooting - Intel XDK »</a></p>
-
-<hr />
-
-<h3 id="next-steps">Next Steps</h3>
-
-<p>Experiment with sample code supplied for available sensors and actuators.</p>
-
-<ul>
-  <li><strong><a href="/docs/sensor_examples/grove_starter_kit/">Grove Starter Kit - Intro »</a></strong>
-    <ul>
-      <li><a href="/docs/sensor_examples/grove_starter_kit/c/samples.html">C++ »</a></li>
-    </ul>
+    <p><img src="images/target-connection-eclipse.png" alt="Create Target Connection" /></p>
   </li>
-</ul>
+  <li>By default, Eclipse searches for boards available via the Bonjour service and displays them in a list. If your board is not displayed in the list, select the <strong>Enable broadcast target search</strong> check box to widen your search to all devices on    your network.</li>
+  <li>
+    <p>From the list, select your board and click <strong>OK</strong>.</p>
+
+    <p><img src="images/target-list-eclipse.png" alt="Target list" /></p>
+
+    <p>Note: If you already know your board’s connection information, you can type it manually. Do the following:
+ * In the Connection Name field, type a name to use for the connection to your board.
+ * In the Target Name field, type the IP address or host name of your board.</p>
+  </li>
+  <li>Click <strong>Finish</strong>. Your project is created.</li>
+  <li>
+    <p>From the <strong>Run</strong> drop-down list in the toolbar, select the name of your project.</p>
+
+    <p><img src="images/run-app-eclipse.png" alt="Run the application" /></p>
+  </li>
+  <li>
+    <p>In the <strong>User ID</strong> field, type the user name to log in to your board.</p>
+  </li>
+  <li>
+    <p>In the <strong>Password</strong> field, type the password for your board.</p>
+
+    <p><img src="images/password-eclipse.png" alt="Enter the Edison password" /></p>
+  </li>
+  <li>
+    <p>If a warning message about host authenticity displays, click Yes to upload and run your project.</p>
+
+    <p><img src="images/ssh-eclipse.png" alt="Accept the warning and upload the project" /></p>
+  </li>
+  <li>Once your project runs, you’ll see an LED blinking on your board, as shown below.</li>
+</ol>
+
+<div class="callout done">
+  <p><strong>Look at your Intel® Edison board for a blinking light.</strong></p>
+
+  <p>The LED is located near the center of the board.</p>
+
+  <p><img src="/docs/assembly/arduino_expansion_board/images/on_board_led.png" alt="Green LED on Intel® Edison" /></p>
+
+  <p><strong>Congratulations, you just ran your first C++ application!</strong></p>
+</div>
+
+<div class="callout troubleshooting">
+  <p>Refer to the <a href="troubleshooting.md">Troubleshooting - Intel XDK »</a></p>
+</div>
+
+<div id="next-steps" class="note">
+  <h3 id="next-steps">Next Steps</h3>
+
+  <p>Experiment with sample code supplied for available sensors and actuators.</p>
+
+  <ul>
+    <li><strong><a href="/docs/sensor_examples/grove_starter_kit/index.html">Grove Starter Kit - Intro »</a></strong>
+      <ul>
+        <li><a href="/docs/sensor_examples/grove_starter_kit/c/samples.html">C++ »</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
     
     </div>

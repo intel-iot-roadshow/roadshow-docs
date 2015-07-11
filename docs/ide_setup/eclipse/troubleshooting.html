@@ -15,9 +15,7 @@
 
 <p>Some common issues have been listed below. For additional troubleshooting and FAQ, visit <a href="https://software.intel.com/en-us/articles/eclipse-faq-for-iot-build">software.intel.com/en-us/articles/eclipse-faq-for-iot-build</a>. </p>
 
-<div class="toc">
-  <p><strong>Table of contents</strong></p>
-
+<div id="toc" class="box">
   <ul>
     <li><a href="#do-you-have-spaces-in-any-of-your-folder-names">Do you have spaces in any of your folder names?</a></li>
     <li><a href="#mac-only-get-a-devkit-launcher-cant-be-opened-because-it-is-from-an-unidentified-developer-message">Mac only: Get a “devkit-launcher can’t be opened because it is from an unidentified developer” message?</a></li>
@@ -57,7 +55,7 @@ export DEVKIT_HOME="/my parent folder/iotdk-ide-mac/"
 
 <p><img src="images/java-not_installed_message.png" alt="No Java message on Windows" /></p>
 
-<p>Refer to <a href="details-install-java.html">Install Java</a> to install a JRE or JDK.</p>
+<p>Refer to <a href="details-install-java.md">Install Java</a> to install a JRE or JDK.</p>
 
 <h2 id="windows-only-get-a-windows-cannot-find-eclipseexe-message">Windows only: Get a “Windows cannot find eclipse.exe” message?</h2>
 
@@ -77,22 +75,19 @@ export DEVKIT_HOME="/my parent folder/iotdk-ide-mac/"
   </li>
   <li>
     <p>Edit the devkit-launcher.bat script using Notepad or any other text editor. </p>
+
+    <p>Change this line: </p>
+
+    <p><code>
+ set PATH=%PATH%;%DEVKIT_HOME%\devkit-x86\sysroots\x86_64-pokysdk-mingw32\usr\bin\i586-poky-linux;%DEVKIT_HOME%\iot-devkit\devkit-debugger
+</code></p>
+
+    <p>To be:</p>
+
+    <p><code>
+ set PATH=%PATH%;%DEVKIT_HOME%\devkit-x86\sysroots\i686-pokysdk-mingw32\usr\bin\i586-poky-linux;%DEVKIT_HOME%\iot-devkit\devkit-debugger
+</code></p>
   </li>
-</ol>
-
-<p>Change this line: </p>
-
-<p><code>
-  set PATH=%PATH%;%DEVKIT_HOME%\devkit-x86\sysroots\x86_64-pokysdk-mingw32\usr\bin\i586-poky-linux;%DEVKIT_HOME%\iot-devkit\devkit-debugger
- </code></p>
-
-<p>To be:</p>
-
-<p><code>
-  set PATH=%PATH%;%DEVKIT_HOME%\devkit-x86\sysroots\i686-pokysdk-mingw32\usr\bin\i586-poky-linux;%DEVKIT_HOME%\iot-devkit\devkit-debugger
- </code></p>
-
-<ol>
   <li>
     <p>Download the “Windows 32-bit” version of Eclipse IDE for C/C++ Developers from https://eclipse.org/downloads/packages/eclipse-ide-cc-developers/keplersr2.</p>
   </li>

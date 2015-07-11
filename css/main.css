@@ -585,7 +585,10 @@ img {
   margin: 3em 0 1em 0; }
 
 code {
-  font-family: Consolas, Courier, monospace; }
+  font-family: Consolas, Courier, monospace;
+  padding: 4px;
+  background-color: #f7f7f7;
+  border-radius: 3px; }
 
 /* ==========================================================================
    List items
