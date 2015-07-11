@@ -30,17 +30,15 @@
 
 <p>You can now ping your Intel® Edison board on address “<strong>192.168.2.15”</strong> from Terminal or Command Prompt on your computer. Or visit <a href="http://192.168.2.15">http://192.168.2.15</a> from your web browser.</p>
 
-<p><code>
-ping 192.168.2.15
-</code></p>
+<pre><code>ping 192.168.2.15
+</code></pre>
 
 <h2 id="use-ssh-instead-of-a-serial-connection">Use SSH instead of a serial connection</h2>
 
 <p>Use Terminal or PuTTY to wirelessly SSH into the Intel® Edison at “192.168.2.15” instead of using a wired serial connection. </p>
 
-<p><code>
-ssh root@192.168.2.15
-</code></p>
+<pre><code>ssh root@192.168.2.15
+</code></pre>
 
 <p>(You can also continue to use <code>ssh root@edison.local</code> if your device is still named “edison”.)</p>
 
@@ -55,9 +53,8 @@ ssh root@192.168.2.15
 
   <p>Shell into your board and restart the XDK Daemon.</p>
 
-  <p><code>
-systemctl restart xdk-daemon
-</code></p>
+  <pre><code>systemctl restart xdk-daemon
+</code></pre>
 </div>
 
 <div class="callout goto">

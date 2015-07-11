@@ -588,7 +588,9 @@ code {
   font-family: Consolas, Courier, monospace;
   padding: 4px;
   background-color: #f7f7f7;
-  border-radius: 3px; }
+  border-radius: 3px;
+  overflow: auto;
+  font-size: 85%; }
 
 /* ==========================================================================
    List items
