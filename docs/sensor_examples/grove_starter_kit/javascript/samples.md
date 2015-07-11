@@ -8,9 +8,7 @@ title: Getting Started
 To follow the instructions in this guide, you should have already completed the [Set Up Intel XDK for IoT](/docs/ide_setup/xdk/setup.html) guide, and you can successfully [blink the onboard LED](/docs/ide_setup/xdk/create_project.html) on your Intel® Edison or Intel® Galileo.
 
 
-<div class="toc" markdown="1">
-**Table of contents**
-
+<div id="toc" class="box" markdown="1">
 * [Grove component types »](#grove-component-types)
   * [Digital outputs »](#digital-outputs)
   * [Digital inputs »](#digital-inputs)
@@ -19,11 +17,18 @@ To follow the instructions in this guide, you should have already completed the 
   * [I2C »](#i2c)
 </div>
 
-<div class="related-videos" markdown="1">
-**Related video**
+<div class="callout goto" markdown="1">
+**Sample Projects**
 
-* [Create Intel® IoT projects with the Grove Starter Kit - Part 2: JavaScript (preview)](https://drive.google.com/open?id=0B6gHgawzKtxCZU56NmJfei1GX00&authuser=0)
+* [Create a Temperature Monitoring application](https://software.intel.com/en-us/creating-a-temperature-monitoring-app-using-intel-xdk-iot-edition)
+* [Create a Touch Monitoring application](https://software.intel.com/en-us/creating-a-touch-monitoring-app-using-intel-xdk-iot-edition)
+* [Create a Web Server](https://software.intel.com/en-us/xdk-sample-creating-a-web-server)
+* [Using a LCD](https://software.intel.com/en-us/xdk-sample-creating-lcd-display-app)
 </div>
+
+<!-- <div id="related-videos" class="callout video">
+* [Create Intel® IoT projects with the Grove Starter Kit - Part 2: JavaScript (preview)](https://drive.google.com/open?id=0B6gHgawzKtxCZU56NmJfei1GX00&authuser=0)
+</div> -->
 
 ## Grove component types
 
@@ -36,24 +41,16 @@ Identifying which category a component falls under is required in order to corre
 
 ### Digital outputs
 
+<div class="tldr" markdown="1">
 A digital output can write a value of either on (1) or off (0).
 
 Connect to any pin labelled "D" (for "digital") on the Grove Base Shield such as D2 to D8.
+</div>
 
-<table>
-  <tr>
-    <td>Grove LED Socket Kit</td>
-    <td>Grove Smart Relay</td>
-  </tr>
-  <tr>
-    <td>UPM sample code</td>
-    <td>UPM sample code</td>
-  </tr>
-  <tr>
-    <td>require('jsupm_grove')</td>
-    <td>require('jsupm_grove')</td>
-  </tr>
-</table>
+**Example components:**
+
+* Grove LED Socket Kit
+* Grove Smart Relay
 
 **Low level MRAA-only example:**
 
@@ -80,24 +77,16 @@ If you want to make the LED turn on and off, add a setTimeout() or setInterval()
 
 ### Digital inputs
 
+<div class="tldr" markdown="1">
 A digital input can read a value as either on (1) or off (0).
 
 Connect to any pin labelled "D" (for "digital") such as D2 to D8 on the Grove Base Shield.
+</div>
 
-<table>
-  <tr>
-    <td>Grove Button</td>
-    <td>Grove Touch Sensor (TTP223)</td>
-  </tr>
-  <tr>
-    <td>UPM code samples</td>
-    <td>UPM code samples</td>
-  </tr>
-  <tr>
-    <td>require('jsupm_grove')</td>
-    <td>require('jsupm_ttp223')</td>
-  </tr>
-</table>
+**Example components:**
+
+* Grove Button
+* Grove Touch Sensor (TTP223)
 
 **Low level MRAA-only example:**
 
@@ -126,31 +115,18 @@ To react to button press beyond application startup, add a `setTimeout()` or `se
 
 ### Analog inputs
 
+<div class="tldr" markdown="1">
 An analog input will read a value as between 0 and 1024.
 
 Connect to any pin labelled "A" (for "analog") on the Grove Base Shield such as A0 to A3.
+</div>
 
-<table>
-  <tr>
-    <td>Grove Light Sensor</td>
-    <td>Grove Rotary Angle</td>
-    <td>Grove Temperature</td>
-    <td>Grove Sound Sensor</td>
-  </tr>
-  <tr>
-    <td>UPM code samples</td>
-    <td>UPM code samples</td>
-    <td>UPM code samples</td>
-    <td>UPM code samples</td>
-  </tr>
-  <tr>
-    <td>require('jsupm_grove')</td>
-    <td>require('jsupm_grove')</td>
-    <td>require('jsupm_grove')</td>
-    <td>require("jsupm_mic")</td>
-  </tr>
-</table>
+**Example components:**
 
+* Grove Light Sensor
+* Grove Rotary Angle
+* Grove Temperature
+* Grove Sound Sensor
 
 **Low level MRAA-only example:**
 
@@ -179,30 +155,19 @@ To react to changes in light beyond application startup, add a `setTimeout()` or
 
 ### Analog outputs
 
+<div class="tldr" markdown="1">
 An analog output is a digital output in disguise. Intel® IoT boards are digital microcontrollers that can pretend to be analog using a concept called Pulse Width Modulation (PWM). 
 
 Analog outputs will accept a floating-point value representing a duty cycle percentage between 0 (always off), 1.0 (always on). For example, a value of 0.5 will rapidly pulse equally between on and off.
 
 Components will only work when connected to PWM-enabled pins! By factory default, these PWM pins are D3, D5, and D6. (Digital pin #9 is also available on the Arduino expansion board via the standard female header pin.)
+</div>
 
-<table>
-  <tr>
-    <td>Grove LED Socket Kit</td>
-    <td>Grove Buzzer</td>
-    <td>Grove Servo Motor (ES08A)</td>
-  </tr>
-  <tr>
-    <td>(no UPM sample)</td>
-    <td>UPM sample code</td>
-    <td>UPM sample code</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>require("jsupm_buzzer")</td>
-    <td>require("jsupm_servo")</td>
-  </tr>
-</table>
+**Example components:**
 
+* Grove LED Socket Kit
+* Grove Buzzer
+* Grove Servo Motor (ES08A)
 
 **Low level MRAA-only example:**
 
@@ -234,19 +199,13 @@ Please see: [https://github.com/intel-iot-devkit/upm/blob/master/examples/javasc
 
 ### I2C
 
+<div class="tldr" markdown="1">
 I²C (Inter-Integrated Circuit), pronounced both "I-two-C" or "I-squared-C", is a multi-master, multi-slave, single-ended, serial computer bus used for attaching lower-speed peripherals to processors on computer motherboards and embedded systems.
+</div>
 
-<table>
-  <tr>
-    <td>Grove LCD RGB Backlight (JHD1313M1)</td>
-  </tr>
-  <tr>
-    <td>UPM code samples</td>
-  </tr>
-  <tr>
-    <td>require ('jsupm_i2clcd')</td>
-  </tr>
-</table>
+**Example components:**
+
+* Grove LCD RGB Backlight (JHD1313M1)
 
 **Higher level UPM example:**
 
@@ -259,10 +218,10 @@ lcd.setCursor(0,1); // go to the 1st row, 2nd column (0-indexed)
 lcd.write("hello"); // print characters to the LCD screen
 ```
 
----
-
+<div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
 You're done! Now make your own creation. 
 
 Return back to [START HERE »](/docs/arduino_expansion_board.html#now-make-your-own-creation)
+</div>
