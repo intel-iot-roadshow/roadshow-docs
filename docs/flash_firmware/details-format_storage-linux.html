@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="step-1-prepare-built-in-flash-storage-linux">Step 1: Prepare built-in flash storage (Linux)</h2>
+
+<p>Make sure there are no files on the built-in flash storage of the Intel® Edison by formatting the storage. The storage <strong>must</strong> be formatted as FAT32.</p>
+
+<hr />
+
+<ol>
+  <li>
+    <p>In order to read or write to the Intel® Edison’s built-in flash storage, connect the Intel® Edison to your computer via the <strong>device mode</strong> micro-USB connector.</p>
+
+    <p><img src="/docs/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png" alt="Micro-USB cable being plugged into the top micro-USB connector" /></p>
+  </li>
+  <li>
+    <p>Open up a new Terminal window.</p>
+  </li>
+  <li>
+    <p>Use the “cd” command to go into the “Edison” drive. </p>
+
+    <p><strong>Replace “[username]” with your actual username.</strong></p>
+
+    <p><strong>note - use “/media/[username]/Edison” <em>not</em> “/media/psf/Edison”.</strong></p>
+
+    <p><code>
+ cd /media/[username]/Edison
+</code></p>
+  </li>
+  <li>
+    <p>Use the “rm” command to remove <strong>all</strong> visible and invisible files. </p>
+
+    <p><strong>Double-check and make sure you are in the Intel® Edison’s drive!</strong></p>
+
+    <p><code>
+ rm –rf *
+ rm –rf \.*
+</code></p>
+
+    <p><img src="images/terminal-remove_files.png" alt="Screenshot of running the rm commands" /></p>
+  </li>
+</ol>
+
+<div class="callout done">
+
+  <p>All files should now be removed. To confirm, use the “ls” command to list the files.</p>
+
+  <pre><code>ls
+</code></pre>
+</div>
+
+    
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="configure-network-settings">Configure network settings</h2>
+
+<p>Update your computer’s Network configuration with a static IP address to use Ethernet over USB.</p>
+
+<p><img src="images/configure_mac_network-animated.gif" alt="Animated gif: configuring DHCP IP address in Mac Network settings" /></p>
+
+<hr />
+
+<ol>
+  <li>
+    <p>Open your <strong>Network</strong> preference settings.</p>
+
+    <p>(i.e. In the OS X menu bar, choose <img src="/img/icons/os_icon_mac.png" alt="Mac OS icon" /> → System Preferences → Network)</p>
+  </li>
+  <li>
+    <p>Make sure your IoT board has the microswitch set to <strong>device mode</strong> and plug in the <strong>device mode micro-USB cable</strong> from your Intel® Edison to your computer. </p>
+
+    <p>Wait one minute for the Intel® Edison to finish booting up.</p>
+
+    <p><img src="/docs/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png" alt="Micro-USB cable being plugged into the top micro-USB connector" /></p>
+
+    <p><em>Refer to <a href="/docs/assembly/arduino_expansion_board/details-device_mode_cable.html">Device mode micro-USB cable</a> for full assembly instructions.</em></p>
+  </li>
+  <li>
+    <p>You should see an “<strong>Edison</strong>” entry (or “Multifunction Composite Gadget” if your Intel® Edison firmware is old) with a yellow dot status show up in the Network settings side panel on the left. </p>
+
+    <p>Select the “Edison” entry.</p>
+
+    <p><img src="images/network_settings-edison_yellow_dot.png" alt="Edison entry with yellow dot status" /></p>
+  </li>
+  <li>
+    <p>For “Configure IPv4”, from the drop down choose “<strong>Using DHCP with manual address</strong>”.</p>
+
+    <p><img src="images/network_settings-dhcp_manual_address.png" alt="Choose &quot;Using DHCP with manual address&quot; from drop down" /> </p>
+  </li>
+  <li>
+    <p>Change “IP Address” to be “<strong>192.168.2.2</strong>”.</p>
+
+    <p><img src="images/network_settings-ip_19216822.png" alt="Change IP Address to be 192.168.2.2" /></p>
+
+    <p>Keep “Subnet Mask” at default “255.255.255.0”.</p>
+  </li>
+  <li>
+    <p>Click “<strong>Apply</strong>”. </p>
+
+    <div class="callout troubleshooting">
+      <p><strong>IP address taken?</strong></p>
+
+      <p>If you get a system notification that 192.168.2.2 is taken, try any IP address within the ranges of 192.168.2.1 to 192.168.2.14. </p>
+
+      <p>Do not use 192.168.2.15 which is already reserved for the USB Gadget network interface.</p>
+    </div>
+  </li>
+</ol>
+
+<div class="callout done">
+  <p>You should see the yellow status dot turn green. </p>
+
+  <p><img src="images/network_settings-edison_green_dot.png" alt="Edison entry with green dot status" /></p>
+
+  <p>See <a href="/docs/connectivity/ethernet_over_usb/shared/once_connected.html">Once connected…</a> for what you can do now.</p>
+</div>
+
+<div class="callout info">
+  <p>If you are on Mavericks, you may see multiple numbered “Multifunction Composite Gadget” or “Edison” service entries show up each time you plug in the same Intel® Edison. It is safe to delete old ones when done.</p>
+
+  <p>If you select one of the duplicate entries and do not see a “Configure IPv4” drop down, keep looking for the correct service entry to configure.</p>
+
+  <p><img src="images/network_settings-multiple_edison_entries.png" alt="An Edison entry that doesn't have a Configure IPv4 drop down" /></p>
+</div>
+
+    
+    </div>
+
+  </body>
+</html>

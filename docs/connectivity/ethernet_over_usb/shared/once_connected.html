@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h1 id="once-connected">Once connected…</h1>
+
+<div id="toc" class="box">
+  <ul>
+    <li><a href="#ping-or-visit-192168215">Ping or visit 192.168.2.15 »</a></li>
+    <li><a href="#use-ssh-instead-of-a-serial-connection">Use SSH instead of a serial connection »</a></li>
+    <li><a href="#program-iot-board-while-offline">Program IoT board while offline »</a></li>
+  </ul>
+</div>
+
+<!-- <div id="related-videos" class="callout video">
+* [Ethernet over USB - Intel Edison - Windows (preview)](https://drive.google.com/open?id=0B2ywC78pxngCUWJxZXJiYngycU0&authuser=0)
+* [Ethernet over USB - Intel Edison - Mac (preview)](https://drive.google.com/open?id=0B2ywC78pxngCSlJtbTNmNGhVVEU&authuser=0)
+</div> -->
+
+<h2 id="ping-or-visit-192168215">Ping or visit 192.168.2.15</h2>
+
+<p>You can now ping your Intel® Edison board on address “<strong>192.168.2.15”</strong> from Terminal or Command Prompt on your computer. Or visit <a href="http://192.168.2.15">http://192.168.2.15</a> from your web browser.</p>
+
+<pre><code>ping 192.168.2.15
+</code></pre>
+
+<h2 id="use-ssh-instead-of-a-serial-connection">Use SSH instead of a serial connection</h2>
+
+<p>Use Terminal or PuTTY to wirelessly SSH into the Intel® Edison at “192.168.2.15” instead of using a wired serial connection. </p>
+
+<pre><code>ssh root@192.168.2.15
+</code></pre>
+
+<p>(You can also continue to use <code>ssh root@edison.local</code> if your device is still named “edison”.)</p>
+
+<h2 id="program-iot-board-while-offline">Program IoT board while offline</h2>
+
+<p>The Intel® XDK IoT Edition IDE should automatically detect your Intel® Edison board. Select “192.168.2.15:58888” from the “IoT Device” drop down to upload your programs. </p>
+
+<p><img src="images/xdk-select_dot_15.png" alt="&quot;192.168.2.15:58888&quot; entry selected in &quot;IoT Device&quot; drop down" /></p>
+
+<div class="callout troubleshooting">
+  <p><strong>Ethernet over USB device not showing up Intel® XDK?</strong></p>
+
+  <p>Shell into your board and restart the XDK Daemon.</p>
+
+  <pre><code>systemctl restart xdk-daemon
+</code></pre>
+</div>
+
+<div class="callout goto">
+  <p>Return to <strong>Ethernet over USB</strong> for:</p>
+
+  <ul>
+    <li><a href="windows.html">Windows »</a></li>
+    <li><a href="mac.html">Mac »</a></li>
+    <li><a href="linux.html">Linux »</a></li>
+  </ul>
+</div>
+
+    
+    </div>
+
+  </body>
+</html>

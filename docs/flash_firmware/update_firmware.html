@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h1 id="flash-the-edison">Flash the Edison</h1>
+
+<p>To start this process, do not have the Edison board plugged in on USB or powered on with a power supply.</p>
+
+<p><img src="images/edison_board_config.jpg" alt="Edison Board Configuration" /></p>
+
+<ol>
+  <li>
+    <p>Copy the edison-image-ww25.5-15.zip from the USB drive in <em>downloads -&gt; Firmware - Edison Yocto complete image</em> directory to your home directory.</p>
+  </li>
+  <li>
+    <p>Launch Flash Tool Lite, click browse and select edison-image-ww25.5-15.zip file.</p>
+
+    <p><img src="images/browse_flash_tool.jpg" alt="Browse Edison Image" /></p>
+  </li>
+  <li>
+    <p>The tool extracts the zip file and loads FlashEdison.json.</p>
+
+    <p><img src="images/json_flash_tool.jpg" alt="Load FlashEdison.json" /></p>
+  </li>
+  <li>
+    <p>On the Configuration drop down, <strong>choose CDC if your host machine is OS X or Linux</strong>, <strong>choose RNDIS for Windows</strong>.</p>
+  </li>
+  <li>
+    <p>Click Start to Flash (the Edison board is not plugged in yet).</p>
+
+    <p><img src="images/start_flash_tool.jpg" alt="Start to Flash" /></p>
+  </li>
+  <li>
+    <p>Plug the USB cable into the Multigadget port of the Edison board. You should see the Flash Tool detect the board and begin the flash process.</p>
+
+    <p><img src="images/plug_usb_flash_tool.jpg" alt="Plug the USB cable" /></p>
+
+    <p><strong>Firmware flash progress</strong></p>
+
+    <p><img src="images/progress_flash_tool.png" alt="Flash progress" /></p>
+  </li>
+  <li>
+    <p>Once the flashing is completed, the board restarts do not unplug the board for atleast 2-3 minutes.</p>
+  </li>
+</ol>
+
+<div id="next-steps" class="note">
+  <h3 id="next-steps">Next Steps</h3>
+
+  <p>You’ll need to now gain command line access of your IoT board, in order to set up an internet connection. You’ll also be executing special Linux commands to configure your IoT board such as setting up Wi-Fi.</p>
+
+  <p>Please pick your operating system from the options below to proceed.</p>
+
+  <ul>
+    <li><a href="/shell_access/windows/serial_connection.html">Windows »</a></li>
+    <li><a href="/shell_access/mac/serial_connection.html">Mac »</a></li>
+    <li><a href="/shell_access/linux/serial_connection.html">Linux »</a></li>
+  </ul>
+</div>
+
+    
+    </div>
+
+  </body>
+</html>

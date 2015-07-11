@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="identify-the-usbserial-device-name">Identify the “usbserial” device name</h2>
+
+<p>Use the <code>ls /dev/tty.*</code> command in Terminal to find the device name of the “<strong>usbserial</strong>” connection. You will need the exact device name for use in Establish a serial connection later.</p>
+
+<p><img src="images/identify_usbserial-animated.gif" alt="Animated gif: using Terminal to find the USB device name" /></p>
+
+<hr />
+
+<ol>
+  <li>
+    <p>Launch Terminal.</p>
+
+    <p><strong>Option 1:</strong></p>
+
+    <ol>
+      <li>Launch Spotlight (type Cmd+Space).</li>
+      <li>Type “terminal”. </li>
+      <li>Select the “Terminal” app.</li>
+    </ol>
+
+    <p><strong>Option 2:</strong></p>
+
+    <ol>
+      <li>Go to Applications on your Mac. </li>
+      <li>Open Utilities. </li>
+      <li>Launch Terminal.app.</li>
+    </ol>
+  </li>
+  <li>
+    <p>Use the “ls” command to list any connected devices.</p>
+
+    <p><code>
+ ls /dev/tty.*
+</code></p>
+  </li>
+  <li>
+    <p>Look for a device that contains “<strong>usbserial</strong>”.</p>
+
+    <p><img src="images/terminal-usbserial_device_highlighted.png" alt="the device found was &quot;/dev/tty.usbserial-A402YSYU&quot;" /></p>
+
+    <p>In this case, the device found was “/dev/tty.usbserial-A402YSYU”.</p>
+  </li>
+</ol>
+
+<div class="callout troubleshooting">
+  <p><strong>Don’t see a “usbserial” device listed?</strong></p>
+
+  <ul>
+    <li>
+      <p><strong>Do you have the UART/serial cable connected?</strong> Refer to <a href="/docs/assembly/arduino_expansion_board/details-serial_cable.html">UART/serial micro-USB cable</a>.</p>
+    </li>
+    <li>
+      <p>Is your IoT board powered on?</p>
+    </li>
+  </ul>
+</div>
+
+    
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="establish-a-serial-connection">Establish a serial connection</h2>
+
+<p>Use the Screen utility in Terminal to gain command line access of your IoT board. For example: <code>screen /dev/tty.usbserial-A102GW3T 115200</code></p>
+
+<p><img src="images/screen_connection-animated.gif" alt="Animated gif: using Screen utility to connect to IoT board" /></p>
+
+<hr />
+
+<ol>
+  <li>
+    <p>Connect to the USB serial device using the Terminal “screen” utility. </p>
+
+    <p><code>
+ screen /dev/xx.usbserial-XXXXXXXX 115200
+</code></p>
+
+    <ul>
+      <li>
+        <p><strong>Replace “/dev/xx.usbserial-XXXXXXXX” with your device’s unique name.</strong> </p>
+      </li>
+      <li>
+        <p>“115200” indicates the baud rate. <strong>Always use 115200.</strong></p>
+      </li>
+      <li>
+        <p>“-L” turns on output logging so you can see what the result of your commands are.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>When you see a blank screen, <strong>press the Enter key</strong>.</p>
+
+    <p><strong>For Intel® Edison boards running older firmware</strong>: You may need to press the Enter key <strong>twice</strong>.</p>
+
+    <p><img src="images/screen-blank_screen.png" alt="blank screen" /></p>
+  </li>
+  <li>
+    <p>Once connected you will see a login prompt. </p>
+
+    <p>Type in “<strong>root</strong>” for the username and press <strong>Enter</strong>.</p>
+
+    <p><img src="images/screen-login_root.png" alt="login as &quot;root&quot;" /></p>
+  </li>
+</ol>
+
+    
+    </div>
+
+  </body>
+</html>

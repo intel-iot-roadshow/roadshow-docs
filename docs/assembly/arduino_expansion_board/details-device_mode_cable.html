@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="device-mode-micro-usb-cable">Device mode micro-USB cable</h2>
+
+<p>Use the top micro-USB port in USB device mode for:</p>
+
+<ul>
+  <li>5V power, </li>
+  <li>programming the Intel® Edison using the Arduino IDE, </li>
+  <li>programming the Intel® Edison using the Intel® XDK or Eclipse IDE included in the Intel® IoT Developer Kit via Ethernet over USB (not Wi-Fi), and</li>
+  <li>writing to the onboard flash memory from your computer.</li>
+</ul>
+
+<p><img src="images/device_mode-animated.gif" alt="Animated gif: using device mode" /></p>
+
+<hr />
+
+<ol>
+  <li>
+    <p>Find the microswitch in between the USB ports on the expansion board. <br />
+Switch the microswitch <em>down</em> towards the micro-USB ports, if it isn’t already.<br />
+  <img src="images/microswitch-device_mode-zoom_in.png" alt="Microswitch toggled down for device mode" /></p>
+  </li>
+  <li>
+    <p>Plug a micro-USB cable into the <strong><em>top</em></strong> micro-USB connector on the expansion board.<br />
+  <img src="images/device_mode-usb_cable-before_after.png" alt="Micro-USB cable being plugged into the top micro-USB connector" /></p>
+  </li>
+  <li>
+    <p>Connect the other end of the USB cable into your computer.<br />
+  <img src="images/computer-usb_cable-before_after.png" alt="USB cable being plugged into laptop" /></p>
+  </li>
+  <li>
+    <p>A green LED should light up on the expansion board. Wait one minute for the Intel® Edison to finish booting up.<br />
+  <img src="images/device_mode-led_on-zoom_in.png" alt="Green LED lit up on expansion board" /></p>
+  </li>
+</ol>
+
+<div class="callout info">
+  <p><strong>How do you know when the board is ready?</strong></p>
+
+  <p>You will know that the Intel® Edison is fully initialized when your computer mounts a new drive (much like inserting a SD card into your computer).</p>
+
+  <hr />
+
+  <p>The Intel® Edison needs approximately one minute to go through the entire Linux startup process. There is no onboard LED to indicate whether or not the Intel® Edison is fully initialized, however you can watch the full bootup sequence (whether for fun or for debugging purposes) if you are connected to the board via the bottom micro-USB cable. You will learn how to gain command line access to your Intel® Edison later in <a href="/docs/shell_access/">Shell Access</a>.</p>
+
+  <p><img src="images/shell_access-boot_menu.png" alt="An example of what you would see during bootup" /></p>
+</div>
+
+    
+    </div>
+
+  </body>
+</html>

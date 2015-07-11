@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h1 id="check-installed-firmware-version">Check installed firmware version</h1>
+
+<p>Find out what firmware version is currently flashed on your IoT board by running a few Linux commands directly on the Intel® Edison board.</p>
+
+<ol>
+  <li>
+    <p>Establish an SSH or serial connection to the Intel® Edison.</p>
+
+    <p><em>Don’t know how? Refer to <a href="/docs/shell_access/">Shell Access</a>.</em></p>
+  </li>
+  <li>
+    <p>Run the <code>configure_edison</code> command with the <code>--help</code> flag to figure out the right approach for your board based on the output of this command.</p>
+
+    <p><code>
+ configure_edison --help
+</code></p>
+
+    <div class="callout troubleshooting">
+      <p><strong>Get a “configure_edison: not found” message?</strong></p>
+
+      <p>Your board’s firmware is very out of date. <a href="manually.html">Update the firmware »</a></p>
+
+      <p><img src="images/configure_edison-not_found.png" alt="&quot;configure_edison: not found&quot; message" /></p>
+
+      <hr />
+
+      <p><strong>Do not see a “–version” flag in the command list?</strong></p>
+
+      <p>Your board’s firmware is out of date. <a href="manually.html">Update the firmware »</a></p>
+
+      <p><img src="images/configure_edison-no_version.png" alt="The screenshot on the left is missing the --version and --latest-version flags. " /></p>
+    </div>
+  </li>
+  <li>
+    <p>If you see a “–version” flag and your Intel® Edison is online via the onboard Wi-Fi, run the <code>configure_edison</code> command with the <code>--version</code> flag, followed by the <code>--latest-version</code> flag.</p>
+
+    <p><code>
+ configure_edison --version; configure_edison --latest-version
+</code></p>
+
+    <div class="callout done">
+      <p>If the outputted numbers are the <strong>same</strong>, your board is up to date.</p>
+
+      <p><img src="images/configure_edison-version_comparison.png" alt="Running a version comparison shows this board has the same version as the latest" /></p>
+
+      <p>In this example, the build version on the board is “120” and the latest is “120”.</p>
+    </div>
+
+    <div class="callout troubleshooting">
+      <p><strong>Is the first version number (yours) lower than the second (latest) version?</strong></p>
+
+      <p>If so, your board’s firmware is out of date. You may want to <a href="manually.html">update the firmware »</a></p>
+
+      <p>In this example, the build version on the board is “16” but the latest is “17”.</p>
+    </div>
+  </li>
+  <li>
+    <p>If the <code>--latest-version</code> flag is not available because <strong>your board is offline</strong>, use the <code>cat</code> command to print out the text in the “/etc/version” file on the Intel® Edison.</p>
+
+    <p><code>
+ cat /etc/version
+</code></p>
+
+    <div class="callout troubleshooting">
+      <p><strong>See a build version number less than 120?</strong></p>
+
+      <p>If you see something similar to “edison-weekly_build_56_2014-08-20_15-54-05”, the build version number is 56.</p>
+
+      <p>If you do not see “weekly-120” or higher outputted, your firmware is out of date. Continue to Update the firmware to enable all the newest features.</p>
+    </div>
+  </li>
+</ol>
+
+<div class="callout info">
+  <p><strong>Does the “Yocto complete image” file name on the Intel® Edison Software Downloads page indicate the build version?</strong></p>
+
+  <p>No, there is no direct naming correlation.</p>
+
+  <p>For example, the file name “edison-image-ww05-15.zip” means that this image was released the 5th week of the year 2015. Whereas “weekly-120” is what would be output when <code>configure_edison --version</code> is run with this image.</p>
+</div>
+
+<p>Return to <a href="manually.html">Flash Edison Firmware Manually »</a></p>
+
+    
+    </div>
+
+  </body>
+</html>

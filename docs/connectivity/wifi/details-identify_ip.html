@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h2 id="identify-the-ip-address">Identify the IP address</h2>
+
+<p>Once your Intel® Edison is online, identify the IP address using the <code>configure_edison --showWiFiIP</code> or <code>ip a</code> commands in order to: manually add an IP to an Intel® IoT Developer Kit IDE, use with SSH clients, or use your IoT device as a web server.</p>
+
+<p><img src="images/identify_ip-animated.gif" alt="Animated gif: copying images files to flash storage" /></p>
+
+<hr />
+
+<ol>
+  <li>
+    <p>Establish a serial connection to the Intel® Edison.</p>
+
+    <p><em>Don’t know how? Refer to <a href="/docs/shell_access/">Shell Access</a>.</em></p>
+  </li>
+  <li>
+    <p>In newer versions of the Intel® Edison firmware you can use the <code>configure_edison</code> command with the <code>--showWiFiIP</code> flag.</p>
+
+    <p><code>
+ configure_edison --showWiFiIP
+</code></p>
+  </li>
+  <li>
+    <p>If the <code>--showWiFiIP</code> flag is not available to you, use the <code>ip a</code> command to output details of your network connection.</p>
+
+    <p><code>
+ ip a
+</code></p>
+  </li>
+  <li>
+    <p>It should be listed as “<strong>wlan0</strong>”, inside the third listed entry. </p>
+
+    <p><img src="images/ip_a_result-wlan0_highlighted.jpg" alt="Result after running 'ip a' command with wlan0 entry highlighted" /></p>
+
+    <p>In this example, the IP address is “192.168.1.14”. The number after the slash (“24”) is the netmask (which we do not have to worry about here).</p>
+
+    <div class="callout troubleshooting">
+      <p><strong>Do not see an IP address in the “wlan0” entry?</strong></p>
+
+      <p>Your Intel® Edison is not online via Wi-Fi. You may need to re-run the steps in <a href="connect.html#connect-to-a-wi-fi-network">Connect to a Wi-Fi network</a>.</p>
+    </div>
+  </li>
+</ol>
+
+    
+    </div>
+
+  </body>
+</html>

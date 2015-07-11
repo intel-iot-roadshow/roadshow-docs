@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h3 id="upload-and-run-the-application">Upload and run the application</h3>
+
+<p>Upload the project files to the IoT device and run it. Remember that every time you make changes to files and you want to see the changes: (1) save the file, (2) upload, (3) run.</p>
+
+<p><img src="images/upload_run-animated.gif" alt="Animated gif: creating a project in the Intel® XDK" /></p>
+
+<hr />
+
+<ol>
+  <li>
+    <p>In the bottom toolbar, click the “<strong>Upload</strong>” icon to upload the current project to the device.</p>
+
+    <p><img src="images/xdk-upload_button.png" alt="&quot;Upload&quot; button in bottom toolbar" /></p>
+  </li>
+  <li>
+    <p>Check the console log for a message confirming the upload.</p>
+
+    <p><img src="images/xdk-console-upload_complete.png" alt="An &quot;upload complete&quot; message in the console" /></p>
+  </li>
+  <li>
+    <p>In the bottom toolbar, click the “<strong>Run</strong>” icon to run the project that is currently installed on the device.</p>
+
+    <p><img src="images/xdk-run_button.png" alt="&quot;Run&quot; button in bottom toolbar" /></p>
+  </li>
+  <li>
+    <p>Keep an eye on the console log bar for any runtime errors.</p>
+
+    <p><img src="images/xdk-toggle_console_button.png" alt="&quot;Toggle console window&quot; button in bottom toolbar" /></p>
+
+    <p>Click the “Toggle console window” icon if you see any messages and the console is not already expanded.</p>
+  </li>
+</ol>
+
+<div class="callout troubleshooting">
+  <p><strong>Get a “cannot find module mraa” message?</strong></p>
+
+  <p><img src="images/xdk-console-mraa_missing.png" alt="&quot;cannot find module mraa&quot; message" /></p>
+
+  <p>If you see this error message, your board is missing libmraa, a library for GPIO communication on Linux platforms. 
+Connect to your IoT board via serial or SSH. Then run the following commands: </p>
+
+  <pre><code>echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" &gt; /etc/opkg/mraa-upm.conf
+opkg update
+opkg install libmraa0
+</code></pre>
+
+  <p>The first command will edit the mraa-upm config file on the board. The last two commands use the board’s built-in Opkg package manager to download and update the missing library.</p>
+
+  <p>After updating the MRAA libraries, return to the Intel® XDK. Click the “Run” icon again to re-run the project on the device.</p>
+</div>
+
+    
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h1 id="set-up-ethernet-over-usb---linux">Set Up Ethernet over USB - Linux</h1>
+
+<p>When you are in a busy or restricted network environment, connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as “Ethernet over USB”. Ethernet over USB uses the RNDIS protocol.</p>
+
+<p>This document will guide you through obtaining an IP address for the Intel® Edison in order to program your board offline using the Intel® IoT Developer Kit IDEs.</p>
+
+<div id="toc" class="box">
+  <ul>
+    <li><a href="#forward-usb0-connection">Forward usb0 connection »</a></li>
+    <li><a href="#share-your-computers-wifi-connection-optional">Share your computer’s WiFi connection (optional) »</a></li>
+  </ul>
+</div>
+
+<h2 id="forward-usb0-connection">Forward usb0 connection</h2>
+
+<div class="tldr">
+  <p>Use Terminal and the <code>ifconfig</code> command to forward connections to the IP address 192.168.2.2 through “usb0” which should be the USB cable. </p>
+
+  <p><a href="details-forward_usb0.html">View detailed instructions »</a></p>
+</div>
+
+<h2 id="share-your-computers-wifi-connection-optional">Share your computer’s WiFi connection (optional)</h2>
+
+<div class="tldr">
+  <p>Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing your computer’s internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison. Internet sharing is an optional step but is highly recommended if you are at a hackathon. </p>
+
+  <p><a href="details-share_internet.html">View detailed instructions »</a></p>
+</div>
+
+<p><br /></p>
+
+<div class="callout goto">
+  <p><strong>Additional Resources</strong></p>
+
+  <p>See what you can do <a href="/docs/connectivity/ethernet_over_usb/shared/once_connected.html">once connected »</a></p>
+</div>
+
+<div id="next-steps" class="note">
+  <h3 id="next-steps">Next Steps</h3>
+
+  <p>Based on your programming language preference, install an IDE for Intel® IoT development:</p>
+
+  <ul>
+    <li>For C/C++: <a href="/docs/ide_setup/eclipse/setup.html">Set Up IoT Dev Kit Eclipse »</a></li>
+    <li>For JavaScript: <a href="/docs/ide_setup/xdk/setup.html">Set Up Intel XDK for IoT »</a></li>
+    <li>For Arduino: <a href="/docs/ide_setup/arduino/setup.html">Set Up Arduino IDE »</a></li>
+  </ul>
+</div>
+
+    
+    </div>
+
+  </body>
+</html>
