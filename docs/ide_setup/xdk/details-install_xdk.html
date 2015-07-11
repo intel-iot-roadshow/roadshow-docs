@@ -13,38 +13,22 @@
     
         <h2 id="step-1-install-intel-xdk-iot-edition">Step 1: Install Intel® XDK IoT Edition</h2>
 
-<p>Get the latest <a href="http://software.intel.com/en-us/html5/xdk-iot">Intel® XDK IoT Edition installer</a> for your computer’s OS. Simply run the installer and follow the prompts. </p>
-
-<p><img src="images/install_xdk-animated.gif" alt="Animated gif: installing the Intel® XDK" /></p>
-
-<hr />
-
-<p><strong>Using a 64-bit Windows computer?</strong></p>
-
-<p>Intel® XDK IoT Edition can be installed via the Windows 64-bit integrated installer. Refer to <a href="/docs/computer_setup/windows/64bit_integrated_installer.html">Set Up Your Computer - Windows (64-bit integrated installer)</a> for more info.</p>
-
-<hr />
+<p>Get the latest Intel® XDK IoT Edition installer.</p>
 
 <ol>
-  <li>Get the latest Intel® XDK IoT Edition installer.</li>
-</ol>
+  <li>
+    <p>On the USB key: downloads → [your OS].</p>
+  </li>
+  <li>
+    <p>Copy the appropriate iot_web installer file to your computer:</p>
 
-<p><strong>Hackathon attendees:</strong></p>
-
-<ol>
-  <li>On the USB key: files → [your OS]</li>
-  <li>Copy the appropriate <strong>iot_web</strong> installer file to your computer: 
-    * <strong>Windows</strong>: iot_web_win_master<em>[version].exe
-    * <strong>Mac</strong>: iot_web_mac_master</em>[version].dmg
-    * <strong>Linux 32-bit</strong>: iot_web_linux32_master<em>[version].tgz
-    * <strong>Linux 64-bit</strong>: iot_web_linux64_master</em>[version].tgz</li>
-</ol>
-
-<p><strong>Online option:</strong></p>
-
-<ol>
-  <li>Visit <a href="http://software.intel.com/en-us/html5/xdk-iot">software.intel.com/en-us/html5/xdk-iot</a>. </li>
-  <li>Ensure that your OS platform is selected in the green download box, then click “Go!” to start downloading the installer.</li>
+    <ul>
+      <li><strong>Windows:</strong> iot_web_win_master_2170.exe</li>
+      <li><strong>Mac:</strong> iot_web_mac_master_2170.dmg</li>
+      <li><strong>Linux 32-bit:</strong> iot_web_linux32_master_2170.tgz</li>
+      <li><strong>Linux 64-bit:</strong> iot_web_linux64_master_2170.tgz</li>
+    </ul>
+  </li>
 </ol>
 
 <h3 id="on-windows">On Windows</h3>
@@ -72,31 +56,29 @@
   </li>
   <li>
     <p>Use the <code>cd</code> command to go into the folder where the installer file is. For example:</p>
+
+    <p><code>
+ cd ~/Desktop/
+</code></p>
+  </li>
+  <li>
+    <p>Use the <code>tar</code> command to extract the .tgz. For example:</p>
+
+    <p><code>
+ tar zxvf iot_web_linux64_master_1912.tgz
+</code></p>
+
+    <p>(Note: Replace the filename shown below with your .tgz filename.)</p>
+  </li>
+  <li>
+    <p>Go into the extracted folder, then run the installer shell file. For example:</p>
+
+    <p><code>
+ cd iot_web_linux64
+ ./install.sh
+</code></p>
   </li>
 </ol>
-
-<p><code>
-  cd ~/Desktop/
- </code></p>
-
-<ol>
-  <li>Use the <code>tar</code> command to extract the .tgz. For example:</li>
-</ol>
-
-<p><code>
-  tar zxvf iot_web_linux64_master_1912.tgz
- </code></p>
-
-<p>(Note: Replace the filename shown below with your .tgz filename.)</p>
-
-<ol>
-  <li>Go into the extracted folder, then run the installer shell file. For example:</li>
-</ol>
-
-<p><code>
-  cd iot_web_linux64
-  ./install.sh
- </code></p>
 
 <h3 id="all-platforms">All platforms</h3>
 

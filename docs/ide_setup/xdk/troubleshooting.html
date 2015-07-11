@@ -15,9 +15,7 @@
 
 <p>Some common issues have been listed below. For additional troubleshooting and FAQ, visit <a href="https://software.intel.com/en-us/articles/intel-xdk-iot-edition-troubleshooting-and-faq">software.intel.com/en-us/articles/intel-xdk-iot-edition-troubleshooting-and-faq</a>. </p>
 
-<div class="toc">
-  <p><strong>Table of contents</strong></p>
-
+<div id="toc" class="box">
   <ul>
     <li><a href="#dont-see-your-device-in-the-iot-device-drop-down-list">Don’t see your device in the “IoT Device” drop down list?</a>
       <ul>
@@ -42,34 +40,32 @@
 </ul>
 
 <ol>
-  <li>From the “<strong>IoT Device</strong>” drop down list, select “<strong>Add Manual Connection</strong>”.</li>
-</ol>
+  <li>
+    <p>From the “<strong>IoT Device</strong>” drop down list, select “<strong>Add Manual Connection</strong>”.</p>
 
-<p><img src="images/xdk-add_manual_connection.png" alt="&quot;Add Manual Connection&quot; option in &quot;IoT Device&quot; drop down list" /></p>
+    <p><img src="images/xdk-add_manual_connection.png" alt="&quot;Add Manual Connection&quot; option in &quot;IoT Device&quot; drop down list" /></p>
+  </li>
+  <li>
+    <p>For “<strong>Address</strong>”, enter the IP address of your board.</p>
 
-<ol>
-  <li>For “<strong>Address</strong>”, enter the IP address of your board.</li>
-</ol>
+    <p>For “<strong>Port</strong>”, leave as the default “58888”.</p>
 
-<p>For “<strong>Port</strong>”, leave as the default “58888”.</p>
+    <p><img src="images/xdk-add_manual_connection_confirmation_popup.jpg" alt="Popup dialog to add a manual connection" /></p>
 
-<p><img src="images/xdk-add_manual_connection_confirmation_popup.jpg" alt="Popup dialog to add a manual connection" /></p>
+    <div class="callout troubleshooting">
+      <p><strong>Don’t know the IP address?</strong></p>
 
-<hr />
+      <p>Refer to:</p>
 
-<p><strong>Don’t know the IP address?</strong></p>
-
-<p>Refer to:</p>
-
-<ul>
-  <li><a href="/docs/connectivity/wifi/details-identify_ip.html">Connect Your Intel Edison to Wi-Fi → Identify the IP address</a>. </li>
-  <li>Or use 192.168.2.15 if you’re using <a href="/docs/connectivity/ethernet_over_usb/">Ethernet over USB</a>.</li>
-</ul>
-
-<hr />
-
-<ol>
-  <li>Click “<strong>Connect</strong>” to try connecting to the IoT device using the manual settings.</li>
+      <ul>
+        <li><a href="/docs/connectivity/wifi/details-identify_ip.html">Connect Your Intel Edison to Wi-Fi → Identify the IP address</a>. </li>
+        <li>Or use 192.168.2.15 if you’re using <a href="/docs/connectivity/ethernet_over_usb/">Ethernet over USB</a>.</li>
+      </ul>
+    </div>
+  </li>
+  <li>
+    <p>Click “<strong>Connect</strong>” to try connecting to the IoT device using the manual settings.</p>
+  </li>
 </ol>
 
 <h3 id="restart-the-intel-xdk-app-daemon">Restart the Intel XDK app daemon</h3>
@@ -77,22 +73,22 @@
 <p>The Intel® XDK app daemon may not be running on the Intel® IoT board.</p>
 
 <ol>
-  <li>Establish a serial connection to your Intel® Galileo or Intel® Edison.</li>
-</ol>
+  <li>
+    <p>Establish a serial connection to your Intel® Galileo or Intel® Edison.</p>
 
-<p><em>Don’t know how? Refer to <a href="/docs/shell_access/">Shell Access</a>.</em></p>
+    <p><em>Don’t know how? Refer to <a href="/shell_access/">Shell Access</a>.</em></p>
+  </li>
+  <li>
+    <p>Use the <code>systemctl</code> command to enable and restart the xdk-daemon on the IoT board.</p>
 
-<ol>
-  <li>Use the <code>systemctl</code> command to enable and restart the xdk-daemon on the IoT board.</li>
-</ol>
-
-<p><code>
-  systemctl enable xdk-daemon
-  systemctl restart xdk-daemon
- </code></p>
-
-<ol>
-  <li>Re-check the “IoT Device” drop down list for your device.</li>
+    <p><code>
+ systemctl enable xdk-daemon
+ systemctl restart xdk-daemon
+</code></p>
+  </li>
+  <li>
+    <p>Re-check the “IoT Device” drop down list for your device.</p>
+  </li>
 </ol>
 
 <h2 id="additional-resources">Additional resources</h2>

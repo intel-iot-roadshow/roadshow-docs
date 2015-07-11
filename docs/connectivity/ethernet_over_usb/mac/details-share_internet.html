@@ -21,7 +21,7 @@
 
 <ol>
   <li>
-    <p>Open your <strong>Sharing</strong> preference settings.
+    <p>Open your <strong>Sharing</strong> preference settings.<br />
   (i.e. In the OS X menu bar, choose <img src="/img/icons/os_icon_mac.png" alt="Mac OS icon" /> → System Preferences → Sharing)</p>
   </li>
   <li>
@@ -65,9 +65,8 @@
   <li>
     <p>Then use the <code>route</code> command to add a default gateway. Use the same static IP address you set in the <strong>Network</strong> settings in the previous section.</p>
 
-    <p><code>
-route add default gw 192.168.2.2
-</code></p>
+    <pre><code>route add default gw 192.168.2.2
+</code></pre>
   </li>
 </ol>
 
@@ -76,9 +75,8 @@ route add default gw 192.168.2.2
 
   <p>Try pinging a network from Terminal to make sure the Intel® Edison is connected to the internet through your computer’s network connection:</p>
 
-  <p><code>
-ping google.com
-</code></p>
+  <pre><code>ping google.com
+</code></pre>
 
   <p>(Use the Ctrl+C keyboard command to exit the ping process.)</p>
 

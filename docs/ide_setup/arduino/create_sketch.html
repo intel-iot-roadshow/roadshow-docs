@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/getting-started-guides/css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h1 id="blinking-an-led-with-the-arduino-ide-on-the-intel-edison-board">Blinking an LED with the Arduino IDE on the Intel Edison Board</h1>
+
+<p>This guide will teach you how to run a sample sketch on your Intel® IoT board using the Arduino IDE. These instructions are geared toward the Intel® Edison module with the Arduino expansion board.</p>
+
+<ol>
+  <li>
+    <p>Run Arduino. </p>
+  </li>
+  <li>
+    <p>Open the LED blink example sketch by choosing File &gt; Examples &gt; 1.Basics &gt; Blink. <br />
+  <img src="images/idepic-blink.png" alt="Arduino IDE" /></p>
+  </li>
+  <li>
+    <p>Choose Tools &gt; Board, then select your board.<br />
+  <img src="images/pickboard-blink.png" alt="Arduino Boards" /></p>
+  </li>
+  <li>
+    <p>Select the serial device of the board from the Tools &gt; Serial Port menu. See the instructions below for your specific OS. <br />
+  Note: The easiest way to find what port the board is using is by disconnecting your board, restarting the IDE, and re-opening the menu. The entry that disappears should be the Intel Edison board. Reconnect the board, restart the IDE, and select that serial port.</p>
+    <ul>
+      <li><a href="#finding-your-port-on-a-system-with-windows">Windows »</a></li>
+      <li><a href="#finding-your-port-on-a-system-with-mac-os-x">Mac OS X »</a></li>
+      <li><a href="#finding-your-port-on-a-system-with-linux">Linux »</a></li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="finding-your-port-on-a-system-with-windows">Finding your port on a system with Windows</h3>
+
+<ul>
+  <li>
+    <p>Find the port for your board, which is likely to be COM3 or higher and is called Intel Edison Virtual Com Port in the Device Manager. It is NOT USB Serial Port. COM1 and COM2 are usually reserved for hardware serial ports.<br />
+<img src="images/comport-win-blink.png" alt="Windows Device Manager" /></p>
+  </li>
+  <li>
+    <p>Select your COM port.  <br />
+<img src="images/comport-ide-blink.png" alt="Arduino IDE COM Port Selection" /></p>
+  </li>
+  <li>
+    <p>Now the bottom right should match the COM port number of the Intel Edison Virtual Com Port (COM#) from the Device Manager.  <br />
+<img src="images/comport-verif-blink.png" alt="COM Port Verification" /></p>
+  </li>
+  <li>
+    <p>Once you have selected your port, continue to upload the sketch to your board.</p>
+  </li>
+</ul>
+
+<h3 id="finding-your-port-on-a-system-with-linux">Finding your port on a system with Linux</h3>
+
+<ul>
+  <li>
+    <p>Find the port for your board, which is likely to be /dev/ttyACM0. <br />
+<img src="images/comport-ide-lin-blink.png" alt="Arduino IDE COM Port Selection - Linux" /></p>
+  </li>
+  <li>
+    <p>Once you have selected your port, continue to upload the sketch to your board.</p>
+  </li>
+</ul>
+
+<h3 id="finding-your-port-on-a-system-with-mac-os-x">Finding your port on a system with Mac OS X</h3>
+
+<ul>
+  <li>
+    <p>Find the port for your board, which is likely to be /dev/cu.usbmodemxxxx.<br />
+<img src="images/comport-ide-mac-blink.png" alt="Arduino IDE COM Port Selection - Mac" /></p>
+  </li>
+  <li>
+    <p>Once you have selected your port, continue to upload the sketch to your board.</p>
+  </li>
+</ul>
+
+<h3 id="uploading-the-sketch-to-your-board">Uploading the sketch to your board</h3>
+
+<ol>
+  <li>
+    <p>Click the Upload icon in the upper left to load and run the sketch on your board.<br />
+  <img src="images/uploadsketch-blink.png" alt="Uploading a Sketch" /></p>
+  </li>
+  <li>
+    <p>You should see Done Uploading and Transfer complete messages when your sketch has uploaded. <br />
+  <img src="images/transfer-blink.png" alt="Transfer Complete Message" /></p>
+  </li>
+  <li>
+    <p>The DS2 LED on your board should now blink on or off every second. <br />
+  <img src="images/board-blink.png" alt="Edison (Arduino Breakout Board) Diagram" /></p>
+  </li>
+</ol>
+
+<h3 id="next-steps">Next Steps</h3>
+
+<p>If you have the Grove Starter Kit Plus Intel IoT Edition, here’s how you add sensors:</p>
+
+<ol>
+  <li>
+    <p>Navigate to the Seeed-Studio github repo, https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0.</p>
+  </li>
+  <li>
+    <p>Click Download ZIP.</p>
+  </li>
+  <li>
+    <p>Unzip, and copy to /libraries folder in your Arduino* folder.</p>
+  </li>
+  <li>
+    <p>Remove the period . in the folder name to make it: Sketchbook_Starter_Kit_V20. </p>
+  </li>
+  <li>
+    <p>Restart the Arduino* IDE. </p>
+  </li>
+  <li>
+    <p>Connect your desired sensor and run the code.</p>
+  </li>
+</ol>
+
+<p>For a good hardware primer, check out the <a href="http://www.seeedstudio.com/wiki/Grove_-_Starter_Kit_Plus">Grove Starter Kit Wiki</a>, which includes an overview and example code for all the hardware included in the Grove Starter Kit Plus. If you have other hardware, searching for the name of your hardware in conjunction with “Arduino” will come up with example code and libraries to use. </p>
+
+<p>Note: The Intel Edison board with the Arduino expansion board and the Intel Galileo board can be treated as an Arduino Uno and is compatible with all Arduino Uno sensor shields. However it should be noted that Pins 10 and 11 on the Intel Edison board are NOT in fact capable of variable voltage output (PWM), despite being marked so on the expansion board.</p>
+
+<ul>
+  <li><a href="http://www.intel.com/support/edison/sb/CS-035275.htm">Edison Arduino Expansion Board Hardware Guide</a></li>
+  <li><a href="http://www.intel.com/support/edison/sb/CS-035272.htm">Edison Arduino Expansion Board Schematic</a></li>
+  <li><a href="http://www.intel.com/support/edison/sb/CS-035252.htm">Edison Breakout Board Hardware Guide</a></li>
+</ul>
+
+    
+    </div>
+
+  </body>
+</html>

@@ -18,76 +18,69 @@
 <hr />
 
 <ol>
-  <li>If not already selected, click the “<strong>C/C++</strong>” tab in the top right corner of the Eclipse screen.</li>
+  <li>
+    <p>If not already selected, click the “<strong>C/C++</strong>” tab in the top right corner of the Eclipse screen.</p>
+
+    <p><img src="images/eclipse-c_tab.png" alt="The &quot;C/C++&quot; tab" /></p>
+  </li>
+  <li>
+    <p>From the “<strong>Project Explorer</strong>” panel on the left side, right-click on “<strong>4_cpp_onboard_LED_blink</strong>”. </p>
+
+    <p><img src="images/eclipse-project_explorer-project_selected.png" alt="&quot;4_cpp_onboard_LED_blink&quot; project selected in Project Explorer panel" /></p>
+  </li>
+  <li>
+    <p>Then select “<strong>Build Project</strong>” in the context menu.</p>
+
+    <p><img src="images/eclipse-build_project_context_menu.png" alt="&quot;Build Project&quot; in the project context menu" /></p>
+  </li>
+  <li>
+    <p>Wait for the project to finish building for the first time. A message will be displayed in the “Console” panel at the bottom of the Eclipse IDE when done.</p>
+
+    <p><img src="images/eclipse-console-build_finished.png" alt="&quot;Build finished&quot; message in Console panel" /></p>
+  </li>
+  <li>
+    <p>From the toolbar at the top of the Eclipse IDE, <strong>click the little arrow to the <em>right</em> of the Run icon</strong> to open the Run drop down menu.</p>
+
+    <p><img src="images/eclipse-run_dropdown_button.png" alt="The little arrow to the right of the Run icon" /></p>
+  </li>
+  <li>
+    <p>Select “<strong>4_cpp_onboard_LED_blink Debug</strong>”. Note the “Debug” at the end of the project name.</p>
+
+    <p><img src="images/eclipse-run_debug_project.png" alt="Select &quot;debug&quot; verison of project to run" /></p>
+
+    <p><em>The application list order moves around so “4_cpp_onboard_LED_blink Debug” may appear anywhere in the drop down list. Look carefully.</em></p>
+  </li>
+  <li>
+    <p>A password dialog will appear. If you have not configured your board with a different user ID and password, enter “root” for the “User ID” and leave the “Password” field empty. Click “<strong>OK</strong>” when done.</p>
+
+    <p><img src="images/eclipse-password_dialog.png" alt="Password dialog" /></p>
+
+    <div class="callout troubleshooting">
+
+      <p><strong>Intel® Edison only: Do you get a “Failed to connect sshd” error message?</strong></p>
+
+      <p><img src="images/eclipse-sshd_error_message.png" alt="&quot;Failed to connect sshd&quot; error message" /></p>
+
+      <p>If your Intel® Edison is using a WiFi connection, you must have a password set on your board otherwise you will get a SSH connection error. To set a password, connect to your Intel® Edison via a serial connection and run:</p>
+
+      <p><code>
+ configure_edison --password
+</code></p>
+    </div>
+  </li>
+  <li>
+    <p>The following authentication warning will appear. Click “<strong>Yes”</strong> to proceed. You should only see this warning once.</p>
+
+    <p><img src="images/eclipse-rsa_warning.png" alt="Authentication warning" /></p>
+  </li>
+  <li>
+    <p>Your compiled project code will be transferred over to the Intel® Edison’s or Intel® Galileo’s onboard memory and run. </p>
+
+    <p>Look in the “Console” panel for any program messages.</p>
+
+    <p><img src="images/eclipse-console-project_running.png" alt="Console output from project" /></p>
+  </li>
 </ol>
-
-<p><img src="images/eclipse-c_tab.png" alt="The &quot;C/C++&quot; tab" /></p>
-
-<ol>
-  <li>From the “<strong>Project Explorer</strong>” panel on the left side, right-click on “<strong>4_cpp_onboard_LED_blink</strong>”. </li>
-</ol>
-
-<p><img src="images/eclipse-project_explorer-project_selected.png" alt="&quot;4_cpp_onboard_LED_blink&quot; project selected in Project Explorer panel" /></p>
-
-<ol>
-  <li>Then select “<strong>Build Project</strong>” in the context menu.</li>
-</ol>
-
-<p><img src="images/eclipse-build_project_context_menu.png" alt="&quot;Build Project&quot; in the project context menu" /></p>
-
-<ol>
-  <li>Wait for the project to finish building for the first time. A message will be displayed in the “Console” panel at the bottom of the Eclipse IDE when done.</li>
-</ol>
-
-<p><img src="images/eclipse-console-build_finished.png" alt="&quot;Build finished&quot; message in Console panel" /></p>
-
-<ol>
-  <li>From the toolbar at the top of the Eclipse IDE, <strong>click the little arrow to the <em>right</em> of the Run icon</strong> to open the Run drop down menu.</li>
-</ol>
-
-<p><img src="images/eclipse-run_dropdown_button.png" alt="The little arrow to the right of the Run icon" /></p>
-
-<ol>
-  <li>Select “<strong>4_cpp_onboard_LED_blink Debug</strong>”. Note the “Debug” at the end of the project name.</li>
-</ol>
-
-<p><img src="images/eclipse-run_debug_project.png" alt="Select &quot;debug&quot; verison of project to run" /></p>
-
-<p><em>The application list order moves around so “4_cpp_onboard_LED_blink Debug” may appear anywhere in the drop down list. Look carefully.</em></p>
-
-<ol>
-  <li>A password dialog will appear. If you have not configured your board with a different user ID and password, enter “root” for the “User ID” and leave the “Password” field empty. Click “<strong>OK</strong>” when done.</li>
-</ol>
-
-<p><img src="images/eclipse-password_dialog.png" alt="Password dialog" /></p>
-
-<hr />
-
-<p><strong>Intel® Edison only: Do you get a “Failed to connect sshd” error message?</strong></p>
-
-<p><img src="images/eclipse-sshd_error_message.png" alt="&quot;Failed to connect sshd&quot; error message" /></p>
-
-<p>If your Intel® Edison is using a WiFi connection, you must have a password set on your board otherwise you will get a SSH connection error. To set a password, connect to your Intel® Edison via a serial connection and run:</p>
-
-<p><code>
-  configure_edison --password
- </code></p>
-
-<hr />
-
-<ol>
-  <li>The following authentication warning will appear. Click “<strong>Yes”</strong> to proceed. You should only see this warning once.</li>
-</ol>
-
-<p><img src="images/eclipse-rsa_warning.png" alt="Authentication warning" /></p>
-
-<ol>
-  <li>Your compiled project code will be transferred over to the Intel® Edison’s or Intel® Galileo’s onboard memory and run. </li>
-</ol>
-
-<p>Look in the “Console” panel for any program messages.</p>
-
-<p><img src="images/eclipse-console-project_running.png" alt="Console output from project" /></p>
 
     
     </div>

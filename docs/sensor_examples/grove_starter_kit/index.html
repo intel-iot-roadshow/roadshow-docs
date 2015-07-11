@@ -21,9 +21,7 @@
 
 <p>This guide will demonstrate how you can use the Grove Starter Kit with any Intel® IoT board to go beyond blinking the onboard LED.</p>
 
-<div class="toc">
-  <p><strong>Table of contents</strong></p>
-
+<div id="toc" class="box">
   <ul>
     <li><a href="#inside-the-grove-starter-kit-box">Inside the Grove Starter Kit box »</a></li>
     <li><a href="#install-the-grove-base-shield">Install the Grove Base Shield »</a></li>
@@ -42,13 +40,9 @@
   </ul>
 </div>
 
-<div class="related-videos">
-  <p><strong>Related video</strong></p>
-
-  <ul>
-    <li><a href="https://drive.google.com/open?id=0B6gHgawzKtxCNEhfNms3ai0zM1k&amp;authuser=0">Create Intel® IoT projects with the Grove Starter Kit - Part 1 (preview)</a></li>
-  </ul>
-</div>
+<!-- <div id="related-videos" class="callout video">
+* [Create Intel® IoT projects with the Grove Starter Kit - Part 1 (preview)](https://drive.google.com/open?id=0B6gHgawzKtxCNEhfNms3ai0zM1k&authuser=0)
+</div> -->
 
 <h2 id="inside-the-grove-starter-kit-box">Inside the Grove Starter Kit box</h2>
 
@@ -99,12 +93,9 @@
   </li>
   <li>
     <p>Line up the male header pins of the Grove Base Shield with the female pins on the Arduino expansion board. </p>
+
+    <p>Pin configurations of Arduino shields will only fit the Arduino expansion board in one direction so do not force the pins if they do not line up.</p>
   </li>
-</ol>
-
-<p>Pin configurations of Arduino shields will only fit the Arduino expansion board in one direction so do not force the pins if they do not line up.</p>
-
-<ol>
   <li>
     <p>Push down firmly and evenly on both sides of the Grove Base Shield until the shield is securely installed.</p>
   </li>
@@ -121,27 +112,27 @@
 <p>All components in the Grove System use a 4-pin cable with JST connectors. This allows you to prototype without having to individually learn how to wire up each unique component.</p>
 
 <ol>
-  <li>Choose a component from the Grove System.</li>
+  <li>
+    <p>Choose a component from the Grove System.</p>
+
+    <p>See <a href="#programming-grove-components">Programming Grove components</a> to help choose a component from the Grove Starter Kit.</p>
+  </li>
+  <li>
+    <p>Use a 4-pin Grove Cable and connect one end of the cable to the component.</p>
+
+    <p>The cable connectors only fit in one direction so you can be confident that the wiring is correct.</p>
+  </li>
+  <li>
+    <p>For the other end of the cable, refer to the the Grove Shield labels for the correct pin to connect to.</p>
+
+    <ul>
+      <li>Digital pins (D2-D8)</li>
+      <li>Analog pins (A0-A3)</li>
+      <li>I2C (bottom row)</li>
+      <li>UART (top right)</li>
+    </ul>
+  </li>
 </ol>
-
-<p>See <a href="#programming-grove-components">Programming Grove components</a> to help choose a component from the Grove Starter Kit.</p>
-
-<ol>
-  <li>Use a 4-pin Grove Cable and connect one end of the cable to the component.</li>
-</ol>
-
-<p>The cable connectors only fit in one direction so you can be confident that the wiring is correct.</p>
-
-<ol>
-  <li>For the other end of the cable, refer to the the Grove Shield labels for the correct pin to connect to.</li>
-</ol>
-
-<ul>
-  <li>Digital pins (D2-D8)</li>
-  <li>Analog pins (A0-A3)</li>
-  <li>I2C (bottom row)</li>
-  <li>UART (top right)</li>
-</ul>
 
 <h2 id="programming-grove-components">Programming Grove components</h2>
 
@@ -156,20 +147,21 @@
 <p><a href="http://iotdk.intel.com/docs/master/mraa/">C/C++ API documentation</a> and <a href="http://iotdk.intel.com/docs/master/mraa/node/modules/mraa.html">JavaScript API documentation</a> can be found on intel.com.</p>
 
 <ol>
-  <li>Establish an SSH or serial connection to your Intel® Galileo or Intel® Edison.</li>
+  <li>
+    <p>Establish an SSH or serial connection to your Intel® Galileo or Intel® Edison.</p>
+
+    <p><em>Don’t know how? Refer to <a href="/docs/shell_access/">Shell Access</a>.</em></p>
+  </li>
+  <li>
+    <p>Run the following commands on your board. The first command will edit the mraa-upm config file on the board. The last two commands use the board’s built-in Opkg package manager to download and update the missing library.</p>
+
+    <p><code>
+ echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" &gt; /etc/opkg/mraa-upm.conf
+ opkg update
+ opkg install libmraa0
+</code></p>
+  </li>
 </ol>
-
-<p><em>Don’t know how? Refer to <a href="/docs/shell_access/">Shell Access</a>.</em></p>
-
-<ol>
-  <li>Run the following commands on your board. The first command will edit the mraa-upm config file on the board. The last two commands use the board’s built-in Opkg package manager to download and update the missing library.</li>
-</ol>
-
-<p><code>
-  echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" &gt; /etc/opkg/mraa-upm.conf
-  opkg update
-  opkg install libmraa0
- </code></p>
 
 <h4 id="upm">UPM</h4>
 
@@ -185,12 +177,12 @@
   </li>
   <li>
     <p>Run the following command to use the board’s built-in Opkg package manager to download and update the UPM library.</p>
+
+    <p><code>
+ opkg install upm
+</code></p>
   </li>
 </ol>
-
-<p><code>
-  opkg install upm
- </code></p>
 
 <h3 id="find-code-samples">Find code samples</h3>
 
@@ -224,32 +216,32 @@
 
 <p>Identifying which category a component falls under is required in order to correctly attach the component to the Grove Base Shield and to understand what code library and commands are needed to control the component.</p>
 
-<hr />
+<div id="next-steps" class="note">
+  <h3 id="next-steps">Next Steps</h3>
 
-<h3 id="next-steps">Next Steps</h3>
+  <p>Try code samples in JavaScript or C++:</p>
 
-<p>Try code samples in JavaScript or C++:</p>
+  <ul>
+    <li><a href="javascript/samples.html">JavaScript »</a></li>
+    <li><a href="https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities#_Toc4">C++ »</a></li>
+  </ul>
+</div>
 
-<ul>
-  <li><a href="javascript/samples.html">JavaScript »</a></li>
-  <li><a href="c/samples.html">C++ »</a></li>
-</ul>
+<div class="callout goto">
+  <h3 id="additional-resources">Additional resources</h3>
 
-<hr />
-
-<h3 id="additional-resources">Additional resources</h3>
-
-<ul>
-  <li>
-    <p>Article: <a href="https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities">Using MRAA to Abstract Platform I/O Capabilities</a> </p>
-  </li>
-  <li>
-    <p>For PWM hardware configuration on the Arduino expansion board, refer to section 3.2 “Intel® Edison kit for Arduino* PWM swizzler” in the Intel® Edison Kit for Arduino* Hardware Guide: http://www.intel.com/support/edison/sb/CS-035275.htm</p>
-  </li>
-  <li>
-    <p>Sensor sample code for Arduino IDE: <a href="https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0">Seeed Studio Sketchbook Starter Kit</a></p>
-  </li>
-</ul>
+  <ul>
+    <li>
+      <p>Article: <a href="https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities">Using MRAA to Abstract Platform I/O Capabilities</a> </p>
+    </li>
+    <li>
+      <p>For PWM hardware configuration on the Arduino expansion board, refer to section 3.2 “Intel® Edison kit for Arduino* PWM swizzler” in the Intel® Edison Kit for Arduino* Hardware Guide: http://www.intel.com/support/edison/sb/CS-035275.htm</p>
+    </li>
+    <li>
+      <p>Sensor sample code for Arduino IDE: <a href="https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0">Seeed Studio Sketchbook Starter Kit</a></p>
+    </li>
+  </ul>
+</div>
 
     
     </div>
