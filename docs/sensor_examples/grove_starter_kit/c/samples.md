@@ -156,5 +156,5 @@ I²C (Inter-Integrated Circuit), pronounced both "I-two-C" or "I-squared-C", is 
 
 You're done! Now make your own creation. 
 
-Return back to [START HERE »](/docs/arduino_expansion_board.html#now-make-your-own-creation)
+Return back to [START HERE »](/docs/index.html#now-make-your-own-creation)
 </div>
