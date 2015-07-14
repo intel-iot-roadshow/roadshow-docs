@@ -11,9 +11,7 @@ Once your Intel® Edison is online, identify the IP address using the `configure
 
 ---
 
-1. Establish a serial connection to the Intel® Edison.
-
-    _Don't know how? Refer to [Shell Access](/docs/shell_access/)._
+1. Establish a serial connection to the Intel® Edison. {% strip %}{% include shell_access.md %}{% endstrip %}
 
 2. In newer versions of the Intel® Edison firmware you can use the `configure_edison` command with the `--showWiFiIP` flag.
 

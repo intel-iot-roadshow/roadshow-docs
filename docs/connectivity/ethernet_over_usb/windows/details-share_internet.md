@@ -35,10 +35,8 @@ Internet sharing is an optional step but is highly recommended if you are at a h
 
 7. Unplug and replug the device mode micro-USB cable to reset the Ethernet over USB connection.
 
-8. Use PuTTY to establish a serial connection to the Intel® Edison.
+8. Use PuTTY to establish a serial connection to the Intel® Edison. {% strip %}{% include shell_access.md os="windows" %}{% endstrip %}
   
-    _Don't know how? Refer to [Shell Access](/docs/shell_access/windows/serial_connection.html)._
-
 9. On your Intel® Edison, disconnect from any WiFi networks the board might be logged into using the wireless command line interface (`wpa_cli`) command:
 
     ```

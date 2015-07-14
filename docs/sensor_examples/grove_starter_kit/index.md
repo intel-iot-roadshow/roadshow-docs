@@ -112,9 +112,7 @@ Intel® maintains the [MRAA library on Github](https://github.com/intel-iot-devk
 
 [C/C++ API documentation](http://iotdk.intel.com/docs/master/mraa/) and [JavaScript API documentation](http://iotdk.intel.com/docs/master/mraa/node/modules/mraa.html) can be found on intel.com.
 
-1. Establish an SSH or serial connection to your Intel® Galileo or Intel® Edison.
-
-    _Don't know how? Refer to [Shell Access](/docs/shell_access/)._
+1. Establish an SSH or serial connection to your Intel® Galileo or Intel® Edison. {% strip %}{% include shell_access.md %}{% endstrip %}
 
 2. Run the following commands on your board. The first command will edit the mraa-upm config file on the board. The last two commands use the board's built-in Opkg package manager to download and update the missing library.
 

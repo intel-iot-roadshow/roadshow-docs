@@ -7,9 +7,7 @@ title: Getting Started
 
 Find out what firmware version is currently flashed on your IoT board by running a few Linux commands directly on the Intel® Edison board.
 
-1. Establish an SSH or serial connection to the Intel® Edison.
-
-    _Don't know how? Refer to [Shell Access](/docs/shell_access/)._
+1. Establish an SSH or serial connection to the Intel® Edison. {% strip %}{% include shell_access.md %}{% endstrip %}
 
 2. Run the `configure_edison` command with the `--help` flag to figure out the right approach for your board based on the output of this command.
 

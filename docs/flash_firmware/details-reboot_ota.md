@@ -11,9 +11,7 @@ Run the `reboot ota` command on the Intel® Edison to flash the board with the f
 
 ---
 
-1. Establish a serial connection to the Intel® Edison.
-
-    _Don't know how? Refer to [Shell Access](/docs/shell_access/)._
+1. Establish a serial connection to the Intel® Edison. {% strip %}{% include shell_access.md %}{% endstrip %}
 
 2. Use the `reboot ota` command to reboot the Intel® Edison from the command line.
 

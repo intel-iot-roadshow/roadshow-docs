@@ -50,9 +50,7 @@ You will need to add the IP address of your IoT device manually if you are using
 
 The Intel® XDK app daemon may not be running on the Intel® IoT board.
 
-1. Establish a serial connection to your Intel® Galileo or Intel® Edison.
-
-    _Don't know how? Refer to [Shell Access](/shell_access/)._
+1. Establish a serial connection to your Intel® Galileo or Intel® Edison. {% strip %}{% include shell_access.md %}{% endstrip %}
 
 2. Use the `systemctl` command to enable and restart the xdk-daemon on the IoT board.
 
