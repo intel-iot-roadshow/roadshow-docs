@@ -14,4 +14,4 @@ kramdown:
   
 highlighter: pygments
 
-exclude: ['Gemfile']
+exclude: ['Gemfile', 'README.md']
