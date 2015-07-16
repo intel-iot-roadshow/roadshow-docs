@@ -5,7 +5,7 @@ title: Getting Started
 
 # C++ samples for the Grove Starter Kit
 
-To follow the instructions in this guide, should have already completed the [Set Up IoT Dev Kit Eclipse »](/docs/ide_setup/eclipse/setup.html) guide, and you can successfully [blink the onboard LED](/docs/ide_setup/eclipse/create_project.html) on your Intel® Edison or Intel® Galileo.
+To follow the instructions in this guide, you should have already completed the [Set Up IoT Dev Kit Eclipse »](/docs/ide_setup/eclipse/setup.html) guide, and you can successfully [blink the onboard LED](/docs/ide_setup/eclipse/create_project.html) on your Intel® Edison or Intel® Galileo.
 
 <div id="toc" class="box" markdown="1">
 * [Grove component types »](#grove-component-types)
@@ -30,7 +30,7 @@ Identifying which category a component falls under is required in order to corre
 <div class="tldr" markdown="1">
 A digital output can write a value of either on (1) or off (0).
 
-Connect to any pin labelled "D" (for "digital") on the Grove Base Shield such as D2 to D8.
+Connect to any pin labeled "D" (for "digital") on the Grove Base Shield such as D2 to D8.
 </div>
 
 **Example components:**
@@ -57,7 +57,7 @@ If you want to make the LED turn on and off, add a setTimeout() or setInterval()
 <div class="tldr" markdown="1">
 A digital input can read a value as either on (1) or off (0).
 
-Connect to any pin labelled "D" (for "digital") such as D2 to D8 on the Grove Base Shield.
+Connect to any pin labeled "D" (for "digital") such as D2 to D8 on the Grove Base Shield.
 </div>
 
 **Example components:**
@@ -84,7 +84,7 @@ To react to button press beyond application startup, add a `setTimeout()` or `se
 <div class="tldr" markdown="1">
 An analog input will read a value as between 0 and 1024.
 
-Connect to any pin labelled "A" (for "analog") on the Grove Base Shield such as A0 to A3.
+Connect to any pin labeled "A" (for "analog") on the Grove Base Shield such as A0 to A3.
 </div>
 
 **Example components:**
