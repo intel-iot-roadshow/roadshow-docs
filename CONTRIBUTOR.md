@@ -12,21 +12,27 @@ We welcome pull requests and bug reports on these docs.
 
 [github.com/intel-iot-roadshow/getting-started-guides](https://github.com/intel-iot-roadshow/getting-started-guides)
 
-Currently straight Markdown-formatted docs. This is where everyone is editing content and can continue to edit content for now. After the dust settles from the LA Roadshow, this branch will probably be shut down and replaced by the "jekyll" branch. 
+**IMPORTANT: This branch is marked for deletion as of July 17.** This branch will be replaced by the "jekyll" branch.
+
+Currently straight Markdown-formatted docs meant for consumption directly from Github.com. 
 
 ### branch: jekyll
 
 [github.com/intel-iot-roadshow/getting-started-guides/tree/jekyll](https://github.com/intel-iot-roadshow/getting-started-guides/tree/jekyll)
 
-See [the branch's README](https://github.com/intel-iot-roadshow/getting-started-guides/blob/jekyll/README.md) for how to preview/build content in this branch.
+**IMPORTANT: This branch will become the new 'master' on July 17.**
 
-Note: Once I'm fully done with the content sweep, when we make edits to content, we'll have to update the .md files on BOTH 'master' and 'jekyll' branches. I will let you know when/if this needs to happen but I plan to finish the sweep in the next couple of hours.
+**THIS IS THE CANONICAL SOURCE BRANCH.** Make changes to this branch only. If you try updating 'html' or 'gh-pages', your changes **will** be overwritten.
+
+See [the branch's README](https://github.com/intel-iot-roadshow/getting-started-guides/blob/jekyll/README.md) for how to preview/build content in this branch.
 
 ### branch: html
 
 [github.com/intel-iot-roadshow/getting-started-guides/tree/html](https://github.com/intel-iot-roadshow/getting-started-guides/tree/html)
 
-THIS IS THE BRANCH THAT WILL BE PUT ON USB KEYS. Static files need to be generated form the 'jekyll' branch. See [the branch's README](https://github.com/intel-iot-roadshow/getting-started-guides/blob/html/README.md) for details on running a local web server to view files.
+**THIS IS THE BRANCH THAT CAN BE DOWNLOADED AND PUT ON USB KEYS FOR ROADSHOWS.** 
+
+Static files need to be generated form the 'jekyll' branch. See [the branch's README](https://github.com/intel-iot-roadshow/getting-started-guides/blob/html/README.md) for details on running a local web server to view files.
 
 ### branch: gh-pages
 
