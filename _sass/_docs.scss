@@ -27,13 +27,24 @@ img {
   margin: 3em 0 1em 0;
 }
 
-code {
+/* ==========================================================================
+   Code and command line blocks
+   ========================================================================== */
+
+code,
+pre { 
   font-family: Consolas, Courier, monospace;
-  padding: 4px;
-  background-color: #f7f7f7;
-  border-radius: 3px;
-  overflow: auto;
+}
+
+code {
+  padding: 2px;
   font-size: 85%;
+}
+
+pre {
+  padding: 6px 8px;
+  overflow: auto;
+  background-color: #f7f7f7;
 }
 
 /* ==========================================================================
@@ -73,7 +84,7 @@ h1 {
 }
 
 h2 {
-  font-size: 16pt;
+  font-size: 17pt;
   margin-top: 28pt;
   padding-bottom: 2pt;
   border-bottom: 1px solid #0071c5;
@@ -81,7 +92,7 @@ h2 {
 }
 
 h3 {
-  font-size: 13pt;
+  font-size: 15pt;
   margin-top: 16pt;
   padding-bottom: 6pt;
   border-bottom: 1px dotted #0071c5;
