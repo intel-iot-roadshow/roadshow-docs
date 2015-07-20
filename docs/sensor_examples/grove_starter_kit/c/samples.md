@@ -28,7 +28,7 @@ Identifying which category a component falls under is required in order to corre
 ### Digital outputs
 
 <div class="tldr" markdown="1">
-A digital output can write a value of either on (1) or off (0).
+A digital output can write a value of either on (`1`) or off (`0`).
 
 Connect to any pin labeled "D" (for "digital") on the Grove Base Shield such as D2 to D8.
 </div>
@@ -41,21 +41,57 @@ Connect to any pin labeled "D" (for "digital") on the Grove Base Shield such as 
 **Low level MRAA-only example:**
 
 ```
+#include "mraa.hpp"
 
+int main()
+{
+  // set up GPIO digital pin #6
+  mraa::Gpio* led = new mraa::Gpio(6, true, false);
+
+  // set the GPIO direction to output
+  led->dir(mraa::DIR_OUT);
+
+  // set the digital pin to high (1)
+  led->write(1);
+
+  return MRAA_SUCCESS;
+}
 ```
 
 **Higher level UPM example:**
 
 ```
+#include "grove.h"
 
+int main()
+{
+  // use GroveLed class to set up GPIO digital pin #6
+  // (internally sets direction to output)
+  upm::GroveLed* led = new upm::GroveLed(6);
+
+  // set the digital pin to high
+  led->on();
+
+  return MRAA_SUCCESS;
+}
 ```
 
-If you want to make the LED turn on and off, add a setTimeout() or setInterval() to toggle between writing 1 or 0 to the digital pin.  
+If you want to make the LED turn on and off, add a `for` loop to toggle between writing `1` or `0` to the digital pin. For example:
+
+```
+// loop forever to toggle the on board LED every second
+for (;;) {
+  led->write(1);
+  sleep(1);
+  led->write(0);
+  sleep(1);
+}
+```  
 
 ### Digital inputs
 
 <div class="tldr" markdown="1">
-A digital input can read a value as either on (1) or off (0).
+A digital input can read a value as either on (`1`) or off (`0`).
 
 Connect to any pin labeled "D" (for "digital") such as D2 to D8 on the Grove Base Shield.
 </div>
@@ -68,21 +104,75 @@ Connect to any pin labeled "D" (for "digital") such as D2 to D8 on the Grove Bas
 **Low level MRAA-only example:**
 
 ```
+#include "mraa.hpp"
+#include <stdio.h>
+
+int main()
+{
+  // set up digital read on digital pin #5
+  mraa::Gpio* button = new mraa::Gpio(5, true, false);
+
+  // set the GPIO direction to input
+  button->dir(mraa::DIR_IN);
+
+  // read the value of the digital pin
+  int button_state = button->read();
+
+  // write the value to the console for debugging
+  printf("%d \n", button_state);
+
+  return MRAA_SUCCESS;
+}
+```
+
+To react to a button press beyond application startup, add a `while` or `for` loop with a delay to periodically poll the pin state. For example, this loop reads the button and waits for 500ms before checking the button state again:
 
 ```
+// poll for changes in input state
+for (;;) {
+  int button_state = button->read();
+  printf("%d \n", button_state);
+  usleep(500*1000);
+}
+```
+
+To implement a non-blocking way of detecting changes in input values, use [`mraa_gpio_isr()` as an interrupt handler](https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities#_Toc4.2) instead of a loop.
 
 **Higher level UPM example:**
 
 ```
+#include "grove.h"
+#include <stdio.h>
 
+int main()
+{
+  // use GroveButton class to set up GPIO digital pin #5
+  // (internally sets direction to input)
+  upm::GroveButton* button = new upm::GroveButton(5);
+
+  // poll for changes in input state
+  for(;;) {
+    // read the value of the digital pin
+    int button_state = button->value();
+
+    // write the value to the console for debugging
+    printf("%d \n", button_state);
+    
+    // 500ms delay
+    usleep(500 * 1000);
+  }
+
+  // Delete the button object
+  delete button;
+
+  return MRAA_SUCCESS;
+}
 ```
-
-To react to button press beyond application startup, add a `setTimeout()` or `setInterval()` to periodically poll the pin state.
 
 ### Analog inputs
 
 <div class="tldr" markdown="1">
-An analog input will read a value as between 0 and 1024.
+An analog input will read a value as between `0` and `1024`.
 
 Connect to any pin labeled "A" (for "analog") on the Grove Base Shield such as A0 to A3.
 </div>
@@ -106,14 +196,14 @@ Connect to any pin labeled "A" (for "analog") on the Grove Base Shield such as A
 
 ```
 
-To react to changes in light beyond application startup, add a `setTimeout()` or `setInterval()` to periodically poll the sensor value.
+To implement a non-blocking way of detecting changes in input values, use [`mraa_gpio_isr()` as an interrupt handler](https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities#_Toc4.2) instead of a loop.
 
 ### Analog outputs
 
 <div class="tldr" markdown="1">
 An analog output is a digital output in disguise. Intel® IoT boards are digital microcontrollers that can pretend to be analog using a concept called Pulse Width Modulation (PWM). 
 
-Analog outputs will accept a floating-point value representing a duty cycle percentage between 0 (always off), 1.0 (always on). For example, a value of 0.5 will rapidly pulse equally between on and off.
+Analog outputs will accept a floating-point value representing a duty cycle percentage between `0` (always off), `1.0` (always on). For example, a value of `0.5` will rapidly pulse equally between on and off.
 
 Components will only work when connected to PWM-enabled pins! By factory default, these PWM pins are D3, D5, and D6. (Digital pin #9 is also available on the Arduino expansion board via the standard female header pin.)
 </div>

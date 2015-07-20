@@ -42,7 +42,7 @@ Identifying which category a component falls under is required in order to corre
 ### Digital outputs
 
 <div class="tldr" markdown="1">
-A digital output can write a value of either on (1) or off (0).
+A digital output can write a value of either on (`1`) or off (`0`).
 
 Connect to any pin labeled "D" (for "digital") on the Grove Base Shield such as D2 to D8.
 </div>
@@ -57,10 +57,22 @@ Connect to any pin labeled "D" (for "digital") on the Grove Base Shield such as 
 ```
 var mraa = require('mraa');
 
-var led = new mraa.Gpio(6);  // set up digital read on digital pin #6
-led.dir(mraa.DIR_OUT);  // set the GPIO direction to output
+var led = new mraa.Gpio(6);      // set up GPIO digital pin #6
+led.dir(mraa.DIR_OUT);           // set the GPIO direction to output
+led.write(1);                    // set the digital pin to high (1)
+```
 
-led.write(1);  // set the digital pin to high (1)
+If you want to make the LED turn on and off, add a `setTimeout()` or `setInterval()` to toggle between writing `1` or `0` to the digital pin. For example: 
+
+```
+var blinkState = 0;              // keep track of LED state
+
+function blink(){
+  led.write(blinkState);
+  blinkState = blinkState?0:1;   // toggle state
+}
+
+setTimeout(blink, 1000);         // toggle the on board LED every second
 ```
 
 **Higher level UPM example:**
@@ -68,17 +80,14 @@ led.write(1);  // set the digital pin to high (1)
 ```
 var groveSensor = require('jsupm_grove');
 
-var led = new groveSensor.GroveLed(6); // set up digital output on digital pin #6
-
-led.on();                              // set the digital pin to high
+var led = new groveSensor.GroveLed(6);   // set up GPIO digital output pin #6
+led.on();                                // set the digital pin to high
 ```
-
-If you want to make the LED turn on and off, add a setTimeout() or setInterval() to toggle between writing 1 or 0 to the digital pin.  
 
 ### Digital inputs
 
 <div class="tldr" markdown="1">
-A digital input can read a value as either on (1) or off (0).
+A digital input can read a value as either on (`1`) or off (`0`).
 
 Connect to any pin labeled "D" (for "digital") such as D2 to D8 on the Grove Base Shield.
 </div>
@@ -100,6 +109,17 @@ var buttonState = button.read();   // read the value of the digital pin
 console.log(buttonState);          // write the value to the console for debugging
 ```
 
+To react to a button press beyond application startup, add a `setTimeout()` or `setInterval()` to periodically poll the pin state. For example:
+
+```
+function checkState(){
+  var buttonState = button.read();   // read the value of the digital pin
+  console.log(buttonState);          // write the value to the console for debugging
+}
+
+setInterval(checkState, 500);        // poll for changes in state ever 1/2 second
+```
+
 **Higher level UPM example:**
 
 ```
@@ -111,12 +131,11 @@ var buttonState = button.value();  // read the value of the digital pin
 console.log(buttonState);          // write the value to the console for debugging
 ```
 
-To react to button press beyond application startup, add a `setTimeout()` or `setInterval()` to periodically poll the pin state.
 
 ### Analog inputs
 
 <div class="tldr" markdown="1">
-An analog input will read a value as between 0 and 1024.
+An analog input will read a value as between `0` and `1024`.
 
 Connect to any pin labeled "A" (for "analog") on the Grove Base Shield such as A0 to A3.
 </div>
@@ -158,7 +177,7 @@ To react to changes in light beyond application startup, add a `setTimeout()` or
 <div class="tldr" markdown="1">
 An analog output is a digital output in disguise. Intel® IoT boards are digital microcontrollers that can pretend to be analog using a concept called Pulse Width Modulation (PWM). 
 
-Analog outputs will accept a floating-point value representing a duty cycle percentage between 0 (always off), 1.0 (always on). For example, a value of 0.5 will rapidly pulse equally between on and off.
+Analog outputs will accept a floating-point value representing a duty cycle percentage between `0` (always off), `1.0` (always on). For example, a value of `0.5` will rapidly pulse equally between on and off.
 
 Components will only work when connected to PWM-enabled pins! By factory default, these PWM pins are D3, D5, and D6. (Digital pin #9 is also available on the Arduino expansion board via the standard female header pin.)
 </div>
@@ -175,11 +194,15 @@ Components will only work when connected to PWM-enabled pins! By factory default
 var mraa = require("mraa");
 
 var led = new mraa.Pwm(3);  // initialize PWM on digital pin #3
-
 led.write(0.5);             // make LED half brightness
+```
 
-///--- below example: fade over time ---
+The below example will fade the LED over time:
 
+```
+var mraa = require("mraa");
+
+var led = new mraa.Pwm(3);  // initialize PWM on digital pin #3
 var brightness = 1;
 var fadeInterval;
 
@@ -194,7 +217,7 @@ fadeInterval = setInterval(fade, 100);
 
 **Higher level UPM example:**
 
-Please see: [https://github.com/intel-iot-devkit/upm/blob/master/examples/javascript/es08a.js](https://github.com/intel-iot-devkit/upm/blob/master/examples/javascript/es08a.js)
+For an example using a servo motor, see [https://github.com/intel-iot-devkit/upm/blob/master/examples/javascript/es08a.js](https://github.com/intel-iot-devkit/upm/blob/master/examples/javascript/es08a.js)
 
 
 ### I2C

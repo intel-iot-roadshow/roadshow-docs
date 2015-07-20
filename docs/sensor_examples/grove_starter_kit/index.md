@@ -104,6 +104,10 @@ All components in the Grove System use a 4-pin cable with JST connectors. This a
 
 ### Install code libraries 
 
+<div class="callout warning" style="margin-top: 1em;" markdown="1">
+**Is your board online?** Your board must have an internet connection to install the code libraries with the following commands.
+</div>
+
 #### MRAA
 
 Libmraa (pronounced "em-raah") is a C/C++ library (with bindings to JavaScript and Python) to interface with the GPIO pins on the Intel® Galileo, Intel® Edison, and other platforms. 
@@ -116,11 +120,15 @@ Intel® maintains the [MRAA library on Github](https://github.com/intel-iot-devk
 
 2. Run the following commands on your board. The first command will edit the mraa-upm config file on the board. The last two commands use the board's built-in Opkg package manager to download and update the missing library.
 
-    ```
-    echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/mraa-upm.conf
-    opkg update
-    opkg install libmraa0
-    ```
+```
+echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/mraa-upm.conf
+```
+```
+opkg update
+```
+```
+opkg install libmraa0
+```
 
 #### UPM
 
