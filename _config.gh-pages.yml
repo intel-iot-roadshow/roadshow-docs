@@ -4,7 +4,7 @@ description: Getting Started guides for Intel IoT
 author:
   name: Pearl Chen
   email: pearl@klab.ca
-baseurl: "/getting-started-guides" # the subpath of your site, e.g. /blog/
+baseurl: "/getting-started-guides/" # the subpath of your site, e.g. /blog/
 
 # Build settings
 markdown: kramdown
