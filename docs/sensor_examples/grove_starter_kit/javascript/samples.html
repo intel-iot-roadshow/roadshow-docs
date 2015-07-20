@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html class="no-js">
   <head>
@@ -6,7 +10,7 @@
     <title>Getting Started</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/getting-started-guides/css/main.css">
+    <link rel="stylesheet" href="/getting-started-guides../../../../css/main.css">
   </head>
 
     <div class="content">
@@ -55,9 +59,9 @@
 <h3 id="digital-outputs">Digital outputs</h3>
 
 <div class="tldr">
-  <p>A digital output can write a value of either on (1) or off (0).</p>
+  <p>A digital output can write a value of either on (<code>1</code>) or off (<code>0</code>).</p>
 
-  <p>Connect to any pin labelled “D” (for “digital”) on the Grove Base Shield such as D2 to D8.</p>
+  <p>Connect to any pin labeled “D” (for “digital”) on the Grove Base Shield such as D2 to D8.</p>
 </div>
 
 <p><strong>Example components:</strong></p>
@@ -71,29 +75,37 @@
 
 <pre><code>var mraa = require('mraa');
 
-var led = new mraa.Gpio(6);  // set up digital read on digital pin #6
-led.dir(mraa.DIR_OUT);  // set the GPIO direction to output
+var led = new mraa.Gpio(6);      // set up GPIO digital pin #6
+led.dir(mraa.DIR_OUT);           // set the GPIO direction to output
+led.write(1);                    // set the digital pin to high (1)
+</code></pre>
 
-led.write(1);  // set the digital pin to high (1)
+<p>If you want to make the LED turn on and off, add a <code>setTimeout()</code> or <code>setInterval()</code> to toggle between writing <code>1</code> or <code>0</code> to the digital pin. For example: </p>
+
+<pre><code>var blinkState = 0;              // keep track of LED state
+
+function blink(){
+  led.write(blinkState);
+  blinkState = blinkState?0:1;   // toggle state
+}
+
+setTimeout(blink, 1000);         // toggle the on board LED every second
 </code></pre>
 
 <p><strong>Higher level UPM example:</strong></p>
 
 <pre><code>var groveSensor = require('jsupm_grove');
 
-var led = new groveSensor.GroveLed(6); // set up digital output on digital pin #6
-
-led.on();                              // set the digital pin to high
+var led = new groveSensor.GroveLed(6);   // set up GPIO digital output pin #6
+led.on();                                // set the digital pin to high
 </code></pre>
-
-<p>If you want to make the LED turn on and off, add a setTimeout() or setInterval() to toggle between writing 1 or 0 to the digital pin.  </p>
 
 <h3 id="digital-inputs">Digital inputs</h3>
 
 <div class="tldr">
-  <p>A digital input can read a value as either on (1) or off (0).</p>
+  <p>A digital input can read a value as either on (<code>1</code>) or off (<code>0</code>).</p>
 
-  <p>Connect to any pin labelled “D” (for “digital”) such as D2 to D8 on the Grove Base Shield.</p>
+  <p>Connect to any pin labeled “D” (for “digital”) such as D2 to D8 on the Grove Base Shield.</p>
 </div>
 
 <p><strong>Example components:</strong></p>
@@ -114,6 +126,16 @@ var buttonState = button.read();   // read the value of the digital pin
 console.log(buttonState);          // write the value to the console for debugging
 </code></pre>
 
+<p>To react to a button press beyond application startup, add a <code>setTimeout()</code> or <code>setInterval()</code> to periodically poll the pin state. For example:</p>
+
+<pre><code>function checkState(){
+  var buttonState = button.read();   // read the value of the digital pin
+  console.log(buttonState);          // write the value to the console for debugging
+}
+
+setInterval(checkState, 500);        // poll for changes in state ever 1/2 second
+</code></pre>
+
 <p><strong>Higher level UPM example:</strong></p>
 
 <pre><code>var groveSensor = require('jsupm_grove');
@@ -124,14 +146,12 @@ var buttonState = button.value();  // read the value of the digital pin
 console.log(buttonState);          // write the value to the console for debugging
 </code></pre>
 
-<p>To react to button press beyond application startup, add a <code>setTimeout()</code> or <code>setInterval()</code> to periodically poll the pin state.</p>
-
 <h3 id="analog-inputs">Analog inputs</h3>
 
 <div class="tldr">
-  <p>An analog input will read a value as between 0 and 1024.</p>
+  <p>An analog input will read a value as between <code>0</code> and <code>1024</code>.</p>
 
-  <p>Connect to any pin labelled “A” (for “analog”) on the Grove Base Shield such as A0 to A3.</p>
+  <p>Connect to any pin labeled “A” (for “analog”) on the Grove Base Shield such as A0 to A3.</p>
 </div>
 
 <p><strong>Example components:</strong></p>
@@ -171,7 +191,7 @@ console.log(lightValueRaw, lightValue);    // write values to console for debugg
 <div class="tldr">
   <p>An analog output is a digital output in disguise. Intel® IoT boards are digital microcontrollers that can pretend to be analog using a concept called Pulse Width Modulation (PWM). </p>
 
-  <p>Analog outputs will accept a floating-point value representing a duty cycle percentage between 0 (always off), 1.0 (always on). For example, a value of 0.5 will rapidly pulse equally between on and off.</p>
+  <p>Analog outputs will accept a floating-point value representing a duty cycle percentage between <code>0</code> (always off), <code>1.0</code> (always on). For example, a value of <code>0.5</code> will rapidly pulse equally between on and off.</p>
 
   <p>Components will only work when connected to PWM-enabled pins! By factory default, these PWM pins are D3, D5, and D6. (Digital pin #9 is also available on the Arduino expansion board via the standard female header pin.)</p>
 </div>
@@ -189,11 +209,14 @@ console.log(lightValueRaw, lightValue);    // write values to console for debugg
 <pre><code>var mraa = require("mraa");
 
 var led = new mraa.Pwm(3);  // initialize PWM on digital pin #3
-
 led.write(0.5);             // make LED half brightness
+</code></pre>
 
-///--- below example: fade over time ---
+<p>The below example will fade the LED over time:</p>
 
+<pre><code>var mraa = require("mraa");
+
+var led = new mraa.Pwm(3);  // initialize PWM on digital pin #3
 var brightness = 1;
 var fadeInterval;
 
@@ -208,7 +231,7 @@ fadeInterval = setInterval(fade, 100);
 
 <p><strong>Higher level UPM example:</strong></p>
 
-<p>Please see: <a href="https://github.com/intel-iot-devkit/upm/blob/master/examples/javascript/es08a.js">https://github.com/intel-iot-devkit/upm/blob/master/examples/javascript/es08a.js</a></p>
+<p>For an example using a servo motor, see <a href="https://github.com/intel-iot-devkit/upm/blob/master/examples/javascript/es08a.js">https://github.com/intel-iot-devkit/upm/blob/master/examples/javascript/es08a.js</a></p>
 
 <h3 id="i2c">I2C</h3>
 

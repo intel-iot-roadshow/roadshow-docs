@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html class="no-js">
   <head>
@@ -6,7 +10,7 @@
     <title>Getting Started</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/getting-started-guides/css/main.css">
+    <link rel="stylesheet" href="/getting-started-guides../../../css/main.css">
   </head>
 
     <div class="content">
@@ -138,6 +142,10 @@
 
 <h3 id="install-code-libraries">Install code libraries</h3>
 
+<div class="callout warning" style="margin-top: 1em;">
+  <p><strong>Is your board online?</strong> Your board must have an internet connection to install the code libraries with the following commands.</p>
+</div>
+
 <h4 id="mraa">MRAA</h4>
 
 <p>Libmraa (pronounced “em-raah”) is a C/C++ library (with bindings to JavaScript and Python) to interface with the GPIO pins on the Intel® Galileo, Intel® Edison, and other platforms. </p>
@@ -148,20 +156,20 @@
 
 <ol>
   <li>
-    <p>Establish an SSH or serial connection to your Intel® Galileo or Intel® Edison.</p>
-
-    <p><em>Don’t know how? Refer to <a href="/docs/shell_access/">Shell Access</a>.</em></p>
+    <p>Establish an SSH or serial connection to your Intel® Galileo or Intel® Edison. <br />
+<em>Don’t know how? Refer to <a href="/getting-started-guides../../../docs/shell_access/">Shell Access</a>.</em></p>
   </li>
   <li>
     <p>Run the following commands on your board. The first command will edit the mraa-upm config file on the board. The last two commands use the board’s built-in Opkg package manager to download and update the missing library.</p>
-
-    <p><code>
- echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" &gt; /etc/opkg/mraa-upm.conf
- opkg update
- opkg install libmraa0
-</code></p>
   </li>
 </ol>
+
+<pre><code>echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" &gt; /etc/opkg/mraa-upm.conf
+</code></pre>
+<pre><code>opkg update
+</code></pre>
+<pre><code>opkg install libmraa0
+</code></pre>
 
 <h4 id="upm">UPM</h4>
 

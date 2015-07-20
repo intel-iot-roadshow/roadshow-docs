@@ -574,6 +574,9 @@ body {
 a {
   color: #0071c5; }
 
+a:hover {
+  color: #00aeef; }
+
 img {
   max-width: 100%; }
 
@@ -584,13 +587,21 @@ img {
 .content > hr {
   margin: 3em 0 1em 0; }
 
+/* ==========================================================================
+   Code and command line blocks
+   ========================================================================== */
+code,
+pre {
+  font-family: Consolas, Courier, monospace; }
+
 code {
-  font-family: Consolas, Courier, monospace;
-  padding: 4px;
-  background-color: #f7f7f7;
-  border-radius: 3px;
-  overflow: auto;
+  padding: 2px;
   font-size: 85%; }
+
+pre {
+  padding: 6px 8px;
+  overflow: auto;
+  background-color: #f7f7f7; }
 
 /* ==========================================================================
    List items
@@ -618,14 +629,14 @@ h1 {
   font-size: 20pt; }
 
 h2 {
-  font-size: 16pt;
+  font-size: 17pt;
   margin-top: 28pt;
   padding-bottom: 2pt;
   border-bottom: 1px solid #0071c5;
   margin-bottom: 0; }
 
 h3 {
-  font-size: 13pt;
+  font-size: 15pt;
   margin-top: 16pt;
   padding-bottom: 6pt;
   border-bottom: 1px dotted #0071c5;
