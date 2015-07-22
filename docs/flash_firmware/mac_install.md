@@ -9,7 +9,13 @@ This document explains the installation procedure Flash Tool Lite for Mac OSX. T
 
 ## Installation
 
-1. Copy the FlashToolLite.dmg from your USB drive in downloads -> Mac folder to your home directory.
+1. Get the latest Flash Tool Lite.
+   
+   <div class="callout goto" markdown="1">
+   1. On the USB key: **downloads → Mac**
+   2. Copy **PhoneFlashToolLite_[version]_mac64.dmg** to your computer.
+   </div>
+
 2. Open FlashToolLite.dmg and drag Flash Tool Lite into the Application folder.
 
    ![Install Flash Tool Lite](images/install_flash_tool_mac_firmware.png)
@@ -17,5 +23,5 @@ This document explains the installation procedure Flash Tool Lite for Mac OSX. T
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-* [Update firmware using the tool »](/docs/flash_firmware/update_firmware.html)
+* [Update firmware using the tool »](update_firmware.html)
 </div>

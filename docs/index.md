@@ -15,7 +15,6 @@ _Instructions for **Intel® Edison** installed on an **Arduino-compatible expans
 Find out what hardware is included with your Intel® IoT Developer Kit ("dev kit"). And review important assembly and cable hook up instructions.
 
 * [Assembly - Arduino expansion board »](assembly/arduino_expansion_board/assembly.html)
-* [Connecting Cables - Arduino expansion board »](assembly/arduino_expansion_board/connecting_cables.html)
 
 
 ## 2. Set Up Your Computer
@@ -23,11 +22,9 @@ Find out what hardware is included with your Intel® IoT Developer Kit ("dev kit
 Install software and drivers specifically for your computer's operating system. 
 
 * **Mac or Linux user?** 
-
   You have no special setup. Skip to **Step 3** below.
 
 * **Windows user?**
-
   [Set Up Your Computer - Windows (manual installation) »](computer_setup/windows/manual_installation.html)
 
 
@@ -35,13 +32,10 @@ Install software and drivers specifically for your computer's operating system.
 
 Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
 
-Install the Flashing Tool
-
-* [Windows »](flash_firmware/windows_install.html)
-* [Mac »](flash_firmware/mac_install.html)
-* [Linux »](flash_firmware/linux_install.html)
-
-[Update firmware using the tool »](flash_firmware/update_firmware.html)
+* Install the Flashing Tool for:
+  * [Windows »](flash_firmware/windows_install.html)
+  * [Mac »](flash_firmware/mac_install.html)
+  * [Linux »](flash_firmware/linux_install.html)
 
 
 ## 4. Shell Access
@@ -108,8 +102,10 @@ Search for answers and post your questions to the [Intel® Edison Support Commun
 ## Resources
 
 * [Intel® Edison Product Brief](http://www.intel.com/support/edison/sb/CS-035277.htm) (Specs)
-* [Intel® Edison Arduino Expansion Board Hardware Guide](http://www.intel.com/support/edison/sb/CS-035275.htm) - For pinout listing, see page 7
-* [Intel® Edison Mini Breakout Board Hardware Guide](http://www.intel.com/support/edison/sb/CS-035252.htm) - For pinout listing, see page 9 
+* [Intel® Edison Arduino Expansion Board Hardware Guide](http://www.intel.com/support/edison/sb/CS-035275.htm)
+  * For pinout listing, see page 7
+* [Intel® Edison Mini Breakout Board Hardware Guide](http://www.intel.com/support/edison/sb/CS-035252.htm)
+  * For pinout listing, see page 9 
 * [Yocto Project: Foundation for the Internet of Things](https://www.youtube.com/watch?v=ztsnQ3p59jA&list=PLg-UKERBljNw254jnyMNZiu8yqF8pPq0m&index=24) (Introduction to Yocto video)
 * [Intel® IoT Developer Kit Cloud-based Analytics User Guide](https://software.intel.com/en-us/intel-iot-developer-kit-cloud-based-analytics-user-guide) 
 * [Seeed Studio Sketchbook Starter Kit](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0) (Sensor sample code for Arduino IDE)

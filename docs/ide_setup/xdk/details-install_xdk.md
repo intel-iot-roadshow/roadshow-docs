@@ -5,16 +5,12 @@ title: Getting Started
 
 ## Step 1: Install Intel® XDK IoT Edition
 
-Get the latest Intel® XDK IoT Edition installer.
+1. Get the latest Intel® XDK IoT Edition installer.
 
-  1.  On the USB key: downloads → [your OS].
-  
-  2.  Copy the appropriate iot_web installer file to your computer:
-
-      * **Windows:** iot_web_win_master_2170.exe
-      * **Mac:** iot_web_mac_master_2170.dmg
-      * **Linux 32-bit:** iot_web_linux32_master_2170.tgz
-      * **Linux 64-bit:** iot_web_linux64_master_2170.tgz
+    <div class="callout goto" markdown="1">
+    1.  On the USB key: **downloads → [your OS]**.
+    2.  Copy the appropriate **iot_web_[your OS]\_master\_[version]** installer file to your computer:
+    </div>
 
 ### On Windows
 

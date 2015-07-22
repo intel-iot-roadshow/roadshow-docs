@@ -28,7 +28,7 @@ You will need to install the Windows drivers manually. Refer to [Set Up Your Com
 ## Download and run the Intel® Edison integrated installer
 
 <div class="tldr" markdown="1">
-The [Windows 64-bit Integrated Installer](https://software.intel.com/iot/hardware/edison/downloads) gives you options to automatically install:
+The Windows 64-bit Integrated Installer gives you options to automatically install:
 
 * Intel® Edison and FTDI serial drivers on your Windows computer,
 * an IDE of your choice (Arduino, Intel XDK® for IoT, and/or Eclipse), and

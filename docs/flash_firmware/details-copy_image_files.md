@@ -13,16 +13,10 @@ Extract the contents of the [Yocto complete image](http://software.intel.com/iot
 
 1. Get the latest Yocto firmware image for the Intel® Edison.
 
-    **Hackathon attendees:**
-    
-    1. On the USB key: files → Firmware - Edison Yocto complete image
+    <div class="callout goto" markdown="1">
+    1. On the USB key: **downloads → Firmware - Edison Yocto**
     2. Copy **edison-image-[version].zip** to your computer.
-      
-    **Online option:**
-    
-    1. Visit the Intel® Edison Software Downloads page: [software.intel.com/iot/hardware/edison/downloads](http://software.intel.com/iot/hardware/edison/downloads).
-    2. Scroll down to the "**Intel® Edison firmware and operating system image**" section.
-    3. Click "**Yocto complete image**" to download the latest **edison-image-[version].zip** to your computer.
+    </div>
       
     <div class="callout info" markdown="1">
     **Interested in finding out what's new with each firmware release?**

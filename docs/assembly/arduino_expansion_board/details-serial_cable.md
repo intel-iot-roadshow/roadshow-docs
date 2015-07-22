@@ -21,7 +21,7 @@ Use the bottom micro-USB port to send serial commands to your Intel® Edison via
   ![USB cable being plugged into laptop](images/computer-usb_cable-before_after.png)
 
 <div class="callout info" markdown="1">
-Refer to [Shell Access](/docs/shell_access/) for more instructions on gaining command line access.
+Refer to [Shell Access](../../shell_access/) for more instructions on gaining command line access.
 
 ---
 

@@ -47,7 +47,7 @@ The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
 </div>
 
 <div class="callout goto" markdown="1">
-For more info on using Screen such as quitting, read [Using Screen »](/docs/shell_access/mac-and-linux/using_screen.html)
+For more info on using Screen such as quitting, read [Using Screen »](../mac-and-linux/using_screen.html)
 </div>
 
 <div id="next-steps" class="note" markdown="1">
@@ -60,9 +60,9 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 
 Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
 
-* [Linux »](/docs/connectivity/ethernet_over_usb/linux/connect.html)
+* [Linux »](../../connectivity/ethernet_over_usb/linux/connect.html)
 
 **At home? Have a dependable Wi-Fi connection?**
 
-* [Get Your Edison Board Online »](/docs/connectivity/wifi/connect.html)
+* [Get Your Edison Board Online »](../../connectivity/wifi/connect.html)
 </div>

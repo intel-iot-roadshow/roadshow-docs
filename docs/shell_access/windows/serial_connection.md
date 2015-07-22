@@ -80,9 +80,9 @@ Get your board online in order to turn your IoT board into a true "Internet of T
 
 Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
 
-* [Windows »](/docs/connectivity/ethernet_over_usb/windows/connect.html)
+* [Windows »](../../connectivity/ethernet_over_usb/windows/connect.html)
 
 **At home? Have a dependable Wi-Fi connection?**
 
-* [Get Your Edison Board Online »](/docs/connectivity/wifi/connect.html)
+* [Get Your Edison Board Online »](../../connectivity/wifi/connect.html)
 </div>

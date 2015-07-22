@@ -5,7 +5,7 @@ title: Getting Started
 
 # JavaScript samples for the Grove Starter Kit
 
-To follow the instructions in this guide, you should have already completed the [Set Up Intel XDK for IoT](/docs/ide_setup/xdk/setup.html) guide, and you can successfully [blink the onboard LED](/docs/ide_setup/xdk/create_project.html) on your Intel® Edison or Intel® Galileo.
+To follow the instructions in this guide, you should have already completed the [Set Up Intel XDK for IoT](../../../ide_setup/xdk/setup.html) guide, and you can successfully [blink the onboard LED](../../../ide_setup/xdk/create_project.html) on your Intel® Edison or Intel® Galileo.
 
 
 <div id="toc" class="box" markdown="1">
@@ -246,5 +246,5 @@ lcd.write("hello"); // print characters to the LCD screen
 
 You're done! Now make your own creation. 
 
-Return back to [START HERE »](/docs/arduino_expansion_board.html#now-make-your-own-creation)
+Return back to [START HERE »](../../../index.html#now-make-your-own-creation)
 </div>

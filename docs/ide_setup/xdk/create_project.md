@@ -81,7 +81,7 @@ Upload the project files to the IoT device and run it. Remember that every time 
   
   The LED is located near the center of the board.
 
-  ![Green LED on Intel® Edison](/docs/assembly/arduino_expansion_board/images/on_board_led.png)
+  ![Green LED on Intel® Edison](../../assembly/arduino_expansion_board/images/on_board_led.png)
 
 **Congratulations, you just ran your first Intel® XDK application!**
 </div>
@@ -95,6 +95,6 @@ Upload the project files to the IoT device and run it. Remember that every time 
 
 Experiment with sample code supplied for available sensors and actuators.
 
-* **[Grove Starter Kit - Intro »](/docs/sensor_examples/grove_starter_kit/index.html)**
-  * [JavaScript »](/docs/sensor_examples/grove_starter_kit/javascript/samples.html)
+* **[Grove Starter Kit - Intro »](../../sensor_examples/grove_starter_kit/index.html)**
+  * [JavaScript »](../../sensor_examples/grove_starter_kit/javascript/samples.html)
 </div>

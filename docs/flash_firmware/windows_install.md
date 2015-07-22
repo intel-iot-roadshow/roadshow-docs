@@ -9,7 +9,13 @@ This document explains the installation procedure Flash Tool Lite for Windows*. 
 
 ## Installation
 
-1. Copy the PhoneFlashToolLite_5.2.4.0_win32.exe from your USB drive in downloads -> Windows folder to your home directory.
+1. Get the latest Flash Tool Lite.
+   
+   <div class="callout goto" markdown="1">
+   1. On the USB key: **downloads → Windows**
+   2. Copy **PhoneFlashToolLite_[version]_win32.exe** to your computer.
+   </div>
+
 2. Run the installer and click *Next*.
   
    ![Install Flash Tool Lite](images/install_flash_tool_firmware.png)
@@ -41,5 +47,5 @@ This document explains the installation procedure Flash Tool Lite for Windows*. 
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-* [Update firmware using the tool »](/docs/flash_firmware/update_firmware.html)
+* [Update firmware using the tool »](update_firmware.html)
 </div>

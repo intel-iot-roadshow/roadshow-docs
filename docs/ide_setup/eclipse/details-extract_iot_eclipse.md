@@ -15,14 +15,10 @@ Get the latest Eclipse IDE for Intel® IoT development. Download the compressed 
 
 1. Get the latest IoT dev kit Eclipse IDE package.
 
-    **Hackathon attendees:**
-    
-    1. On the USB key: files → [your OS]
-    
-    2. Copy the appropriate **iotdk-ide** file to your computer:
-      * **Windows**: iotdk-ide-win.7z
-      * **Mac**: iotdk-ide-mac.tar.bz2 
-      * **Linux**: iotdk-ide-linux.tar.bz2
+    <div class="callout goto" markdown="1">
+    1. On the USB key: **downloads → [your OS]**
+    2. Copy the appropriate **iotdk-ide-[your OS]** file to your computer:
+    </div>
 
 ---
 

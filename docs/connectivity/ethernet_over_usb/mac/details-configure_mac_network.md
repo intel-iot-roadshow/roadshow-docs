@@ -13,15 +13,15 @@ Update your computer's Network configuration with a static IP address to use Eth
 
 1. Open your **Network** preference settings.
 
-    (i.e. In the OS X menu bar, choose ![Mac OS icon](/img/icons/os_icon_mac.png) → System Preferences → Network)
+    (i.e. In the OS X menu bar, choose ![Mac OS icon](../../../../img/icons/os_icon_mac.png) → System Preferences → Network)
 
 2. Make sure your IoT board has the microswitch set to **device mode** and plug in the **device mode micro-USB cable** from your Intel® Edison to your computer. 
 
     Wait one minute for the Intel® Edison to finish booting up.
 
-    ![Micro-USB cable being plugged into the top micro-USB connector](/docs/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
+    ![Micro-USB cable being plugged into the top micro-USB connector](../../../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
 
-    _Refer to [Device mode micro-USB cable](/docs/assembly/arduino_expansion_board/details-device_mode_cable.html) for full assembly instructions._
+    _Refer to [Device mode micro-USB cable](../../../assembly/arduino_expansion_board/details-device_mode_cable.html) for full assembly instructions._
 
 3. You should see an "**Edison**" entry (or "Multifunction Composite Gadget" if your Intel® Edison firmware is old) with a yellow dot status show up in the Network settings side panel on the left. 
 
@@ -54,7 +54,7 @@ You should see the yellow status dot turn green.
 
 ![Edison entry with green dot status](images/network_settings-edison_green_dot.png)
 
-See [Once connected...](/docs/connectivity/ethernet_over_usb/shared/once_connected.html) for what you can do now.
+See [Once connected...](../shared/once_connected.html) for what you can do now.
 </div>
 
 <div class="callout info" markdown="1">

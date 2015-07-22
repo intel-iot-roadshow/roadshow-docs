@@ -9,9 +9,14 @@ To start this process, do not have the Edison board plugged in on USB or powered
 
 ![Edison Board Configuration](images/edison_board_config.jpg)
 
-1. Copy the edison-image-ww25.5-15.zip from the USB drive in *downloads -> Firmware - Edison Yocto complete image* directory to your home directory.
+1. Get the latest Yocto firmware image for the Intel® Edison.
 
-2. Launch Flash Tool Lite, click browse and select edison-image-ww25.5-15.zip file.
+    <div class="callout goto" markdown="1">
+    1. On the USB key: **downloads → Firmware - Edison Yocto**
+    2. Copy **edison-image-[version].zip** to your computer.
+    </div>
+
+2. Launch Flash Tool Lite, click browse and select **edison-image-[version].zip** file.
  
    ![Browse Edison Image](images/browse_flash_tool.jpg)
 
@@ -43,7 +48,7 @@ You'll need to now gain command line access of your IoT board, in order to set u
 
 Please pick your operating system from the options below to proceed.
 
-* [Windows »](/shell_access/windows/serial_connection.html)
-* [Mac »](/shell_access/mac/serial_connection.html)
-* [Linux »](/shell_access/linux/serial_connection.html)
+* [Windows »](../shell_access/windows/serial_connection.html)
+* [Mac »](../shell_access/mac/serial_connection.html)
+* [Linux »](../shell_access/linux/serial_connection.html)
 </div>

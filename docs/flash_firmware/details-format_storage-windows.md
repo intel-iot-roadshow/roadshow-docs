@@ -13,7 +13,7 @@ Make sure there are no files on the built-in flash storage of the Intel® Edison
 
 1. In order to read or write to the Intel® Edison's built-in flash storage, connect the Intel® Edison to your computer via the **device mode** micro-USB connector.
 
-    ![Micro-USB cable being plugged into the top micro-USB connector](/docs/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
+    ![Micro-USB cable being plugged into the top micro-USB connector](../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
 
 2. Use Windows File Explorer to format the flash storage drive. Right-click on the "**Edison**" drive that appears after plugging in the Intel® Edison to your computer, then select "Format".
 

@@ -5,7 +5,7 @@ title: Getting Started
 
 # C++ samples for the Grove Starter Kit
 
-To follow the instructions in this guide, you should have already completed the [Set Up IoT Dev Kit Eclipse »](/docs/ide_setup/eclipse/setup.html) guide, and you can successfully [blink the onboard LED](/docs/ide_setup/eclipse/create_project.html) on your Intel® Edison or Intel® Galileo.
+To follow the instructions in this guide, you should have already completed the [Set Up IoT Dev Kit Eclipse »](../../../ide_setup/eclipse/setup.html) guide, and you can successfully [blink the onboard LED](../../../ide_setup/eclipse/create_project.html) on your Intel® Edison or Intel® Galileo.
 
 <div id="toc" class="box" markdown="1">
 * [Grove component types »](#grove-component-types)
@@ -246,5 +246,5 @@ I²C (Inter-Integrated Circuit), pronounced both "I-two-C" or "I-squared-C", is 
 
 You're done! Now make your own creation. 
 
-Return back to [START HERE »](/docs/index.html#now-make-your-own-creation)
+Return back to [START HERE »](../../../index.html#now-make-your-own-creation)
 </div>

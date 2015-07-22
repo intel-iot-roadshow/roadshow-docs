@@ -5,7 +5,7 @@ title: Getting Started
 
 ## Install FTDI serial drivers
 
-[FTDI CDM drivers](http://ftdichip.com/Drivers/D2XX.htm) allow your computer to communicate with USB serial devices, including the Intel® Edison.
+FTDI CDM drivers allow your computer to communicate with USB serial devices, including the Intel® Edison.
 
 ![Animated gif: installing Intel® Edison drivers](images/install_ftdi_cdm_drivers-animated.gif)
 
@@ -20,19 +20,19 @@ However, if you see a "New Hardware Found" message when you plug in the Intel® 
 </div>
  
 1. Get the latest FTDI CDM driver installer.
-  * **Hackathon attendees:**
-    1. On the USB key: files → Windows
+
+    <div class="callout goto" markdown="1">
+    1. On the USB key: **downloads → Windows**
     2. Copy **CDM [version] WHQL Certified.exe** to your computer.
-  * **Online option:**
-    1. Visit [ftdichip.com/Drivers/D2XX.htm](http://ftdichip.com/Drivers/D2XX.htm).
-    2. Scroll down to the "**Currently Supported D2XX Drivers**" table. 
-    3. In the row for "**Windows**", click the "**setup executable**" link to download **CDM [version] WHQL Certified.exe** to your computer.
+    </div>
 
 2. Right-click on **CDM [version] WHQL Certified.exe**. Select "**Run as administrator**".
-  ![Select "Run as administrator" in file context menu](images/cdm_drivers-run_as_admin.png)
+
+    ![Select "Run as administrator" in file context menu](images/cdm_drivers-run_as_admin.png)
 
 3. Click "**Extract**" to start the installation process. 
-  ![FTDI CDM Drivers installer wizard](images/cdm_drivers-installer_wizard.png)
+  
+    ![FTDI CDM Drivers installer wizard](images/cdm_drivers-installer_wizard.png)
 
 4. Follow the installation wizard prompts. Click "**Next**" where needed.
 

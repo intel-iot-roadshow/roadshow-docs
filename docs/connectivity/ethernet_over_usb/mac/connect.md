@@ -14,7 +14,7 @@ This document will guide you through obtaining an IP address for the Intel® Edi
 
 HoRNDIS has been found to crash some computers running Mac OS. Please proceed with caution and only attempt to use Ethernet over USB if you are unable to use Wi-Fi.
 
-If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison to Wi-Fi »](/docs/connectivity/wifi/connect.html)
+If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison to Wi-Fi »](../.../wifi/connect.html)
 </div>
 
 <div id="toc" class="box" markdown="1">
@@ -62,7 +62,7 @@ Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing
 <div class="callout goto" markdown="1">
 **Additional Resources**
 
-See what you can do [once connected »](/docs/connectivity/ethernet_over_usb/shared/once_connected.html)
+See what you can do [once connected »](../shared/once_connected.html)
 </div>
 
 <div id="next-steps" class="note" markdown="1">
@@ -70,7 +70,7 @@ See what you can do [once connected »](/docs/connectivity/ethernet_over_usb/sha
 
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
-* For C/C++: [Set Up IoT Dev Kit Eclipse »](/docs/ide_setup/eclipse/setup.html)
-* For JavaScript: [Set Up Intel XDK for IoT »](/docs/ide_setup/xdk/setup.html)
-* For Arduino: [Set Up Arduino IDE »](/docs/ide_setup/arduino/setup.html)
+* For C/C++: [Set Up IoT Dev Kit Eclipse »](../../../ide_setup/eclipse/setup.html)
+* For JavaScript: [Set Up Intel XDK for IoT »](../../../ide_setup/xdk/setup.html)
+* For Arduino: [Set Up Arduino IDE »](../../../ide_setup/arduino/setup.html)
 </div>

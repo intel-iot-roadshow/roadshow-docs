@@ -38,7 +38,7 @@ However, if you are unable to get your IoT board online to the same network as y
 
 * **Intel® Edison users:**
 
-  Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](/connectivity/ethernet_over_usb/) for further instruction.
+  Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](../../connectivity/ethernet_over_usb/) for further instruction.
 
 ---
 

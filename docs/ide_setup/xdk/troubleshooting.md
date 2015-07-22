@@ -39,8 +39,8 @@ You will need to add the IP address of your IoT device manually if you are using
 
     Refer to:
 
-    * [Connect Your Intel Edison to Wi-Fi → Identify the IP address](/docs/connectivity/wifi/details-identify_ip.html). 
-    * Or use 192.168.2.15 if you're using [Ethernet over USB](/docs/connectivity/ethernet_over_usb/).
+    * [Connect Your Intel Edison to Wi-Fi → Identify the IP address](../../connectivity/wifi/details-identify_ip.html). 
+    * Or use 192.168.2.15 if you're using [Ethernet over USB](../../connectivity/ethernet_over_usb/).
     </div>
 
 3. Click "**Connect**" to try connecting to the IoT device using the manual settings.
