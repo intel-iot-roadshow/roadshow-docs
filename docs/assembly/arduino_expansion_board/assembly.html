@@ -82,20 +82,37 @@
 
 <p>While plugging in every cable is not required at this very moment, a development setup with serial communication for shell access would look like this:</p>
 
-<ol>
-  <li><strong>microswitch</strong> in “USB device mode” (i.e. toggled <strong><em>down</em></strong> towards the micro-USB ports)</li>
-  <li><strong>device mode micro-USB cable</strong> plugged into your computer</li>
-  <li><strong>UART/serial micro-USB cable</strong> plugged into your computer</li>
-</ol>
+<p>(1) microswitch set to <strong><a href="connecting_cables.html#device-mode-vs-host-mode">USB device mode</a></strong> (i.e. toggled <strong><em>down</em></strong> towards the micro-USB ports)<br />
+(2) <strong><a href="connecting_cables.html#device-mode-micro-usb-cable">device mode cable</a></strong> plugged into your computer (i.e. <strong>top</strong> micro-USB port)<br />
+(3) <strong><a href="connecting_cables.html#uartserial-micro-usb-cable">UART/serial cable</a></strong> plugged into your computer (i.e. <strong>bottom</strong> micro-USB port)<br />
+(4) <em>Optional but recommended:</em> connected to a <strong><a href="connecting_cables.html#dc-power-supply">DC power supply </a></strong></p>
 
-<p>The Arduino expansion board for Intel® Edison can be powered via the DC power jack, the device mode micro-USB port, or both. This setup uses only a micro-USB cable for power.</p>
+<div class="callout info">
+  <p>Fully explore when and how to use all the cables ports on the Intel® Edison kit for Arduino in <a href="connecting_cables.html">Connecting Cables</a>.</p>
+</div>
 
-<p><img src="images/cables-full_dev_setup.png" alt="Cable and microswitch setup for Intel® Edison development" /></p>
+<p><img src="images/cables-full_dev_setup_with_dc.png" alt="Cable and microswitch setup for Intel® Edison development" /></p>
 
 <div id="next-steps" class="note">
   <h3 id="next-steps">Next Steps</h3>
 
-  <p>Explore when and how to use all the cables ports on the Intel® Edison kit for Arduino: <a href="connecting_cables.html">Connecting Cables »</a></p>
+  <p>Install software and drivers specifically for your computer’s operating system. </p>
+
+  <ul>
+    <li>
+      <p><strong>Mac or Linux user?</strong> Install the Flashing Tool:</p>
+
+      <ul>
+        <li><a href="../../flash_firmware/mac_install.html">Mac »</a></li>
+        <li><a href="../../flash_firmware/linux_install.html">Linux »</a></li>
+      </ul>
+    </li>
+    <li>
+      <p><strong>Windows user?</strong></p>
+
+      <p><a href="../../computer_setup/windows/manual_installation.html">Set Up Your Computer - Windows (manual installation) »</a></p>
+    </li>
+  </ul>
 </div>
 
 <div class="footnote">

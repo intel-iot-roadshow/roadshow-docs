@@ -595,8 +595,9 @@ pre {
   font-family: Consolas, Courier, monospace; }
 
 code {
-  padding: 2px;
-  font-size: 85%; }
+  padding: 4px;
+  font-size: 85%;
+  background-color: #f7f7f7; }
 
 pre {
   padding: 6px 8px;
@@ -608,6 +609,17 @@ pre {
    ========================================================================== */
 ol li {
   margin-bottom: 1.5em; }
+
+ul li {
+  margin-bottom: 0.5em; }
+
+ol li ul,
+ul li ul {
+  margin-bottom: 1em; }
+
+ol li li,
+ul li li {
+  margin-bottom: 0em; }
 
 ol li ul li ol li {
   margin-bottom: 0em; }
@@ -669,6 +681,10 @@ dd {
 
 .callout > *:first-child {
   display: block; }
+
+.callout > ol:first-child {
+  margin-top: 1em;
+  padding-left: 1.5em; }
 
 .callout > *:last-child {
   margin-bottom: 0; }
