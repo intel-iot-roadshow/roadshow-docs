@@ -48,7 +48,7 @@ You'll need to now gain command line access of your IoT board, in order to set u
 
 Please pick your operating system from the options below to proceed.
 
-* [Windows »](/shell_access/windows/serial_connection.html)
-* [Mac »](/shell_access/mac/serial_connection.html)
-* [Linux »](/shell_access/linux/serial_connection.html)
+* [Windows »](../shell_access/windows/serial_connection.html)
+* [Mac »](../shell_access/mac/serial_connection.html)
+* [Linux »](../shell_access/linux/serial_connection.html)
 </div>

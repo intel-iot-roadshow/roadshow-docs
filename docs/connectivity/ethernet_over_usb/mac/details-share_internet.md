@@ -12,7 +12,7 @@ Internet sharing is an optional step but is highly recommended if you are at a h
 ---
 
 1. Open your **Sharing** preference settings.
-  (i.e. In the OS X menu bar, choose ![Mac OS icon](/img/icons/os_icon_mac.png) → System Preferences → Sharing)
+  (i.e. In the OS X menu bar, choose ![Mac OS icon](../../../../img/icons/os_icon_mac.png) → System Preferences → Sharing)
 
 2. If "**Internet Sharing**" is currently checked in the lefthand services list, **uncheck it** in order to make changes to your Mac Sharing settings.
 
@@ -59,7 +59,7 @@ ping google.com
 
 (Use the Ctrl+C keyboard command to exit the ping process.)
 
-To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Connect Your Intel Edison to Wi-Fi](/docs/connectivity/wifi/connect.html).
+To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Connect Your Intel Edison to Wi-Fi](../../wifi/connect.html).
 </div>
 
 <div class="callout troubleshooting" markdown="1">

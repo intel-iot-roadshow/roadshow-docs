@@ -23,5 +23,5 @@ This document explains the installation procedure Flash Tool Lite for Mac OSX. T
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-* [Update firmware using the tool »](/docs/flash_firmware/update_firmware.html)
+* [Update firmware using the tool »](update_firmware.html)
 </div>

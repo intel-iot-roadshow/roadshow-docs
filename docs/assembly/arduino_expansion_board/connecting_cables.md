@@ -79,19 +79,3 @@ Use the standard-sized USB port in USB host mode to allow the Intel® Edison to 
 </div>
 
 [![Animated gif: using host mode](images/host_mode-animated.gif)](details-host_mode_cable.html)
-
-
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
-
-Install software and drivers specifically for your computer's operating system. 
-
-* **Mac or Linux user?** Install the Flashing Tool:
-
-  * [Mac »](/docs/flash_firmware/mac_install.html)
-  * [Linux »](/docs/flash_firmware/linux_install.html)
-
-* **Windows user?**
-
-  [Set Up Your Computer - Windows (manual installation) »](/docs/computer_setup/windows/manual_installation.html)
-</div>

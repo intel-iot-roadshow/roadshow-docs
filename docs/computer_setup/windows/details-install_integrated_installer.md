@@ -24,9 +24,9 @@ The Windows 64-bit Integrated Installer gives you options to automatically insta
 
 2. Connect a micro-USB cable to the **device mode** micro-USB port of the Intel® Edison expansion board, and the other end to your computer.
 
-    ![Micro-USB cable being plugged into the top micro-USB connector](/docs/assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
+    ![Micro-USB cable being plugged into the top micro-USB connector](../../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
   
-    Refer to [Device mode micro-USB cable](/docs/assembly/arduino_expansion_board/details-device_mode_cable.html) for more detailed cable connection information.
+    Refer to [Device mode micro-USB cable](../../assembly/arduino_expansion_board/details-device_mode_cable.html) for more detailed cable connection information.
 
 3. Double-click on the **iotdk_win_installer.exe** on your computer to begin installation. 
   

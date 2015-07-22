@@ -79,5 +79,5 @@ Refer to the [Troubleshooting »](troubleshooting.html)
 
 Create and run a Hello Word project (blinking the onboard LED) on either the Intel® Galileo or the Intel® Edison.
 
-* [Run a Sample Eclipse Project »](/docs/ide_setup/eclipse/create_project.html)
+* [Run a Sample Eclipse Project »](create_project.html)
 </div>

@@ -22,9 +22,9 @@ Shell into your Intel® Edison and run the `configure_edison --wifi` command. Ch
     <div class="callout info" markdown="1">
     **Get a "configure_edison: not found" message?**
 
-    You need to update your Edison firmware. Refer to [Flash Firmware Manually](/docs/flash_firmware/manually.html) for instructions. 
+    You need to update your Edison firmware. Refer to [Flash Firmware Manually](../../flash_firmware/manually.html) for instructions. 
 
-    Or, if you are using Windows 64-bit, a streamlined firmware flashing process is included with the Windows 64-bit integrated installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](/docs/computer_setup/windows/64bit_integrated_installer.html).
+    Or, if you are using Windows 64-bit, a streamlined firmware flashing process is included with the Windows 64-bit integrated installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](../../computer_setup/windows/64bit_integrated_installer.html).
     </div>
 
 3. If you are asked if you want to set up the wifi, type "**Y**" and press Enter. (This prompt will occur on older Intel® Edison firmware only.)
@@ -54,5 +54,5 @@ When you see a "Done" message, you are now connected to a Wi-Fi network.
 
 If the connection fails, you may have typed in your credentials incorrectly.  Try again by typing in `configure_edison --wifi` and repeating the steps again.
 
-If you cannot get online using Wi-Fi but need to program your board using the Intel® IoT Developer Kit IDEs, try [Ethernet over USB](/docs/connectivity/ethernet_over_usb/) instead.
+If you cannot get online using Wi-Fi but need to program your board using the Intel® IoT Developer Kit IDEs, try [Ethernet over USB](../ethernet_over_usb/) instead.
 </div>

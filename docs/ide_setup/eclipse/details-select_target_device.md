@@ -32,8 +32,8 @@ To connect to your IoT board, you will need to configure Eclipse with your Intel
 
     Refer to:
 
-    * [Connect Your Intel Edison to Wi-Fi → Identify the IP address](/connectivity/wifi/details-identify_ip.md). 
-    * Or use 192.168.2.15 if you're using [Ethernet over USB](/connectivity/ethernet_over_usb/).
+    * [Connect Your Intel Edison to Wi-Fi → Identify the IP address](../../connectivity/wifi/details-identify_ip.html). 
+    * Or use 192.168.2.15 if you're using [Ethernet over USB](../../connectivity/ethernet_over_usb/).
     </div>
 
 <div class="callout troubleshooting" markdown="1">
@@ -47,5 +47,5 @@ The dev kit Eclipse IDE requires the IP address of your IoT board in order to pr
 
 **Intel® Edison users:**
 
-  Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](/connectivity/ethernet_over_usb/) for further instruction.
+  Use the device mode micro-USB cable to establish an "Ethernet over USB" connection. Refer to [Ethernet over USB](../../connectivity/ethernet_over_usb/) for further instruction.
 </div>

@@ -37,7 +37,7 @@ ping google.com
 
 (Use the Ctrl+C keyboard command to exit the ping process.)
 
-To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Connect Your Intel Edison to Wi-Fi](/docs/connectivity/wifi/connect.html).
+To re-enable WiFi on the Intel® Edison, use the `configure_edison --wifi` command as described in [Connect Your Intel Edison to Wi-Fi](../../wifi/connect.html).
 </div>
 
 <div class="callout troubleshooting" markdown="1">

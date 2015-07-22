@@ -76,7 +76,7 @@ While plugging in every cable is not required at this very moment, a development
 (3) **[UART/serial cable](connecting_cables.html#uartserial-micro-usb-cable)** plugged into your computer (i.e. **bottom** micro-USB port)
 (4) _Optional but recommended:_ connected to a **[DC power supply ](connecting_cables.html#dc-power-supply)**
 
-<div class="callout goto" markdown="1">
+<div class="callout info" markdown="1">
 Fully explore when and how to use all the cables ports on the Intel® Edison kit for Arduino in [Connecting Cables](connecting_cables.html).
 </div>
 
@@ -89,12 +89,12 @@ Install software and drivers specifically for your computer's operating system.
 
 * **Mac or Linux user?** Install the Flashing Tool:
 
-  * [Mac »](/docs/flash_firmware/mac_install.html)
-  * [Linux »](/docs/flash_firmware/linux_install.html)
+  * [Mac »](../../flash_firmware/mac_install.html)
+  * [Linux »](../../flash_firmware/linux_install.html)
 
 * **Windows user?**
 
-  [Set Up Your Computer - Windows (manual installation) »](/docs/computer_setup/windows/manual_installation.html)
+  [Set Up Your Computer - Windows (manual installation) »](../../computer_setup/windows/manual_installation.html)
 </div>
 
 <div class="footnote">

@@ -53,7 +53,7 @@ This document will guide you through creating and running a Hello Word project (
   
   The LED is located near the center of the board.
 
-  ![Green LED on Intel® Edison](/docs/assembly/arduino_expansion_board/images/on_board_led.png)
+  ![Green LED on Intel® Edison](../../assembly/arduino_expansion_board/images/on_board_led.png)
 
 **Congratulations, you just ran your first C++ application!**
 </div>
@@ -67,6 +67,6 @@ Refer to the [Troubleshooting - Intel XDK »](troubleshooting.md)
 
 Experiment with sample code supplied for available sensors and actuators.
 
-* **[Grove Starter Kit - Intro »](/docs/sensor_examples/grove_starter_kit/index.html)**
-  * [C++ »](/docs/sensor_examples/grove_starter_kit/c/samples.html)
+* **[Grove Starter Kit - Intro »](../../sensor_examples/grove_starter_kit/index.html)**
+  * [C++ »](../../sensor_examples/grove_starter_kit/c/samples.html)
 </div>

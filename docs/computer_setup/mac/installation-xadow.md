@@ -13,7 +13,7 @@ This setup document will guide you through preparing your computer with Mac-spec
 
 **Are you using the Intel® Edison Kit for Arduino expansion board?**
 
-You do not need to go through this step. This document is for installing serial drivers for the Xadow programmer board. Continue to [Shell Access - Mac](/docs/shell_access/mac/serial_connection.html).
+You do not need to go through this step. This document is for installing serial drivers for the Xadow programmer board. Continue to [Shell Access - Mac](../../shell_access/mac/serial_connection.html).
 
 ---
 
@@ -52,4 +52,4 @@ FTDI Virtual COM port (VCP) drivers allow your Mac to communicate with the Intel
 
 Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi. 
 
-[Shell Access - Mac »](/docs/shell_access/mac/serial_connection.html)
+[Shell Access - Mac »](../../shell_access/mac/serial_connection.html)

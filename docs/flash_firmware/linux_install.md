@@ -49,5 +49,5 @@ The Linux installation set up is only for 64 bit operating system. The versions 
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-* [Update firmware using the tool »](/docs/flash_firmware/update_firmware.html)
+* [Update firmware using the tool »](update_firmware.html)
 </div>
