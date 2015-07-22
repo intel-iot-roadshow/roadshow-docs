@@ -16,23 +16,35 @@ The Linux installation set up is only for 64 bit operating system. The versions 
 1. Install dependent packages for the tool.
 
    * Ubuntu 12.04LTS:
-   ``` 
-   sudo apt-get install gdebi ia32-libs
-   ``` 
+
+      ``` 
+      sudo apt-get install gdebi ia32-libs
+      ``` 
+
    * Ubuntu 13.04 64bits and later:
-   ``` 
-   sudo apt-get install gdebi libncurses5:i386 libstdc++6:i386
-   ``` 
-2. Copy the phoneflashtoollite_5.2.4.0_linux_x86_64.deb from your USB drive in downloads -> Linux folder to your home directory.
+
+      ``` 
+      sudo apt-get install gdebi libncurses5:i386 libstdc++6:i386
+      ``` 
+
+2. Get the latest Flash Tool Lite.
+   
+   <div class="callout goto" markdown="1">
+   1. On the USB key: **downloads → Linux**
+   2. Copy **phoneflashtoollite_[version]_linux_x86_64.deb** to your computer.
+   </div>
+
 3. Complete the installation either through terminal or Ubunutu software center.
+
    * From Ubuntu Terminal:
-   ``` 
-   sudo gdebi <name_of_flash_tool_lite.deb>
-   ```
+
+      ``` 
+      sudo gdebi <name_of_flash_tool_lite.deb>
+      ```
      
    * From Software Center:
   
-   The **Ubuntu Software Center** will handle the installation, double-click on the .deb file and then click **Install Package** and enter the password. The IPL license must be accepted.
+      The **Ubuntu Software Center** will handle the installation, double-click on the .deb file and then click **Install Package** and enter the password. The IPL license must be accepted.
   
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps

@@ -151,6 +151,11 @@ dd {
   // padding-top: 1em; /* to align the icon in ::before */
 }
 
+.callout > ol:first-child {
+  margin-top: 1em;
+  padding-left: 1.5em;
+}
+
 .callout > *:last-child {
   margin-bottom: 0;
 }

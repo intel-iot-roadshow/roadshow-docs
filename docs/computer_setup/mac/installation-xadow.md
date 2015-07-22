@@ -29,16 +29,10 @@ FTDI Virtual COM port (VCP) drivers allow your Mac to communicate with the Intel
 
 1. Get the latest FTDI VCP driver installer.
 
-  **Hackathon attendees:**
-
-  1. On the USB key: files → Mac
-  2. Copy *FTDIUSBSerialDriver_version.dmg* to your computer.
-
-  **Online option:**
-
-  1. Visit [ftdichip.com/Drivers/VCP.htm](http://ftdichip.com/Drivers/VCP.htm). 
-  2. Scroll down to the "**Currently Supported VCP Drivers**" table. 
-  3. Click the version number link in the "**x64 (64-bit)**" column for your Mac OS version to download **FTDIUSBSerialDriver_version.dmg** to your computer.
+    <div class="callout goto" markdown="1">
+    1. On the USB key: **downloads → Mac**
+    2. Copy *FTDIUSBSerialDriver_version.dmg* to your computer.
+    </div>
 
 2. Click on **FTDIUSBSerialDriver_version.dmg** to extract the installer package.
 

@@ -51,7 +51,7 @@ Eclipse depends on either a Java Runtime Engine (JRE) or Java Development Kit (J
 ## Extract Intel® IoT dev kit Eclipse IDE
 
 <div class="tldr" markdown="1">
-Copy the iotdk-ide-win.7z from your USB drive in Windows folder to your home directory and extract the contents to your computer. **Important Note:** Windows users _must_ use **7-zip** for extraction. 
+Copy the iotdk-ide-win.7z from your USB key in Windows folder to your home directory and extract the contents to your computer. **Important Note:** Windows users _must_ use **7-zip** for extraction. 
 
 [View detailed instructions »](details-extract_iot_eclipse.html)
 </div>
