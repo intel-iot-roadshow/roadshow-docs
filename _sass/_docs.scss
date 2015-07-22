@@ -63,6 +63,20 @@ ol li {
   margin-bottom: 1.5em;
 }
 
+ul li {
+  margin-bottom: 0.5em;
+}
+
+ol li ul,
+ul li ul {
+   margin-bottom: 1em;
+}
+
+ol li li,
+ul li li {
+   margin-bottom: 0em;
+}
+
 ol li ul li ol li {
    margin-bottom: 0em;
 }
