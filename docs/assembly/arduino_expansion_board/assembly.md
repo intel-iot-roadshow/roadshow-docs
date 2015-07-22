@@ -71,18 +71,30 @@ To add stability to the expansion board and to help avoid accidental short circu
 
 While plugging in every cable is not required at this very moment, a development setup with serial communication for shell access would look like this:
 
-1. **microswitch** in "USB device mode" (i.e. toggled **_down_** towards the micro-USB ports)
-2. **device mode micro-USB cable** plugged into your computer
-3. **UART/serial micro-USB cable** plugged into your computer
+(1) microswitch set to **[USB device mode](connecting_cables.html#device-mode-vs-host-mode)** (i.e. toggled **_down_** towards the micro-USB ports)
+(2) **[device mode cable](connecting_cables.html#device-mode-micro-usb-cable)** plugged into your computer (i.e. **top** micro-USB port)
+(3) **[UART/serial cable](connecting_cables.html#uartserial-micro-usb-cable)** plugged into your computer (i.e. **bottom** micro-USB port)
+(4) _Optional but recommended:_ connected to a **[DC power supply ](connecting_cables.html#dc-power-supply)**
 
-The Arduino expansion board for Intel® Edison can be powered via the DC power jack, the device mode micro-USB port, or both. This setup uses only a micro-USB cable for power.
+<div class="callout goto" markdown="1">
+Fully explore when and how to use all the cables ports on the Intel® Edison kit for Arduino in [Connecting Cables](connecting_cables.html).
+</div>
 
-![Cable and microswitch setup for Intel® Edison development](images/cables-full_dev_setup.png)
+![Cable and microswitch setup for Intel® Edison development](images/cables-full_dev_setup_with_dc.png)
 
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-Explore when and how to use all the cables ports on the Intel® Edison kit for Arduino: [Connecting Cables »](connecting_cables.html)
+Install software and drivers specifically for your computer's operating system. 
+
+* **Mac or Linux user?** Install the Flashing Tool:
+
+  * [Mac »](/docs/flash_firmware/mac_install.html)
+  * [Linux »](/docs/flash_firmware/linux_install.html)
+
+* **Windows user?**
+
+  [Set Up Your Computer - Windows (manual installation) »](/docs/computer_setup/windows/manual_installation.html)
 </div>
 
 <div class="footnote">

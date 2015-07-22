@@ -62,7 +62,7 @@ Use the bottom micro-USB port to send serial commands to your Intel® Edison via
 ## DC power supply
 
 <div class="tldr" markdown="1">
-If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable. 
+The Arduino expansion board for Intel® Edison can be powered via the DC power jack, the device mode micro-USB port, or both. If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable. 
 
 [View detailed instructions »](details-power_barrel.html)
 </div>
@@ -86,9 +86,6 @@ Use the standard-sized USB port in USB host mode to allow the Intel® Edison to 
 
 Install software and drivers specifically for your computer's operating system. 
 
-
-Install software and drivers specifically for your computer's operating system. 
-
 * **Mac or Linux user?** Install the Flashing Tool:
 
   * [Mac »](/docs/flash_firmware/mac_install.html)
@@ -97,5 +94,4 @@ Install software and drivers specifically for your computer's operating system.
 * **Windows user?**
 
   [Set Up Your Computer - Windows (manual installation) »](/docs/computer_setup/windows/manual_installation.html)
-
 </div>
