@@ -24,7 +24,6 @@ Shell into your Intel® Edison and run the `configure_edison --wifi` command. Ch
 
     You need to update your Edison firmware. Refer to [Flash Firmware Manually](../../flash_firmware/manually.html) for instructions. 
 
-    Or, if you are using Windows 64-bit, a streamlined firmware flashing process is included with the Windows 64-bit integrated installer. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](../../computer_setup/windows/64bit_integrated_installer.html).
     </div>
 
 3. If you are asked if you want to set up the wifi, type "**Y**" and press Enter. (This prompt will occur on older Intel® Edison firmware only.)

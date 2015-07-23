@@ -37,9 +37,6 @@ The Windows 64-bit Integrated Installer gives you options to automatically insta
 [View detailed instructions »](details-install_integrated_installer.html)
 </div>
 
-[![Animated gif: installing Intel® Edison drivers using integrated installer](images/install_integrated_installer-animated.gif)](details-install_integrated_installer.html)
-
-
 ## Restart your computer
 
 <div class="tldr" markdown="1">

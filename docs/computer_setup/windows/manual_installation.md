@@ -30,9 +30,6 @@ The Windows standalone drivers for Intel® Edison include several USB drivers in
 [View detailed instructions »](details-install_edison_drivers.html)
 </div>
 
-[![Animated gif: installing Intel® Edison drivers](images/install_edison_drivers-animated.gif)](details-install_edison_drivers.html)
-
-
 ## Install FTDI serial drivers
 
 <div class="tldr" markdown="1">
@@ -40,9 +37,6 @@ FTDI CDM drivers allow your computer to communicate with USB serial devices, inc
 
 [View detailed instructions »](details-install_ftdi_cdm_drivers.html)
 </div>
-
-[![Animated gif: installing Intel® Edison drivers](images/install_ftdi_cdm_drivers-animated.gif)](details-install_ftdi_cdm_drivers.html)
-
 
 ## Restart your computer
 

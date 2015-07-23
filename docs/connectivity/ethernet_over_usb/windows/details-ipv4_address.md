@@ -14,7 +14,7 @@ If you have the Intel® Edison Drivers installed, update your computer's Network
 <div class="callout warning" markdown="1">
 **Have you installed the Intel® Edison Drivers?**
 
-If you have not followed [Set Up Your Computer - Windows (64-bit integrated installer)](../../../computer_setup/windows/64bit_integrated_installer.html) or [Set Up Your Computer - Windows (manual installation)](../../../computer_setup/windows/manual_installation.html), please do so now. RNDIS drivers are included with the Intel® Edison Drivers.
+If you have not followed [Set Up Your Computer - Windows (manual installation)](../../../computer_setup/windows/manual_installation.html), please do so now. RNDIS drivers are included with the Intel® Edison Drivers.
 </div>
 
 1. View your **Network Connections**.
