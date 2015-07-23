@@ -59,7 +59,7 @@ This guide contains steps to install the Arduino IDE on a system with Windows, M
 8. When the installation process is finished, click OK.
 
 
-## Install Arduino on Linux
+## Installing Arduino on Linux
 
 1. To check if you have Java installed, open a terminal and enter the command: `java`  
   

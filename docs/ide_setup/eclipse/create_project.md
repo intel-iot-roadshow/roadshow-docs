@@ -59,7 +59,7 @@ This document will guide you through creating and running a Hello Word project (
 </div>
 
 <div class="callout troubleshooting" markdown="1">
-Refer to the [Troubleshooting - Intel XDK »](troubleshooting.md)
+Refer to the [Troubleshooting - Eclipse »](troubleshooting.html)
 </div>
 
 <div id="next-steps" class="note" markdown="1">
