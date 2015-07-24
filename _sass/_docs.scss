@@ -1,14 +1,42 @@
+/* ==========================================================================
+   Content width & media query variables
+   ========================================================================== */
+
+$content-small-width: 300px;
+$content-small-padding: 10px;
+$content-small-viewport: $content-small-width + ($content-small-padding * 2);
+
+$content-regular-padding: 15px;
+$content-regular-width: 650px;
+$content-regular-viewport: $content-regular-width + ($content-regular-padding * 2); /* + body padding */
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
 body {
-  padding: 1em;
+  padding: $content-small-padding;
+}
+
+.content {
+  min-width: $content-small-width;
+}
+
+@media (min-width: $content-regular-viewport) {
+
+  body {
+    padding: $content-regular-padding;
+  }
+
+  .content {
+    width: $content-regular-width;
+  }
+
 }
 
 /* ==========================================================================
-   Content
+   HTML elements
    ========================================================================== */
-
-.content {
-  width: 650px;
-}
 
 a {
   color: #0071c5;
@@ -18,17 +46,23 @@ a:hover {
   color: #00aeef;
 }
 
-img {
-  max-width: 100%;
-}
-
 .footnote {
   font-size: 0.8em;
   margin-top: 1em;
 }
 
 .content > hr {
-  margin: 3em 0 1em 0;
+  margin: 1em 0;
+}
+
+
+/* ==========================================================================
+   Images (and animated gifs)
+   ========================================================================== */
+
+.content img {
+  max-width: 100%;
+}
 }
 
 /* ==========================================================================
@@ -96,6 +130,10 @@ ol li ul li ol li {
   font-style: italic;
   font-size: 12pt;
   padding: 12pt 0;
+}
+
+.content > h1:first-child {
+  margin-top: 0;
 }
 
 h1 {
@@ -303,13 +341,20 @@ li .callout::before {
    Table of contents (which is a .box)
    ========================================================================== */
 
+$toc-left-margin: 40px;
+$toc-min-width: 250px; 
+$toc-position-left: $content-regular-width + $toc-left-margin;
+$toc-media-query: $toc-position-left + $toc-min-width + ($content-regular-padding * 2);
 
-#toc {
-  position: absolute;
-  top: 5.4em;
-  left: 690px;
-  display: block;
-  min-width: 300px;
+@media (min-width: $toc-media-query) {
+
+  #toc {
+    display: block;
+    position: absolute;
+    top: 4.4em;
+    left: $toc-position-left;
+    min-width: $toc-min-width;
+  }
 }
 
 #toc > ul {
