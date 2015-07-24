@@ -162,7 +162,8 @@ ol li ul li ol li {
   padding: 12pt 0;
 }
 
-.content > h1:first-child {
+.content > h1:first-child, 
+.content > h3:first-child {
   margin-top: 0;
 }
 
