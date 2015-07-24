@@ -63,6 +63,32 @@ a:hover {
 .content img {
   max-width: 100%;
 }
+
+img[data-animated] {
+  display: block;
+}
+
+@media (min-width: $content-regular-viewport) {
+  img[data-animated] {
+    height: 366px;
+  }
+}
+
+.has-gif {
+  display: block;
+  position: relative;
+}
+
+.has-gif::after {
+  content: '';
+  background-image: url(../img/overlays/animated_gif_play.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  pointer-events: none;
 }
 
 /* ==========================================================================

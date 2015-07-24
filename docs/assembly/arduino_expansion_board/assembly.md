@@ -7,6 +7,8 @@ title: Getting Started
 
 Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is required. ;)
 
+![Closed Intel® Edison retail box](images/retail_box.png)
+
 <div id="toc" class="box" markdown="1">
 * [Look in the Intel® Edison Kit for Arduino box »](#look-in-the-intel-edison-kit-for-arduino-box)
 * [Quick Start Assembly Instructions »](#quick-start-assembly-instructions)
@@ -21,7 +23,6 @@ Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is re
 
 ## Look in the Intel® Edison Kit for Arduino box
 
-![Closed Intel® Edison retail box](images/retail_box.png)
 
 ![Unpacked Intel® Edison retail box](images/retail_box-unpacked.png)
 
@@ -53,7 +54,7 @@ The Intel® Edison module is meant to be used with breakout boards or custom PCB
 [View detailed instructions »](details-install_module.html)
 </div>
 
-[![Animated gif: installing the Intel® Edison module](images/module_install-animated.gif)](details-install_module.html)
+[![Animated gif: installing the Intel® Edison module](){: .animated data-still="images/module_install-firstframe.jpg" data-animated="images/module_install-animated.gif"}](details-install_module.html)
 
 
 ### Install the plastic spacers
@@ -64,7 +65,7 @@ To add stability to the expansion board and to help avoid accidental short circu
 [View detailed instructions »](details-install_spacers.html)
 </div>
 
-[![Animated gif: installing the plastic spacers](images/spacer_install-animated.gif)](details-install_spacers.html)
+[![Animated gif: installing the plastic spacers](){: .animated data-still="images/spacer_install-firstframe.jpg" data-animated="images/spacer_install-animated.gif"}](details-install_spacers.html)
 
 
 ## Example of a full development setup

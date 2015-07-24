@@ -124,6 +124,28 @@ Many of these docs originated as a Google Doc and PDFs. Some of the points in th
 * Crop images to bring extra attention to the important area and to save space — but make sure to keep context (ie. don't overcrop).
 * Compress your images before adding to the repo. Try [TinyPNG](https://tinypng.com/) or similiar tools.
 
+#### Animated gifs
+
+* Screencasts are recorded and edited in Screenflow for HD (1920 x 1080) video
+* A snippet of the recording is pulled out and used for the gif
+  * The first frame is exported as the first frame still (650 x 366)
+  * Export from Screenflow: Web - High at 34% size (so it's 652 wide)
+  * Then, gifify. (I use the [vvo/gifify](https://github.com/vvo/gifify) fork)
+    * For camera-based recordings (usually more colors): 
+    ```
+    gifify animated.mp4 --output animated.gif --colors 200 --fps 3 --compress 0 --resize 650:-1
+    ```
+    * For screencasts:
+    ```
+    gifify animated.mp4 --output animated.gif --colors 175 --fps 3 --compress 0 --resize 650:-1
+    ```
+    * consider `--fps 4` if animation is too quick
+* In the markdown:
+  ```
+  ![Animated gif: installing the Intel® Edison module](images/module_install-firstframe.jpg){: data-animated="images/module_install-animated.gif"}
+  ```
+
+
 ### Command line input
 
 * Make commands that a reader needs to type jump out and easy to copy/paste by using a single backtick (\`) or [triple backticks](https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks) (```) for multiple lines.
