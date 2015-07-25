@@ -3,19 +3,17 @@ layout: default
 title: Getting Started
 ---
 
+<div id="toc" markdown="1">
+* [Step 1: Prepare built-in flash storage »](#step-1-prepare-built-in-flash-storage)
+* [Step 2: Copy over the latest image »](#step-2-copy-over-the-latest-image)
+* [Step 3: Flash the image »](#step-3-flash-the-image)
+</div>
+
 # Flash Firmware Manually
 
 The firmware on your Intel® Edison is the board's operating system. Intel® IoT firmware engineers are constantly improving the performance of the Intel® Edison and enabling new features. When you receive a brand new Intel® Edison, update the firmware on the board to get the best developer experience.
 
 This document will guide you through the manual process required to flash the firmware on the Intel® Edison using any OS platform.
-
-<div id="toc" class="box" markdown="1">
-There are 3 parts to updating the firmware on the Intel® Edison:
-
-* [Step 1: Prepare built-in flash storage »](#step-1-prepare-built-in-flash-storage)
-* [Step 2: Copy over the latest image »](#step-2-copy-over-the-latest-image)
-* [Step 3: Flash the image »](#step-3-flash-the-image)
-</div>
 
 <div class="callout info" markdown="1">
 **Want to know if your current firmware is old before flashing?**

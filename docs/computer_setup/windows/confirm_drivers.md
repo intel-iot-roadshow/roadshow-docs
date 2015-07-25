@@ -3,13 +3,13 @@ layout: default
 title: Getting Started
 ---
 
-# Confirm driver installation - Windows 
-
-<div id="toc" class="box" markdown="1">
+<div id="toc" markdown="1">
 * [Open Windows Device Manager »](#open-windows-device-manager)
 * [Confirm installation of Intel® Edison Drivers »](#confirm-installation-of-intel-edison-drivers)
 * [Confirm installation of FTDI serial drivers »](#confirm-installation-of-ftdi-serial-drivers)
 </div>
+
+# Confirm driver installation - Windows 
 
 <!-- <div class="related-videos" class="callout video">
 * [Intel Edison: Set Up Your Computer Manually - Windows (preview video)](https://drive.google.com/open?id=0B6gHgawzKtxCbUxicmpBc2JZSmM&authuser=0)

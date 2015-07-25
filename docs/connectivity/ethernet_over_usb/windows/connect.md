@@ -3,16 +3,16 @@ layout: default
 title: Getting Started
 ---
 
+<div id="toc" markdown="1">
+* [Add static IPv4 address »](#add-static-ipv4-address)
+* [Share your computer's WiFi connection (optional) »](#share-your-computers-wifi-connection-optional)
+</div>
+
 ## Set Up Ethernet over USB - Windows
 
 When you are in a busy or restricted network environment, connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB". Ethernet over USB uses the RNDIS protocol.
 
 This document will guide you through obtaining an IP address for the Intel® Edison in order to program your board offline using the Intel® IoT Developer Kit IDEs.
-
-<div id="toc" class="box" markdown="1">
-* [Add static IPv4 address »](#add-static-ipv4-address)
-* [Share your computer's WiFi connection (optional) »](#share-your-computers-wifi-connection-optional)
-</div>
 
 <!-- <div id="related-videos" class="callout video">
 [Ethernet over USB - Intel Edison - Windows (preview)](https://drive.google.com/open?id=0B2ywC78pxngCUWJxZXJiYngycU0&authuser=0)

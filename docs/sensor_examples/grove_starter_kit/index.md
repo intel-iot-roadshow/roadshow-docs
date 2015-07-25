@@ -3,18 +3,7 @@ layout: default
 title: Getting Started
 ---
 
-# Create Intel® IoT projects with the Grove Starter Kit
-
-Instructions for the **Intel® Edison** and **Intel® Galileo**
-
-The Grove System is an easy to use group of modules that minimise the effort required to get started with microcontroller-based experimentation and learning. Intel® has partnered with [Seeed](http://seeedstudio.com), the creators of Grove, to distribute the [Grove Starter Kit Plus - Intel IoT Edition](http://www.seeedstudio.com/depot/Grove-starter-kit-plus-Intel-IoT-Edition-for-Intel-Galileo-Gen-2-and-Edison-p-1978.html) which contains essential sensor and actuator modules to jump start your IoT prototyping.
-
-![The components in the Grove Starter Kit](images/components_in_huddle.png)
-
-This guide will demonstrate how you can use the Grove Starter Kit with any Intel® IoT board to go beyond blinking the onboard LED.
-
-
-<div id="toc" class="box" markdown="1">
+<div id="toc" markdown="1">
 * [Inside the Grove Starter Kit box »](#inside-the-grove-starter-kit-box)
 * [Install the Grove Base Shield »](#install-the-grove-base-shield)
 * [Connect a Grove component »](#connect-a-grove-component)
@@ -24,6 +13,16 @@ This guide will demonstrate how you can use the Grove Starter Kit with any Intel
     * [UPM »](#upm)
 * [Find code samples »](#find-code-samples)
 </div>
+
+# Create Intel® IoT projects with the Grove Starter Kit
+
+Instructions for the **Intel® Edison** and **Intel® Galileo**
+
+The Grove System is an easy to use group of modules that minimise the effort required to get started with microcontroller-based experimentation and learning. Intel® has partnered with [Seeed](http://seeedstudio.com), the creators of Grove, to distribute the [Grove Starter Kit Plus - Intel IoT Edition](http://www.seeedstudio.com/depot/Grove-starter-kit-plus-Intel-IoT-Edition-for-Intel-Galileo-Gen-2-and-Edison-p-1978.html) which contains essential sensor and actuator modules to jump start your IoT prototyping.
+
+![The components in the Grove Starter Kit](images/components_in_huddle.png)
+
+This guide will demonstrate how you can use the Grove Starter Kit with any Intel® IoT board to go beyond blinking the onboard LED.
 
 <!-- <div id="related-videos" class="callout video">
 * [Create Intel® IoT projects with the Grove Starter Kit - Part 1 (preview)](https://drive.google.com/open?id=0B6gHgawzKtxCNEhfNms3ai0zM1k&authuser=0)

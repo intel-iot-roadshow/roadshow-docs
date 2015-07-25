@@ -3,12 +3,12 @@ layout: default
 title: Getting Started
 ---
 
-# Using Screen - Mac / Linux
-
-<div id="toc" class="box" markdown="1">
+<div id="toc" markdown="1">
 * [Cancel/exit an already submitted command »](#cancelexit-an-already-submitted-command)
 * [Disconnect from the serial connection »](#disconnect-from-the-serial-connection)
 </div>
+
+# Using Screen - Mac / Linux
 
 ## Cancel/exit an already submitted command
 

@@ -3,11 +3,7 @@ layout: default
 title: Getting Started
 ---
 
-# Troubleshooting - IoT DevKit Eclipse IDE
-
-Some common issues have been listed below. For additional troubleshooting and FAQ, visit [software.intel.com/en-us/articles/eclipse-faq-for-iot-build](https://software.intel.com/en-us/articles/eclipse-faq-for-iot-build). 
-
-<div id="toc" class="box" markdown="1">
+<div id="toc" markdown="1">
 * [Do you have spaces in any of your folder names?](#do-you-have-spaces-in-any-of-your-folder-names)
 * [Mac only: Get a "devkit-launcher can’t be opened because it is from an unidentified developer" message?](#mac-only-get-a-devkit-launcher-cant-be-opened-because-it-is-from-an-unidentified-developer-message)
 * [Windows only: Get a "No Java virtual machine" message?](#windows-only-get-a-no-java-virtual-machine-message)
@@ -15,6 +11,10 @@ Some common issues have been listed below. For additional troubleshooting and FA
 * [Does a command line window appear, disappear, and then nothing happens?](#does-a-command-line-window-appear-disappear-and-then-nothing-happens)
 * [Adding a Library to an Eclipse Project](#adding-a-library-to-an-eclipse-project)
 </div>
+
+# Troubleshooting - IoT DevKit Eclipse IDE
+
+Some common issues have been listed below. For additional troubleshooting and FAQ, visit [software.intel.com/en-us/articles/eclipse-faq-for-iot-build](https://software.intel.com/en-us/articles/eclipse-faq-for-iot-build). 
 
 ## Do you have spaces in any of your folder names?
 

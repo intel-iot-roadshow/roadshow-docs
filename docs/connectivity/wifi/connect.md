@@ -3,17 +3,16 @@ layout: default
 title: Getting Started
 ---
 
+<div id="toc" markdown="1">
+* [Connect to a Wi-Fi network »](#connect-to-a-wi-fi-network)
+* [Identify the IP address »](#identify-the-ip-address)
+</div>
+
 ## Connect Your Intel Edison to Wi-Fi
 
 The Intel® Edison has built-in Wi-Fi that you can turn on by logging into your board and enabling. This setup document will guide you through connecting the Intel® Edison board to the Internet using Wi-Fi.
 
 Once your board is online, turn your Intel® Edison into a true "Internet of Things" device. You will also need the IP address of your Intel® board to program it using the Intel® IoT Developer Kit IDEs.
-
-
-<div id="toc" class="box" markdown="1">
-* [Connect to a Wi-Fi network »](#connect-to-a-wi-fi-network)
-* [Identify the IP address »](#identify-the-ip-address)
-</div>
 
 <!-- <div id="related-videos" class="callout video">
 [Get Your Intel Edison Online (preview)](https://drive.google.com/open?id=0B2ywC78pxngCS2c3TndOT2EtT0k&authuser=0)

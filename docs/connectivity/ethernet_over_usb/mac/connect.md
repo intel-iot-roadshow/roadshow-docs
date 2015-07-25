@@ -3,6 +3,12 @@ layout: default
 title: Getting Started
 ---
 
+<div id="toc" markdown="1">
+* [Install HoRNDIS »](#install-horndis)
+* [Configure network settings »](#configure-network-settings)
+* [Share your computer's WiFi connection (optional) »](#share-your-computers-wifi-connection-optional)
+</div>
+
 # Set Up Ethernet over USB - Mac
 
 When you are in a busy or restricted network environment, connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB". Ethernet over USB uses the RNDIS protocol.
@@ -15,12 +21,6 @@ This document will guide you through obtaining an IP address for the Intel® Edi
 HoRNDIS has been found to crash some computers running Mac OS. Please proceed with caution and only attempt to use Ethernet over USB if you are unable to use Wi-Fi.
 
 If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison to Wi-Fi »](../.../wifi/connect.html)
-</div>
-
-<div id="toc" class="box" markdown="1">
-* [Install HoRNDIS »](#install-horndis)
-* [Configure network settings »](#configure-network-settings)
-* [Share your computer's WiFi connection (optional) »](#share-your-computers-wifi-connection-optional)
 </div>
 
 <!-- <div id="related-videos" class="callout video">

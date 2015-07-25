@@ -3,6 +3,12 @@ layout: default
 title: Getting Started
 ---
 
+<div id="toc" markdown="1">
+* [Download a terminal client (PuTTY) »](#download-a-terminal-client-putty)
+* [Identify the serial COM port »](#identify-the-serial-com-port)
+* [Establish a serial connection »](#establish-a-serial-connection)
+</div>
+
 # Shell Access - Windows
 
 ![computer icon with command prompt](../images/icon-computer_shell.png)
@@ -10,12 +16,6 @@ title: Getting Started
 If you need to configure your IoT board, you will need to remotely connect to the Intel® Edison or Intel® Galileo. Once connected to your Intel® IoT board, you have access to the Linux-based Yocto operating system running on the board. 
 
 You can then execute special Linux commands such: changing the hostname and password, setting up Wi-Fi, or flashing new firmware.
-
-<div id="toc" class="box" markdown="1">
-* [Download a terminal client (PuTTY) »](#download-a-terminal-client-putty)
-* [Identify the serial COM port »](#identify-the-serial-com-port)
-* [Establish a serial connection »](#establish-a-serial-connection)
-</div>
 
 <!-- <div id="related-videos" class="callout video">
 [Shell Access – Windows](https://software.intel.com/en-us/videos/shell-access-windows)

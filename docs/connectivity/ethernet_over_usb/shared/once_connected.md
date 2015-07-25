@@ -3,14 +3,13 @@ layout: default
 title: Getting Started
 ---
 
-# Once connected...
-
-
-<div id="toc" class="box" markdown="1">
+<div id="toc" markdown="1">
 * [Ping or visit 192.168.2.15 »](#ping-or-visit-192168215)
 * [Use SSH instead of a serial connection »](#use-ssh-instead-of-a-serial-connection)
 * [Program IoT board while offline »](#program-iot-board-while-offline)
 </div>
+
+# Once connected...
 
 <!-- <div id="related-videos" class="callout video">
 * [Ethernet over USB - Intel Edison - Windows (preview)](https://drive.google.com/open?id=0B2ywC78pxngCUWJxZXJiYngycU0&authuser=0)

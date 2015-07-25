@@ -3,8 +3,22 @@
 ---
 @charset "utf-8";
 
+/* ==========================================================================
+   Content width & media query variables
+   ========================================================================== */
+
+$content-regular-padding: 15px;
+$content-regular-width: 650px;
+$content-regular-viewport: $content-regular-width + ($content-regular-padding * 2); /* + body padding */
+
+$content-small-width: 300px;
+$content-small-padding: 10px;
+$content-small-viewport: $content-small-width + ($content-small-padding * 2);
+$content-small-viewport-max: $content-regular-viewport - 1; 
+
 @import
         "normalize",
         "main",
-        "docs"
+        "docs",
+        "callouts"
 ;

@@ -3,18 +3,16 @@ layout: default
 title: Getting Started
 ---
 
+<div id="toc" markdown="1">
+* [Forward usb0 connection »](#forward-usb0-connection)
+* [Share your computer's WiFi connection (optional) »](#share-your-computers-wifi-connection-optional)
+</div>
+
 # Set Up Ethernet over USB - Linux
 
 When you are in a busy or restricted network environment, connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB". Ethernet over USB uses the RNDIS protocol.
 
 This document will guide you through obtaining an IP address for the Intel® Edison in order to program your board offline using the Intel® IoT Developer Kit IDEs.
-
-
-<div id="toc" class="box" markdown="1">
-* [Forward usb0 connection »](#forward-usb0-connection)
-* [Share your computer's WiFi connection (optional) »](#share-your-computers-wifi-connection-optional)
-</div>
-
 
 ## Forward usb0 connection
 

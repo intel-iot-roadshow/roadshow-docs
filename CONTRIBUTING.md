@@ -26,7 +26,7 @@ title: Getting Started
 Headings get `id` attributes automatically generated for them. To create a table of contents, wrap it in a `div` with `id="toc" class="box" markdown="1"`. Setting `markdown="1"` means that you can write markdown within the html block. An example Table of Contents:
 
 ```
-<div id="toc" class="box" markdown="1">
+<div id="toc" markdown="1">
 * [Install Intel® Edison standalone drivers »](#install-intel-edison-standalone-drivers)
 * [Install FTDI serial drivers »](#install-ftdi-serial-drivers)
 * [Restart your computer »](#restart-your-computer)

@@ -3,16 +3,16 @@ layout: default
 title: Getting Started
 ---
 
-# Troubleshooting - Intel® XDK
-
-Some common issues have been listed below. For additional troubleshooting and FAQ, visit [software.intel.com/en-us/articles/intel-xdk-iot-edition-troubleshooting-and-faq](https://software.intel.com/en-us/articles/intel-xdk-iot-edition-troubleshooting-and-faq). 
-
-<div id="toc" class="box" markdown="1">
+<div id="toc" markdown="1">
 * [Don't see your device in the "IoT Device" drop down list?](#dont-see-your-device-in-the-iot-device-drop-down-list)
   * [Add a device manually](#add-a-device-manually)
   * [Restart the Intel XDK app daemon](#restart-the-intel-xdk-app-daemon)
 * [Additional resources](#additional-resources)
 </div>
+
+# Troubleshooting - Intel® XDK
+
+Some common issues have been listed below. For additional troubleshooting and FAQ, visit [software.intel.com/en-us/articles/intel-xdk-iot-edition-troubleshooting-and-faq](https://software.intel.com/en-us/articles/intel-xdk-iot-edition-troubleshooting-and-faq). 
 
 ## Don't see your device in the "IoT Device" drop down list?
 

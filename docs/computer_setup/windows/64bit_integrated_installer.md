@@ -3,6 +3,11 @@ layout: default
 title: Getting Started
 ---
 
+<div id="toc" markdown="1">
+* [Download and run the Intel® Edison integrated installer »](#download-and-run-the-intel-edison-integrated-installer)
+* [Restart your computer »](#restart-your-computer)
+</div>
+
 # Set Up Your Computer - Windows (64-bit integrated installer)
 
 The Windows 64-bit integrated installer program gives you options to automatically install Windows drivers and an IDE of your choice for Intel® Edison development. You can also use the integrated installer program to flash the latest firmware image on your Intel® Edison.
@@ -13,11 +18,6 @@ This setup document will guide you through preparing your computer with the Inte
 **Are you running 32-bit Windows? Unable to use the integrated installer?**
 
 You will need to install the Windows drivers manually. Refer to [Set Up Your Computer - Windows (manual installation)](manual_installation.html). 
-</div>
-
-<div id="toc" class="box" markdown="1">
-* [Download and run the Intel® Edison integrated installer »](#download-and-run-the-intel-edison-integrated-installer)
-* [Restart your computer »](#restart-your-computer)
 </div>
 
 <!-- <div class="related-videos" class="callout video">

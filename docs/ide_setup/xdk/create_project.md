@@ -3,17 +3,17 @@ layout: default
 title: Getting Started
 ---
 
-# Set Up Intel® XDK IoT Edition - Part 2: Run a Sample Project
-
-This document will guide you through creating and running a Hello Word project (blinking the onboard LED) on the Intel® Edison.
-
-<div id="toc" class="box" markdown="1">
+<div id="toc" markdown="1">
 * [Create a project »](#create-a-project)
 * [Select a target IoT device »](#select-a-target-iot-device)
 * [Sync device clocks »](#sync-device-clocks)
 * [Build the application »](#build-the-application)
 * [Upload and run the application »](#upload-and-run-the-application)
 </div>
+
+# Set Up Intel® XDK IoT Edition - Part 2: Run a Sample Project
+
+This document will guide you through creating and running a Hello Word project (blinking the onboard LED) on the Intel® Edison.
 
 <!-- <div id="related-videos" class="callout video">
 [Setting Up The Intel XDK IoT Edition Part 2: Run a Sample Project](https://software.intel.com/en-us/videos/setting-up-the-intel-xdk-iot-edition-part-2-run-a-sample-project)

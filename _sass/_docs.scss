@@ -1,14 +1,3 @@
-/* ==========================================================================
-   Content width & media query variables
-   ========================================================================== */
-
-$content-small-width: 300px;
-$content-small-padding: 10px;
-$content-small-viewport: $content-small-width + ($content-small-padding * 2);
-
-$content-regular-padding: 15px;
-$content-regular-width: 650px;
-$content-regular-viewport: $content-regular-width + ($content-regular-padding * 2); /* + body padding */
 
 /* ==========================================================================
    Main content
@@ -208,154 +197,6 @@ dd {
   margin-bottom: 0.5em;
 }
 
-/* ==========================================================================
-   Callout boxes (with outer icon)
-   ========================================================================== */
-
-.callout {
-  border: 2px solid #fff;
-  padding: 1em;
-  margin-bottom: 1em;
-  padding-top: 0em; /* to align the icon in ::before */
-  font-size: 0.9em;
-  color: #0071c5;
-  margin-left: calc(1em + 40px); /* icon width + left box margin */
-}
-
-.callout > *:first-child {
-  display: block;
-  // padding-top: 1em; /* to align the icon in ::before */
-}
-
-.callout > ol:first-child {
-  margin-top: 1em;
-  padding-left: 1.5em;
-}
-
-.callout > *:last-child {
-  margin-bottom: 0;
-}
-
-.callout::before {
-  content: '';
-  display: block;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  left: 1.2em; /* a little bit more than body padding */
-}
-
-li .callout::before {
-  left: 3.9em; /* a little bit more than body padding */
-}
-
-.callout a {
-  font-weight: bold;
-}
-
-.video.callout {
-  border: 2px solid #d9eaf6;
-  padding-top: 1em; /* to align the icon in ::before */
-}
-
-.video.callout::before {
-  background-image: url(/img/icons/callout_icon_video_lightblue.png);
-}
-
-// dark blue callouts:
-
-.goto.callout {
-  background-color: #d9eaf6;
-}
-
-.goto.callout::before {
-  background-image: url(/img/icons/callout_icon_arrow_blue.png);
-}
-
-// light blue callouts:
-
-.info.callout,
-.troubleshooting.callout {
-  background-color: #f2f8fc;
-}
-
-.info.callout hr,
-.troubleshooting.callout hr {
-  border: 0;
-  border-bottom: 1px dashed #0071c5;
-}
-
-.info.callout::before {
-  background-image: url(/img/icons/callout_icon_pencil_lightblue.png);
-}
-
-.troubleshooting.callout::before {
-  background-image: url(/img/icons/callout_icon_question_lightblue.png);
-}
-
-
-// green callouts:
-
-.done.callout {
-  background-color: #e5f2e5;
-  color: #53a653;
-}
-
-.done.callout hr {
-  border: 0;
-  border-bottom: 1px dashed #53a653;
-}
-
-.done.callout::before {
-  background-image: url(/img/icons/callout_icon_check_green.png);
-}
-
-.done.callout a {
-  color: #53a653;
-}
-
-// orange callouts:
-
-.warning.callout {
-  border: 2px solid #b75f00;
-  background-color: #fff3a0;
-  color: #b75f00;
-}
-
-.warning.callout hr {
-  border: 0;
-  border-bottom: 1px dashed #b75f00;
-}
-
-.warning.callout::before {
-  background-image: url(/img/icons/callout_icon_caution_yellow.png);
-}
-
-.warning.callout a {
-  color: #b75f00;
-}
-
-
-// red callouts:
-
-.danger.callout {
-  border: 2px solid #e21f20;
-  background-color: #f2dede;
-  color: #e21f20;
-}
-
-.danger.callout hr {
-  border: 0;
-  border-bottom: 1px dashed #e21f20;
-}
-
-.danger.callout::before {
-  background-image: url(/img/icons/callout_icon_bomb_red.png);
-}
-
-.danger.callout a {
-  color: #e21f20;
-}
 
 /* ==========================================================================
    Grey outline boxes (no icons)
@@ -384,12 +225,26 @@ $toc-min-width: 250px;
 $toc-position-left: $content-regular-width + $toc-left-margin;
 $toc-media-query: $toc-position-left + $toc-min-width + ($content-regular-padding * 2);
 
+#toc {
+  padding: 0.5em 0em 0.5em 0em;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+#toc > *:first-child {
+  margin-top: 0;
+}
+
+#toc > *:last-child {
+  margin-bottom: 0;
+}
+
 @media (min-width: $toc-media-query) {
 
   #toc {
+    padding: 1em 1em 0.5em 1em;
+    border-top: 2px solid #f0f0f0;
     display: block;
     position: absolute;
-    top: 4.4em;
     left: $toc-position-left;
     min-width: $toc-min-width;
   }
