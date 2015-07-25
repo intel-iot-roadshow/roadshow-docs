@@ -68,9 +68,16 @@ img[data-animated] {
   display: block;
 }
 
+img[data-animated].hide-small {
+  display: none;
+}
+
 @media (min-width: $content-regular-viewport) {
   img[data-animated] {
     height: 366px;
+  }
+  img[data-animated].hide-small {
+    display: block;
   }
 }
 

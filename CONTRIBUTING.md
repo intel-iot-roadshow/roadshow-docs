@@ -140,11 +140,14 @@ Many of these docs originated as a Google Doc and PDFs. Some of the points in th
     gifify animated.mp4 --output animated.gif --colors 175 --fps 3 --compress 0 --resize 650:-1
     ```
     * consider `--fps 4` if animation is too quick
-* In the markdown:
+* In the markdown, insert an "empty image" but with `data-still` and `data-animated` values (note: image file path must be resolvable from the location of the file that you're inserting this markdown into:
   ```
-  ![Animated gif: installing the Intel® Edison module](images/module_install-firstframe.jpg){: data-animated="images/module_install-animated.gif"}
+  ![Animated gif: installing the plastic spacers](){: .animated data-still="images/spacer_install-firstframe.jpg" data-animated="images/spacer_install-animated.gif"}
   ```
-
+* If you don't need the image/gif to show up on viewports smaller than 650px, add a `.hide-small` class. For example, on a details page, when the first frame of the animated gif is the same or very similar to an image at the beginning of the page, it'll be better not to show the still. 
+  ```
+  ![Animated gif: installing the plastic spacers](){: .animated .hide-small data-still="images/spacer_install-firstframe.jpg" data-animated="images/spacer_install-animated.gif"}
+  ```
 
 ### Command line input
 

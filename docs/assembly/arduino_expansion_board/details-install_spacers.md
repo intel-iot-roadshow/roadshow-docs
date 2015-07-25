@@ -7,7 +7,7 @@ title: Getting Started
 
 To add stability to the expansion board and to help avoid accidental short circuits, attach the four plastic spacers supplied in your Intel® Edison box to act as "legs" for the expansion board.
 
-![Animated gif: installing the plastic spacers](){: .animated data-still="images/spacer_install-firstframe.jpg" data-animated="images/spacer_install-animated.gif"}
+![Animated gif: installing the plastic spacers](){: .animated .hide-small data-still="images/spacer_install-firstframe.jpg" data-animated="images/spacer_install-animated.gif"}
 
 ---
 
