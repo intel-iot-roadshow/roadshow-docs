@@ -1,14 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-### Install the plastic spacers
-
-To add stability to the expansion board and to help avoid accidental short circuits, attach the four plastic spacers supplied in your Intel® Edison box to act as "legs" for the expansion board.
-
-![Animated gif: installing the plastic spacers](){: .animated .hide-small data-still="images/spacer_install-firstframe.jpg" data-animated="images/spacer_install-animated.gif"}
-
+title: Install the plastic spacers
 ---
 
 1. Locate the four metal screws and four plastic spacers in the Intel® Edison Kit for Arduino box.
@@ -28,7 +20,7 @@ To add stability to the expansion board and to help avoid accidental short circu
     ![All spacers installed](images/spacer_install-all_spacers.png)
 
 <div class="callout done" markdown="1">
-**Done!**
+**Done!** Your Arduino expansion board should look like this when you are complete.
 
 ![Side view of Intel® Edison with plastic spacers installed](images/spacer_install-side_view.png)
 </div>

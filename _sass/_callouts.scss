@@ -1,4 +1,58 @@
 /* ==========================================================================
+   TLDR boxes (with inner road sign icon)
+   ========================================================================== */
+
+.tldr {
+  // background-color: #d9eaf6;
+  color: #0071c5;
+  font-size: 0.9em;
+  background-image: url(/img/icons/roadsign_icon_23x25.png);
+  background-repeat: no-repeat;
+  background-position: 10px 18px;
+  padding: 10px 10px 0 10px;
+  padding-left: 45px;
+}
+
+.tldr a {
+  font-weight: bold;
+}
+
+.tldr p {
+  margin: 5px 0;
+}
+
+/* ==========================================================================
+   Blue solid boxes (no icons)
+   ========================================================================== */
+
+.note {
+  padding: 1em;
+  background-color: #d9eaf6;
+  color: #0071c5;
+}
+
+.note > *:first-child {
+  margin-top: 0;
+}
+
+.note > *:last-child {
+  margin-bottom: 0;
+}
+
+.note p {
+  font-size: 0.9em;
+}
+
+.note a {
+  font-weight: bold;
+}
+
+#next-steps.note {
+  margin: 2.5em 0;
+}
+
+
+/* ==========================================================================
    Callout boxes (with outer icon)
    ========================================================================== */
 
@@ -9,7 +63,7 @@
   padding-top: 0em; /* to align the icon in ::before */
   font-size: 0.9em;
   color: #0071c5;
-  margin-left: calc(1em + 40px); /* icon width + left box margin */
+  margin-left: 50px
 }
 
 // TODO: Need to make icon callout responsive

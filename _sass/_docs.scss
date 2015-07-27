@@ -35,6 +35,28 @@ a:hover {
   color: #00aeef;
 }
 
+a.link-button {
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
+  background-color: #0071c5;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+
+
+a.link-button:hover {
+  background-color: #00aeef;
+}
+
+a.link-button.centered {
+  display: block;
+  text-align: center;
+  margin: 0em 10% 3em;
+}
+
 .footnote {
   font-size: 0.8em;
   margin-top: 1em;
@@ -262,55 +284,3 @@ $toc-media-query: $toc-position-left + $toc-min-width + ($content-regular-paddin
   padding-left: 2em;
 }
 
-/* ==========================================================================
-   TLDR boxes (with inner road sign icon)
-   ========================================================================== */
-
-.tldr {
-  background-color: #d9eaf6;
-  color: #0071c5;
-  font-size: 0.9em;
-  background-image: url(/img/icons/roadsign_icon_23x25.png);
-  background-repeat: no-repeat;
-  background-position: 12px 18px;
-  padding: 10px;
-  padding-left: 45px;
-}
-
-.tldr a {
-  font-weight: bold;
-}
-
-.tldr p {
-  margin: 5px 0;
-}
-
-/* ==========================================================================
-   Blue solid boxes (no icons)
-   ========================================================================== */
-
-.note {
-  padding: 1em;
-  background-color: #d9eaf6;
-  color: #0071c5;
-}
-
-.note > *:first-child {
-  margin-top: 0;
-}
-
-.note > *:last-child {
-  margin-bottom: 0;
-}
-
-.note p {
-  font-size: 0.9em;
-}
-
-.note a {
-  font-weight: bold;
-}
-
-#next-steps.note {
-  margin: 2.5em 0;
-}

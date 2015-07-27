@@ -1,14 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-### Install the Intel® Edison module
-
-The Intel® Edison module is meant to be used with breakout boards or custom PCBs. You will need to secure your Intel® Edison module to the Arduino expansion board before you can use it.
-
-![Animated gif: installing the Intel® Edison module](){: .animated data-still="images/module_install-firstframe.jpg" data-animated="images/module_install-animated.gif"}
-
+title: Install the Intel® Edison module
 ---
 
 1. Locate the Intel® Edison module, Arduino expansion board, and two metal hex nuts.
@@ -28,7 +20,7 @@ The Intel® Edison module is meant to be used with breakout boards or custom PCB
     ![Securing module with hex nut](images/module_install-screws.png)
 
 <div class="callout done" markdown="1">
-**Done!**
+**Done!** Your Arduino expansion board should look like this when you are complete.
 
 ![Intel® Edison module installed](images/module_install-done.png)
 </div>
