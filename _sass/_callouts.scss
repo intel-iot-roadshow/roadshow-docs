@@ -6,7 +6,7 @@
   // background-color: #d9eaf6;
   color: #0071c5;
   font-size: 0.9em;
-  background-image: url(../img/icons/roadsign_icon_23x25.png);
+  background-image: url(../img/icon/roadsign_icon_23x25.png);
   background-repeat: no-repeat;
   background-position: 10px 18px;
   padding: 10px 10px 0 10px;
@@ -122,7 +122,7 @@ li .callout::before {
 }
 
 .video.callout::before {
-  background-image: url(../img/icons/callout_icon_video_lightblue.png);
+  background-image: url(../img/icon/callout_icon_video_lightblue.png);
 }
 
 // dark blue callouts:
@@ -132,7 +132,7 @@ li .callout::before {
 }
 
 .goto.callout::before {
-  background-image: url(../img/icons/callout_icon_arrow_blue.png);
+  background-image: url(../img/icon/callout_icon_arrow_blue.png);
 }
 
 // light blue callouts:
@@ -149,11 +149,11 @@ li .callout::before {
 }
 
 .info.callout::before {
-  background-image: url(../img/icons/callout_icon_pencil_lightblue.png);
+  background-image: url(../img/icon/callout_icon_pencil_lightblue.png);
 }
 
 .troubleshooting.callout::before {
-  background-image: url(../img/icons/callout_icon_question_lightblue.png);
+  background-image: url(../img/icon/callout_icon_question_lightblue.png);
 }
 
 
@@ -170,7 +170,7 @@ li .callout::before {
 }
 
 .done.callout::before {
-  background-image: url(../img/icons/callout_icon_check_green.png);
+  background-image: url(../img/icon/callout_icon_check_green.png);
 }
 
 .done.callout a {
@@ -191,7 +191,7 @@ li .callout::before {
 }
 
 .warning.callout::before {
-  background-image: url(../img/icons/callout_icon_caution_yellow.png);
+  background-image: url(../img/icon/callout_icon_caution_yellow.png);
 }
 
 .warning.callout a {
@@ -213,7 +213,7 @@ li .callout::before {
 }
 
 .danger.callout::before {
-  background-image: url(../img/icons/callout_icon_bomb_red.png);
+  background-image: url(../img/icon/callout_icon_bomb_red.png);
 }
 
 .danger.callout a {
