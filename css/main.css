@@ -783,7 +783,7 @@ dd {
 .tldr {
   color: #0071c5;
   font-size: 0.9em;
-  background-image: url(/img/icons/roadsign_icon_23x25.png);
+  background-image: url(../img/icons/roadsign_icon_23x25.png);
   background-repeat: no-repeat;
   background-position: 10px 18px;
   padding: 10px 10px 0 10px;
@@ -863,13 +863,13 @@ li .callout::before {
   /* to align the icon in ::before */ }
 
 .video.callout::before {
-  background-image: url(/img/icons/callout_icon_video_lightblue.png); }
+  background-image: url(../img/icons/callout_icon_video_lightblue.png); }
 
 .goto.callout {
   background-color: #d9eaf6; }
 
 .goto.callout::before {
-  background-image: url(/img/icons/callout_icon_arrow_blue.png); }
+  background-image: url(../img/icons/callout_icon_arrow_blue.png); }
 
 .info.callout,
 .troubleshooting.callout {
@@ -881,10 +881,10 @@ li .callout::before {
   border-bottom: 1px dashed #0071c5; }
 
 .info.callout::before {
-  background-image: url(/img/icons/callout_icon_pencil_lightblue.png); }
+  background-image: url(../img/icons/callout_icon_pencil_lightblue.png); }
 
 .troubleshooting.callout::before {
-  background-image: url(/img/icons/callout_icon_question_lightblue.png); }
+  background-image: url(../img/icons/callout_icon_question_lightblue.png); }
 
 .done.callout {
   background-color: #e5f2e5;
@@ -895,7 +895,7 @@ li .callout::before {
   border-bottom: 1px dashed #53a653; }
 
 .done.callout::before {
-  background-image: url(/img/icons/callout_icon_check_green.png); }
+  background-image: url(../img/icons/callout_icon_check_green.png); }
 
 .done.callout a {
   color: #53a653; }
@@ -910,7 +910,7 @@ li .callout::before {
   border-bottom: 1px dashed #b75f00; }
 
 .warning.callout::before {
-  background-image: url(/img/icons/callout_icon_caution_yellow.png); }
+  background-image: url(../img/icons/callout_icon_caution_yellow.png); }
 
 .warning.callout a {
   color: #b75f00; }
@@ -925,7 +925,7 @@ li .callout::before {
   border-bottom: 1px dashed #e21f20; }
 
 .danger.callout::before {
-  background-image: url(/img/icons/callout_icon_bomb_red.png); }
+  background-image: url(../img/icons/callout_icon_bomb_red.png); }
 
 .danger.callout a {
   color: #e21f20; }
