@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Set Up Your Computer - Windows (manual installation)
 ---
 
 <div id="toc" markdown="1">
@@ -21,27 +21,27 @@ This setup document will guide you through manually preparing your Windows 32-bi
 ## Install Intel® Edison standalone drivers
 
 <div class="tldr" markdown="1">
-The Windows standalone drivers for Intel® Edison include several USB drivers in one installer package. These drivers enable important features, such as:
+The Windows standalone drivers (_IntelEdisonDriverSetup[version].exe_) for Intel® Edison include several USB drivers in one installer package. These drivers enable important features, such as:
 
 * Composite Device Class (CDC) for programming the board via the Arduino IDE,
 * Remote Network Driver Interface Spec (RNDIS) for Ethernet over USB, and
 * Device Firmware Upgrade (DFU) for updating firmware on devices.
-
-[View detailed instructions »](details-install_edison_drivers.html)
 </div>
 
-[![Animated gif: installing Intel® Edison drivers](images/install_edison_drivers-animated.gif)](details-install_edison_drivers.html)
+[![Animated gif: installing Intel® Edison drivers](){: .animated data-still="images/install_edison_drivers-no_download-firstframe.jpg" data-animated="images/install_edison_drivers-no_download-animated.gif"}](details-install_edison_drivers.html)
+
+[View detailed instructions »](details-install_edison_drivers.html){: .link-button .centered }
 
 
 ## Install FTDI serial drivers
 
 <div class="tldr" markdown="1">
-FTDI CDM drivers allow your computer to communicate with USB serial devices, including the Intel® Edison. 
-
-[View detailed instructions »](details-install_ftdi_cdm_drivers.html)
+FTDI CDM drivers (_CDM [version] WHQL Certified.exe_) allow your computer to communicate with USB serial devices, including the Intel® Edison. 
 </div>
 
-[![Animated gif: installing Intel® Edison drivers](images/install_ftdi_cdm_drivers-animated.gif)](details-install_ftdi_cdm_drivers.html)
+[![Animated gif: installing Intel® Edison drivers](){: .animated data-still="images/install_ftdi_cdm_drivers-no_download-firstframe.jpg" data-animated="images/install_ftdi_cdm_drivers-no_download-animated.gif"}](details-install_ftdi_cdm_drivers.html)
+
+[View detailed instructions »](details-install_ftdi_cdm_drivers.html){: .link-button .centered }
 
 
 ## Restart your computer

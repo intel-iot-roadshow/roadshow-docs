@@ -1,13 +1,7 @@
 ---
 layout: default
-title: Getting Started
+title: Install FTDI serial drivers
 ---
-
-## Install FTDI serial drivers
-
-FTDI CDM drivers allow your computer to communicate with USB serial devices, including the Intel® Edison.
-
-![Animated gif: installing Intel® Edison drivers](images/install_ftdi_cdm_drivers-animated.gif)
 
 <div class="callout info" markdown="1">
 **Do you already have FTDI CDM drivers installed?**

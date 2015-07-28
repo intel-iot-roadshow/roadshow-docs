@@ -1,18 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Install Intel® Edison standalone drivers
-
-The Windows standalone drivers for Intel® Edison include several USB drivers in one installer package. These drivers enable important features, such as:
-
-* Composite Device Class (CDC) for programming the board via the Arduino IDE,
-* Remote Network Driver Interface Spec (RNDIS) for Ethernet over USB, and
-* Device Firmware Upgrade (DFU) for updating firmware on devices.
-
-![Animated gif: installing Intel® Edison drivers](images/install_edison_drivers-animated.gif)
-
+title: Install Intel® Edison standalone drivers
 ---
 
 1. Get the latest Intel® Edison Device USB drivers for Windows installer.
