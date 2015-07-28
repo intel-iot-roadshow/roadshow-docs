@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Unboxing and Assembly
 ---
 
 <div id="toc" markdown="1">

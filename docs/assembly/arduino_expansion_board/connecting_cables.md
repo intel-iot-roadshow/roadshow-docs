@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Connecting cables
 ---
 
 <div id="toc" markdown="1">
@@ -41,41 +41,42 @@ Use the top micro-USB port in USB device mode for:
 * programming the Intel® Edison using the Arduino IDE, 
 * programming the Intel® Edison using the Intel® XDK or Eclipse IDE included in the Intel® IoT Developer Kit via Ethernet over USB (not Wi-Fi), and
 * writing to the onboard flash memory from your computer.
-
-[View detailed instructions »](details-device_mode_cable.html)
 </div>
 
-[![Animated gif: using device mode](images/device_mode-animated.gif)](details-device_mode_cable.html)
+[![Animated gif: using device mode](){: .animated data-still="images/device_mode-firstframe.jpg" data-animated="images/device_mode-animated.gif"}](details-device_mode_cable.html)
+
+[View detailed instructions »](details-device_mode_cable.html){: .link-button .centered }
 
 
 ## UART/serial micro-USB cable
 
 <div class="tldr" markdown="1">
 Use the bottom micro-USB port to send serial commands to your Intel® Edison via Terminal or PuTTY. Use these commands to flash firmware, configure Wi-Fi, or identify the board's IP address. 
-
-[View detailed instructions »](details-serial_cable.html)
 </div>
 
-[![Animated gif: using UART/serial cable](images/serial-animated.gif)](details-serial_cable.html)
+[![Animated gif: using UART/serial cable](){: .animated data-still="images/serial-firstframe.jpg" data-animated="images/serial-animated.gif"}](details-serial_cable.html)
+
+[View detailed instructions »](details-serial_cable.html){: .link-button .centered }
 
 
 ## DC power supply
 
 <div class="tldr" markdown="1">
 The Arduino expansion board for Intel® Edison can be powered via the DC power jack, the device mode micro-USB port, or both. If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable. 
-
-[View detailed instructions »](details-power_barrel.html)
 </div>
 
-[![Animated gif: using power barrel connector](images/power_barrel-animated.gif)](details-power_barrel.html)
+[![Animated gif: using power barrel connector](){: .animated data-still="images/power_barrel-firstframe.jpg" data-animated="images/power_barrel-animated.gif"}](details-power_barrel.html)
+
+[View detailed instructions »](details-power_barrel.html){: .link-button .centered }
 
 
 ## Host mode USB cable
 
 <div class="tldr" markdown="1">
 Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc. 
-
-[View detailed instructions »](details-host_mode_cable.html)
 </div>
 
-[![Animated gif: using host mode](images/host_mode-animated.gif)](details-host_mode_cable.html)
+[![Animated gif: using host mode](){: .animated data-still="images/host_mode-firstframe.jpg" data-animated="images/host_mode-animated.gif"}](details-host_mode_cable.html)
+
+[View detailed instructions »](details-host_mode_cable.html){: .link-button .centered }
+
