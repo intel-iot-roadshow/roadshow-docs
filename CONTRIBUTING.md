@@ -124,6 +124,20 @@ Many of these docs originated as a Google Doc and PDFs. Some of the points in th
 * Crop images to bring extra attention to the important area and to save space — but make sure to keep context (ie. don't overcrop).
 * Compress your images before adding to the repo. Try [TinyPNG](https://tinypng.com/) or similiar tools.
 
+#### Icons
+
+To add folder, file, or bookmark icons to highlight text, add the `.icon` and appropriate (`.folder`, `.file`, or `.bookmark`) CSS class.
+
+```
+Refer to [Link text](/page.html){: .icon .bookmark}.
+```
+
+or
+
+```
+Copy <span class="icon file">something.exe</span>.
+```
+
 #### Animated gifs
 
 * Screencasts are recorded and edited in Screenflow for HD (1920 x 1080) video

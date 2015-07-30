@@ -21,6 +21,18 @@
   margin: 5px 0;
 }
 
+.tldr .folder.icon::before {
+  background-image: url(../img/icon/folder_icon_blue.png);
+}
+
+.tldr .file.icon::before {
+  background-image: url(../img/icon/file_icon_blue.png);
+}
+
+.tldr .bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_blue.png);
+}
+
 /* ==========================================================================
    Blue solid boxes (no icons)
    ========================================================================== */
@@ -62,7 +74,7 @@
   margin-bottom: 1em;
   padding-top: 0em; /* to align the icon in ::before */
   font-size: 0.9em;
-  color: #0071c5;
+  color: $blue_main;
   margin-left: 50px
 }
 
@@ -87,7 +99,6 @@
 
 .callout > *:first-child {
   display: block;
-  // padding-top: 1em; /* to align the icon in ::before */
 }
 
 .callout > ol:first-child {
@@ -115,6 +126,20 @@ li .callout::before {
 .callout a {
   font-weight: bold;
 }
+
+.callout .folder.icon::before {
+  background-image: url(../img/icon/folder_icon_blue.png);
+}
+
+.callout .file.icon::before {
+  background-image: url(../img/icon/file_icon_blue.png);
+}
+
+.callout .bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_blue.png);
+}
+
+// other blue callouts
 
 .video.callout {
   border: 2px solid #d9eaf6;
@@ -177,6 +202,18 @@ li .callout::before {
   color: #53a653;
 }
 
+.done.callout .folder.icon::before {
+  background-image: url(../img/icon/folder_icon_green.png);
+}
+
+.done.callout .file.icon::before {
+  background-image: url(../img/icon/file_icon_green.png);
+}
+
+.done.callout .bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_green.png);
+}
+
 // orange callouts:
 
 .warning.callout {
@@ -198,6 +235,17 @@ li .callout::before {
   color: #b75f00;
 }
 
+.warning.callout .folder.icon::before {
+  background-image: url(../img/icon/folder_icon_orange.png);
+}
+
+.warning.callout .file.icon::before {
+  background-image: url(../img/icon/file_icon_orange.png);
+}
+
+.warning.callout .bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_orange.png);
+}
 
 // red callouts:
 
@@ -218,4 +266,45 @@ li .callout::before {
 
 .danger.callout a {
   color: #e21f20;
+}
+
+.danger.callout .folder.icon::before {
+  background-image: url(../img/icon/folder_icon_red.png);
+}
+
+.danger.callout .file.icon::before {
+  background-image: url(../img/icon/file_icon_red.png);
+}
+
+.danger.callout .bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_red.png);
+}
+
+/* ==========================================================================
+   Spans with icons
+   ========================================================================== */
+
+.icon {
+  font-weight: bold;
+  // color: $blue_main;
+}
+
+.icon::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 2px;
+}
+
+.folder.icon::before {
+  background-image: url(../img/icon/folder_icon_black.png);
+}
+
+.file.icon::before {
+  background-image: url(../img/icon/file_icon_black.png);
+}
+
+.bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_black.png);
 }

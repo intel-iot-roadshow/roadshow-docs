@@ -16,6 +16,28 @@ $content-small-padding: 10px;
 $content-small-viewport: $content-small-width + ($content-small-padding * 2);
 $content-small-viewport-max: $content-regular-viewport - 1; 
 
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+
+$blue_main: #0071c5;
+$blue_lighter: #d9eaf6;
+$blue_bonus: #f2f8fc;
+
+$green_main: #53a653;
+$green_lighter: #e5f2e5;
+
+$orange_main: #b75f00;
+$orange_lighter: #fff3a0;
+$orange_bonus: #ff8c00;
+
+$red_main: #e21f20;
+$red_lighter: #f2dede;
+
+$black: #000000;
+$grey: #f3f3f3;
+
+
 @import
         "normalize",
         "main",
