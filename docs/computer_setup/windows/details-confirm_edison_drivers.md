@@ -1,14 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Confirm installation of Intel® Edison Drivers
-
-Look for both "Intel Edison USB Composite Device" and "Intel Edison Virtual Com Port" items in Device Manager under “Ports (COM & LPT)” after plugging in the device mode USB cable.
-
-![Animated gif: confirming the installation of Intel Edison drivers](images/confirm_edison_drivers-animated.gif)
-
+title: Confirm installation of Intel® Edison Drivers
 ---
 
 1. Connect a micro-USB cable to the **device mode** micro-USB port of the Intel® Edison expansion board, and the other end to your computer.

@@ -20,33 +20,33 @@ title: Getting Started
 
 <div class="tldr" markdown="1">
 Launch the Device Manager utility on Windows in order to debug your Intel® IoT board USB connections. 
-
-[View detailed instructions »](details-open_device_manager.html)
 </div>
 
-[![Animated gif: opening Windows Device Manager using the Start menu](images/open_device_manager-animated.gif)](details-open_device_manager.html)
+[![Animated gif: opening Windows Device Manager using the Start menu](){: .animated data-still="images/open_device_manager-sampleframe.jpg" data-animated="images/open_device_manager-animated.gif"}](details-open_device_manager.html)
+
+[View detailed instructions »](details-open_device_manager.html){: .link-button .centered }
 
 
 ## Confirm installation of Intel® Edison Drivers
 
 <div class="tldr" markdown="1">
-Look for both "Intel Edison USB Composite Device" and "Intel Edison Virtual Com Port" items in Device Manager under “Ports (COM & LPT)” after plugging in the device mode USB cable. 
-
-[View detailed instructions »](details-confirm_edison_drivers.html)
+Look for both "**Intel Edison USB Composite Device**" and "**Intel Edison Virtual Com Port**" items in Device Manager under “Ports (COM & LPT)” after plugging in the device mode USB cable. 
 </div>
 
-[![Animated gif: confirming the installation of Intel Edison drivers](images/confirm_edison_drivers-animated.gif)](details-confirm_edison_drivers.html)
+[![Animated gif: confirming the installation of Intel Edison drivers](){: .animated data-still="images/confirm_edison_drivers-sampleframe.jpg" data-animated="images/confirm_edison_drivers-animated.gif"}](details-confirm_edison_drivers.html)
+
+[View detailed instructions »](details-confirm_edison_drivers.html){: .link-button .centered }
 
 
 ## Confirm installation of FTDI serial drivers
 
 <div class="tldr" markdown="1">
-Look for "USB Serial Port" in Device Manager under “Ports (COM & LPT)” after plugging in the UART/serial USB cable. 
-
-[View detailed instructions »](details-confirm_ftdi_cdm_drivers.html)
+Look for "**USB Serial Port**" in Device Manager under “Ports (COM & LPT)” after plugging in the UART/serial USB cable. 
 </div>
 
-[![Animated gif: confirming the installation of FTDI CDM drivers](images/confirm_ftdi_cdm_drivers-animated.gif)](details-confirm_ftdi_cdm_drivers.html)
+[![Animated gif: confirming the installation of FTDI CDM drivers](){: .animated data-still="images/confirm_ftdi_cdm_drivers-sampleframe.jpg" data-animated="images/confirm_ftdi_cdm_drivers-animated.gif"}](details-confirm_ftdi_cdm_drivers.html)
+
+[View detailed instructions »](details-confirm_ftdi_cdm_drivers.html){: .link-button .centered }
 
 
 <div id="next-steps" class="note" markdown="1">

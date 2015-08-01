@@ -3,11 +3,9 @@ layout: default
 title: UART/serial micro-USB cable
 ---
 
-1. Power the Intel® Edison via the **device mode** micro-USB port and/or via the power barrel connector.
+1. **Power** the Intel® Edison via the power barrel connector ***and/or** the device mode micro-USB port.
 
-    ![DC power supply plugged into power barrel connector](images/ac_power_barrel.png)
-    or
-    ![Micro-USB cable plugged into the top micro-USB connector](images/device_mode-usb-cable.png)
+    ![DC power supply plugged into power barrel connector or micro-USB cable plugged into the top micro-USB connector](../../assembly/arduino_expansion_board/images/edison_powered.png)
 
 2. Plug a micro-USB cable into the **_bottom_** serial micro-USB connector on the expansion board.
 

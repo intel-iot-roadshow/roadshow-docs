@@ -1,19 +1,11 @@
 ---
 layout: default
-title: Getting Started
+title: Confirm installation of FTDI serial drivers
 ---
 
-## Confirm installation of FTDI serial drivers
+1. **Power** the Intel® Edison via the power barrel connector ***and/or** the device mode micro-USB port.
 
-Look for "USB Serial Port" in Device Manager under “Ports (COM & LPT)” after plugging in the UART/serial USB cable.
-
-![Animated gif: confirming the installation of FTDI CDM drivers](images/confirm_ftdi_cdm_drivers-animated.gif)
-
----
-
-1. _Power_ the Intel® Edison via the **device mode** micro-USB port and/or via the power barrel connector.
-
-    ![DC power supply plugged into power barrel connector](../../assembly/arduino_expansion_board/images/ac_power_barrel.png) or ![Micro-USB cable plugged into the top micro-USB connector](../../assembly/arduino_expansion_board/images/device_mode-usb-cable.png)
+    ![DC power supply plugged into power barrel connector or micro-USB cable plugged into the top micro-USB connector](../../assembly/arduino_expansion_board/images/edison_powered.png)
 
 2. Connect a micro-USB cable to the **UART/serial** micro-USB port of the Intel® Edison expansion board, and the other end to your computer.
 
@@ -22,7 +14,7 @@ Look for "USB Serial Port" in Device Manager under “Ports (COM & LPT)” after
     Refer to [UART/serial micro-USB cable](../../assembly/arduino_expansion_board/details-serial_cable.html) for more detailed cable connection information.
 
 <div class="callout done" markdown="1">
-If you see "USB Serial Port" show up in Device Manager under "Ports (COM & LPT)", the drivers have been successfully installed. 
+If you see "**USB Serial Port**" show up in Device Manager under "Ports (COM & LPT)", the drivers have been successfully installed. 
 
 !["USB Serial Port" entry in Device Manager](images/device_manager-usb_serial_port.png)
 </div>
