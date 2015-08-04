@@ -5,43 +5,45 @@ title: Getting Started
 
 # Flash the Edison
 
-To start this process, do not have the Edison board plugged in on USB or powered on with a power supply.
+1. Unplug any USB or power cables connected to the Intel® Edison.
 
-![Edison Board Configuration](images/edison_board_config.jpg)
-
-1. Get the latest Yocto firmware image for the Intel® Edison.
+2. Get the latest Yocto firmware image for the Intel® Edison.
 
     <div class="callout goto" markdown="1">
     1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Firmware</span> - <span class="icon folder">Edison Yocto</span>
     2. Copy <span class="icon file">edison-image-[version].zip</span> to your computer.
     </div>
 
-2. Launch the **Flash Tool Lite** installed in the previous step.
+3. Launch the **Flash Tool Lite** installed in the previous step.
 
-3. Click browse and select <span class="icon file">edison-image-[version].zip</span> file.
+4. Click browse and select <span class="icon file">edison-image-[version].zip</span> file.
  
-   ![Browse Edison Image](images/browse_flash_tool.jpg)
+    ![Browse Edison Image](images/browse_flash_tool.jpg)
 
     The tool extracts the zip file and loads FlashEdison.json.
  
-   ![Load FlashEdison.json](images/json_flash_tool.jpg)
+    ![Load FlashEdison.json](images/json_flash_tool.jpg)
 
-4. For the "Configuration" drop down, if your host machine is:
+5. For the "Configuration" drop down, if your host machine is:
     
     * **OS X or Linux:** choose "CDC" 
     * **Windows:** choose "RNDIS".
 
-5. Click **Start to Flash** (the Edison board is not plugged in yet).
+6. Click **Start to Flash** (the Edison board is not plugged in yet).
  
-   ![Start to Flash](images/start_flash_tool.jpg)
+    ![Start to Flash](images/start_flash_tool.jpg)
 
-6. Plug a micro-USB cable into the **device mode** port of the Edison board. You should see the Flash Tool detect the board and begin the flash process.
+6. Plug a micro-USB cable into the **_top_** micro-USB connector on the expansion board.
 
-   ![Plug the USB cable](images/plug_usb_flash_tool.jpg)
+    ![Micro-USB cable being plugged into the top micro-USB connector](../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
 
-   **Firmware flash progress**
+    You should see the Flash Tool detect the board and begin the flash process.
 
-   ![Flash progress](images/progress_flash_tool.png)
+    ![Plug the USB cable](images/plug_usb_flash_tool.jpg)
+
+    **Firmware flash progress**
+
+    ![Flash progress](images/progress_flash_tool.png)
    
 7. Once the flashing is completed, the board restarts. Do not unplug the board for at least 2-3 minutes.
 
