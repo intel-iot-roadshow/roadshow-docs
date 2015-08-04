@@ -1,14 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Share your computer's WiFi connection (optional)
-
-Turn on Internet Connection Sharing (ICS) to cut down on Wi-Fi traffic in a crowded room. Sharing your computer's internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison.
-
-Internet sharing is an optional step but is highly recommended if you are at a hackathon.
-
+title: Share your computer's WiFi connection
 ---
 
 1. Open your **Network Connections** again.

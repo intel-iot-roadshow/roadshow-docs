@@ -1,19 +1,11 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Configure network settings
-
-Update your computer's Network configuration with a static IP address to use Ethernet over USB.
-
-![Animated gif: configuring DHCP IP address in Mac Network settings](images/configure_mac_network-animated.gif)
-
+title: Configure network settings
 ---
 
 1. Open your **Network** preference settings.
 
-    (i.e. In the OS X menu bar, choose ![Mac OS icon](../../../../img/icons/os_icon_mac.png) → System Preferences → Network)
+    (i.e. In the OS X menu bar, choose ![Mac OS icon](../../../../img/icon/os_icon_mac.png) → System Preferences → Network)
 
 2. Make sure your IoT board has the microswitch set to **device mode** and plug in the **device mode micro-USB cable** from your Intel® Edison to your computer. 
 

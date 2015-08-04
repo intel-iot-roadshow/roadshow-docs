@@ -15,8 +15,7 @@ title: Open Windows Device Manager
 
       ![Device Manager in the Windows 7 Start Menu](images/device_manager-windows_7.jpg)
       </div>
-
-      <div class="side-by-side right" markdown="1">
+      <div class="right" markdown="1">
       **Windows 8:**
       
       1. Go into Windows Desktop mode.

@@ -1,12 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Forward usb0 connection
-
-Use Terminal and the `ifconfig` command to forward connections to the IP address 192.168.2.2 through "usb0" which should be the USB cable.
-
+title: Forward usb0 connection
 ---
 
 1. Open a new Terminal window.

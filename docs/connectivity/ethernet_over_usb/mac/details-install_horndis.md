@@ -1,14 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Install HoRNDIS
-
-Install the HoRNDIS (pronounced "horrendous") kernel extension to use Ethernet over USB via the RNDIS protocol on your Mac. You must reboot your computer after installing HoRNDIS.
-
-![Animated gif: installing HoRNDIS](images/install_horndis-animated.gif)
-
+title: Install HoRNDIS
 ---
 
 1. Get the latest version of HoRNDIS. Visit [http://joshuawise.com/horndis#available_versions](http://joshuawise.com/horndis#available_versions) and click on the "**HoRNDIS-rel[version].pkg (bytes)**" link for the latest version.

@@ -53,7 +53,7 @@ systemctl restart xdk-daemon
 <div class="callout goto" markdown="1">
 Return to **Ethernet over USB** for:
 
-* [Windows »](windows.html)
-* [Mac »](mac.html)
-* [Linux »](linux.html)
+* [Windows »](../windows/connect.html)
+<!-- * [Mac »](../mac/connect.html) -->
+* [Linux »](../linux/connect.html)
 </div>
