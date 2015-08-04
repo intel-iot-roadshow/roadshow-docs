@@ -292,24 +292,24 @@ $toc-media-query: $toc-position-left + $toc-min-width + ($content-regular-paddin
 
 @media (min-width: $content-regular-viewport) {
 
-  .side_by_side {
+  .side-by-side {
     overflow: hidden;
   }
 
-  .side_by_side ul,
-  .side_by_side ol {
+  .side-by-side ul,
+  .side-by-side ol {
     padding-left: 1.4em;
   }
 
-  .side_by_side .left,
-  .side_by_side .right {
+  .side-by-side .left,
+  .side-by-side .right {
     width: 48%;
     float: left;
     font-size: 0.9em;
     overflow: hidden;
   }
 
-  .side_by_side .left {
+  .side-by-side .left {
     margin-right: 3%;
   }
 

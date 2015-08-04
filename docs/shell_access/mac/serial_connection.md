@@ -23,23 +23,23 @@ You can then execute special Linux commands such: changing the hostname and pass
 ## Identify the "usbserial" device name 
 
 <div class="tldr" markdown="1">
-Use the `ls /dev/tty.*` command in Terminal to find the device name of the "**usbserial**" connection. You will need the exact device name for use in [Establish a serial connection](#establish-a-serial-connection) next. 
-
-[View detailed instructions »](details-identify_usbserial.html)
+Use the `ls /dev/tty.*` command in Terminal to find the device name of the "**usbserial**" connection. You will need the exact device name for use in <span class="icon bookmark">Establish a serial connection</span> next. 
 </div>
 
-[![Animated gif: using Terminal to find the USB device name](images/identify_usbserial-animated.gif)](details-identify_usbserial.html)
+[![Animated gif: using Terminal to find the USB device name](){: .animated data-still="images/identify_usbserial-sampleframe.jpg" data-animated="images/identify_usbserial-animated.gif"}](details-identify_usbserial.html)
+
+[View detailed instructions »](details-identify_usbserial.html){: .link-button .centered }
 
 
 ## Establish a serial connection
 
 <div class="tldr" markdown="1">
 Use the Screen utility in Terminal to gain command line access of your IoT board. For example: `screen /dev/tty.usbserial-A102GW3T 115200`. 
-
-[View detailed instructions »](details-screen_connection.html)
 </div>
 
-[![Animated gif: using Screen utility to connect to IoT board](images/screen_connection-animated.gif)](details-screen_connection.html)
+[![Animated gif: using Screen utility to connect to IoT board](){: .animated data-still="images/screen_connection-sampleframe.jpg" data-animated="images/screen_connection-animated.gif"}](details-screen_connection.html)
+
+[View detailed instructions »](details-screen_connection.html){: .link-button .centered }
 
 
 <div class="callout done" markdown="1">

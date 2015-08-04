@@ -1,14 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Establish a serial connection
-
-Use the Screen utility in Terminal to gain command line access of your IoT board. For example: `screen /dev/tty.usbserial-A102GW3T 115200`
-
-![Animated gif: using Screen utility to connect to IoT board](images/screen_connection-animated.gif)
-
+title: Establish a serial connection
 ---
 
 1. Connect to the USB serial device using the Terminal "screen" utility. 
@@ -20,8 +12,6 @@ Use the Screen utility in Terminal to gain command line access of your IoT board
     * **Replace "/dev/xx.usbserial-XXXXXXXX" with your device's unique name.** 
 
     * "115200" indicates the baud rate. **Always use 115200.**
-
-    * "-L" turns on output logging so you can see what the result of your commands are.
 
 2. When you see a blank screen, **press the Enter key**.
  

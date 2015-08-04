@@ -20,17 +20,17 @@ You can then execute special Linux commands such: changing the hostname and pass
 
 <div class="tldr" markdown="1">
 Your computer may not have come with a pre-installed shell session manager. Download and install the GNU Screen utility using `sudo apt-get install screen`. 
-
-[View detailed instructions »](details-install_screen.html)
 </div>
+
+[View detailed instructions »](details-install_screen.html){: .link-button .centered }
 
 ## Establish a serial connection
 
 <div class="tldr" markdown="1">
-Use the Screen utility that you installed in the previous section to gain command line access of your IoT board. For example: `sudo screen /dev/ttyUSB0 115200`. 
-
-[View detailed instructions »](details-screen_connection.html)
+Use the Screen utility that you installed in the previous section to gain command line access of your IoT board. For example: `sudo screen /dev/ttyUSB0 115200`.
 </div>
+
+[View detailed instructions »](details-screen_connection.html){: .link-button .centered }
 
 <br>
 

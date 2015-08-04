@@ -1,12 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Install a shell session manager (Screen)
-
-Your computer may not have come with a pre-installed shell session manager. Download and install the GNU Screen utility using `sudo apt-get install screen`.
-
+title: Install a shell session manager (Screen)
 ---
 
 1. Launch Terminal.

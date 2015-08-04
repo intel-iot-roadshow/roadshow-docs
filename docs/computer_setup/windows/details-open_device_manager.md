@@ -5,7 +5,7 @@ title: Open Windows Device Manager
 
 1. Launch Device Manager.
 
-    <div class="side_by_side">
+    <div class="side-by-side">
       <div class="left" markdown="1">
       **Windows 7 and below:**
 
@@ -16,7 +16,7 @@ title: Open Windows Device Manager
       ![Device Manager in the Windows 7 Start Menu](images/device_manager-windows_7.jpg)
       </div>
 
-      <div class="side_by_side right" markdown="1">
+      <div class="side-by-side right" markdown="1">
       **Windows 8:**
       
       1. Go into Windows Desktop mode.

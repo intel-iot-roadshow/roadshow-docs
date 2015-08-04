@@ -1,12 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Establish a serial connection
-
-Use the Screen utility that you installed in the previous section to gain command line access of your IoT board. For example: `sudo screen /dev/ttyUSB0 115200`
-
+title: Establish a serial connection
 ---
 
 1. Open a new Terminal window.
