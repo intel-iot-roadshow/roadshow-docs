@@ -1,12 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-# Establish a serial connection
-
-Use PuTTY to establish a **serial** connection to the IoT board using the COM # you noted in the previous [Identify the serial COM port](details-identify_com_port.html) section and the baud rate **115200**.
-
+title: Establish a serial connection with PuTTY
 ---
 
 1. In PuTTY, double-check that you are in the "Session" screen. 

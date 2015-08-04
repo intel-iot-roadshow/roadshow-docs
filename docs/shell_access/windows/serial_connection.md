@@ -25,33 +25,33 @@ You can then execute special Linux commands such: changing the hostname and pass
 
 <div class="tldr" markdown="1">
 Windows does not come with a built-in terminal emulator so download and use the [PuTTY](http://www.putty.org/) client. 
-
-[View detailed instructions »](details-putty.html)
 </div>
 
-[![Animated gif: downloading and installing PuTTY](images/install_putty-animated.gif)](details-putty.html)
+[![Animated gif: downloading and installing PuTTY](){: .animated data-still="images/install_putty-firstframe.jpg" data-animated="images/install_putty-animated.gif"}](details-putty.html)
+
+[View detailed instructions »](details-putty.html){: .link-button .centered }
 
 
 ## Identify the serial COM port
 
 <div class="tldr" markdown="1">
-Use Device Manager to find the COM port number for the "**USB Serial Port**" connection. You will need the COM # to configure PuTTY in Establish a serial connection. 
-
-[View detailed instructions »](details-identify_com_port.html)
+Use Device Manager to find the COM port number for the "**USB Serial Port**" connection. You will need the COM # to configure PuTTY in <span class="icon bookmark">Establish a serial connection</span> next. 
 </div>
 
-[![Animated gif: identifying the serial COM port](images/identify_com_port-animated.gif)](details-identify_com_port.html)
+[![Animated gif: identifying the serial COM port](){: .animated data-still="images/identify_com_port-sampleframe.jpg" data-animated="images/identify_com_port-animated.gif"}](details-identify_com_port.html)
+
+[View detailed instructions »](details-identify_com_port.html){: .link-button .centered }
 
 
 ## Establish a serial connection
 
 <div class="tldr" markdown="1">
-Use PuTTY to establish a **serial** connection to the IoT board using the COM # you noted in the previous [Identify the serial COM port](#identify-the-serial-com-port) section and the baud rate **115200**. 
-
-[View detailed instructions »](details-putty_serial_connection.html)
+Use PuTTY to establish a **serial** connection to the IoT board using the COM # you noted in the previous <span class="icon bookmark">Identify the serial COM port</span> section and the baud rate **115200**. 
 </div>
 
-[![Animated gif: logging into the IoT board via a PuTTY serial connection](images/putty_serial_connection-animated.gif)](details-putty_serial_connection.html)
+[![Animated gif: logging into the IoT board via a PuTTY serial connection](){: .animated data-still="images/putty_serial_connection-sampleframe.jpg" data-animated="images/putty_serial_connection-animated.gif"}](details-putty_serial_connection.html)
+
+[View detailed instructions »](details-putty_serial_connection.html){: .link-button .centered }
 
 <div class="callout done" markdown="1">
 You are now logged into your IoT board and can run shell commands. For example, to output the version number of the firmware running on your board:

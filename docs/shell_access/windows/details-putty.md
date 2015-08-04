@@ -1,14 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Download a terminal client (PuTTY)
-
-Windows does not come with a built-in terminal emulator so download and use the [PuTTY](http://www.putty.org/) client.
-
-![Animated gif: downloading and installing PuTTY](images/install_putty-animated.gif)
-
+title: Download a terminal client (PuTTY)
 ---
 
 1. Visit the PuTTY download page: [http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).

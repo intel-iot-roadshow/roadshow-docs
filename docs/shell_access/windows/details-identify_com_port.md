@@ -1,14 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Identify the serial COM port
-
-Use Device Manager to find the COM port number for the "**USB Serial Port**" connection. You will need the COM # to configure PuTTY in Establish a serial connection.
-
-![Animated gif: identifying the serial COM port](images/identify_com_port-animated.gif)
-
+title: Identify the serial COM port
 ---
 
 1. Open Device Manager.
@@ -29,7 +21,7 @@ Use Device Manager to find the COM port number for the "**USB Serial Port**" con
 **Don't see a "USB Serial Port" device listed?**
 
 * **Do you have the serial drivers installed?**
-  * A serial connection cannot be detected without FTDI serial drivers. Refer to [Set Up Your Computer - Windows (64-bit integrated installer)](../../computer_setup/windows/64bit_integrated_installer.html) or [Set Up Your Computer - Windows (manual installation)](../../computer_setup/windows/manual_installation.html).
+  * A serial connection cannot be detected without FTDI serial drivers. Refer to [Set Up Your Computer - Windows (manual installation)](../../computer_setup/windows/manual_installation.html).
 
 * **Do you have the UART/serial cable connected?** Refer to [UART/serial micro-USB cable](../../assembly/arduino_expansion_board/details-serial_cable.html).
 
