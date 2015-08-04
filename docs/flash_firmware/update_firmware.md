@@ -14,9 +14,9 @@ title: Getting Started
     2. Copy <span class="icon file">edison-image-[version].zip</span> to your computer.
     </div>
 
-3. Launch the **Flash Tool Lite** installed in the previous step.
+3. Launch the **Flash Tool Lite** program installed in the previous step.
 
-4. Click browse and select <span class="icon file">edison-image-[version].zip</span> file.
+4. Click **Browse** in the upper righthand corner. Select <span class="icon file">edison-image-[version].zip</span> file.
  
     ![Browse Edison Image](images/browse_flash_tool.jpg)
 
@@ -24,10 +24,10 @@ title: Getting Started
  
     ![Load FlashEdison.json](images/json_flash_tool.jpg)
 
-5. For the "Configuration" drop down, if your host machine is:
+5. For the "**Configuration**" drop down, if your host machine is:
     
     * **OS X or Linux:** choose "CDC" 
-    * **Windows:** choose "RNDIS".
+    * **Windows:** choose "RNDIS"
 
 6. Click **Start to Flash** (the Edison board is not plugged in yet).
  
