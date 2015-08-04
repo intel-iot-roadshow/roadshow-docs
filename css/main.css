@@ -638,9 +638,10 @@ img[data-animated].hide-small {
     display: block; } }
 .has-gif {
   display: block;
-  position: relative; }
+  position: relative;
+  height: 366px; }
 
-.has-gif::after {
+.play-gif-button::after {
   content: '';
   background-image: url(../img/overlay/animated_gif_play.png);
   background-repeat: no-repeat;
