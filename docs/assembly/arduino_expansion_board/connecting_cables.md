@@ -43,7 +43,7 @@ Use the top micro-USB port in USB device mode for:
 * writing to the onboard flash memory from your computer.
 </div>
 
-[![Animated gif: using device mode](){: .animated data-still="images/device_mode-firstframe.jpg" data-animated="images/device_mode-animated.gif"}](details-device_mode_cable.html)
+[![Animated gif: using device mode](){: .animated data-still="images/device_mode-sampleframe.jpg" data-animated="images/device_mode-animated.gif"}](details-device_mode_cable.html)
 
 [View detailed instructions »](details-device_mode_cable.html){: .link-button .centered }
 
@@ -54,7 +54,7 @@ Use the top micro-USB port in USB device mode for:
 Use the bottom micro-USB port to send serial commands to your Intel® Edison via Terminal or PuTTY. Use these commands to flash firmware, configure Wi-Fi, or identify the board's IP address. 
 </div>
 
-[![Animated gif: using UART/serial cable](){: .animated data-still="images/serial-firstframe.jpg" data-animated="images/serial-animated.gif"}](details-serial_cable.html)
+[![Animated gif: using UART/serial cable](){: .animated data-still="images/serial-sampleframe.jpg" data-animated="images/serial-animated.gif"}](details-serial_cable.html)
 
 [View detailed instructions »](details-serial_cable.html){: .link-button .centered }
 
@@ -76,7 +76,7 @@ The Arduino expansion board for Intel® Edison can be powered via the DC power j
 Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc. 
 </div>
 
-[![Animated gif: using host mode](){: .animated data-still="images/host_mode-firstframe.jpg" data-animated="images/host_mode-animated.gif"}](details-host_mode_cable.html)
+[![Animated gif: using host mode](){: .animated data-still="images/host_mode-sampleframe.jpg" data-animated="images/host_mode-animated.gif"}](details-host_mode_cable.html)
 
 [View detailed instructions »](details-host_mode_cable.html){: .link-button .centered }
 
