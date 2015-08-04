@@ -23,9 +23,8 @@ roadshow.initGifStills = function() {
   roadshow.gifs.each(function() {
     if ( !$(this).attr('src') ) {
       // console.log( "init", $(this).data('still'));
-      // TODO: check height here b/c there's a small flash when image is replaced
       $(this).attr('src', $(this).data('still'));
-      // $(this).height('366px');
+      $(this).parent().height('366px'); /* temp fix (not responsive) b/c there's a small flash when image is replaced */
     }
   });
 };

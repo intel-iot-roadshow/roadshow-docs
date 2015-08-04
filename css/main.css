@@ -638,9 +638,7 @@ img[data-animated].hide-small {
     display: block; } }
 .has-gif {
   display: block;
-  position: relative;
-  height: 366px;
-  /* temp fix for flashing on mouseover */ }
+  position: relative; }
 
 .has-gif::after {
   content: '';
