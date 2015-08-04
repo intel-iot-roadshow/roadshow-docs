@@ -22,27 +22,28 @@ roadshow.checkWidth = function() {
 roadshow.initGifStills = function() {
   roadshow.gifs.each(function() {
     if ( !$(this).attr('src') ) {
-      console.log( "init", $(this).data('still'));
+      // console.log( "init", $(this).data('still'));
       // TODO: check height here b/c there's a small flash when image is replaced
       $(this).attr('src', $(this).data('still'));
+      $(this).height('366px');
     }
   });
 };
 
 roadshow.initSwapGifOnHover = function() {
   roadshow.gifs.parent().addClass('has-gif');
-  roadshow.gifs.parent().on('mouseenter', function(event){
+  roadshow.gifs.on('mouseenter', function(event){
     $(this).attr('src', $(this).data('animated'))
     $(this).parent().removeClass('has-gif');
   });
-  roadshow.gifs.parent().on('mouseleave', function(event){
+  roadshow.gifs.on('mouseleave', function(event){
     $(this).attr('src', $(this).data('still'))
     $(this).parent().addClass('has-gif');
   });
 };
 
 roadshow.removeSwapGifOnHover = function() {
-  roadshow.gifs.parent().off();
+  roadshow.gifs.off();
   roadshow.gifs.parent().removeClass('has-gif'); //.addClass('hidden');
 };
 
