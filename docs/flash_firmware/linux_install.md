@@ -27,14 +27,14 @@ The Linux installation set up is only for 64 bit operating system. The versions 
       sudo apt-get install gdebi libncurses5:i386 libstdc++6:i386
       ``` 
 
-2. Get the latest Flash Tool Lite.
+2. Get the latest **Flash Tool Lite**.
    
    <div class="callout goto" markdown="1">
-   1. On the USB key: **downloads → Linux**
-   2. Copy **phoneflashtoollite_[version]_linux_x86_64.deb** to your computer.
+   1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span>
+   2. Copy <span class="icon file">phoneflashtoollite_[version]_linux_x86_64.deb</span> to your computer.
    </div>
 
-3. Complete the installation either through terminal or Ubunutu software center.
+3. Complete the installation either through Terminal or Ubunutu software center.
 
    * From Ubuntu Terminal:
 
