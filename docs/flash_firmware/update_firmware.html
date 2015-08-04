@@ -15,41 +15,51 @@
     
         <h1 id="flash-the-edison">Flash the Edison</h1>
 
-<p>To start this process, do not have the Edison board plugged in on USB or powered on with a power supply.</p>
-
-<p><img src="images/edison_board_config.jpg" alt="Edison Board Configuration" /></p>
-
 <ol>
+  <li>
+    <p>Unplug any USB or power cables connected to the Intel® Edison.</p>
+  </li>
   <li>
     <p>Get the latest Yocto firmware image for the Intel® Edison.</p>
 
     <div class="callout goto">
       <ol>
-        <li>On the USB key: <strong>downloads → Firmware - Edison Yocto</strong></li>
-        <li>Copy <strong>edison-image-[version].zip</strong> to your computer.</li>
+        <li>On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Firmware</span> - <span class="icon folder">Edison Yocto</span></li>
+        <li>Copy <span class="icon file">edison-image-[version].zip</span> to your computer.</li>
       </ol>
     </div>
   </li>
   <li>
-    <p>Launch Flash Tool Lite, click browse and select <strong>edison-image-[version].zip</strong> file.</p>
-
-    <p><img src="images/browse_flash_tool.jpg" alt="Browse Edison Image" /></p>
+    <p>Launch the <strong>Flash Tool Lite</strong> installed in the previous step.</p>
   </li>
   <li>
+    <p>Click browse and select <span class="icon file">edison-image-[version].zip</span> file.</p>
+
+    <p><img src="images/browse_flash_tool.jpg" alt="Browse Edison Image" /></p>
+
     <p>The tool extracts the zip file and loads FlashEdison.json.</p>
 
     <p><img src="images/json_flash_tool.jpg" alt="Load FlashEdison.json" /></p>
   </li>
   <li>
-    <p>On the Configuration drop down, <strong>choose CDC if your host machine is OS X or Linux</strong>, <strong>choose RNDIS for Windows</strong>.</p>
+    <p>For the “Configuration” drop down, if your host machine is:</p>
+
+    <ul>
+      <li><strong>OS X or Linux:</strong> choose “CDC” </li>
+      <li><strong>Windows:</strong> choose “RNDIS”.</li>
+    </ul>
   </li>
   <li>
-    <p>Click Start to Flash (the Edison board is not plugged in yet).</p>
+    <p>Click <strong>Start to Flash</strong> (the Edison board is not plugged in yet).</p>
 
     <p><img src="images/start_flash_tool.jpg" alt="Start to Flash" /></p>
   </li>
   <li>
-    <p>Plug the USB cable into the Multigadget port of the Edison board. You should see the Flash Tool detect the board and begin the flash process.</p>
+    <p>Plug a micro-USB cable into the <strong><em>top</em></strong> micro-USB connector on the expansion board.</p>
+
+    <p><img src="../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png" alt="Micro-USB cable being plugged into the top micro-USB connector" /></p>
+
+    <p>You should see the Flash Tool detect the board and begin the flash process.</p>
 
     <p><img src="images/plug_usb_flash_tool.jpg" alt="Plug the USB cable" /></p>
 
@@ -58,14 +68,14 @@
     <p><img src="images/progress_flash_tool.png" alt="Flash progress" /></p>
   </li>
   <li>
-    <p>Once the flashing is completed, the board restarts do not unplug the board for atleast 2-3 minutes.</p>
+    <p>Once the flashing is completed, the board restarts. Do not unplug the board for at least 2-3 minutes.</p>
   </li>
 </ol>
 
 <div id="next-steps" class="note">
   <h3 id="next-steps">Next Steps</h3>
 
-  <p>You’ll need to now gain command line access of your IoT board, in order to set up an internet connection. You’ll also be executing special Linux commands to configure your IoT board such as setting up Wi-Fi.</p>
+  <p>Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.</p>
 
   <p>Please pick your operating system from the options below to proceed.</p>
 

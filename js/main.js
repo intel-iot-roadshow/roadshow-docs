@@ -31,18 +31,18 @@ roadshow.initGifStills = function() {
 
 roadshow.initSwapGifOnHover = function() {
   roadshow.gifs.parent().addClass('has-gif');
-  roadshow.gifs.on('mouseenter', function(event){
+  roadshow.gifs.parent().on('mouseenter', function(event){
     $(this).attr('src', $(this).data('animated'))
     $(this).parent().removeClass('has-gif');
   });
-  roadshow.gifs.on('mouseleave', function(event){
+  roadshow.gifs.parent().on('mouseleave', function(event){
     $(this).attr('src', $(this).data('still'))
     $(this).parent().addClass('has-gif');
   });
 };
 
 roadshow.removeSwapGifOnHover = function() {
-  roadshow.gifs.off();
+  roadshow.gifs.parent().off();
   roadshow.gifs.parent().removeClass('has-gif'); //.addClass('hidden');
 };
 

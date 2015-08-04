@@ -2,6 +2,9 @@
    Content width & media query variables
    ========================================================================== */
 /* + body padding */
+/* ==========================================================================
+   Colors
+   ========================================================================== */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -778,6 +781,26 @@ dd {
   padding-left: 2em; }
 
 /* ==========================================================================
+   Side-by-side content
+   ========================================================================== */
+@media (min-width: 680px) {
+  .side_by_side {
+    overflow: hidden; }
+
+  .side_by_side ul,
+  .side_by_side ol {
+    padding-left: 1.4em; }
+
+  .side_by_side .left,
+  .side_by_side .right {
+    width: 48%;
+    float: left;
+    font-size: 0.9em;
+    overflow: hidden; }
+
+  .side_by_side .left {
+    margin-right: 3%; } }
+/* ==========================================================================
    TLDR boxes (with inner road sign icon)
    ========================================================================== */
 .tldr {
@@ -794,6 +817,15 @@ dd {
 
 .tldr p {
   margin: 5px 0; }
+
+.tldr .folder.icon::before {
+  background-image: url(../img/icon/folder_icon_blue.png); }
+
+.tldr .file.icon::before {
+  background-image: url(../img/icon/file_icon_blue.png); }
+
+.tldr .bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_blue.png); }
 
 /* ==========================================================================
    Blue solid boxes (no icons)
@@ -857,6 +889,15 @@ li .callout::before {
 .callout a {
   font-weight: bold; }
 
+.callout .folder.icon::before {
+  background-image: url(../img/icon/folder_icon_blue.png); }
+
+.callout .file.icon::before {
+  background-image: url(../img/icon/file_icon_blue.png); }
+
+.callout .bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_blue.png); }
+
 .video.callout {
   border: 2px solid #d9eaf6;
   padding-top: 1em;
@@ -900,6 +941,15 @@ li .callout::before {
 .done.callout a {
   color: #53a653; }
 
+.done.callout .folder.icon::before {
+  background-image: url(../img/icon/folder_icon_green.png); }
+
+.done.callout .file.icon::before {
+  background-image: url(../img/icon/file_icon_green.png); }
+
+.done.callout .bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_green.png); }
+
 .warning.callout {
   border: 2px solid #b75f00;
   background-color: #fff3a0;
@@ -915,6 +965,15 @@ li .callout::before {
 .warning.callout a {
   color: #b75f00; }
 
+.warning.callout .folder.icon::before {
+  background-image: url(../img/icon/folder_icon_orange.png); }
+
+.warning.callout .file.icon::before {
+  background-image: url(../img/icon/file_icon_orange.png); }
+
+.warning.callout .bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_orange.png); }
+
 .danger.callout {
   border: 2px solid #e21f20;
   background-color: #f2dede;
@@ -929,3 +988,34 @@ li .callout::before {
 
 .danger.callout a {
   color: #e21f20; }
+
+.danger.callout .folder.icon::before {
+  background-image: url(../img/icon/folder_icon_red.png); }
+
+.danger.callout .file.icon::before {
+  background-image: url(../img/icon/file_icon_red.png); }
+
+.danger.callout .bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_red.png); }
+
+/* ==========================================================================
+   Spans with icons
+   ========================================================================== */
+.icon {
+  font-weight: bold; }
+
+.icon::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 2px; }
+
+.folder.icon::before {
+  background-image: url(../img/icon/folder_icon_black.png); }
+
+.file.icon::before {
+  background-image: url(../img/icon/file_icon_black.png); }
+
+.bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_black.png); }
