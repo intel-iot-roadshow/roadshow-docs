@@ -48,7 +48,7 @@ To start this process, do not have the Edison board plugged in on USB or powered
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-You'll need to now gain command line access of your IoT board, in order to set up an internet connection. You'll also be executing special Linux commands to configure your IoT board such as setting up Wi-Fi.
+Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.
 
 Please pick your operating system from the options below to proceed.
 
