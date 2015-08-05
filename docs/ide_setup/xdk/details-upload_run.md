@@ -1,14 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-### Upload and run the application
-
-Upload the project files to the IoT device and run it. Remember that every time you make changes to files and you want to see the changes: (1) save the file, (2) upload, (3) run.
-
-![Animated gif: creating a project in the Intel® XDK](images/upload_run-animated.gif)
-
+title: Upload and run the application - Intel® XDK
 ---
 
 1. In the bottom toolbar, click the "**Upload**" icon to upload the current project to the device.

@@ -1,14 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-### Build the application
-
-Fetch all the Node modules specified in package.json and install them on the IoT device. Run build any time you create a new project, or add/remove Node modules from an existing project.
-
-![Animated gif: building the app](images/build-animated.gif)
-
+title: Build the application - Intel® XDK
 ---
 
 1. In the bottom toolbar, click the "**Install/Build**" icon.

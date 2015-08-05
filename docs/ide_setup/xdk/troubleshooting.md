@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Troubleshooting - Intel® XDK
 ---
 
 <div id="toc" markdown="1">
@@ -37,10 +37,9 @@ You will need to add the IP address of your IoT device manually if you are using
     <div class="callout troubleshooting" markdown="1">
     **Don't know the IP address?**
 
-    Refer to:
-
-    * [Connect Your Intel Edison to Wi-Fi → Identify the IP address](../../connectivity/wifi/details-identify_ip.html). 
-    * Or use 192.168.2.15 if you're using [Ethernet over USB](../../connectivity/ethernet_over_usb/).
+    Refer to [Identify the IP address](../../connectivity/wifi/details-identify_ip.html). 
+    
+    Or use **192.168.2.15** if you're using [Ethernet over USB](../../connectivity/ethernet_over_usb/).
     </div>
 
 3. Click "**Connect**" to try connecting to the IoT device using the manual settings.

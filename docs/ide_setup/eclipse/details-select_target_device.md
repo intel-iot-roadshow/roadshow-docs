@@ -1,12 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Select a target IoT device
-
-To connect to your IoT board, you will need to configure Eclipse with your Intel® Edison or Intel® Galileo's IP address.
-
+title: Select a target IoT device - Eclipse IDE
 ---
 
 1. Click the "**Remote System Explorer**" tab in the top right corner of the Eclipse screen.
