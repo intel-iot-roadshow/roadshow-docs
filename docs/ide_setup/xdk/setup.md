@@ -23,33 +23,33 @@ This document will guide you through installing the Intel® XDK IoT Edition IDE 
 
 <div class="tldr" markdown="1">
 Get the latest Intel® XDK IoT Edition installer for your computer's OS. Simply run the installer and follow the prompts.
-
-[View detailed instructions »](details-install_xdk.html)
 </div>
 
-[![Animated gif: installing the Intel® XDK](images/install_xdk-animated.gif)](details-install_xdk.html)
+[![Animated gif: installing the Intel® XDK](){: .animated data-still="images/install_xdk-sampleframe.jpg" data-animated="images/install_xdk-animated.gif"}](details-install_xdk.html)
+
+[View detailed instructions »](details-install_xdk.html){: .link-button .centered }
 
 
 ### Windows only: Install Bonjour
 
 <div class="tldr" markdown="1">
 [Bonjour](http://support.apple.com/kb/DL999) (or zeroconf) is a service that enables the Intel® XDK to auto detect Intel® IoT devices on your network. This service is already available on Mac and Linux; only Windows users need to install an additional Bonjour service. 
-
-[View detailed instructions »](details-install_bonjour.html)
 </div>
 
-[![Animated gif: installing Bonjour](images/install_bonjour-animated.gif)](details-install_bonjour.html)
+[![Animated gif: installing Bonjour](){: .animated data-still="images/install_bonjour-sampleframe.jpg" data-animated="images/install_bonjour-animated.gif"}](details-install_bonjour.html)
+
+[View detailed instructions »](details-install_bonjour.html){: .link-button .centered }
 
 
 ## Launch and sign into Intel® XDK
 
 <div class="tldr" markdown="1">
 Before you can use the Intel® XDK, you must sign up for an Intel® XDK account or log in to a pre-existing account. 
-
-[View detailed instructions »](details-launch_xdk.html)
 </div>
 
-[![Animated gif: launching Intel® XDK for the first time](images/launch_xdk-animated.gif)](details-launch_xdk.html)
+[![Animated gif: launching Intel® XDK for the first time](){: .animated data-still="images/launch_xdk-sampleframe.jpg" data-animated="images/launch_xdk-animated.gif"}](details-launch_xdk.html)
+
+[View detailed instructions »](details-launch_xdk.html){: .link-button .centered }
 
 
 <div id="next-steps" class="note" markdown="1">

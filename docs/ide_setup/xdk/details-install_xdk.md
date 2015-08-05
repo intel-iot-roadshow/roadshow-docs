@@ -1,26 +1,24 @@
 ---
 layout: default
-title: Getting Started
+title: Install Intel® XDK IoT Edition
 ---
-
-## Step 1: Install Intel® XDK IoT Edition
 
 1. Get the latest Intel® XDK IoT Edition installer.
 
     <div class="callout goto" markdown="1">
-    1.  On the USB key: **downloads → [your OS]**.
-    2.  Copy the appropriate **iot_web_[your OS]\_master\_[version]** installer file to your computer:
+    1.  On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">[your OS]</span>.
+    2.  Copy the <span class="icon file">iot_web_[your OS]\_master\_[version]</span> installer file to your computer.
     </div>
 
 ### On Windows
 
-2. Double-click on **iot_web_win_master_[version].exe** to start the installer. 
+2. Double-click on <span class="icon file">iot_web_win_master_[version].exe</span> to start the installer. 
 
 ### On Mac
 
-2. Double-click on **iot_web_mac_master_[version].dmg** to open the Apple Disk Image.
+2. Double-click on <span class="icon file">iot_web_mac_master_[version].dmg</span> to open the Apple Disk Image.
 
-3. Double-click on the extracted **xdk_full_[version].pkg** to start the installer.
+3. Double-click on the extracted <span class="icon file">xdk_full_[version].pkg</span> to start the installer.
 
 ### On Linux
 
@@ -32,7 +30,7 @@ title: Getting Started
     cd ~/Desktop/
     ```
 
-4. Use the `tar` command to extract the .tgz. For example:
+4. Use the `tar` command to extract the <span class="icon file">.tgz</span>. For example:
 
     ```
     tar zxvf iot_web_linux64_master_1912.tgz
@@ -49,6 +47,6 @@ title: Getting Started
 
 ### All platforms
 
-After launching the Intel® XDK installer, follow the installation wizard and click "Next" where needed.
+After launching the Intel® XDK installer, follow the installation wizard and click **Next** where needed.
 
 ![First screen of the Intel® XDK installer](images/xdk_installer.jpg)
