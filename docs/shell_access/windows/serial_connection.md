@@ -66,8 +66,6 @@ The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
 </div>
 
 <div class="callout goto" markdown="1">
-**Additional resources**
-
 For more info on using PuTTY such as saving profiles, read [Using PuTTY »](using_putty.html)
 </div>
 

@@ -8,7 +8,7 @@ title: Getting Started
 * [Identify the IP address »](#identify-the-ip-address)
 </div>
 
-## Connect Your Intel Edison to Wi-Fi
+# Connect Your Intel Edison to Wi-Fi
 
 The Intel® Edison has built-in Wi-Fi that you can turn on by logging into your board and enabling. This setup document will guide you through connecting the Intel® Edison board to the Internet using Wi-Fi.
 
@@ -31,22 +31,22 @@ Note: Many larger companies have strict internet security policies and restrict 
 
 <div class="tldr" markdown="1">
 Shell into your Intel® Edison and run the `configure_edison --wifi` command. Choose a Wi-Fi network to connect to, then input any login credentials for that network. 
-
-[View detailed instructions »](details-configure_edison_wifi.html)
 </div>
 
-[![Animated gif: copying images files to flash storage](images/configure_edison_wifi-animated.gif)](details-configure_edison_wifi.html)
+[![Animated gif: copying images files to flash storage](){: .animated data-still="images/configure_edison_wifi-sampleframe.jpg" data-animated="images/configure_edison_wifi-animated.gif"}](details-configure_edison_wifi.html)
+
+[View detailed instructions »](details-configure_edison_wifi.html){: .link-button .centered }
 
 
 ## Identify the IP address
 
 <div class="tldr" markdown="1">
 Once your Intel® Edison is online, identify the IP address using the `configure_edison --showWiFiIP` or `ip a` commands in order to: manually add an IP to an Intel® IoT Developer Kit IDE, use with SSH clients, or use your IoT device as a web server. 
-
-[View detailed instructions »](details-identify_ip.html)
 </div>
 
-[![Animated gif: copying images files to flash storage](images/identify_ip-animated.gif)](details-identify_ip.html)
+[![Animated gif: copying images files to flash storage](){: .animated data-still="images/identify_ip-sampleframe.jpg" data-animated="images/identify_ip-animated.gif"}](details-identify_ip.html)
+
+[View detailed instructions »](details-identify_ip.html){: .link-button .centered }
 
   
 <div id="next-steps" class="note" markdown="1">

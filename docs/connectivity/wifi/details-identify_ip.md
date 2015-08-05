@@ -1,14 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Identify the IP address
-
-Once your Intel® Edison is online, identify the IP address using the `configure_edison --showWiFiIP` or `ip a` commands in order to: manually add an IP to an Intel® IoT Developer Kit IDE, use with SSH clients, or use your IoT device as a web server.
-
-![Animated gif: copying images files to flash storage](images/identify_ip-animated.gif)
-
+title: Identify the IP address
 ---
 
 1. Establish a serial connection to the Intel® Edison. {% strip %}{% include shell_access.md %}{% endstrip %}

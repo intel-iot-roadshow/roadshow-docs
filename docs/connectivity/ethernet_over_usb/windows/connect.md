@@ -8,7 +8,7 @@ title: Getting Started
 * [Share your computer's WiFi connection (optional) »](#share-your-computers-wifi-connection-optional)
 </div>
 
-## Set Up Ethernet over USB - Windows
+# Set Up Ethernet over USB - Windows
 
 When you are in a busy or restricted network environment, connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB". Ethernet over USB uses the RNDIS protocol.
 
@@ -38,11 +38,10 @@ Turn on Internet Connection Sharing (ICS) to cut down on Wi-Fi traffic in a crow
 [View detailed instructions »](details-share_internet.html){: .link-button .centered }
 
 
-<div class="callout goto" markdown="1">
-**Additional Resources**
-
+<div class="callout done" markdown="1">
 See what you can do [once connected »](../shared/once_connected.html)
 </div>
+
 
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps

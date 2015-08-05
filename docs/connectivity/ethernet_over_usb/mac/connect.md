@@ -58,11 +58,10 @@ Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing
 [View detailed instructions »](details-share_internet.html){: .link-button .centered }
 
 
-<div class="callout goto" markdown="1">
-**Additional Resources**
-
+<div class="callout done" markdown="1">
 See what you can do [once connected »](../shared/once_connected.html)
 </div>
+
 
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
