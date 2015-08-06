@@ -1,12 +1,6 @@
 ---
 layout: default
-title: Getting Started
----
-
-### Install 7Zip (Windows only)
-
-[7zip](http://www.7-zip.org) supports extended file paths which some of the contents of the compressed file have so only use 7zip software to extract the file. 
-
+title: Install 7Zip (Windows only) - Eclipse IDE
 ---
 
 1. Download the **7-Zip** installer software from [7-zip.org](http://www.7-zip.org).

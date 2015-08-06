@@ -1,19 +1,13 @@
 ---
 layout: default
-title: Getting Started
+title: Launch Eclipse using batch file
 ---
 
-## Launch Eclipse using batch file
+1. Once the archive file is extracted, go into the resulting <span class="icon folder">iotdk-ide</span> directory.
 
-Use devkit-launcher.bat to launch Eclipse with all the necessary Intel® IoT environment settings. Use the launcher batch file (instead of eclipse.exe) to launch Eclipse **every time**.
+2. Double-click on <span class="icon file">devkit-launcher</span> to launch the IoT dev kit Eclipse IDE.
 
----
-
-1. Once the archive file is extracted, go into the resulting *iotdk-ide* directory.
-
-2. Double-click on *devkit-launcher* to launch the IoT dev kit Eclipse IDE.
-
-    On Windows, you may need to right-click on *devkit-launcher.bat* and select "**Run as administrator**".
+    On Windows, you may need to right-click on <span class="icon file">devkit-launcher.bat</span> and select "**Run as administrator**".
 
     ![The batch file highlighted in the iotdk_ide folder](images/iotdk_ide_folder.png)
 

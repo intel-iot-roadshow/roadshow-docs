@@ -46,7 +46,6 @@ a.link-button {
   display: inline-block;
 }
 
-
 a.link-button:hover {
   background-color: #00aeef;
 }
@@ -55,6 +54,27 @@ a.link-button.centered {
   display: block;
   text-align: center;
   margin: 0em 10% 3em;
+}
+
+.link-button-container {
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  color: #0071c5;
+  display: block;
+  text-align: center;
+}
+
+.link-button-container a.link-button {
+  padding: 0.5em 3em;
+  margin-right: 0.7em;
+}
+
+.link-button-container a.link-button:last-child {
+  margin-right: 0em;
+}
+
+.link-button-container-title {
+  display: block;
 }
 
 .footnote {
