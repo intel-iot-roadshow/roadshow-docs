@@ -27,7 +27,7 @@ The Intel® XDK IoT Edition has various project creation options. To start, crea
 
 [![Animated gif: creating a project in the Intel® XDK](){: .animated data-still="images/create_xdk_project-sampleframe.jpg" data-animated="images/create_xdk_project-animated.gif"}](details-create_project.html)
 
-[View detailed instructions »](details-create_project.html){: .link-button .centered }
+[View detailed instructions »](details-create_project.html){: .link-button .centered}
 
 
 ### Select a target IoT device
@@ -38,7 +38,7 @@ The Intel® XDK IoT Edition will automatically detect Intel® IoT devices on you
 
 [![Animated gif: selecting a target device in "IoT Device" drop down list](){: .animated data-still="images/select_target_device-sampleframe.jpg" data-animated="images/select_target_device-animated.gif"}](details-select_target_device.html)
 
-[View detailed instructions »](details-select_target_device.html){: .link-button .centered }
+[View detailed instructions »](details-select_target_device.html){: .link-button .centered}
 
 
 ### Sync device clocks
@@ -49,7 +49,7 @@ Sync your computer's time with the clock on the target board to avoid timing iss
 
 [![Animated gif: syncing PC time w/ clock on target device](){: .animated data-still="images/sync_clock-sampleframe.jpg" data-animated="images/sync_clock-animated.gif"}](details-sync_clock.html)
 
-[View detailed instructions »](details-sync_clock.html){: .link-button .centered }
+[View detailed instructions »](details-sync_clock.html){: .link-button .centered}
 
 
 ### Build the application
@@ -60,7 +60,7 @@ Fetch all the Node modules specified in package.json and install them on the IoT
 
 [![Animated gif: building the app](){: .animated data-still="images/build-sampleframe.jpg" data-animated="images/build-animated.gif"}](details-build.html)
 
-[View detailed instructions »](details-build.html){: .link-button .centered }
+[View detailed instructions »](details-build.html){: .link-button .centered}
 
 
 ### Upload and run the application
@@ -71,7 +71,7 @@ Upload the project files to the IoT device and run it. Remember that every time 
 
 [![Animated gif: creating a project in the Intel® XDK](){: .animated data-still="images/upload_run-sampleframe.jpg" data-animated="images/upload_run-animated.gif"}](details-upload_run.html)
 
-[View detailed instructions »](details-upload_run.html){: .link-button .centered }
+[View detailed instructions »](details-upload_run.html){: .link-button .centered}
 
 
 <div class="callout done" markdown="1">

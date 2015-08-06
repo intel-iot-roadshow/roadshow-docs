@@ -27,7 +27,7 @@ Get the latest Intel® XDK IoT Edition installer for your computer's OS. Simply 
 
 [![Animated gif: installing the Intel® XDK](){: .animated data-still="images/install_xdk-sampleframe.jpg" data-animated="images/install_xdk-animated.gif"}](details-install_xdk.html)
 
-[View detailed instructions »](details-install_xdk.html){: .link-button .centered }
+[View detailed instructions »](details-install_xdk.html){: .link-button .centered}
 
 
 ### Windows only: Install Bonjour
@@ -38,7 +38,7 @@ Get the latest Intel® XDK IoT Edition installer for your computer's OS. Simply 
 
 [![Animated gif: installing Bonjour](){: .animated data-still="images/install_bonjour-sampleframe.jpg" data-animated="images/install_bonjour-animated.gif"}](details-install_bonjour.html)
 
-[View detailed instructions »](details-install_bonjour.html){: .link-button .centered }
+[View detailed instructions »](details-install_bonjour.html){: .link-button .centered}
 
 
 ## Launch and sign into Intel® XDK
@@ -49,7 +49,7 @@ Before you can use the Intel® XDK, you must sign up for an Intel® XDK account 
 
 [![Animated gif: launching Intel® XDK for the first time](){: .animated data-still="images/launch_xdk-sampleframe.jpg" data-animated="images/launch_xdk-animated.gif"}](details-launch_xdk.html)
 
-[View detailed instructions »](details-launch_xdk.html){: .link-button .centered }
+[View detailed instructions »](details-launch_xdk.html){: .link-button .centered}
 
 
 <div id="next-steps" class="note" markdown="1">

@@ -30,7 +30,7 @@ The Windows standalone drivers (<span class="icon file">IntelEdisonDriverSetup[v
 
 [![Animated gif: installing Intel® Edison drivers](){: .animated data-still="images/install_edison_drivers-no_download-firstframe.jpg" data-animated="images/install_edison_drivers-no_download-animated.gif"}](details-install_edison_drivers.html)
 
-[View detailed instructions »](details-install_edison_drivers.html){: .link-button .centered }
+[View detailed instructions »](details-install_edison_drivers.html){: .link-button .centered}
 
 
 ## Install FTDI serial drivers
@@ -41,7 +41,7 @@ FTDI CDM drivers (<span class="icon file">CDM [version] WHQL Certified.exe</span
 
 [![Animated gif: installing Intel® Edison drivers](){: .animated data-still="images/install_ftdi_cdm_drivers-no_download-firstframe.jpg" data-animated="images/install_ftdi_cdm_drivers-no_download-animated.gif"}](details-install_ftdi_cdm_drivers.html)
 
-[View detailed instructions »](details-install_ftdi_cdm_drivers.html){: .link-button .centered }
+[View detailed instructions »](details-install_ftdi_cdm_drivers.html){: .link-button .centered}
 
 
 ## Restart your computer

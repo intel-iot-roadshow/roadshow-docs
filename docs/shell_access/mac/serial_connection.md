@@ -28,7 +28,7 @@ Use the `ls /dev/tty.*` command in Terminal to find the device name of the "**us
 
 [![Animated gif: using Terminal to find the USB device name](){: .animated data-still="images/identify_usbserial-sampleframe.jpg" data-animated="images/identify_usbserial-animated.gif"}](details-identify_usbserial.html)
 
-[View detailed instructions »](details-identify_usbserial.html){: .link-button .centered }
+[View detailed instructions »](details-identify_usbserial.html){: .link-button .centered}
 
 
 ## Establish a serial connection
@@ -39,7 +39,7 @@ Use the Screen utility in Terminal to gain command line access of your IoT board
 
 [![Animated gif: using Screen utility to connect to IoT board](){: .animated data-still="images/screen_connection-sampleframe.jpg" data-animated="images/screen_connection-animated.gif"}](details-screen_connection.html)
 
-[View detailed instructions »](details-screen_connection.html){: .link-button .centered }
+[View detailed instructions »](details-screen_connection.html){: .link-button .centered}
 
 
 <div class="callout done" markdown="1">

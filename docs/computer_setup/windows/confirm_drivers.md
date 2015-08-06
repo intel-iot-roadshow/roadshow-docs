@@ -24,7 +24,7 @@ Launch the Device Manager utility on Windows in order to debug your Intel® IoT 
 
 [![Animated gif: opening Windows Device Manager using the Start menu](){: .animated data-still="images/open_device_manager-sampleframe.jpg" data-animated="images/open_device_manager-animated.gif"}](details-open_device_manager.html)
 
-[View detailed instructions »](details-open_device_manager.html){: .link-button .centered }
+[View detailed instructions »](details-open_device_manager.html){: .link-button .centered}
 
 
 ## Confirm installation of Intel® Edison Drivers
@@ -35,7 +35,7 @@ Look for both "**Intel Edison USB Composite Device**" and "**Intel Edison Virtua
 
 [![Animated gif: confirming the installation of Intel Edison drivers](){: .animated data-still="images/confirm_edison_drivers-sampleframe.jpg" data-animated="images/confirm_edison_drivers-animated.gif"}](details-confirm_edison_drivers.html)
 
-[View detailed instructions »](details-confirm_edison_drivers.html){: .link-button .centered }
+[View detailed instructions »](details-confirm_edison_drivers.html){: .link-button .centered}
 
 
 ## Confirm installation of FTDI serial drivers
@@ -46,7 +46,7 @@ Look for "**USB Serial Port**" in Device Manager under “Ports (COM & LPT)” a
 
 [![Animated gif: confirming the installation of FTDI CDM drivers](){: .animated data-still="images/confirm_ftdi_cdm_drivers-sampleframe.jpg" data-animated="images/confirm_ftdi_cdm_drivers-animated.gif"}](details-confirm_ftdi_cdm_drivers.html)
 
-[View detailed instructions »](details-confirm_ftdi_cdm_drivers.html){: .link-button .centered }
+[View detailed instructions »](details-confirm_ftdi_cdm_drivers.html){: .link-button .centered}
 
 
 <div id="next-steps" class="note" markdown="1">

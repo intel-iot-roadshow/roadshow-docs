@@ -35,7 +35,7 @@ Shell into your Intel® Edison and run the `configure_edison --wifi` command. Ch
 
 [![Animated gif: copying images files to flash storage](){: .animated data-still="images/configure_edison_wifi-sampleframe.jpg" data-animated="images/configure_edison_wifi-animated.gif"}](details-configure_edison_wifi.html)
 
-[View detailed instructions »](details-configure_edison_wifi.html){: .link-button .centered }
+[View detailed instructions »](details-configure_edison_wifi.html){: .link-button .centered}
 
 
 ## Identify the IP address
@@ -46,7 +46,7 @@ Once your Intel® Edison is online, identify the IP address using the `configure
 
 [![Animated gif: copying images files to flash storage](){: .animated data-still="images/identify_ip-sampleframe.jpg" data-animated="images/identify_ip-animated.gif"}](details-identify_ip.html)
 
-[View detailed instructions »](details-identify_ip.html){: .link-button .centered }
+[View detailed instructions »](details-identify_ip.html){: .link-button .centered}
 
   
 <div id="next-steps" class="note" markdown="1">

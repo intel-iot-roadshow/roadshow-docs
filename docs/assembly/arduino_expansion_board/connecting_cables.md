@@ -45,7 +45,7 @@ Use the top micro-USB port in USB device mode for:
 
 [![Animated gif: using device mode](){: .animated data-still="images/device_mode-sampleframe.jpg" data-animated="images/device_mode-animated.gif"}](details-device_mode_cable.html)
 
-[View detailed instructions »](details-device_mode_cable.html){: .link-button .centered }
+[View detailed instructions »](details-device_mode_cable.html){: .link-button .centered}
 
 
 ## UART/serial micro-USB cable
@@ -56,7 +56,7 @@ Use the bottom micro-USB port to send serial commands to your Intel® Edison via
 
 [![Animated gif: using UART/serial cable](){: .animated data-still="images/serial-sampleframe.jpg" data-animated="images/serial-animated.gif"}](details-serial_cable.html)
 
-[View detailed instructions »](details-serial_cable.html){: .link-button .centered }
+[View detailed instructions »](details-serial_cable.html){: .link-button .centered}
 
 
 ## DC power supply
@@ -67,7 +67,7 @@ The Arduino expansion board for Intel® Edison can be powered via the DC power j
 
 [![Animated gif: using power barrel connector](){: .animated data-still="images/power_barrel-firstframe.jpg" data-animated="images/power_barrel-animated.gif"}](details-power_barrel.html)
 
-[View detailed instructions »](details-power_barrel.html){: .link-button .centered }
+[View detailed instructions »](details-power_barrel.html){: .link-button .centered}
 
 
 ## Host mode USB cable
@@ -78,5 +78,5 @@ Use the standard-sized USB port in USB host mode to allow the Intel® Edison to 
 
 [![Animated gif: using host mode](){: .animated data-still="images/host_mode-sampleframe.jpg" data-animated="images/host_mode-animated.gif"}](details-host_mode_cable.html)
 
-[View detailed instructions »](details-host_mode_cable.html){: .link-button .centered }
+[View detailed instructions »](details-host_mode_cable.html){: .link-button .centered}
 

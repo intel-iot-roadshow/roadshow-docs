@@ -26,7 +26,7 @@ If you have the Intel® Edison Drivers installed, update your computer's Network
 
 [![Animated gif: adding static IPv4 address in Windows](){: .animated data-still="images/ipv4_windows-sampleframe.jpg" data-animated="images/ipv4_windows-animated.gif"}](details-ipv4_address.html)
 
-[View detailed instructions »](details-ipv4_address.html){: .link-button .centered }
+[View detailed instructions »](details-ipv4_address.html){: .link-button .centered}
 
 
 ## Share your computer's WiFi connection (optional)
@@ -35,7 +35,7 @@ If you have the Intel® Edison Drivers installed, update your computer's Network
 Turn on Internet Connection Sharing (ICS) to cut down on Wi-Fi traffic in a crowded room. Sharing your computer's internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison. Internet sharing is an optional step but is highly recommended if you are at a hackathon. 
 </div>
 
-[View detailed instructions »](details-share_internet.html){: .link-button .centered }
+[View detailed instructions »](details-share_internet.html){: .link-button .centered}
 
 
 <div class="callout done" markdown="1">

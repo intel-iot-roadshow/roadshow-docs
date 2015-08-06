@@ -29,7 +29,7 @@ Windows does not come with a built-in terminal emulator so download and use the 
 
 [![Animated gif: downloading and installing PuTTY](){: .animated data-still="images/install_putty-firstframe.jpg" data-animated="images/install_putty-animated.gif"}](details-putty.html)
 
-[View detailed instructions »](details-putty.html){: .link-button .centered }
+[View detailed instructions »](details-putty.html){: .link-button .centered}
 
 
 ## Identify the serial COM port
@@ -40,7 +40,7 @@ Use Device Manager to find the COM port number for the "**USB Serial Port**" con
 
 [![Animated gif: identifying the serial COM port](){: .animated data-still="images/identify_com_port-sampleframe.jpg" data-animated="images/identify_com_port-animated.gif"}](details-identify_com_port.html)
 
-[View detailed instructions »](details-identify_com_port.html){: .link-button .centered }
+[View detailed instructions »](details-identify_com_port.html){: .link-button .centered}
 
 
 ## Establish a serial connection
@@ -51,7 +51,7 @@ Use PuTTY to establish a **serial** connection to the IoT board using the COM # 
 
 [![Animated gif: logging into the IoT board via a PuTTY serial connection](){: .animated data-still="images/putty_serial_connection-sampleframe.jpg" data-animated="images/putty_serial_connection-animated.gif"}](details-putty_serial_connection.html)
 
-[View detailed instructions »](details-putty_serial_connection.html){: .link-button .centered }
+[View detailed instructions »](details-putty_serial_connection.html){: .link-button .centered}
 
 <div class="callout done" markdown="1">
 You are now logged into your IoT board and can run shell commands. For example, to output the version number of the firmware running on your board:

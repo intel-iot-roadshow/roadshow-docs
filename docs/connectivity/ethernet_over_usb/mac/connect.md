@@ -35,7 +35,7 @@ Install the HoRNDIS (pronounced "horrendous") kernel extension to use Ethernet o
 
 <!-- ![Animated gif: installing HoRNDIS](images/install_horndis-animated.gif) -->
 
-[View detailed instructions »](details-install_horndis.html){: .link-button .centered }
+[View detailed instructions »](details-install_horndis.html){: .link-button .centered}
 
 
 ## Configure network settings
@@ -46,7 +46,7 @@ Update your computer's Network configuration with a static IP address to use Eth
 
 <!-- [![Animated gif: configuring DHCP IP address in Mac Network settings](images/configure_mac_network-animated.gif)](details-configure_mac_network.html) -->
 
-[View detailed instructions »](details-configure_mac_network.html){: .link-button .centered }
+[View detailed instructions »](details-configure_mac_network.html){: .link-button .centered}
 
 
 ## Share your computer's WiFi connection (optional)
@@ -55,7 +55,7 @@ Update your computer's Network configuration with a static IP address to use Eth
 Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing your computer's internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison. Internet sharing is an optional step but is highly recommended if you are at a hackathon. 
 </div>
 
-[View detailed instructions »](details-share_internet.html){: .link-button .centered }
+[View detailed instructions »](details-share_internet.html){: .link-button .centered}
 
 
 <div class="callout done" markdown="1">
