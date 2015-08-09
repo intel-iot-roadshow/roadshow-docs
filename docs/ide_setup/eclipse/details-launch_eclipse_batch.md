@@ -12,9 +12,7 @@ title: Launch Eclipse using batch file
     ![The batch file highlighted in the iotdk_ide folder](images/iotdk_ide_folder.png)
 
 <div class="callout done" markdown="1">
-You should see a command line window appear (and quickly disappear, if you are on Windows) and the Eclipse IDE will launch using the iot-devkit workspace. 
+You should see a command line window appear (and quickly disappear, if you are on Windows) and the Eclipse IDE will launch using the iot-devkit workspace and display a welcome screen. 
 
-Note the example projects already loaded in the "Project Explorer" panel on the left.
-
-![Projects already loaded in the "Project Explorer" panel](images/eclipse-existing_projects_in_project_explorer.png)
+![Intel® IoT Developer Kit welcome screen in Eclipse](images/eclipse-opening_screen.png)
 </div>
