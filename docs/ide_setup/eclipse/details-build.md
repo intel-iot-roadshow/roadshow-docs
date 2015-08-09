@@ -56,7 +56,7 @@ The version of Eclipse distributed with the developer kit has some example proje
 
     ![Authentication warning](images/eclipse-rsa_warning.png)
 
-8. Your compiled project code will be transferred over to the Intel® Edison's or Intel® Galileo's onboard memory and run. 
+8. Your compiled project code will be transferred over to the Intel® Edison's onboard memory and run. 
 
     Look in the "Console" panel for any program messages.
 

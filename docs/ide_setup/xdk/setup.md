@@ -13,7 +13,7 @@ title: Getting Started
 
 The [Intel® XDK IoT Edition](https://software.intel.com/en-us/html5/xdk-iot) lets you create and test applications on Intel® IoT platforms. It uses NodeJS to communicate with all the GPIOs, libraries, and packages. The IoT edition also provides NodeJS templates for creating new applications that interact with sensors and actuators, enabling you to get a quick start on developing for the Internet of Things. 
 
-This document will guide you through installing the Intel® XDK IoT Edition IDE on either the Intel® Galileo or the Intel® Edison.
+This document will guide you through installing the Intel® XDK IoT Edition IDE for Intel® Edison development.
 
 <!-- <div id="related-videos" class="callout video">
 [Setting Up The Intel XDK IoT Edition Part 1: Installation](https://software.intel.com/en-us/videos/setting-up-the-intel-xdk-iot-edition-part-1-installation)
@@ -55,7 +55,7 @@ Before you can use the Intel® XDK, you must sign up for an Intel® XDK account 
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-Create and run a Hello Word project (blinking the onboard LED) on either the Intel® Galileo or the Intel® Edison.
+Create and run a Hello Word project (blinking the onboard LED) on the Intel® Edison.
 
 * [Run a Sample Intel XDK for IoT Project »](create_project.html)
 </div>

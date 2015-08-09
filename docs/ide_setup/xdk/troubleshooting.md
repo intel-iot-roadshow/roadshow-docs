@@ -20,8 +20,7 @@ Some common issues have been listed below. For additional troubleshooting and FA
 
 You will need to add the IP address of your IoT device manually if you are using:
 
-* Ethernet over USB for the Intel® Edison, 
-* a direct ethernet connection for the Intel® Galileo, or
+* Ethernet over USB for the Intel® Edison, or
 * an internet network that requires additional login credentials (e.g. a university Wi-Fi network)
 
 1. From the "**IoT Device**" drop down list, select "**Add Manual Connection**".
@@ -49,7 +48,7 @@ You will need to add the IP address of your IoT device manually if you are using
 
 The Intel® XDK app daemon may not be running on the Intel® IoT board.
 
-1. Establish a serial connection to your Intel® Galileo or Intel® Edison. {% strip %}{% include shell_access.md %}{% endstrip %}
+1. Establish a serial connection to your Intel® Edison. {% strip %}{% include shell_access.md %}{% endstrip %}
 
 2. Use the `systemctl` command to enable and restart the xdk-daemon on the IoT board.
 

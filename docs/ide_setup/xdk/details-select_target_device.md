@@ -7,7 +7,7 @@ title: Select a target IoT device - Intel® XDK
 
     !["IoT Device" drop down list highlighted](images/xdk-iot_device_dropdown_highlighted.png)
 
-2. Select your target Intel® Galileo or Intel® Edison from the list. If there are multiple devices, choose based on the device name and IP address. 
+2. Select your target Intel® Edison from the list. If there are multiple devices, choose based on the device name and IP address. 
 
     ![A target device being selected in "IoT Device" drop down list](images/xdk-iot_device_dropdown_options_and_devices.png)
 

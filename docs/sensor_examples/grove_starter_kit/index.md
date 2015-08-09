@@ -16,8 +16,6 @@ title: Getting Started
 
 # Create Intel® IoT projects with the Grove Starter Kit
 
-Instructions for the **Intel® Edison** and **Intel® Galileo**
-
 The Grove System is an easy to use group of modules that minimise the effort required to get started with microcontroller-based experimentation and learning. Intel® has partnered with [Seeed](http://seeedstudio.com), the creators of Grove, to distribute the [Grove Starter Kit Plus - Intel IoT Edition](http://www.seeedstudio.com/depot/Grove-starter-kit-plus-Intel-IoT-Edition-for-Intel-Galileo-Gen-2-and-Edison-p-1978.html) which contains essential sensor and actuator modules to jump start your IoT prototyping.
 
 ![The components in the Grove Starter Kit](images/components_in_huddle.png)
