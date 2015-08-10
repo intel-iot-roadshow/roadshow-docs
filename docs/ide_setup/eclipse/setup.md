@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Installation - Intel® IoT Dev Kit Eclipse
 ---
 
 <div id="toc" markdown="1">
@@ -72,7 +72,7 @@ Copy the compressed archive containing the IoT-customized Eclipse IDE to your co
 Use devkit-launcher.bat to launch Eclipse with all the necessary Intel® IoT environment settings. Use the launcher batch file (instead of eclipse.exe) to launch Eclipse **every time**. 
 </div>
 
-![The batch file highlighted in the iotdk_ide folder](images/iotdk_ide_folder.png)
+[![Animated gif: launching the Intel® IoT Dev Kit Eclipse IDE](){: .animated data-still="images/launch_eclipse-sampleframe.jpg" data-animated="images/launch_eclipse-animated.gif"}](details-launch_eclipse_batch.html)
 
 [View detailed instructions »](details-launch_eclipse_batch.html){: .link-button .centered}
 
