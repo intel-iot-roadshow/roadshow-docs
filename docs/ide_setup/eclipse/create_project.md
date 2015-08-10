@@ -1,15 +1,14 @@
 ---
 layout: default
-title: Getting Started
+title: Run a Sample Project - Intel® IoT Dev Kit Eclipse
 ---
 
 # Set Up Intel® IoT Dev Kit Eclipse - Part 2: Run a Sample Project
 
 This document will guide you through creating and running a Hello Word project (blinking the onboard LED) on the Intel® Edison.
 
-**Create a New Project**
 
-1. Select **IoT DevKit > Create C/C++ IoT Project.**
+1. Select **IoT DevKit** > **Create C/C++ IoT Project**.
 
    ![Create IoT Project](images/create-project-eclipse.png)
 
