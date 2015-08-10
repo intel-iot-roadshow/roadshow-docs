@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Installation - Intel® XDK IoT Edition
 ---
 
 <div id="toc" markdown="1">

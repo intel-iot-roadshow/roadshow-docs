@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Run a Sample Project - Intel® XDK IoT Edition
 ---
 
 <div id="toc" markdown="1">
