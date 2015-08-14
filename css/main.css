@@ -611,6 +611,23 @@ a.link-button.centered {
   text-align: center;
   margin: 0em 10% 3em; }
 
+.link-button-container {
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  color: #0071c5;
+  display: block;
+  text-align: center; }
+
+.link-button-container a.link-button {
+  padding: 0.5em 3em;
+  margin-right: 0.7em; }
+
+.link-button-container a.link-button:last-child {
+  margin-right: 0em; }
+
+.link-button-container-title {
+  display: block; }
+
 .footnote {
   font-size: 0.8em;
   margin-top: 1em; }
@@ -785,21 +802,21 @@ dd {
    Side-by-side content
    ========================================================================== */
 @media (min-width: 680px) {
-  .side_by_side {
+  .side-by-side {
     overflow: hidden; }
 
-  .side_by_side ul,
-  .side_by_side ol {
+  .side-by-side ul,
+  .side-by-side ol {
     padding-left: 1.4em; }
 
-  .side_by_side .left,
-  .side_by_side .right {
+  .side-by-side .left,
+  .side-by-side .right {
     width: 48%;
     float: left;
     font-size: 0.9em;
     overflow: hidden; }
 
-  .side_by_side .left {
+  .side-by-side .left {
     margin-right: 3%; } }
 /* ==========================================================================
    TLDR boxes (with inner road sign icon)
@@ -845,11 +862,14 @@ dd {
 .note p {
   font-size: 0.9em; }
 
-.note a {
-  font-weight: bold; }
-
 #next-steps.note {
   margin: 2.5em 0; }
+
+#next-steps a.link-button.centered {
+  margin-bottom: 0em; }
+
+#next-steps .link-button-container {
+  padding-bottom: 0.5em; }
 
 /* ==========================================================================
    Callout boxes (with outer icon)
@@ -886,9 +906,6 @@ dd {
 li .callout::before {
   left: 2.4em;
   /* a little bit more than body padding */ }
-
-.callout a {
-  font-weight: bold; }
 
 .callout .folder.icon::before {
   background-image: url(../img/icon/folder_icon_blue.png); }

@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Getting Started</title>
+    <title>Launch Intel® IoT Dev Kit Eclipse using batch file</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../css/main.css">
@@ -13,31 +13,52 @@
 
     <div class="content">
     
-        <h2 id="launch-eclipse-using-batch-file">Launch Eclipse using batch file</h2>
-
-<p>Use devkit-launcher.bat to launch Eclipse with all the necessary Intel® IoT environment settings. Use the launcher batch file (instead of eclipse.exe) to launch Eclipse <strong>every time</strong>.</p>
-
-<hr />
-
-<ol>
+        <ol>
   <li>
-    <p>Once the archive file is extracted, go into the resulting <em>iotdk-ide</em> directory.</p>
+    <p>Once the archive file is extracted, go into the resulting <span class="icon folder">iotdk-ide</span> directory.</p>
   </li>
   <li>
-    <p>Double-click on <em>devkit-launcher</em> to launch the IoT dev kit Eclipse IDE.</p>
+    <p>Double-click on <span class="icon file">devkit-launcher</span> to launch the IoT dev kit Eclipse IDE.</p>
 
-    <p>On Windows, you may need to right-click on <em>devkit-launcher.bat</em> and select “<strong>Run as administrator</strong>”.</p>
+    <p>On Windows, you may need to right-click on <span class="icon file">devkit-launcher.bat</span> and select “<strong>Run as administrator</strong>”.</p>
 
     <p><img src="images/iotdk_ide_folder.png" alt="The batch file highlighted in the iotdk_ide folder" /></p>
+
+    <p>You should see a command line window appear (and quickly disappear, if you are on Windows) and the Eclipse IDE will launch.</p>
+  </li>
+  <li>
+    <p>After launching Eclipse, you will need to select a folder to become your Eclipse workspace for project files.</p>
+
+    <p><img src="images/eclipse-workspace_launcher.png" alt="Workspace launcher dialog window" /></p>
+
+    <p>Click <strong>OK</strong> to keep the default workspace directory, or <strong>Browse…</strong> to select a different directory.</p>
+  </li>
+  <li>
+    <p>You may also see a popup indicating that updates are available.</p>
+
+    <p><img src="images/eclipse-updates_available.png" alt="Updates available dialog window" /></p>
+
+    <p>Click <strong>Yes</strong> to update.</p>
+
+    <p><img src="images/eclipse-updates_successful.png" alt="Updates successfully installed dialog window" /></p>
+  </li>
+  <li>
+    <p>A welcome screen will be displayed. Click the <strong>X</strong> (close button) next to the panel’s tab title to dismiss this screen.</p>
+
+    <p><img src="images/eclipse-opening_screen.png" alt="Intel® IoT Developer Kit welcome screen in Eclipse" /></p>
+
+    <div class="callout info">
+      <p>To see this welcome screen again, select <strong>IoT DevKit</strong> &gt; <strong>Intel(R) IoT Developer Kit</strong></p>
+
+      <p><img src="images/eclipse-reopen_welcome_screen.png" alt="Re-open Intel® IoT Developer Kit welcome screen" /></p>
+    </div>
   </li>
 </ol>
 
 <div class="callout done">
-  <p>You should see a command line window appear (and quickly disappear, if you are on Windows) and the Eclipse IDE will launch using the iot-devkit workspace. </p>
+  <p>You should now see a fresh Intel® IoT Developer Kit workspace.</p>
 
-  <p>Note the example projects already loaded in the “Project Explorer” panel on the left.</p>
-
-  <p><img src="images/eclipse-existing_projects_in_project_explorer.png" alt="Projects already loaded in the &quot;Project Explorer&quot; panel" /></p>
+  <p><img src="images/eclipse-fresh_workspace.png" alt="Fresh workspace in Eclipse" /></p>
 </div>
 
     
