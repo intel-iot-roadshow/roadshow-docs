@@ -23,7 +23,6 @@ Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is re
 
 ## Look in the Intel® Edison Kit for Arduino box
 
-
 ![Unpacked Intel® Edison retail box](images/retail_box-unpacked.png)
 
 <dl>
@@ -72,13 +71,13 @@ To add stability to the expansion board and to help avoid accidental short circu
 
 While plugging in every cable is not required at this very moment, a development setup with serial communication for shell access would look like this:
 
-(1) microswitch set to **[USB device mode](connecting_cables.html#device-mode-vs-host-mode)** (i.e. toggled **_down_** towards the micro-USB ports)
-(2) **[device mode cable](connecting_cables.html#device-mode-micro-usb-cable)** plugged into your computer (i.e. **top** micro-USB port)
-(3) **[UART/serial cable](connecting_cables.html#uartserial-micro-usb-cable)** plugged into your computer (i.e. **bottom** micro-USB port)
-(4) _Optional but recommended:_ connected to a **[DC power supply ](connecting_cables.html#dc-power-supply)**
+(1) microswitch set to **[USB device mode](index-connecting_cables.html#device-mode-vs-host-mode)** (i.e. toggled **_down_** towards the micro-USB ports)
+(2) **[device mode cable](index-connecting_cables.html#device-mode-micro-usb-cable)** plugged into your computer (i.e. **top** micro-USB port)
+(3) **[UART/serial cable](index-connecting_cables.html#uartserial-micro-usb-cable)** plugged into your computer (i.e. **bottom** micro-USB port)
+(4) _Optional but recommended:_ connected to a **[DC power supply ](index-connecting_cables.html#dc-power-supply)**
 
 <div class="callout info" markdown="1">
-Fully explore when and how to use all the cables ports on the Intel® Edison kit for Arduino in [Connecting Cables](connecting_cables.html).
+Fully explore when and how to use all the cables ports on the Intel® Edison kit for Arduino in [Connecting Cables »](index-connecting_cables.html).
 </div>
 
 ![Cable and microswitch setup for Intel® Edison development](images/cables-full_dev_setup_with_dc.png)
@@ -86,16 +85,17 @@ Fully explore when and how to use all the cables ports on the Intel® Edison kit
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-Install software and drivers specifically for your computer's operating system. 
+  <div class="link-button-container" markdown="1">
+  <span class="link-button-container-title">**Windows user?** Install software and drivers for Windows.</span>
+  [Install on Windows »](../../computer_setup/windows/index.html){: .link-button}
+  </div>
 
-* **Mac or Linux user?** Install the Flashing Tool:
+  <div class="link-button-container" markdown="1">
+  <span class="link-button-container-title">**Mac or Linux user?** Install the flashing tool.</span>
+  [Install on Mac »](../../flash_firmware/mac/index.html){: .link-button}
+  [Install on Linux »](../../flash_firmware/linux/index.html){: .link-button}
+  </div>
 
-  * [Mac »](../../flash_firmware/mac_install.html)
-  * [Linux »](../../flash_firmware/linux_install.html)
-
-* **Windows user?**
-
-  [Set Up Your Computer - Windows (manual installation) »](../../computer_setup/windows/manual_installation.html)
 </div>
 
 <div class="footnote">

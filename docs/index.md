@@ -14,28 +14,31 @@ _Instructions for **Intel® Edison** installed on an **Arduino-compatible expans
 
 Find out what hardware is included with your Intel® IoT Developer Kit ("dev kit"). And review important assembly and cable hook up instructions.
 
-* [Assembly - Arduino expansion board »](assembly/arduino_expansion_board/assembly.html)
+[Assemble your Arduino expansion board »](assembly/arduino_expansion_board/index.html){: .link-button .centered}
 
 
 ## 2. Set Up Your Computer
 
 Install software and drivers specifically for your computer's operating system. 
 
-* **Mac or Linux user?** 
-  You have no special setup. Skip to **Step 3** below.
+**Mac or Linux user?** You have no special setup. Skip to Step 3.
 
-* **Windows user?**
-  [Set Up Your Computer - Windows (manual installation) »](computer_setup/windows/manual_installation.html)
+<div class="link-button-container" markdown="1">
+<span class="link-button-container-title">**Windows user?** Install software and drivers for Windows.</span>
+[Install on Windows »](computer_setup/windows/index.html){: .link-button}
+</div>
 
 
 ## 3. Flash Edison Firmware
 
 Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
 
-* Install the Flashing Tool for:
-  * [Windows »](flash_firmware/windows_install.html)
-  * [Mac »](flash_firmware/mac_install.html)
-  * [Linux »](flash_firmware/linux_install.html)
+<div class="link-button-container" markdown="1">
+<span class="link-button-container-title">Install the Flashing Tool for:</span>
+[Windows »](flash_firmware/windows/index.html){: .link-button}
+[Mac »](flash_firmware/mac/index.html){: .link-button}
+[Linux »](flash_firmware/linux/index.html){: .link-button}
+</div>
 
 
 ## 4. Shell Access

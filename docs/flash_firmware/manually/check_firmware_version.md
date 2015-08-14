@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Check installed firmware version
 ---
 
 # Check installed firmware version
@@ -18,7 +18,7 @@ Find out what firmware version is currently flashed on your IoT board by running
     <div class="callout troubleshooting" markdown="1">
     **Get a "configure_edison: not found" message?**
 
-    Your board's firmware is very out of date. [Update the firmware »](manually.html)
+    Your board's firmware is very out of date. [Update the firmware »](../index.html)
 
     !["configure_edison: not found" message](images/configure_edison-not_found.png)
 
@@ -26,7 +26,7 @@ Find out what firmware version is currently flashed on your IoT board by running
 
     **Do not see a "--version" flag in the command list?**
 
-    Your board's firmware is out of date. [Update the firmware »](manually.html)
+    Your board's firmware is out of date. [Update the firmware »](../index.html)
 
     ![The screenshot on the left is missing the --version and --latest-version flags. ](images/configure_edison-no_version.png)
     </div>
@@ -48,7 +48,7 @@ Find out what firmware version is currently flashed on your IoT board by running
     <div class="callout troubleshooting" markdown="1">
     **Is the first version number (yours) lower than the second (latest) version?**
 
-    If so, your board's firmware is out of date. You may want to [update the firmware »](manually.html)
+    If so, your board's firmware is out of date. You may want to [update the firmware »](../index.html)
 
     In this example, the build version on the board is "16" but the latest is "17".
     </div>
@@ -74,5 +74,3 @@ No, there is no direct naming correlation.
 
 For example, the file name "edison-image-ww05-15.zip" means that this image was released the 5th week of the year 2015. Whereas "weekly-120" is what would be output when `configure_edison --version` is run with this image.
 </div>
-
-Return to [Flash Edison Firmware Manually »](manually.html)

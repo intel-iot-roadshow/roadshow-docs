@@ -1,13 +1,7 @@
 ---
 layout: default
-title: Getting Started
+title: Set up Flash Tool Lite for Windows
 ---
-
-# Set up Flash Tool Lite for Windows*
-
-This document explains the installation procedure Flash Tool Lite for Windows*. The tool is used to flash the firmware on Intel® Edison boards, but will expand to other IoT products in the future.
-
-## Installation
 
 1. Get the latest **Flash Tool Lite**.
    
@@ -43,9 +37,3 @@ This document explains the installation procedure Flash Tool Lite for Windows*. 
    *A driver install may be specified after completion of the main wizard, click **Yes** to complete that install.
    
    ![Install DnX USB drivers](images/dnx_usb_firmware.png)
-   
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
-
-* [Update firmware using the tool »](update_firmware.html)
-</div>

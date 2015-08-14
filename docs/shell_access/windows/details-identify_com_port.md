@@ -21,7 +21,7 @@ title: Identify the serial COM port
 **Don't see a "USB Serial Port" device listed?**
 
 * **Do you have the serial drivers installed?**
-  * A serial connection cannot be detected without FTDI serial drivers. Refer to [Set Up Your Computer - Windows (manual installation)](../../computer_setup/windows/manual_installation.html).
+  * A serial connection cannot be detected without FTDI serial drivers. Refer to [Set Up Your Computer - Windows (manual installation)](../../computer_setup/windows/index.html).
 
 * **Do you have the UART/serial cable connected?** Refer to [UART/serial micro-USB cable](../../assembly/arduino_expansion_board/details-serial_cable.html).
 

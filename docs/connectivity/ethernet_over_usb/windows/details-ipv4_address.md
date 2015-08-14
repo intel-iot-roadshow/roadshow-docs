@@ -6,7 +6,7 @@ title: Add static IPv4 address
 <div class="callout warning" markdown="1">
 **Have you installed the Intel® Edison Drivers?**
 
-If you have not followed [Set Up Your Computer - Windows (manual installation)](../../../computer_setup/windows/manual_installation.html), please do so now. RNDIS drivers are included with the Intel® Edison Drivers.
+If you have not followed [Set Up Your Computer - Windows (manual installation)](../../../computer_setup/windows/index.html), please do so now. RNDIS drivers are included with the Intel® Edison Drivers.
 </div>
 
 1. View your **Network Connections**.

@@ -1,21 +1,13 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Step 2: Copy over the latest image
-
-Extract the contents of the [Yocto complete image](http://software.intel.com/iot/hardware/edison/downloads) zip, then copy the contents to your Intel® Edison drive.
-
-![Animated gif: copying images files to flash storage](images/copy_image_files-animated.gif)
-
+title: Copy over the latest image
 ---
 
 1. Get the latest Yocto firmware image for the Intel® Edison.
 
     <div class="callout goto" markdown="1">
-    1. On the USB key: **downloads → Firmware - Edison Yocto**
-    2. Copy **edison-image-[version].zip** to your computer.
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Firmware - Edison Yocto</span>
+    2. Copy <span class="icon file">edison-image-[version].zip</span> to your computer.
     </div>
       
     <div class="callout info" markdown="1">
@@ -24,9 +16,9 @@ Extract the contents of the [Yocto complete image](http://software.intel.com/iot
     Visit [Intel® Edison Boards and Compute Modules — Support Package Release Notes](http://www.intel.com/support/edison/sb/CS-035253.htm) to view the release notes PDF.
     </div>
 
-2. Extract the contents of **edison-image-[version].zip** to your hard drive.
+2. Extract the contents of <span class="icon file">edison-image-[version].zip</span> to your hard drive.
 
-3. Copy the **entire** contents of the **edison-image-[version]** folder to the "**Edison**" drive that shows up after plugging the Intel® Edison to your computer. 
+3. Copy the **entire** contents of <span class="icon folder">edison-image-[version]</span> to the "**Edison**" drive that shows up after plugging the Intel® Edison to your computer. 
 
     Do **not** include the containing/parent edison-image-[version] folder; just the contents of the folder.
 

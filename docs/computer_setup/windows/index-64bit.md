@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Set Up Your Computer - Windows (64-bit integrated installer)
 ---
 
 <div id="toc" markdown="1">
@@ -17,7 +17,7 @@ This setup document will guide you through preparing your computer with the Inte
 <div class="callout info" markdown="1">
 **Are you running 32-bit Windows? Unable to use the integrated installer?**
 
-You will need to install the Windows drivers manually. Refer to [Set Up Your Computer - Windows (manual installation)](manual_installation.html). 
+You will need to install the Windows drivers manually. Refer to [Set Up Your Computer - Windows (manual installation)](index.html). 
 </div>
 
 <!-- <div class="related-videos" class="callout video">
@@ -33,11 +33,11 @@ The Windows 64-bit Integrated Installer gives you options to automatically insta
 * Intel® Edison and FTDI serial drivers on your Windows computer,
 * an IDE of your choice (Arduino, Intel XDK® for IoT, and/or Eclipse), and
 * the latest firmware image on your Intel® Edison.
-
-[View detailed instructions »](details-install_integrated_installer.html)
 </div>
 
 [![Animated gif: installing Intel® Edison drivers using integrated installer](images/install_integrated_installer-animated.gif)](details-install_integrated_installer.html)
+
+[View detailed instructions »](details-install_integrated_installer.html){: .link-button .centered}
 
 
 ## Restart your computer
@@ -52,5 +52,7 @@ To ensure driver installation changes take effect, reboot your Windows computer 
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-[Confirm driver installation »](confirm_drivers.html)
+Use Device Manager to confirm that drivers have been installed.
+
+[Confirm driver installation »](confirm_drivers.html){: .link-button .centered}
 </div>

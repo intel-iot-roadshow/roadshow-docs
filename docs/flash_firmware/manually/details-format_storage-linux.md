@@ -1,17 +1,11 @@
 ---
 layout: default
-title: Getting Started
----
-
-## Step 1: Prepare built-in flash storage (Linux)
-
-Make sure there are no files on the built-in flash storage of the Intel® Edison by formatting the storage. The storage **must** be formatted as FAT32.
-
+title: Prepare built-in flash storage (Linux)
 ---
 
 1. In order to read or write to the Intel® Edison's built-in flash storage, connect the Intel® Edison to your computer via the **device mode** micro-USB connector.
 
-    ![Micro-USB cable being plugged into the top micro-USB connector](../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
+    ![Micro-USB cable being plugged into the top micro-USB connector](../../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png)
 
 2. Open up a new Terminal window.
 

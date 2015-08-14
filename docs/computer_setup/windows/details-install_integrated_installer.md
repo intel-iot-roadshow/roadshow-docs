@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Download and run the Intel® Edison integrated installer
 ---
 
 ## Download and run the Intel® Edison integrated installer
@@ -43,7 +43,7 @@ The Windows 64-bit Integrated Installer gives you options to automatically insta
 
 The integrated installer is unable to detect your Intel® Edison. Ensure that the board is powered on and plugged into your computer via the device mode micro-USB port on the expansion board.
 
-Otherwise you will need to install the Windows drivers manually. Go to [Set Up Your Computer - Windows (manual installation) »](manual_installation.html) 
+Otherwise you will need to install the Windows drivers manually. Go to [Set Up Your Computer - Windows (manual installation) »](index.html) 
 </div>
 
 ---

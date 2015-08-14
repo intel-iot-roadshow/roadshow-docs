@@ -56,5 +56,7 @@ To ensure driver installation changes take effect, reboot your Windows computer 
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-[Confirm driver installation »](confirm_drivers.html)
+Use Device Manager to confirm that drivers have been installed.
+
+[Confirm driver installation »](confirm_drivers.html){: .link-button .centered}
 </div>

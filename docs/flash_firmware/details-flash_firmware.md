@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Getting Started
+title: Flash Intel® Edison firmware
 ---
-
-# Flash the Edison
 
 1. Unplug any USB or power cables connected to the Intel® Edison.
 
@@ -46,15 +44,3 @@ title: Getting Started
     ![Flash progress](images/progress_flash_tool.png)
    
 7. Once the flashing is completed, the board restarts. Do not unplug the board for at least 2-3 minutes.
-
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
-
-Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.
-
-Please pick your operating system from the options below to proceed.
-
-* [Windows »](../shell_access/windows/serial_connection.html)
-* [Mac »](../shell_access/mac/serial_connection.html)
-* [Linux »](../shell_access/linux/serial_connection.html)
-</div>
