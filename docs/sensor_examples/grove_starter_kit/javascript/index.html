@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Getting Started</title>
+    <title>JavaScript samples for the Grove Starter Kit</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../../css/main.css">
@@ -15,6 +15,14 @@
     
         <div id="toc">
   <ul>
+    <li><a href="#programming-grove-components">Programming Grove components »</a></li>
+    <li><a href="#install-code-libraries">Install code libraries »</a>
+      <ul>
+        <li><a href="#mraa">MRAA »</a></li>
+        <li><a href="#upm">UPM »</a></li>
+      </ul>
+    </li>
+    <li><a href="#find-code-samples">Find code samples »</a></li>
     <li><a href="#grove-component-types">Grove component types »</a>
       <ul>
         <li><a href="#digital-outputs">Digital outputs »</a></li>
@@ -29,7 +37,7 @@
 
 <h1 id="javascript-samples-for-the-grove-starter-kit">JavaScript samples for the Grove Starter Kit</h1>
 
-<p>To follow the instructions in this guide, you should have already completed the <a href="../../../ide_setup/xdk/setup.html">Set Up Intel XDK for IoT</a> guide, and you can successfully <a href="../../../ide_setup/xdk/create_project.html">blink the onboard LED</a> on your Intel® Edison or Intel® Galileo.</p>
+<p>To follow the instructions in this guide, you should have already completed the <a href="../../../ide_setup/xdk/index.html">Set Up Intel XDK for IoT</a> guide, and you can successfully <a href="../../../ide_setup/xdk/index-create_project.html">blink the onboard LED</a> on your Intel® Edison or Intel® Galileo.</p>
 
 <div class="callout goto">
   <p><strong>Sample Projects</strong></p>
@@ -45,6 +53,84 @@
 <!-- <div id="related-videos" class="callout video">
 * [Create Intel® IoT projects with the Grove Starter Kit - Part 2: JavaScript (preview)](https://drive.google.com/open?id=0B6gHgawzKtxCZU56NmJfei1GX00&authuser=0)
 </div> -->
+
+<h2 id="programming-grove-components">Programming Grove components</h2>
+
+<h3 id="install-code-libraries">Install code libraries</h3>
+
+<div class="callout warning" style="margin-top: 1em;">
+  <p><strong>Is your board online?</strong> Your board must have an internet connection to install the code libraries with the following commands.</p>
+</div>
+
+<h4 id="mraa">MRAA</h4>
+
+<p>Libmraa (pronounced “em-raah”) is a C/C++ library (with bindings to JavaScript and Python) to interface with the GPIO pins on the Intel® Galileo, Intel® Edison, and other platforms. </p>
+
+<p>Intel® maintains the <a href="https://github.com/intel-iot-devkit/mraa">MRAA library on Github</a>. </p>
+
+<p><a href="http://iotdk.intel.com/docs/master/mraa/">C/C++ API documentation</a> and <a href="http://iotdk.intel.com/docs/master/mraa/node/modules/mraa.html">JavaScript API documentation</a> can be found on intel.com.</p>
+
+<ol>
+  <li>
+    <p>Establish an SSH or serial connection to your Intel® Galileo or Intel® Edison. <br />
+<em>Don’t know how? Refer to <a href="../../../../docs/shell_access/">Shell Access</a>.</em></p>
+  </li>
+  <li>
+    <p>Run the following commands on your board. The first command will edit the mraa-upm config file on the board. The last two commands use the board’s built-in Opkg package manager to download and update the missing library.</p>
+  </li>
+</ol>
+
+<pre><code>echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" &gt; /etc/opkg/mraa-upm.conf
+</code></pre>
+<pre><code>opkg update
+</code></pre>
+<pre><code>opkg install libmraa0
+</code></pre>
+
+<h4 id="upm">UPM</h4>
+
+<p>UPM is a higher level library that leverages libmraa for controlling more complex sensors or actuators. A supported sensor will have its own class file that needs to be imported into your project and instantiated. </p>
+
+<p>Intel® maintains the <a href="https://github.com/intel-iot-devkit/upm">UPM library on Github</a>. </p>
+
+<p>For code samples, look for your specific component on <a href="http://software.intel.com/iot/hardware/sensors">software.intel.com/iot/hardware/sensors</a> or in the <a href="https://github.com/intel-iot-devkit/upm/tree/master/examples/">examples</a> folder in the UPM Github repo.</p>
+
+<ol>
+  <li>
+    <p>Establish a serial connection to your Intel® IoT board, if you’re not already connected.</p>
+  </li>
+  <li>
+    <p>Run the following command to use the board’s built-in Opkg package manager to download and update the UPM library.</p>
+
+    <p><code>
+ opkg install upm
+</code></p>
+  </li>
+</ol>
+
+<h3 id="find-code-samples">Find code samples</h3>
+
+<ol>
+  <li>
+    <p>To find code samples for your component, start by visiting the hardware sensors page at <a href="https://software.intel.com/en-us/iot/hardware/sensors">software.intel.com/en-us/iot/hardware/sensors</a>.</p>
+
+    <ol>
+      <li>
+        <p>Browse for supported components by paging through the list. Filter the results using the drop down menus on the page.</p>
+      </li>
+      <li>
+        <p>Click on a component to view additional information and view code samples in C/C++, JavaScript, and Python (when available).</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Alternatively, to find the most up-to-date UPM code samples, browse the UPM “examples” folder at <a href="https://github.com/intel-iot-devkit/upm/tree/master/examples">github.com/intel-iot-devkit/upm/tree/master/examples</a>.</p>
+
+    <ol>
+      <li>Go into the “c++”, “javascript”, or “python” folder and look for your component by model or part name.</li>
+    </ol>
+  </li>
+</ol>
 
 <h2 id="grove-component-types">Grove component types</h2>
 

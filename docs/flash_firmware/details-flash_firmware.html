@@ -22,13 +22,13 @@
 
     <div class="callout goto">
       <ol>
-        <li>On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Firmware</span> - <span class="icon folder">Edison Yocto</span></li>
+        <li>On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Firmware</span></li>
         <li>Copy <span class="icon file">edison-image-[version].zip</span> to your computer.</li>
       </ol>
     </div>
   </li>
   <li>
-    <p>Launch the <strong>Flash Tool Lite</strong> program installed in the previous step.</p>
+    <p>Launch the <strong>Flash Tool Lite</strong> program installed in the previous section.</p>
   </li>
   <li>
     <p>Click <strong>Browse</strong> in the upper righthand corner. Select <span class="icon file">edison-image-[version].zip</span> file.</p>
@@ -48,27 +48,32 @@
     </ul>
   </li>
   <li>
-    <p>Click <strong>Start to Flash</strong> (the Edison board is not plugged in yet).</p>
+    <p>Unplug all cables from the Intel® Edison. </p>
+  </li>
+  <li>
+    <p>Click <strong>Start to Flash</strong>.</p>
 
     <p><img src="images/start_flash_tool.jpg" alt="Start to Flash" /></p>
   </li>
   <li>
-    <p>Plug a micro-USB cable into the <strong><em>top</em></strong> micro-USB connector on the expansion board.</p>
+    <p>When you see the prompt, plug a micro-USB cable into the <strong><em>top</em></strong> micro-USB connector on the expansion board.</p>
 
     <p><img src="../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png" alt="Micro-USB cable being plugged into the top micro-USB connector" /></p>
 
     <p>You should see the Flash Tool detect the board and begin the flash process.</p>
 
     <p><img src="images/plug_usb_flash_tool.jpg" alt="Plug the USB cable" /></p>
-
-    <p><strong>Firmware flash progress</strong></p>
-
-    <p><img src="images/progress_flash_tool.png" alt="Flash progress" /></p>
   </li>
   <li>
-    <p>Once the flashing is completed, the board restarts. Do not unplug the board for at least 2-3 minutes.</p>
+    <p>Wait 3-4 minutes for the firmware progress to finish. Do <strong>not</strong> unplug the board during this time!</p>
+
+    <p><img src="images/progress_flash_tool.png" alt="Firmware flash progress" /></p>
   </li>
 </ol>
+
+<div class="callout done">
+  <p>Once the flashing is completed, the board will restart and you will see a “Flash success” indicated in the Flash Tool.</p>
+</div>
 
     
     </div>

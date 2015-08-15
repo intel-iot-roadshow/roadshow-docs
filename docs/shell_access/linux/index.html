@@ -15,12 +15,12 @@
     
         <div id="toc">
   <ul>
-    <li><a href="#identify-the-usbserial-device-name">Identify the “usbserial” device name »</a></li>
+    <li><a href="#install-a-shell-session-manager-screen">Install a shell session manager (Screen) »</a></li>
     <li><a href="#establish-a-serial-connection">Establish a serial connection »</a></li>
   </ul>
 </div>
 
-<h1 id="shell-access---mac">Shell Access - Mac</h1>
+<h1 id="shell-access---linux">Shell Access - Linux</h1>
 
 <p><img src="../images/icon-computer_shell.png" alt="computer icon with command prompt" /></p>
 
@@ -28,29 +28,23 @@
 
 <p>You can then execute special Linux commands such: changing the hostname and password, setting up Wi-Fi, or flashing new firmware.</p>
 
-<!-- <div id="related-videos" class="callout video">
-[Shell Access – Mac](https://software.intel.com/en-us/videos/shell-access-mac)
-</div> -->
-
-<h2 id="identify-the-usbserial-device-name">Identify the “usbserial” device name</h2>
+<h2 id="install-a-shell-session-manager-screen">Install a shell session manager (Screen)</h2>
 
 <div class="tldr">
-  <p>Use the <code>ls /dev/tty.*</code> command in Terminal to find the device name of the “<strong>usbserial</strong>” connection. You will need the exact device name for use in <span class="icon bookmark">Establish a serial connection</span> next. </p>
+  <p>Your computer may not have come with a pre-installed shell session manager. Download and install the GNU Screen utility using <code>sudo apt-get install screen</code>. </p>
 </div>
 
-<p><a href="details-identify_usbserial.html"><img src="" alt="Animated gif: using Terminal to find the USB device name" class="animated" data-still="images/identify_usbserial-sampleframe.jpg" data-animated="images/identify_usbserial-animated.gif" /></a></p>
-
-<p><a href="details-identify_usbserial.html" class="link-button centered">View detailed instructions »</a></p>
+<p><a href="details-install_screen.html" class="link-button centered">View detailed instructions »</a></p>
 
 <h2 id="establish-a-serial-connection">Establish a serial connection</h2>
 
 <div class="tldr">
-  <p>Use the Screen utility in Terminal to gain command line access of your IoT board. For example: <code>screen /dev/tty.usbserial-A102GW3T 115200</code>. </p>
+  <p>Use the Screen utility that you installed in the previous section to gain command line access of your IoT board. For example: <code>sudo screen /dev/ttyUSB0 115200</code>.</p>
 </div>
 
-<p><a href="details-screen_connection.html"><img src="" alt="Animated gif: using Screen utility to connect to IoT board" class="animated" data-still="images/screen_connection-sampleframe.jpg" data-animated="images/screen_connection-animated.gif" /></a></p>
-
 <p><a href="details-screen_connection.html" class="link-button centered">View detailed instructions »</a></p>
+
+<p><br /></p>
 
 <div class="callout done">
   <p>You are now logged into your IoT board and can run shell commands. For example, to output the version number of the firmware running on your board:</p>
@@ -72,9 +66,9 @@
 
   <p>Get your board online in order to turn your IoT board into a true “Internet of Things” device. You also need the IP address of your IoT board to program it using the dev kit IDEs.</p>
 
-  <ul>
-    <li><a href="../../connectivity/wifi/connect.html">Get Your Edison Board Online »</a></li>
-  </ul>
+  <p>Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as “Ethernet over USB”.</p>
+
+  <p><a href="../../connectivity/ethernet_over_usb/linux/index.html" class="link-button centered">Set up Ethernet over USB on Linux »</a></p>
 </div>
 
     

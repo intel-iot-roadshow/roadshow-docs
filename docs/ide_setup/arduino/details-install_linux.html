@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Getting Started</title>
+    <title>Installation - Arduino IDE - Linux</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../css/main.css">
@@ -13,88 +13,7 @@
 
     <div class="content">
     
-        <h1 id="getting-started-with-the-arduino-ide">Getting Started with the Arduino IDE</h1>
-
-<p>This guide contains steps to install the Arduino IDE on a system with Windows, Mac OSX, or Linux.  Please select your system from the choices below:</p>
-
-<ul>
-  <li><a href="#installing-arduino-on-windows">Windows »</a></li>
-  <li><a href="#installing-arduino-on-mac-os-x">Mac OS X »</a></li>
-  <li><a href="#installing-arduino-on-linux">Linux »</a></li>
-</ul>
-
-<h2 id="installing-arduino-on-windows">Installing Arduino on Windows</h2>
-
-<ol>
-  <li>
-    <p>Copy the <strong>arduino-1.6.5-r2-windows.exe</strong> file from the Windows directory on your USB stick to your desktop.</p>
-  </li>
-  <li>
-    <p>Go to your desktop, and double-click the arduino-1.6.5-r2-windows.exe file.</p>
-  </li>
-  <li>
-    <p>Click “I Agree” when prompted by the installer.</p>
-  </li>
-  <li>
-    <p>Click “Next” and then “Install” to install the Arduino IDE.  When prompted to install device software, select “Install”.</p>
-  </li>
-  <li>
-    <p>Once the Arduino IDE is installed, you should see an Arduino shortcut on your desktop.  Double-click on it to open the Arduino IDE.</p>
-  </li>
-  <li>
-    <p>Choose Tools &gt; Board &gt; Boards Manager. The Boards Manager opens.</p>
-
-    <p><img src="images/BoardMan-Win.png" alt="Boards Manager - Windows" /></p>
-  </li>
-  <li>
-    <p>In the list of boards, select your board type. For example, if you have an Intel Edison board, select Intel i686 Boards, which includes the Intel Edison board.</p>
-  </li>
-  <li>
-    <p>Click Install.</p>
-  </li>
-  <li>
-    <p>When the installation process is finished, click OK.</p>
-  </li>
-</ol>
-
-<h2 id="installing-arduino-on-mac-os-x">Installing Arduino on Mac OS X</h2>
-
-<ol>
-  <li>
-    <p>Copy the <strong>arduino-1.6.5-macosx.zip</strong> file from the Mac directory on your USB stick to your Downloads folder.</p>
-  </li>
-  <li>
-    <p>Navigate to your Downloads folder where you copied the arduino-1.6.5-macosx.zip file and double-click it to open the archive. This will unzip an application in the Downloads folder called Arduino. </p>
-
-    <p><img src="images/macOSXExtract.png" alt="Extracting Arduino IDE" /></p>
-  </li>
-  <li>
-    <p>Rename the Arduino file ArduinoEdison and move it into Applications. </p>
-
-    <p><img src="images/MacApp.png" alt="Macintosh Arduino IDE" /></p>
-  </li>
-  <li>
-    <p>Double-click your renamed file. Arduino opens.</p>
-  </li>
-  <li>
-    <p>Choose Tools &gt; Board &gt; Boards Manager. The Boards Manager opens.</p>
-
-    <p><img src="images/boardman-mac.png" alt="Boards Manager - Mac" /></p>
-  </li>
-  <li>
-    <p>In the list of boards, select your board type. For example, if you have an Intel Edison board, selectIntel i686 Boards, which includes the Intel Edison board.</p>
-  </li>
-  <li>
-    <p>Click Install.</p>
-  </li>
-  <li>
-    <p>When the installation process is finished, click OK.</p>
-  </li>
-</ol>
-
-<h2 id="install-arduino-on-linux">Install Arduino on Linux</h2>
-
-<ol>
+        <ol>
   <li>
     <p>To check if you have Java installed, open a terminal and enter the command: <code>java</code>  </p>
 
@@ -108,7 +27,14 @@
     <p>You may be prompted to enter your user password. </p>
   </li>
   <li>
-    <p>Copy either the arduino-1.6.5-linux32.txz or arduino-1.6.5-linux64.txz archive from the USB stick to your desktop. Be sure to download the version for your operating system (32 bit or 64 bit).</p>
+    <p>Get the latest Arduino IDE.</p>
+
+    <div class="callout goto">
+      <ol>
+        <li>On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span></li>
+        <li>Based on your Linux operating system (32 bit or 64 bit), copy <span class="icon file">arduino-[version]-linux32.tar.xz</span> or <span class="icon file">arduino-[version]-linux64.tar.xz</span>to your computer.</li>
+      </ol>
+    </div>
   </li>
   <li>
     <p>Navigate to the folder where you copied the Arduino IDE .txz file and double-click it to open the archive.  </p>
@@ -165,30 +91,20 @@
 If you are using a virtual machine (VM), you may need to reboot Linux within the VM.</p>
   </li>
   <li>
-    <p>Choose Tools &gt; Board &gt; Boards Manager. The Boards Manager opens.</p>
+    <p>Choose <strong>Tools</strong> &gt; <strong>Board</strong> &gt; <strong>Boards Manager</strong> to open the Boards Manager.</p>
 
     <p><img src="images/Boardman-linux.png" alt="Boards Manager - Linux" /></p>
   </li>
   <li>
-    <p>In the list of boards, select your board type. For example, if you have an Intel Edison board, select Intel i686 Boards, which includes the Intel Edison board.</p>
+    <p>In the list of boards, select <strong>Intel i686 Boards</strong> which includes the Intel® Edison board.</p>
   </li>
   <li>
-    <p>Click Install.</p>
+    <p>Click <strong>Install</strong>.</p>
   </li>
   <li>
-    <p>When the installation process is finished, click OK.</p>
+    <p>When the installation process is finished, click <strong>OK</strong>.</p>
   </li>
 </ol>
-
-<div id="next-steps" class="note">
-  <h3 id="next-steps">Next Steps</h3>
-
-  <p>Now that you have installed the Arduino IDE, try running a sample application to blink an LED on your board.</p>
-
-  <ul>
-    <li><a href="create_sketch.html">Blinking an LED with the Arduino IDE on the Intel® Edison Board »</a></li>
-  </ul>
-</div>
 
     
     </div>
