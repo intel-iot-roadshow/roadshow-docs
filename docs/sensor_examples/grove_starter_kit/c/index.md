@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: C++ samples for the Grove Starter Kit
 ---
 
 <div id="toc" markdown="1">

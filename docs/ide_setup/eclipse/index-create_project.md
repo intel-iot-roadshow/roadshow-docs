@@ -68,5 +68,5 @@ Learn more about the Grove Starter Kit:
 
 [Read Grove Starter Kit Intro »](../../sensor_examples/grove_starter_kit/index.html){: .link-button .centered}
 
-Or jump to [C++ sample code](../../sensor_examples/grove_starter_kit/c/samples.html) supplied for available sensors and actuators.
+Or jump to [C++ sample code](../../sensor_examples/grove_starter_kit/c/index.html) supplied for available sensors and actuators.
 </div>

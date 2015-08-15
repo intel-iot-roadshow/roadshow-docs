@@ -3,15 +3,22 @@ layout: default
 title: Set up Flash Tool Lite
 ---
 
+<div id="toc" markdown="1">
+* [Install Flash Tool Lite »](#install-flash-tool-lite)
+* [Flash Intel® Edison firmware »](#flash-intel-edison-firmware)
+</div>
+
 # Flash Firmware using Flash Tool Lite
 
-The Flash Tool Lite is used to flash the firmware onto the Intel® Edison. 
+The firmware on your Intel® Edison is the board’s operating system. Intel® IoT firmware engineers are constantly improving the performance of the Intel® Edison and enabling new features. When you receive a brand new Intel® Edison, update the firmware on the board to get the best developer experience.
+
+This document explains the installation procedure for the Flash Tool Lite for all OS platforms.
 
 ## Install Flash Tool Lite
-<!-- 
+
 <div class="tldr" markdown="1">
-Install the Flash Tool Lite application to your computer using the install wizard.
-</div> -->
+The Flash Tool Lite is used to flash the firmware onto the Intel® Edison. In the future, the tool will expand to other IoT products.
+</div>
 
 <div class="link-button-container" markdown="1">
 <span class="link-button-container-title">Install the Flashing Tool for:</span>

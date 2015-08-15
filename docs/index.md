@@ -31,7 +31,7 @@ Install software and drivers specifically for your computer's operating system.
 
 ## 3. Flash Edison Firmware
 
-Some Edison boards have older firmware images on them. You **_may_** need to update the firmware to a newer version to get access to important features.
+Some Intel® Edison boards have older firmware images on them. Update the firmware to the latest version to get access to important features.
 
 [Flash Firmware on Intel Edison »](flash_firmware/index.html){: .link-button .centered}
 
@@ -82,7 +82,7 @@ Learn more about the Grove Starter Kit:
 
 [Read Grove Starter Kit Intro »](sensor_examples/grove_starter_kit/index.html){: .link-button .centered}
 
-Jump to [JavaScript](sensor_examples/grove_starter_kit/javascript/samples.html) or [C++](https://software.intel.com/en-us/working-with-sensors-in-eclipse)to sample code supplied for available sensors and actuators.
+Jump to [Arduino](sensor_examples/grove_starter_kit/arduino/index.html), [JavaScript](sensor_examples/grove_starter_kit/javascript/index.html), or [C++](https://software.intel.com/en-us/working-with-sensors-in-eclipse) to sample code supplied for available sensors and actuators.
 
 Also search for your component on [software.intel.com/en-us/iot/sensors](http://software.intel.com/en-us/iot/sensors).
 

@@ -7,11 +7,6 @@ title: Getting Started
 * [Inside the Grove Starter Kit box »](#inside-the-grove-starter-kit-box)
 * [Install the Grove Base Shield »](#install-the-grove-base-shield)
 * [Connect a Grove component »](#connect-a-grove-component)
-* [Programming Grove components »](#programming-grove-components)
-  * [Install code libraries »](#install-code-libraries)
-    * [MRAA »](#mraa)
-    * [UPM »](#upm)
-* [Find code samples »](#find-code-samples)
 </div>
 
 # Create Intel® IoT projects with the Grove Starter Kit
@@ -97,80 +92,16 @@ All components in the Grove System use a 4-pin cable with JST connectors. This a
     * UART (top right)
 
 
-## Programming Grove components
-
-### Install code libraries 
-
-<div class="callout warning" style="margin-top: 1em;" markdown="1">
-**Is your board online?** Your board must have an internet connection to install the code libraries with the following commands.
-</div>
-
-#### MRAA
-
-Libmraa (pronounced "em-raah") is a C/C++ library (with bindings to JavaScript and Python) to interface with the GPIO pins on the Intel® Galileo, Intel® Edison, and other platforms. 
-
-Intel® maintains the [MRAA library on Github](https://github.com/intel-iot-devkit/mraa). 
-
-[C/C++ API documentation](http://iotdk.intel.com/docs/master/mraa/) and [JavaScript API documentation](http://iotdk.intel.com/docs/master/mraa/node/modules/mraa.html) can be found on intel.com.
-
-1. Establish an SSH or serial connection to your Intel® Galileo or Intel® Edison. {% strip %}{% include shell_access.md %}{% endstrip %}
-
-2. Run the following commands on your board. The first command will edit the mraa-upm config file on the board. The last two commands use the board's built-in Opkg package manager to download and update the missing library.
-
-```
-echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/mraa-upm.conf
-```
-```
-opkg update
-```
-```
-opkg install libmraa0
-```
-
-#### UPM
-
-UPM is a higher level library that leverages libmraa for controlling more complex sensors or actuators. A supported sensor will have its own class file that needs to be imported into your project and instantiated. 
-
-Intel® maintains the [UPM library on Github](https://github.com/intel-iot-devkit/upm). 
-
-For code samples, look for your specific component on [software.intel.com/iot/hardware/sensors](http://software.intel.com/iot/hardware/sensors) or in the [examples](https://github.com/intel-iot-devkit/upm/tree/master/examples/) folder in the UPM Github repo.
-
-1. Establish a serial connection to your Intel® IoT board, if you're not already connected.
-
-2. Run the following command to use the board's built-in Opkg package manager to download and update the UPM library.
-
-    ```
-    opkg install upm
-    ```
-
-
-### Find code samples
-
-1. To find code samples for your component, start by visiting the hardware sensors page at [software.intel.com/en-us/iot/hardware/sensors](https://software.intel.com/en-us/iot/hardware/sensors).
-
-    1. Browse for supported components by paging through the list. Filter the results using the drop down menus on the page.
-
-    2. Click on a component to view additional information and view code samples in C/C++, JavaScript, and Python (when available).
-
-2. Alternatively, to find the most up-to-date UPM code samples, browse the UPM "examples" folder at [github.com/intel-iot-devkit/upm/tree/master/examples](https://github.com/intel-iot-devkit/upm/tree/master/examples).
-
-    1. Go into the "c++", "javascript", or "python" folder and look for your component by model or part name.
-
-## Grove component types
-
-The simpler components in the Grove Starter Kit fall into 2 categories: input or output. These two categories further subdivide into digital or analog. 
-
-Other components in the Grove Starter Kit may use more complex communications protocols such as UART or I2C.
-
-Identifying which category a component falls under is required in order to correctly attach the component to the Grove Base Shield and to understand what code library and commands are needed to control the component.
-
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-Try code samples in JavaScript or C++:
+<div class="link-button-container" markdown="1">
+<span class="link-button-container-title">Try code samples:</span>
+[Arduino »](arduino/index.html){: .link-button}
+[JavaScript »](javascript/index.html){: .link-button}
+[C++ »](https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities#_Toc4){: .link-button}
+</div>
 
-* [JavaScript »](javascript/samples.html)
-* [C++ »](https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities#_Toc4)
 </div>
 
 <div class="callout goto" markdown="1">
@@ -178,7 +109,5 @@ Try code samples in JavaScript or C++:
 
 * Article: [Using MRAA to Abstract Platform I/O Capabilities](https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities) 
 
-* For PWM hardware configuration on the Arduino expansion board, refer to section 3.2 "Intel® Edison kit for Arduino* PWM swizzler" in the Intel® Edison Kit for Arduino* Hardware Guide: http://www.intel.com/support/edison/sb/CS-035275.htm
-
-* Sensor sample code for Arduino IDE: [Seeed Studio Sketchbook Starter Kit](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0)
+* For PWM hardware configuration on the Arduino expansion board, refer to section 3.2 "Intel® Edison kit for Arduino* PWM swizzler" in the [Intel® Edison Kit for Arduino* Hardware Guide](http://www.intel.com/support/edison/sb/CS-035275.htm).
 </div>

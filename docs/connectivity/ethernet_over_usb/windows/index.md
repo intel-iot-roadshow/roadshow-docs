@@ -48,7 +48,7 @@ See what you can do [once connected »](../shared/once_connected.html)
 
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
-* **For C/C++:** [Set Up IoT Dev Kit Eclipse »](../../../ide_setup/eclipse/setup.html){: .link-button}
-* **For JavaScript:** [Set Up Intel XDK for IoT »](../../../ide_setup/xdk/setup.html){: .link-button}
-* **For Arduino:** [Set Up Arduino IDE »](../../../ide_setup/arduino/setup.html){: .link-button}
+* **For C/C++:** [Set Up IoT Dev Kit Eclipse »](../../../ide_setup/eclipse/index.html){: .link-button}
+* **For JavaScript:** [Set Up Intel XDK for IoT »](../../../ide_setup/xdk/index.html){: .link-button}
+* **For Arduino:** [Set Up Arduino IDE »](../../../ide_setup/arduino/index.html){: .link-button}
 </div>
