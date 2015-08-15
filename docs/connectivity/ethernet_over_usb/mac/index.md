@@ -20,7 +20,7 @@ This document will guide you through obtaining an IP address for the Intel® Edi
 
 HoRNDIS has been found to crash some computers running Mac OS. Please proceed with caution and only attempt to use Ethernet over USB if you are unable to use Wi-Fi.
 
-If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison to Wi-Fi »](../.../wifi/connect.html)
+If you have access to a Wi-Fi network, instead follow [Connect Your Intel Edison to Wi-Fi »](../.../wifi/index.html)
 </div>
 
 <!-- <div id="related-videos" class="callout video">
@@ -68,7 +68,7 @@ See what you can do [once connected »](../shared/once_connected.html)
 
 Based on your programming language preference, install an IDE for Intel® IoT development:
 
-* **For C/C++:** [Set Up IoT Dev Kit Eclipse »](../../../ide_setup/eclipse/setup.html)
-* **For JavaScript:** [Set Up Intel XDK for IoT »](../../../ide_setup/xdk/setup.html)
-* **For Arduino:** [Set Up Arduino IDE »](../../../ide_setup/arduino/setup.html)
+* **For C/C++:** [Set Up IoT Dev Kit Eclipse »](../../../ide_setup/eclipse/setup.html){: .link-button}
+* **For JavaScript:** [Set Up Intel XDK for IoT »](../../../ide_setup/xdk/setup.html){: .link-button}
+* **For Arduino:** [Set Up Arduino IDE »](../../../ide_setup/arduino/setup.html){: .link-button}
 </div>

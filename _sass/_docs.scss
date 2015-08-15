@@ -268,9 +268,17 @@ $toc-min-width: 250px;
 $toc-position-left: $content-regular-width + $toc-left-margin;
 $toc-media-query: $toc-position-left + $toc-min-width + ($content-regular-padding * 2);
 
+#toc::before {
+  content: 'Table of contents';
+  margin-bottom: 8px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
 #toc {
   padding: 0.5em 0em 0.5em 0em;
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid $blue_main;
 }
 
 #toc > *:first-child {
@@ -285,7 +293,7 @@ $toc-media-query: $toc-position-left + $toc-min-width + ($content-regular-paddin
 
   #toc {
     padding: 1em 1em 0.5em 1em;
-    border-top: 2px solid #f0f0f0;
+    border-top: 2px solid $blue_main;
     display: block;
     position: absolute;
     left: $toc-position-left;

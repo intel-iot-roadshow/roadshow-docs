@@ -64,8 +64,9 @@ Refer to the [Troubleshooting - Intel XDK »](troubleshooting.md)
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-Experiment with sample code supplied for available sensors and actuators.
+Learn more about the Grove Starter Kit:
 
-* **[Grove Starter Kit - Intro »](../../sensor_examples/grove_starter_kit/index.html)**
-  * [C++ »](../../sensor_examples/grove_starter_kit/c/samples.html)
+[Read Grove Starter Kit Intro »](../../sensor_examples/grove_starter_kit/index.html){: .link-button .centered}
+
+Or jump to [C++ sample code](../../sensor_examples/grove_starter_kit/c/samples.html) supplied for available sensors and actuators.
 </div>

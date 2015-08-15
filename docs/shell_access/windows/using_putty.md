@@ -32,9 +32,3 @@ To quickly connect to the same IoT board the next time, save the session setting
 3. The next time you want to connect using those presets, double-click on the saved session name.
 
     ![Click on saved session to connect](images/putty-click_saved_session.png)
-
-
----
-
-Return to [Shell Access - Windows »](serial_connection.html#next-steps).
-

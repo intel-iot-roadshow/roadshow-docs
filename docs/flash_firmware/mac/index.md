@@ -10,9 +10,10 @@ title: Getting Started
    2. Copy <span class="icon file">PhoneFlashToolLite_[version]_mac64.dmg</span> to your computer.
    </div>
 
-2. Run <span class="icon file">PhoneFlashToolLite_[version]_mac64.dmg</span>.
+2. Double-click on <span class="icon file">PhoneFlashToolLite_[version]_mac64.pkg</span> to start the installer.
 
-3. In the new finder Window, drag <span class="icon file">Flash Tool Lite.app</span> into your Mac's **Application** folder.
+    ![The Mac installer for Flash Tool Lite](images/installation-mac.png)
 
-   ![Install Flash Tool Lite](images/install_flash_tool_mac_firmware.png)
+3. Follow the installation wizard prompts. Click "**Next**" where needed.
+
    

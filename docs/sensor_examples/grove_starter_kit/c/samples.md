@@ -14,7 +14,7 @@ title: Getting Started
 
 # C++ samples for the Grove Starter Kit
 
-To follow the instructions in this guide, you should have already completed the [Set Up IoT Dev Kit Eclipse »](../../../ide_setup/eclipse/setup.html) guide, and you can successfully [blink the onboard LED](../../../ide_setup/eclipse/create_project.html) on your Intel® Edison.
+To follow the instructions in this guide, you should have already completed the [Set Up IoT Dev Kit Eclipse »](../../../ide_setup/eclipse/index.html) guide, and you can successfully [blink the onboard LED](../../../ide_setup/eclipse/index-create_project.html) on your Intel® Edison.
 
 ## Grove component types
 

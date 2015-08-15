@@ -91,8 +91,9 @@ The LED is located near the center of the board.
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
 
-Experiment with sample code supplied for available sensors and actuators.
+Learn more about the Grove Starter Kit:
 
-* **[Grove Starter Kit - Intro »](../../sensor_examples/grove_starter_kit/index.html)**
-  * [JavaScript »](../../sensor_examples/grove_starter_kit/javascript/samples.html)
+[Read Grove Starter Kit Intro »](../../sensor_examples/grove_starter_kit/index.html){: .link-button .centered}
+
+Or jump to [JavaScript sample code](../../sensor_examples/grove_starter_kit/javascript/samples.html) supplied for available sensors and actuators.
 </div>

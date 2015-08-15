@@ -26,5 +26,5 @@ title: Identify the IP address
     <div class="callout troubleshooting" markdown="1">
     **Do not see an IP address in the "wlan0" entry?**
     
-    Your Intel® Edison is not online via Wi-Fi. You may need to re-run the steps in [Connect to a Wi-Fi network](connect.html#connect-to-a-wi-fi-network).
+    Your Intel® Edison is not online via Wi-Fi. You may need to re-run the steps in [Connect to a Wi-Fi network](index.html#connect-to-a-wi-fi-network).
     </div>

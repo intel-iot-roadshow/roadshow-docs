@@ -64,5 +64,5 @@ For more info on using Screen such as quitting, read [Using Screen »](../mac-an
 
 Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
 
-* [Get Your Edison Board Online »](../../connectivity/wifi/connect.html)
+[Get Your Intel® Edison Online »](../../connectivity/wifi/index.html){: .link-button .centered}
 </div>

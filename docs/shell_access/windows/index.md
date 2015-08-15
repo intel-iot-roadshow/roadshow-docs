@@ -74,13 +74,7 @@ For more info on using PuTTY such as saving profiles, read [Using PuTTY »](usin
 
 Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
 
-**At a hackathon? On a busy or restricted Wi-Fi network?**
+Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB".
 
-Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
-
-* [Windows »](../../connectivity/ethernet_over_usb/windows/connect.html)
-
-**At home? Have a dependable Wi-Fi connection?**
-
-* [Get Your Edison Board Online »](../../connectivity/wifi/connect.html)
+[Set up Ethernet over USB on Windows »](../../connectivity/ethernet_over_usb/windows/index.html){: .link-button .centered}
 </div>
