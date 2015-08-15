@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Getting Started</title>
+    <title>Identify the "usbserial" device name</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../css/main.css">
@@ -13,33 +13,30 @@
 
     <div class="content">
     
-        <h2 id="identify-the-usbserial-device-name">Identify the “usbserial” device name</h2>
-
-<p>Use the <code>ls /dev/tty.*</code> command in Terminal to find the device name of the “<strong>usbserial</strong>” connection. You will need the exact device name for use in Establish a serial connection later.</p>
-
-<p><img src="images/identify_usbserial-animated.gif" alt="Animated gif: using Terminal to find the USB device name" /></p>
-
-<hr />
-
-<ol>
+        <ol>
   <li>
     <p>Launch Terminal.</p>
 
-    <p><strong>Option 1:</strong></p>
+    <div class="side-by-side">
+   <div class="left">
+        <p><strong>Option 1:</strong></p>
 
-    <ol>
-      <li>Launch Spotlight (type Cmd+Space).</li>
-      <li>Type “terminal”. </li>
-      <li>Select the “Terminal” app.</li>
-    </ol>
+        <ol>
+          <li>Launch Spotlight (type Cmd+Space).</li>
+          <li>Type “terminal”. </li>
+          <li>Select the “Terminal” app.</li>
+        </ol>
+      </div>
+   <div class="right">
+        <p><strong>Option 2:</strong></p>
 
-    <p><strong>Option 2:</strong></p>
-
-    <ol>
-      <li>Go to Applications on your Mac. </li>
-      <li>Open Utilities. </li>
-      <li>Launch Terminal.app.</li>
-    </ol>
+        <ol>
+          <li>Go to Applications on your Mac. </li>
+          <li>Open Utilities. </li>
+          <li>Launch Terminal.app.</li>
+        </ol>
+      </div>
+ </div>
   </li>
   <li>
     <p>Use the “ls” command to list any connected devices.</p>
@@ -72,6 +69,11 @@
 
     
     </div>
+
+  
+
+<script src="../../../js/jquery-2.1.4.min.js"></script>
+<script src="../../../js/main.js"></script>
 
   </body>
 </html>

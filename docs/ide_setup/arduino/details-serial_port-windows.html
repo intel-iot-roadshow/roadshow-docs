@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Find serial port - Windows</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <h3 id="finding-your-port-on-a-system-with-windows">Finding your port on a system with Windows</h3>
+
+<ol>
+  <li>
+    <p>Find the port for your board called “<strong>Intel Edison Virtual Com Port</strong>” in Windows Device Manager. </p>
+
+    <p><img src="images/comport-win-blink.png" alt="Windows Device Manager" /></p>
+
+    <div class="callout warning">
+      <p>It is <strong>not</strong> “USB Serial Port”. </p>
+
+      <p>And it will not be COM1 and COM2 which are usually reserved for hardware serial ports.</p>
+    </div>
+  </li>
+  <li>
+    <p>Select your COM port in the Arduino IDE.</p>
+
+    <p><img src="images/comport-ide-blink.png" alt="Arduino IDE COM Port Selection" /></p>
+  </li>
+  <li>
+    <p>Now the bottom right should match the COM port number of the <strong>Intel Edison Virtual Com Port (COM#)</strong> from the Device Manager.</p>
+
+    <p><img src="images/comport-verif-blink.png" alt="COM Port Verification" /></p>
+  </li>
+  <li>
+    <p>Once you have selected your port, continue to upload the sketch to your board.</p>
+  </li>
+</ol>
+
+    
+    </div>
+
+  
+
+<script src="../../../js/jquery-2.1.4.min.js"></script>
+<script src="../../../js/main.js"></script>
+
+  </body>
+</html>

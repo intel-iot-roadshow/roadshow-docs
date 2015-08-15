@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <div id="toc">
+  <ul>
+    <li><a href="#download-a-terminal-client-putty">Download a terminal client (PuTTY) »</a></li>
+    <li><a href="#identify-the-serial-com-port">Identify the serial COM port »</a></li>
+    <li><a href="#establish-a-serial-connection">Establish a serial connection »</a></li>
+  </ul>
+</div>
+
+<h1 id="shell-access---windows">Shell Access - Windows</h1>
+
+<p><img src="../images/icon-computer_shell.png" alt="computer icon with command prompt" /></p>
+
+<p>If you need to configure your IoT board, you will need to remotely connect to the Intel® Edison or Intel® Galileo. Once connected to your Intel® IoT board, you have access to the Linux-based Yocto operating system running on the board. </p>
+
+<p>You can then execute special Linux commands such: changing the hostname and password, setting up Wi-Fi, or flashing new firmware.</p>
+
+<!-- <div id="related-videos" class="callout video">
+[Shell Access – Windows](https://software.intel.com/en-us/videos/shell-access-windows)
+</div> -->
+
+<h2 id="download-a-terminal-client-putty">Download a terminal client (PuTTY)</h2>
+
+<div class="tldr">
+  <p>Windows does not come with a built-in terminal emulator so download and use the <a href="http://www.putty.org/">PuTTY</a> client. </p>
+</div>
+
+<p><a href="details-putty.html"><img src="" alt="Animated gif: downloading and installing PuTTY" class="animated" data-still="images/install_putty-firstframe.jpg" data-animated="images/install_putty-animated.gif" /></a></p>
+
+<p><a href="details-putty.html" class="link-button centered">View detailed instructions »</a></p>
+
+<h2 id="identify-the-serial-com-port">Identify the serial COM port</h2>
+
+<div class="tldr">
+  <p>Use Device Manager to find the COM port number for the “<strong>USB Serial Port</strong>” connection. You will need the COM # to configure PuTTY in <span class="icon bookmark">Establish a serial connection</span> next. </p>
+</div>
+
+<p><a href="details-identify_com_port.html"><img src="" alt="Animated gif: identifying the serial COM port" class="animated" data-still="images/identify_com_port-sampleframe.jpg" data-animated="images/identify_com_port-animated.gif" /></a></p>
+
+<p><a href="details-identify_com_port.html" class="link-button centered">View detailed instructions »</a></p>
+
+<h2 id="establish-a-serial-connection">Establish a serial connection</h2>
+
+<div class="tldr">
+  <p>Use PuTTY to establish a <strong>serial</strong> connection to the IoT board using the COM # you noted in the previous <span class="icon bookmark">Identify the serial COM port</span> section and the baud rate <strong>115200</strong>. </p>
+</div>
+
+<p><a href="details-putty_serial_connection.html"><img src="" alt="Animated gif: logging into the IoT board via a PuTTY serial connection" class="animated" data-still="images/putty_serial_connection-sampleframe.jpg" data-animated="images/putty_serial_connection-animated.gif" /></a></p>
+
+<p><a href="details-putty_serial_connection.html" class="link-button centered">View detailed instructions »</a></p>
+
+<div class="callout done">
+  <p>You are now logged into your IoT board and can run shell commands. For example, to output the version number of the firmware running on your board:</p>
+
+  <pre><code>cat /etc/version
+</code></pre>
+
+  <p><img src="../images/firmware_version_output.png" alt="example output after running cat command" /></p>
+
+  <p>The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.</p>
+</div>
+
+<div class="callout goto">
+  <p>For more info on using PuTTY such as saving profiles, read <a href="using_putty.html">Using PuTTY »</a></p>
+</div>
+
+<div id="next-steps" class="note">
+  <h3 id="next-steps">Next Steps</h3>
+
+  <p>Get your board online in order to turn your IoT board into a true “Internet of Things” device. You also need the IP address of your IoT board to program it using the dev kit IDEs.</p>
+
+  <p>Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as “Ethernet over USB”.</p>
+
+  <p><a href="../../connectivity/ethernet_over_usb/windows/index.html" class="link-button centered">Set up Ethernet over USB on Windows »</a></p>
+</div>
+
+    
+    </div>
+
+  
+
+<script src="../../../js/jquery-2.1.4.min.js"></script>
+<script src="../../../js/main.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flash Intel® Edison firmware</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <ol>
+  <li>
+    <p>Unplug any USB or power cables connected to the Intel® Edison.</p>
+  </li>
+  <li>
+    <p>Get the latest Yocto firmware image for the Intel® Edison.</p>
+
+    <div class="callout goto">
+      <ol>
+        <li>On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Firmware</span></li>
+        <li>Copy <span class="icon file">edison-image-[version].zip</span> to your computer.</li>
+      </ol>
+    </div>
+  </li>
+  <li>
+    <p>Launch the <strong>Flash Tool Lite</strong> program installed in the previous section.</p>
+  </li>
+  <li>
+    <p>Click <strong>Browse</strong> in the upper righthand corner. Select <span class="icon file">edison-image-[version].zip</span> file.</p>
+
+    <p><img src="images/browse_flash_tool.jpg" alt="Browse Edison Image" /></p>
+
+    <p>The tool extracts the zip file and loads FlashEdison.json.</p>
+
+    <p><img src="images/json_flash_tool.jpg" alt="Load FlashEdison.json" /></p>
+  </li>
+  <li>
+    <p>For the “<strong>Configuration</strong>” drop down, if your host machine is:</p>
+
+    <ul>
+      <li><strong>OS X or Linux:</strong> choose “CDC” </li>
+      <li><strong>Windows:</strong> choose “RNDIS”</li>
+    </ul>
+  </li>
+  <li>
+    <p>Unplug all cables from the Intel® Edison. </p>
+  </li>
+  <li>
+    <p>Click <strong>Start to Flash</strong>.</p>
+
+    <p><img src="images/start_flash_tool.jpg" alt="Start to Flash" /></p>
+  </li>
+  <li>
+    <p>When you see the prompt, plug a micro-USB cable into the <strong><em>top</em></strong> micro-USB connector on the expansion board.</p>
+
+    <p><img src="../assembly/arduino_expansion_board/images/device_mode-usb_cable-before_after.png" alt="Micro-USB cable being plugged into the top micro-USB connector" /></p>
+
+    <p>You should see the Flash Tool detect the board and begin the flash process.</p>
+
+    <p><img src="images/plug_usb_flash_tool.jpg" alt="Plug the USB cable" /></p>
+  </li>
+  <li>
+    <p>Wait 3-4 minutes for the firmware progress to finish. Do <strong>not</strong> unplug the board during this time!</p>
+
+    <p><img src="images/progress_flash_tool.png" alt="Firmware flash progress" /></p>
+  </li>
+</ol>
+
+<div class="callout done">
+  <p>Once the flashing is completed, the board will restart and you will see a “Flash success” indicated in the Flash Tool.</p>
+</div>
+
+    
+    </div>
+
+  
+
+<script src="../../js/jquery-2.1.4.min.js"></script>
+<script src="../../js/main.js"></script>
+
+  </body>
+</html>

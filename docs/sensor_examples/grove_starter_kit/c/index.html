@@ -1,0 +1,274 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>C++ samples for the Grove Starter Kit</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <div id="toc">
+  <ul>
+    <li><a href="#grove-component-types">Grove component types »</a>
+      <ul>
+        <li><a href="#digital-outputs">Digital outputs »</a></li>
+        <li><a href="#digital-inputs">Digital inputs »</a></li>
+        <li><a href="#analog-inputs">Analog inputs »</a></li>
+        <li><a href="#analog-outputs">Analog outputs »</a></li>
+        <li><a href="#i2c">I2C »</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<h1 id="c-samples-for-the-grove-starter-kit">C++ samples for the Grove Starter Kit</h1>
+
+<p>To follow the instructions in this guide, you should have already completed the <a href="../../../ide_setup/eclipse/index.html">Set Up IoT Dev Kit Eclipse »</a> guide, and you can successfully <a href="../../../ide_setup/eclipse/index-create_project.html">blink the onboard LED</a> on your Intel® Edison.</p>
+
+<h2 id="grove-component-types">Grove component types</h2>
+
+<p>The simpler components in the Grove Starter Kit fall into 2 categories: input or output. These two categories further subdivide into digital or analog. </p>
+
+<p>Other components in the Grove Starter Kit may use more complex communications protocols such as UART or I2C.</p>
+
+<p>Identifying which category a component falls under is required in order to correctly attach the component to the Grove Base Shield and to understand what code library and commands are needed to control the component.</p>
+
+<h3 id="digital-outputs">Digital outputs</h3>
+
+<div class="tldr">
+  <p>A digital output can write a value of either on (<code>1</code>) or off (<code>0</code>).</p>
+
+  <p>Connect to any pin labeled “D” (for “digital”) on the Grove Base Shield such as D2 to D8.</p>
+</div>
+
+<p><strong>Example components:</strong></p>
+
+<ul>
+  <li>Grove LED Socket Kit</li>
+  <li>Grove Smart Relay</li>
+</ul>
+
+<p><strong>Low level MRAA-only example:</strong></p>
+
+<pre><code>#include "mraa.hpp"
+
+int main()
+{
+  // set up GPIO digital pin #6
+  mraa::Gpio* led = new mraa::Gpio(6, true, false);
+
+  // set the GPIO direction to output
+  led-&gt;dir(mraa::DIR_OUT);
+
+  // set the digital pin to high (1)
+  led-&gt;write(1);
+
+  return MRAA_SUCCESS;
+}
+</code></pre>
+
+<p><strong>Higher level UPM example:</strong></p>
+
+<pre><code>#include "grove.h"
+
+int main()
+{
+  // use GroveLed class to set up GPIO digital pin #6
+  // (internally sets direction to output)
+  upm::GroveLed* led = new upm::GroveLed(6);
+
+  // set the digital pin to high
+  led-&gt;on();
+
+  return MRAA_SUCCESS;
+}
+</code></pre>
+
+<p>If you want to make the LED turn on and off, add a <code>for</code> loop to toggle between writing <code>1</code> or <code>0</code> to the digital pin. For example:</p>
+
+<pre><code>// loop forever to toggle the on board LED every second
+for (;;) {
+  led-&gt;write(1);
+  sleep(1);
+  led-&gt;write(0);
+  sleep(1);
+}
+</code></pre>
+
+<h3 id="digital-inputs">Digital inputs</h3>
+
+<div class="tldr">
+  <p>A digital input can read a value as either on (<code>1</code>) or off (<code>0</code>).</p>
+
+  <p>Connect to any pin labeled “D” (for “digital”) such as D2 to D8 on the Grove Base Shield.</p>
+</div>
+
+<p><strong>Example components:</strong></p>
+
+<ul>
+  <li>Grove Button</li>
+  <li>Grove Touch Sensor (TTP223)</li>
+</ul>
+
+<p><strong>Low level MRAA-only example:</strong></p>
+
+<pre><code>#include "mraa.hpp"
+#include &lt;stdio.h&gt;
+
+int main()
+{
+  // set up digital read on digital pin #5
+  mraa::Gpio* button = new mraa::Gpio(5, true, false);
+
+  // set the GPIO direction to input
+  button-&gt;dir(mraa::DIR_IN);
+
+  // read the value of the digital pin
+  int button_state = button-&gt;read();
+
+  // write the value to the console for debugging
+  printf("%d \n", button_state);
+
+  return MRAA_SUCCESS;
+}
+</code></pre>
+
+<p>To react to a button press beyond application startup, add a <code>while</code> or <code>for</code> loop with a delay to periodically poll the pin state. For example, this loop reads the button and waits for 500ms before checking the button state again:</p>
+
+<pre><code>// poll for changes in input state
+for (;;) {
+  int button_state = button-&gt;read();
+  printf("%d \n", button_state);
+  usleep(500*1000);
+}
+</code></pre>
+
+<p>To implement a non-blocking way of detecting changes in input values, use <a href="https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities#_Toc4.2"><code>mraa_gpio_isr()</code> as an interrupt handler</a> instead of a loop.</p>
+
+<p><strong>Higher level UPM example:</strong></p>
+
+<pre><code>#include "grove.h"
+#include &lt;stdio.h&gt;
+
+int main()
+{
+  // use GroveButton class to set up GPIO digital pin #5
+  // (internally sets direction to input)
+  upm::GroveButton* button = new upm::GroveButton(5);
+
+  // poll for changes in input state
+  for(;;) {
+    // read the value of the digital pin
+    int button_state = button-&gt;value();
+
+    // write the value to the console for debugging
+    printf("%d \n", button_state);
+    
+    // 500ms delay
+    usleep(500 * 1000);
+  }
+
+  // Delete the button object
+  delete button;
+
+  return MRAA_SUCCESS;
+}
+</code></pre>
+
+<h3 id="analog-inputs">Analog inputs</h3>
+
+<div class="tldr">
+  <p>An analog input will read a value as between <code>0</code> and <code>1024</code>.</p>
+
+  <p>Connect to any pin labeled “A” (for “analog”) on the Grove Base Shield such as A0 to A3.</p>
+</div>
+
+<p><strong>Example components:</strong></p>
+
+<ul>
+  <li>Grove Light Sensor</li>
+  <li>Grove Rotary Angle</li>
+  <li>Grove Temperature</li>
+  <li>Grove Sound Sensor</li>
+</ul>
+
+<p><strong>Low level MRAA-only example:</strong></p>
+
+<pre><code>
+</code></pre>
+
+<p><strong>Higher level UPM example:</strong></p>
+
+<pre><code>
+</code></pre>
+
+<p>To implement a non-blocking way of detecting changes in input values, use <a href="https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities#_Toc4.2"><code>mraa_gpio_isr()</code> as an interrupt handler</a> instead of a loop.</p>
+
+<h3 id="analog-outputs">Analog outputs</h3>
+
+<div class="tldr">
+  <p>An analog output is a digital output in disguise. Intel® IoT boards are digital microcontrollers that can pretend to be analog using a concept called Pulse Width Modulation (PWM). </p>
+
+  <p>Analog outputs will accept a floating-point value representing a duty cycle percentage between <code>0</code> (always off), <code>1.0</code> (always on). For example, a value of <code>0.5</code> will rapidly pulse equally between on and off.</p>
+
+  <p>Components will only work when connected to PWM-enabled pins! By factory default, these PWM pins are D3, D5, and D6. (Digital pin #9 is also available on the Arduino expansion board via the standard female header pin.)</p>
+</div>
+
+<p><strong>Example components:</strong></p>
+
+<ul>
+  <li>Grove LED Socket Kit</li>
+  <li>Grove Buzzer</li>
+  <li>Grove Servo Motor (ES08A)</li>
+</ul>
+
+<p><strong>Low level MRAA-only example:</strong></p>
+
+<pre><code>
+</code></pre>
+
+<p><strong>Higher level UPM example:</strong></p>
+
+<p>Please see: <a href="https://github.com/intel-iot-devkit/upm/blob/master/examples/c++/es08a.js">https://github.com/intel-iot-devkit/upm/blob/master/examples/c++/es08a.js</a></p>
+
+<h3 id="i2c">I2C</h3>
+
+<div class="tldr">
+  <p>I²C (Inter-Integrated Circuit), pronounced both “I-two-C” or “I-squared-C”, is a multi-master, multi-slave, single-ended, serial computer bus used for attaching lower-speed peripherals to processors on computer motherboards and embedded systems.</p>
+</div>
+
+<p><strong>Example components:</strong></p>
+
+<ul>
+  <li>Grove LCD RGB Backlight (JHD1313M1)</li>
+</ul>
+
+<p><strong>Higher level UPM example:</strong></p>
+
+<pre><code>
+</code></pre>
+
+<div id="next-steps" class="note">
+  <h3 id="next-steps">Next Steps</h3>
+
+  <p>You’re done! Now make your own creation. </p>
+
+  <p>Return back to <a href="../../../index.html#now-make-your-own-creation">START HERE »</a></p>
+</div>
+
+    
+    </div>
+
+  
+
+<script src="../../../../js/jquery-2.1.4.min.js"></script>
+<script src="../../../../js/main.js"></script>
+
+  </body>
+</html>

@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Getting Started</title>
+    <title>Connect to a Wi-Fi network</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../css/main.css">
@@ -13,15 +13,7 @@
 
     <div class="content">
     
-        <h2 id="connect-to-a-wi-fi-network">Connect to a Wi-Fi network</h2>
-
-<p>Shell into your Intel® Edison and run the <code>configure_edison --wifi</code> command. Choose a Wi-Fi network to connect to, then input any login credentials for that network.</p>
-
-<p><img src="images/configure_edison_wifi-animated.gif" alt="Animated gif: copying images files to flash storage" /></p>
-
-<hr />
-
-<ol>
+        <ol>
   <li>
     <p>Establish a serial connection to the Intel® Edison. <br />
 <em>Don’t know how? Refer to <a href="../../../docs/shell_access/">Shell Access</a>.</em></p>
@@ -36,28 +28,32 @@
     <div class="callout info">
       <p><strong>Get a “configure_edison: not found” message?</strong></p>
 
-      <p>You need to update your Edison firmware. Refer to <a href="../../flash_firmware/manually.html">Flash Firmware Manually</a> for instructions. </p>
-
-      <p>Or, if you are using Windows 64-bit, a streamlined firmware flashing process is included with the Windows 64-bit integrated installer. Refer to <a href="../../computer_setup/windows/64bit_integrated_installer.html">Set Up Your Computer - Windows (64-bit integrated installer)</a>.</p>
+      <p>You need to update your Intel® Edison firmware. Refer to <a href="../../flash_firmware/">Flash Firmware</a> for instructions. </p>
     </div>
   </li>
   <li>
     <p>If you are asked if you want to set up the wifi, type “<strong>Y</strong>” and press Enter. (This prompt will occur on older Intel® Edison firmware only.)</p>
   </li>
   <li>
-    <p>The Intel® Edison will scan for Wi-Fi networks and display a list of available networks when finished.<br />
-  <img src="images/list_of_networks.png" alt="A list of Wi-Fi networks" /><br />
-  If you do not see any networks, but you know they exist, try re-scanning by entering “0”, or repeat steps 2-3.</p>
+    <p>The Intel® Edison will scan for Wi-Fi networks and display a list of available networks when finished.</p>
+
+    <p><img src="images/list_of_networks.png" alt="A list of Wi-Fi networks" /></p>
+
+    <p>If you do not see any networks, but you know they exist, try re-scanning by entering “0”, or repeat steps 2-3.</p>
   </li>
   <li>
-    <p>Locate the network you would like to connect to in the list and enter the <strong>corresponding number</strong> in the prompt. Press Enter. <br />
-  To confirm your entry, type “<strong>Y</strong>” and press Enter.<br />
-  <img src="images/network_connection_confirmation.png" alt="Type 'Y' to confirm entry" /><br />
-  In this example, to connect to “kafka” use the number “16”.</p>
+    <p>Locate the network you would like to connect to in the list and enter the <strong>corresponding number</strong> in the prompt. Press Enter. </p>
+
+    <p>To confirm your entry, type “<strong>Y</strong>” and press Enter.</p>
+
+    <p><img src="images/network_connection_confirmation.png" alt="Type 'Y' to confirm entry" /></p>
+
+    <p>In this example, to connect to “kafka” use the number “16”.</p>
   </li>
   <li>
-    <p>The network in this example requires a password. Your network might require other information. Enter the appropriate network credentials. Press Enter when finished. <br />
-  <img src="images/network_password_prompt.png" alt="Network password prompt" /></p>
+    <p>The network in this example requires a password. Your network might require other information. Enter the appropriate network credentials. Press Enter when finished. </p>
+
+    <p><img src="images/network_password_prompt.png" alt="Network password prompt" /></p>
   </li>
   <li>
     <p>The Intel® Edison will attempt to make a connection to the network.</p>
@@ -80,6 +76,11 @@
 
     
     </div>
+
+  
+
+<script src="../../../js/jquery-2.1.4.min.js"></script>
+<script src="../../../js/main.js"></script>
 
   </body>
 </html>

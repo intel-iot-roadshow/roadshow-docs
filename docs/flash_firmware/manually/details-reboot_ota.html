@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flash the image</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <ol>
+  <li>
+    <p>Establish a serial connection to the Intel® Edison. <br />
+<em>Don’t know how? Refer to <a href="../../../docs/shell_access/">Shell Access</a>.</em></p>
+  </li>
+  <li>
+    <p>Use the <code>reboot ota</code> command to reboot the Intel® Edison from the command line.</p>
+
+    <p><strong>Note:</strong> This will erase everything on your Intel® Edison including configuration settings such as the board’s username and password.</p>
+
+    <p><code>
+ reboot ota
+</code></p>
+  </li>
+  <li>
+    <p>Your Intel® Edison will reboot and begin the flashing process with the latest image.</p>
+
+    <p><img src="images/terminal-edison_restarting.png" alt="Screenshot of Intel® Edison bootup process" /></p>
+  </li>
+  <li>
+    <p>When the Intel® Edison is done flashing, you should see the login prompt.</p>
+
+    <p><img src="images/terminal-edison_login.png" alt="Intel® Edison login screen" /></p>
+  </li>
+</ol>
+
+<div class="callout done">
+  <p>If the firmware flash was successful, you should now be able to use the <code>configure_edison</code> command with the <code>--version</code> flag.</p>
+
+  <pre><code>configure_edison --version
+</code></pre>
+
+  <p>If the output is “120” (or higher, depending on how up to date this document is), you have successfully flashed your board! </p>
+</div>
+
+<div class="callout troubleshooting">
+  <p><strong>No “configure_edison –version” option? Don’t see “120” (or higher) outputted as the build version number?</strong></p>
+
+  <p>Your board was not updated with the latest image.</p>
+
+  <ul>
+    <li>
+      <p>Incomplete zip downloads may cause issues. Re-download the “Yocto complete image” zip file from Intel® Edison Boards and Compute Modules - Software Downloads and try again from <a href="index.html#step-1-prepare-built-in-flash-storage">Step 1: Prepare built-in flash storage</a>.</p>
+    </li>
+    <li>
+      <p><strong>Mac users only:</strong> If re-downloading a new zip does not fix the issues, you can try the “Alternate Flashing Method” described at the bottom of <a href="https://software.intel.com/en-us/articles/intel-edison-flashing-firmware-on-os-x-wired">Intel Edison Flashing Firmware on OS X - Wired</a>. </p>
+    </li>
+  </ul>
+</div>
+
+    
+    </div>
+
+  
+
+<script src="../../../js/jquery-2.1.4.min.js"></script>
+<script src="../../../js/main.js"></script>
+
+  </body>
+</html>

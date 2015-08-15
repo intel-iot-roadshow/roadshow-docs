@@ -1,0 +1,103 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Connecting cables</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <div id="toc">
+  <ul>
+    <li><a href="#device-mode-vs-host-mode">Device mode vs host mode »</a></li>
+    <li><a href="#device-mode-micro-usb-cable">Device mode micro-USB cable »</a></li>
+    <li><a href="#uartserial-micro-usb-cable">UART/serial micro-USB cable »</a></li>
+    <li><a href="#dc-power-supply">DC power supply »</a></li>
+    <li><a href="#host-mode-usb-cable">Host mode USB cable »</a></li>
+  </ul>
+</div>
+
+<h1 id="connecting-cables">Connecting cables</h1>
+
+<p>Explore when and how to use all the cables ports on the Intel® Edison kit for Arduino. </p>
+
+<!-- <div id="related-videos" class="callout video">
+  <object id="flashObj" width="565" height="367" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,47,0"><param name="movie" value="http://c.brightcove.com/services/viewer/federated_f9?isVid=1" /><param name="bgcolor" value="#FFFFFF" /><param name="flashVars" value="videoId=4117768692001&playerID=741496470001&playerKey=AQ~~,AAAArH1stHk~,LuRqJUw7MaeYQkat5frTpWWPINh71g7p&domain=embed&dynamicStreaming=true" /><param name="base" value="http://admin.brightcove.com" /><param name="seamlesstabbing" value="false" /><param name="allowFullScreen" value="true" /><param name="swLiveConnect" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://c.brightcove.com/services/viewer/federated_f9?isVid=1" bgcolor="#FFFFFF" flashVars="videoId=4117768692001&playerID=741496470001&playerKey=AQ~~,AAAArH1stHk~,LuRqJUw7MaeYQkat5frTpWWPINh71g7p&domain=embed&dynamicStreaming=true" base="http://admin.brightcove.com" name="flashObj" width="565" height="367" seamlesstabbing="false" type="application/x-shockwave-flash" allowFullScreen="true" swLiveConnect="true" allowScriptAccess="always" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed></object>
+</div> -->
+
+<h2 id="device-mode-vs-host-mode">Device mode vs host mode</h2>
+
+<p>The hardware slider on the Arduino expansion board switches between USB <em>host mode</em> and USB <em>device mode</em>. </p>
+
+<p><strong>Device mode:</strong> The switch is toggled down and a micro-USB cable can be used to turn the Intel® Edison into a computer peripheral. Device mode allows you to do such things as: program the board over USB, or mount the onboard flash memory like a disk drive. Refer to <a href="#device-mode-micro-usb-cable">Device mode micro-USB cable »</a></p>
+
+<p><img src="images/microswitch-device_mode-zoom_in.png" alt="Microswitch toggled down for device mode" /></p>
+
+<p><strong>Host mode:</strong> The switch is toggled up and USB peripherals with a standard-sized USB cable (such as mice, keyboards, etc) can be plugged into the Intel® Edison. USB host mode requires the use of an external power adapter. Refer to <a href="#host-mode-usb-cable">Host mode USB cable  »</a></p>
+
+<p><img src="images/microswitch-host_mode-zoom_in.png" alt="Microswitch toggled up for host mode" /></p>
+
+<h2 id="device-mode-micro-usb-cable">Device mode micro-USB cable</h2>
+
+<div class="tldr">
+  <p>Use the top micro-USB port in USB device mode for:</p>
+
+  <ul>
+    <li>5V power, </li>
+    <li>programming the Intel® Edison using the Arduino IDE, </li>
+    <li>programming the Intel® Edison using the Intel® XDK or Eclipse IDE included in the Intel® IoT Developer Kit via Ethernet over USB (not Wi-Fi), and</li>
+    <li>writing to the onboard flash memory from your computer.</li>
+  </ul>
+</div>
+
+<p><a href="details-device_mode_cable.html"><img src="" alt="Animated gif: using device mode" class="animated" data-still="images/device_mode-sampleframe.jpg" data-animated="images/device_mode-animated.gif" /></a></p>
+
+<p><a href="details-device_mode_cable.html" class="link-button centered">View detailed instructions »</a></p>
+
+<h2 id="uartserial-micro-usb-cable">UART/serial micro-USB cable</h2>
+
+<div class="tldr">
+  <p>Use the bottom micro-USB port to send serial commands to your Intel® Edison via Terminal or PuTTY. Use these commands to flash firmware, configure Wi-Fi, or identify the board’s IP address. </p>
+</div>
+
+<p><a href="details-serial_cable.html"><img src="" alt="Animated gif: using UART/serial cable" class="animated" data-still="images/serial-sampleframe.jpg" data-animated="images/serial-animated.gif" /></a></p>
+
+<p><a href="details-serial_cable.html" class="link-button centered">View detailed instructions »</a></p>
+
+<h2 id="dc-power-supply">DC power supply</h2>
+
+<div class="tldr">
+  <p>The Arduino expansion board for Intel® Edison can be powered via the DC power jack, the device mode micro-USB port, or both. If you are going to use more power intensive features such as Wi-Fi, a servo motor, or an Arduino shield, use a DC power supply in addition to the device mode micro-USB cable. </p>
+</div>
+
+<p><a href="details-power_barrel.html"><img src="" alt="Animated gif: using power barrel connector" class="animated" data-still="images/power_barrel-firstframe.jpg" data-animated="images/power_barrel-animated.gif" /></a></p>
+
+<p><a href="details-power_barrel.html" class="link-button centered">View detailed instructions »</a></p>
+
+<h2 id="host-mode-usb-cable">Host mode USB cable</h2>
+
+<div class="tldr">
+  <p>Use the standard-sized USB port in USB host mode to allow the Intel® Edison to accept USB peripherals such as mice, keyboards, etc. </p>
+</div>
+
+<p><a href="details-host_mode_cable.html"><img src="" alt="Animated gif: using host mode" class="animated" data-still="images/host_mode-sampleframe.jpg" data-animated="images/host_mode-animated.gif" /></a></p>
+
+<p><a href="details-host_mode_cable.html" class="link-button centered">View detailed instructions »</a></p>
+
+
+    
+    </div>
+
+  
+
+<script src="../../../js/jquery-2.1.4.min.js"></script>
+<script src="../../../js/main.js"></script>
+
+  </body>
+</html>

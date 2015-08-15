@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Getting Started</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <div id="toc">
+  <ul>
+    <li><a href="#install-horndis">Install HoRNDIS »</a></li>
+    <li><a href="#configure-network-settings">Configure network settings »</a></li>
+    <li><a href="#share-your-computers-wifi-connection-optional">Share your computer’s WiFi connection (optional) »</a></li>
+  </ul>
+</div>
+
+<h1 id="set-up-ethernet-over-usb---mac">Set Up Ethernet over USB - Mac</h1>
+
+<p>When you are in a busy or restricted network environment, connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as “Ethernet over USB”. Ethernet over USB uses the RNDIS protocol.</p>
+
+<p>This document will guide you through obtaining an IP address for the Intel® Edison in order to program your board offline using the Intel® IoT Developer Kit IDEs.</p>
+
+<div class="callout danger">
+  <p><strong>IMPORTANT NOTE: At this time, Ethernet over USB on Mac is not officially supported.</strong></p>
+
+  <p>HoRNDIS has been found to crash some computers running Mac OS. Please proceed with caution and only attempt to use Ethernet over USB if you are unable to use Wi-Fi.</p>
+
+  <p>If you have access to a Wi-Fi network, instead follow <a href="../.../wifi/index.html">Connect Your Intel Edison to Wi-Fi »</a></p>
+</div>
+
+<!-- <div id="related-videos" class="callout video">
+[Ethernet over USB - Intel Edison - Mac (preview)](https://drive.google.com/open?id=0B2ywC78pxngCSlJtbTNmNGhVVEU&authuser=0)
+</div> -->
+
+<h2 id="install-horndis">Install HoRNDIS</h2>
+
+<div class="tldr">
+  <p>Install the HoRNDIS (pronounced “horrendous”) kernel extension to use Ethernet over USB via the RNDIS protocol on your Mac. You must reboot your computer after installing HoRNDIS. </p>
+</div>
+
+<!-- ![Animated gif: installing HoRNDIS](images/install_horndis-animated.gif) -->
+
+<p><a href="details-install_horndis.html" class="link-button centered">View detailed instructions »</a></p>
+
+<h2 id="configure-network-settings">Configure network settings</h2>
+
+<div class="tldr">
+  <p>Update your computer’s Network configuration with a static IP address to use Ethernet over USB. </p>
+</div>
+
+<!-- [![Animated gif: configuring DHCP IP address in Mac Network settings](images/configure_mac_network-animated.gif)](details-configure_mac_network.html) -->
+
+<p><a href="details-configure_mac_network.html" class="link-button centered">View detailed instructions »</a></p>
+
+<h2 id="share-your-computers-wifi-connection-optional">Share your computer’s WiFi connection (optional)</h2>
+
+<div class="tldr">
+  <p>Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing your computer’s internet connection also means that you can log into networks that have HTML password pages and then share the connection with the Intel® Edison. Internet sharing is an optional step but is highly recommended if you are at a hackathon. </p>
+</div>
+
+<p><a href="details-share_internet.html" class="link-button centered">View detailed instructions »</a></p>
+
+<div class="callout done">
+  <p>See what you can do <a href="../shared/once_connected.html">once connected »</a></p>
+</div>
+
+<div id="next-steps" class="note">
+  <h3 id="next-steps">Next Steps</h3>
+
+  <p>Based on your programming language preference, install an IDE for Intel® IoT development:</p>
+
+  <ul>
+    <li><strong>For C/C++:</strong> <a href="../../../ide_setup/eclipse/index.html" class="link-button">Set Up IoT Dev Kit Eclipse »</a></li>
+    <li><strong>For JavaScript:</strong> <a href="../../../ide_setup/xdk/index.html" class="link-button">Set Up Intel XDK for IoT »</a></li>
+    <li><strong>For Arduino:</strong> <a href="../../../ide_setup/arduino/index.html" class="link-button">Set Up Arduino IDE »</a></li>
+  </ul>
+</div>
+
+    
+    </div>
+
+  
+
+<script src="../../../../js/jquery-2.1.4.min.js"></script>
+<script src="../../../../js/main.js"></script>
+
+  </body>
+</html>

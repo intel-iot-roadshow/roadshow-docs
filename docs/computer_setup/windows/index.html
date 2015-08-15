@@ -1,0 +1,83 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Set Up Your Computer - Windows (manual installation)</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/main.css">
+  </head>
+
+    <div class="content">
+    
+        <div id="toc">
+  <ul>
+    <li><a href="#install-intel-edison-standalone-drivers">Install Intel® Edison standalone drivers »</a></li>
+    <li><a href="#install-ftdi-serial-drivers">Install FTDI serial drivers »</a></li>
+    <li><a href="#restart-your-computer">Restart your computer »</a></li>
+  </ul>
+</div>
+
+<h1 id="set-up-your-computer---windows-manual-installation">Set Up Your Computer - Windows (manual installation)</h1>
+
+<p>This setup document will guide you through manually preparing your Windows 32-bit or 64-bit computer with any Windows-specific software or drivers required for Intel® Edison development. </p>
+
+<!-- <div class="related-videos" class="callout video">
+  <iframe src="https://drive.google.com/file/d/0B6gHgawzKtxCbUxicmpBc2JZSmM/preview" width="565" height="367"></iframe>
+</div> -->
+
+<h2 id="install-intel-edison-standalone-drivers">Install Intel® Edison standalone drivers</h2>
+
+<div class="tldr">
+  <p>The Windows standalone drivers (<span class="icon file">IntelEdisonDriverSetup[version].exe</span>) for Intel® Edison include several USB drivers in one installer package. These drivers enable important features, such as:</p>
+
+  <ul>
+    <li>Composite Device Class (CDC) for programming the board via the Arduino IDE,</li>
+    <li>Remote Network Driver Interface Spec (RNDIS) for Ethernet over USB, and</li>
+    <li>Device Firmware Upgrade (DFU) for updating firmware on devices.</li>
+  </ul>
+</div>
+
+<p><a href="details-install_edison_drivers.html"><img src="" alt="Animated gif: installing Intel® Edison drivers" class="animated" data-still="images/install_edison_drivers-no_download-firstframe.jpg" data-animated="images/install_edison_drivers-no_download-animated.gif" /></a></p>
+
+<p><a href="details-install_edison_drivers.html" class="link-button centered">View detailed instructions »</a></p>
+
+<h2 id="install-ftdi-serial-drivers">Install FTDI serial drivers</h2>
+
+<div class="tldr">
+  <p>FTDI CDM drivers (<span class="icon file">CDM [version] WHQL Certified.exe</span>) allow your computer to communicate with USB serial devices, including the Intel® Edison. </p>
+</div>
+
+<p><a href="details-install_ftdi_cdm_drivers.html"><img src="" alt="Animated gif: installing Intel® Edison drivers" class="animated" data-still="images/install_ftdi_cdm_drivers-no_download-firstframe.jpg" data-animated="images/install_ftdi_cdm_drivers-no_download-animated.gif" /></a></p>
+
+<p><a href="details-install_ftdi_cdm_drivers.html" class="link-button centered">View detailed instructions »</a></p>
+
+<h2 id="restart-your-computer">Restart your computer</h2>
+
+<div class="tldr">
+  <p>To ensure driver installation changes take effect, reboot your Windows computer at this point.</p>
+</div>
+
+<p><img src="images/restart_windows.png" alt="Choose Restart from the Windows Start menu" /></p>
+
+<div id="next-steps" class="note">
+  <h3 id="next-steps">Next Steps</h3>
+
+  <p>Use Device Manager to confirm that drivers have been installed.</p>
+
+  <p><a href="confirm_drivers.html" class="link-button centered">Confirm driver installation »</a></p>
+</div>
+
+    
+    </div>
+
+  
+
+<script src="../../../js/jquery-2.1.4.min.js"></script>
+<script src="../../../js/main.js"></script>
+
+  </body>
+</html>
