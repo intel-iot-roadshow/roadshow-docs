@@ -224,6 +224,9 @@ Components will only work when connected to PWM-enabled pins! By factory default
 
 Please see: [https://github.com/intel-iot-devkit/upm/blob/master/examples/c++/es08a.js](https://github.com/intel-iot-devkit/upm/blob/master/examples/c++/es08a.js)
 
+<div class="callout info" markdown="1">
+For PWM hardware configuration on the Arduino expansion board, refer to section 3.2 "Intel® Edison kit for Arduino* PWM swizzler" in the [Intel® Edison Kit for Arduino* Hardware Guide](http://www.intel.com/support/edison/sb/CS-035275.htm).
+</div>
 
 ### I2C
 
@@ -247,4 +250,11 @@ I²C (Inter-Integrated Circuit), pronounced both "I-two-C" or "I-squared-C", is 
 You're done! Now make your own creation. 
 
 Return back to [START HERE »](../../../index.html#now-make-your-own-creation)
+</div>
+
+
+<div class="callout goto" markdown="1">
+### Additional resources
+
+* Article: [Using MRAA to Abstract Platform I/O Capabilities](https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities) 
 </div>

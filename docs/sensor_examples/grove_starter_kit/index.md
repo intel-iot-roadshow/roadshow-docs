@@ -23,74 +23,37 @@ This guide will demonstrate how you can use the Grove Starter Kit with any Intel
 
 ## Inside the Grove Starter Kit box
 
-The sensors and actuators in the Grove Starter Kit Plus – Intel® IoT Edition for Intel® Galileo Gen 2 work with both the Intel® Galileo and the Intel® Edison.
+<div class="tldr" markdown="1">
+Find out what sensors and actuators are in your Grove Starter Kit.
+</div>
 
-**Located in the plastic tray inside the green box:**
-
-* Base Shield v2 (look underneath LCD)
-* Grove LCD RGB Backlight
-* Grove Buzzer
-* Grove Sound Sensor
-* Grove Touch Sensor
-* Grove Temperature
-* Grove Light Sensor
-* Grove Rotary Angle
-* Grove Button
-* Grove LED Socket Kit
-* Grove Smart Relay
-
-**Look underneath the plastic tray:**
-
-* Grove Servo Motor
-* 26AWG Grove Cable (× 10)
-* 9V to Barrel Jack Adapter - 126mm
-* Red, green, and blue 3mm LEDs
-* Grove Starter Kit manual
-
-**Look elsewhere in the cardboard Grove box:**
-
-* Micro-USB Cable
-* Ethernet Cable
-* 3.3V FTDI USB-to-Serial Cable
-* 8GB microSD Card with an SD Card Adapter
+<div class="link-button-container" markdown="1">
+<span class="link-button-container-title">Select the box you have:</span>
+[Plastic green box »](details-green_box.html){: .link-button}
+<!-- [Cardboard brown box »](details-green_box.html){: .link-button} -->
+</div>
 
 
 ## Install the Grove Base Shield
 
-Arduino "shields" are add-ons that plug into standard Arduino header pin configurations. The use of shields allow for additional functionality without having to use an additional prototyping area such as a breadboard.
+<div class="tldr" markdown="1">
+Arduino "shields" are add-ons that plug into standard Arduino header pin configurations. Install the Grove Base Shield onto your Intel® Edison to easily connect to Grove components without having to use an additional prototyping area such as a breadboard.
+</div>
 
-1. Unplug the Arduino expansion board from all power sources.
+[![Animated gif: installing the Grove Base Shield](){: .animated data-still="images/install_base_shield-sampleframe.jpg" data-animated="images/install_base_shield-animated.gif"}](details-base_shield.html)
 
-2. Line up the male header pins of the Grove Base Shield with the female pins on the Arduino expansion board. 
-
-    Pin configurations of Arduino shields will only fit the Arduino expansion board in one direction so do not force the pins if they do not line up.
-
-3. Push down firmly and evenly on both sides of the Grove Base Shield until the shield is securely installed.
-
-4. Check the voltage toggle (marked VCC, next to A0) on the Grove Base Shield. It should be set to 5V. 
-
-5. Power the expansion board back on. Allow 1 minute for your Intel® Edison or Intel® Galileo to finish booting up.
+[View detailed instructions »](details-base_shield.html){: .link-button .centered}
 
 
 ## Connect a Grove component 
 
+<div class="tldr" markdown="1">
 All components in the Grove System use a 4-pin cable with JST connectors. This allows you to prototype without having to individually learn how to wire up each unique component.
+</div>
 
-1. Choose a component from the Grove System.
+[![Animated gif: connecting the Grove LED component](){: .animated data-still="images/connect_component-sampleframe.jpg" data-animated="images/connect_component-animated.gif"}](details-base_shield.html)
 
-    See [Programming Grove components](#programming-grove-components) to help choose a component from the Grove Starter Kit.
-
-2. Use a 4-pin Grove Cable and connect one end of the cable to the component.
-
-    The cable connectors only fit in one direction so you can be confident that the wiring is correct.
-
-3. For the other end of the cable, refer to the the Grove Shield labels for the correct pin to connect to.
-
-    * Digital pins (D2-D8)
-    * Analog pins (A0-A3)
-    * I2C (bottom row)
-    * UART (top right)
-
+[View detailed instructions »](details-connect_component.html){: .link-button .centered}
 
 <div id="next-steps" class="note" markdown="1">
 ### Next Steps
@@ -102,12 +65,4 @@ All components in the Grove System use a 4-pin cable with JST connectors. This a
 [C++ »](https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities#_Toc4){: .link-button}
 </div>
 
-</div>
-
-<div class="callout goto" markdown="1">
-### Additional resources
-
-* Article: [Using MRAA to Abstract Platform I/O Capabilities](https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities) 
-
-* For PWM hardware configuration on the Arduino expansion board, refer to section 3.2 "Intel® Edison kit for Arduino* PWM swizzler" in the [Intel® Edison Kit for Arduino* Hardware Guide](http://www.intel.com/support/edison/sb/CS-035275.htm).
 </div>
