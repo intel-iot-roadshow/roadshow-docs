@@ -30,7 +30,7 @@ Find out what sensors and actuators are in your Grove Starter Kit.
 <div class="link-button-container" markdown="1">
 <span class="link-button-container-title">Select the box you have:</span>
 [Plastic green box »](details-green_box.html){: .link-button}
-<!-- [Cardboard brown box »](details-green_box.html){: .link-button} -->
+[Cardboard brown box »](details-brown_box.html){: .link-button}
 </div>
 
 
