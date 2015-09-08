@@ -5,11 +5,25 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>JavaScript samples for the Grove Starter Kit</title>
+    <title>JavaScript samples | Grove Starter Kit</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../../css/main.css">
   </head>
+  <body>
+
+    <header>
+      <img src="../../../../img/intel_logo.png" alt="Intel logo" width="52" height="35">
+    </header>
+
+    <div class="breadcrumb">
+      <a href="../../../../docs/">START HERE</a>
+      
+      
+        &raquo; <a href="../index.html#next-steps">Grove Starter Kit</a>
+      
+      &raquo; JavaScript samples
+    </div>
 
     <div class="content">
     
@@ -317,6 +331,10 @@ fadeInterval = setInterval(fade, 100);
 
 <p>For an example using a servo motor, see <a href="https://github.com/intel-iot-devkit/upm/blob/master/examples/javascript/es08a.js">https://github.com/intel-iot-devkit/upm/blob/master/examples/javascript/es08a.js</a></p>
 
+<div class="callout info">
+  <p>For PWM hardware configuration on the Arduino expansion board, refer to section 3.2 “Intel® Edison kit for Arduino* PWM swizzler” in the <a href="http://www.intel.com/support/edison/sb/CS-035275.htm">Intel® Edison Kit for Arduino* Hardware Guide</a>.</p>
+</div>
+
 <h3 id="i2c">I2C</h3>
 
 <div class="tldr">
@@ -339,12 +357,18 @@ lcd.setCursor(0,1); // go to the 1st row, 2nd column (0-indexed)
 lcd.write("hello"); // print characters to the LCD screen
 </code></pre>
 
-<div id="next-steps" class="note">
-  <h3 id="next-steps">Next Steps</h3>
+<div id="next-steps" class="callout done">
+  <p>You should now know the basics of programming the Grove components with JavaScript. Ready to make your own creation? </p>
 
-  <p>You’re done! Now make your own creation. </p>
+  <p><a href="../../../index.html#done-sensors" class="link-button centered">Return back to the START HERE guide »</a></p>
+</div>
 
-  <p>Return back to <a href="../../../index.html#now-make-your-own-creation">START HERE »</a></p>
+<div class="callout goto">
+  <h3 id="additional-resources">Additional resources</h3>
+
+  <ul>
+    <li>Article: <a href="https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities">Using MRAA to Abstract Platform I/O Capabilities</a> </li>
+  </ul>
 </div>
 
     

@@ -572,17 +572,28 @@ textarea {
 /* ==========================================================================
    Main content
    ========================================================================== */
-body {
+header {
   padding: 10px; }
 
+header img {
+  padding-right: 10px; }
+
+.breadcrumb {
+  padding: 0 10px; }
+
 .content {
+  padding: 10px;
   min-width: 300px; }
 
 @media (min-width: 680px) {
-  body {
+  header {
     padding: 15px; }
 
+  .breadcrumb {
+    padding: 0 15px; }
+
   .content {
+    padding: 15px;
     width: 650px; } }
 /* ==========================================================================
    HTML elements
@@ -628,12 +639,27 @@ a.link-button.centered {
 .link-button-container-title {
   display: block; }
 
+header {
+  background-color: #0071c5;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1em;
+  color: #fff; }
+
+header a {
+  color: #fff; }
+
+.breadcrumb {
+  font-size: 0.8em; }
+
 .footnote {
   font-size: 0.8em;
   margin-top: 1em; }
 
 .content > hr {
   margin: 1em 0; }
+
+.content > h1:first-of-type {
+  margin-top: 10px; }
 
 /* ==========================================================================
    Images (and animated gifs)
@@ -652,23 +678,23 @@ img[data-animated].hide-small {
     height: 366px; }
 
   img[data-animated].hide-small {
-    display: block; } }
-.has-gif {
-  display: block;
-  position: relative;
-  height: 366px; }
+    display: block; }
 
-.play-gif-button::after {
-  content: '';
-  background-image: url(../img/overlay/animated_gif_play.png);
-  background-repeat: no-repeat;
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  pointer-events: none; }
+  .has-gif {
+    display: block;
+    position: relative;
+    height: 366px; }
 
+  .play-gif-button::after {
+    content: '';
+    background-image: url(../img/overlay/animated_gif_play.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    pointer-events: none; } }
 /* ==========================================================================
    Code and command line blocks
    ========================================================================== */
@@ -689,7 +715,8 @@ pre {
 /* ==========================================================================
    List items
    ========================================================================== */
-.content > ol {
+.content > ol,
+.inline-content-loaded ol {
   padding-left: 20px; }
 
 ol li {
@@ -721,10 +748,6 @@ ol li ul li ol li {
   font-style: italic;
   font-size: 12pt;
   padding: 12pt 0; }
-
-.content > h1:first-child,
-.content > h3:first-child {
-  margin-top: 0; }
 
 h1 {
   font-size: 20pt; }
@@ -795,7 +818,10 @@ dd {
     display: block;
     position: absolute;
     left: 690px;
-    min-width: 250px; } }
+    min-width: 250px; }
+
+  .content > h1:first-of-type {
+    margin-top: 0; } }
 #toc > ul {
   padding-left: 0; }
 
@@ -825,6 +851,66 @@ dd {
 
   .side-by-side .left {
     margin-right: 3%; } }
+/* ==========================================================================
+   Inline content
+   ========================================================================== */
+@-webkit-keyframes fadeIt {
+  0% {
+    background-color: #FFFFFF; }
+  50% {
+    background-color: #fff3a0; }
+  100% {
+    background-color: #FFFFFF; } }
+@-moz-keyframes fadeIt {
+  0% {
+    background-color: #FFFFFF; }
+  50% {
+    background-color: #fff3a0; }
+  100% {
+    background-color: #FFFFFF; } }
+@-o-keyframes fadeIt {
+  0% {
+    background-color: #FFFFFF; }
+  50% {
+    background-color: #fff3a0; }
+  100% {
+    background-color: #FFFFFF; } }
+@keyframes fadeIt {
+  0% {
+    background-color: #FFFFFF; }
+  50% {
+    background-color: #fff3a0; }
+  100% {
+    background-color: #FFFFFF; } }
+.inline-content-loaded {
+  background-image: none !important;
+  -webkit-animation: fadeIt 3s ease-in-out;
+  -moz-animation: fadeIt 3s ease-in-out;
+  -o-animation: fadeIt 3s ease-in-out;
+  animation: fadeIt 3s ease-in-out; }
+
+/* ==========================================================================
+   Spans with icons
+   ========================================================================== */
+.icon {
+  font-weight: bold; }
+
+.icon::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 2px; }
+
+.folder.icon::before {
+  background-image: url(../img/icon/folder_icon_black.png); }
+
+.file.icon::before {
+  background-image: url(../img/icon/file_icon_black.png); }
+
+.bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_black.png); }
+
 /* ==========================================================================
    TLDR boxes (with inner road sign icon)
    ========================================================================== */
@@ -871,14 +957,11 @@ dd {
 .note p {
   font-size: 0.9em; }
 
-#next-steps.note {
-  margin: 2.5em 0; }
-
+/* ==========================================================================
+   Next step
+   ========================================================================== */
 #next-steps a.link-button.centered {
   margin-bottom: 0em; }
-
-#next-steps .link-button-container {
-  padding-bottom: 0.5em; }
 
 /* ==========================================================================
    Callout boxes (with outer icon)
@@ -977,6 +1060,13 @@ li .callout::before {
 .done.callout .bookmark.icon::before {
   background-image: url(../img/icon/bookmark_icon_green.png); }
 
+.done.callout a.link-button {
+  background-color: #53a653;
+  color: white; }
+
+.done.callout a.link-button:hover {
+  background-color: #6fdd6f; }
+
 .warning.callout {
   border: 2px solid #b75f00;
   background-color: #fff3a0;
@@ -1024,25 +1114,3 @@ li .callout::before {
 
 .danger.callout .bookmark.icon::before {
   background-image: url(../img/icon/bookmark_icon_red.png); }
-
-/* ==========================================================================
-   Spans with icons
-   ========================================================================== */
-.icon {
-  font-weight: bold; }
-
-.icon::before {
-  content: '';
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 0 2px; }
-
-.folder.icon::before {
-  background-image: url(../img/icon/folder_icon_black.png); }
-
-.file.icon::before {
-  background-image: url(../img/icon/file_icon_black.png); }
-
-.bookmark.icon::before {
-  background-image: url(../img/icon/bookmark_icon_black.png); }
