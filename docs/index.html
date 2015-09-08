@@ -10,6 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/main.css">
   </head>
+  <body>
+    
+    <header>
+      <img src="../img/intel_logo.png" alt="Intel logo" width="52" height="35">
+      IoT Roadshow START HERE Guide
+    </header>
 
     <div class="content">
     
@@ -19,89 +25,110 @@
 
 <p><em>Instructions for <strong>Intel® Edison</strong> installed on an <strong>Arduino-compatible expansion board</strong> using the Intel® IoT Developer Kit <strong>(C/C++, JavaScript or Arduino development workflow)</strong></em></p>
 
-<h2 id="get-started-with-intel-edison">1. Get Started with Intel® Edison</h2>
+<div id="start">
+  <h2 id="get-started-with-intel-edison">1. Get Started with Intel® Edison</h2>
 
-<p>Find out what hardware is included with your Intel® IoT Developer Kit (“dev kit”). And review important assembly and cable hook up instructions.</p>
+  <p>Find out what hardware is included with your Intel® IoT Developer Kit (“dev kit”), and review important assembly and cable hook up instructions.</p>
 
-<p><a href="assembly/arduino_expansion_board/index.html" class="link-button centered">Assemble your Arduino expansion board »</a></p>
-
-<h2 id="set-up-your-computer">2. Set Up Your Computer</h2>
-
-<p>Install software and drivers specifically for your computer’s operating system. </p>
-
-<p><strong>Mac or Linux user?</strong> You have no special setup. Skip to Step 3.</p>
-
-<div class="link-button-container">
-  <p><span class="link-button-container-title"><strong>Windows user?</strong> Install software and drivers for Windows.</span>
-<a href="computer_setup/windows/index.html" class="link-button">Install on Windows »</a></p>
+  <p><a href="assembly/arduino_expansion_board/index.html" class="link-button centered">Assemble your Arduino expansion board »</a></p>
 </div>
 
-<h2 id="flash-edison-firmware">3. Flash Edison Firmware</h2>
+<div id="done-assembly">
+  <h2 id="set-up-your-computer">2. Set Up Your Computer</h2>
 
-<p>Some Intel® Edison boards have older firmware images on them. Update the firmware to the latest version to get access to important features.</p>
+  <p>Install software and drivers specifically for your computer’s operating system. </p>
 
-<p><a href="flash_firmware/index.html" class="link-button centered">Flash Firmware on Intel Edison »</a></p>
+  <div class="link-button-container">
+    <p><span class="link-button-container-title"><strong>Windows user?</strong> Install software and drivers for Windows.</span>
+  <a href="computer_setup/windows/index.html" class="link-button">Install on Windows »</a></p>
+  </div>
 
-<h2 id="shell-access">4. Shell Access</h2>
-
-<p>Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.</p>
-
-<div class="link-button-container">
-  <p><span class="link-button-container-title">Select your operating system:</span>
-<a href="shell_access/windows/index.html" class="link-button">Windows »</a>
-<a href="shell_access/mac/index.html" class="link-button">Mac »</a>
-<a href="shell_access/linux/index.html" class="link-button">Linux »</a></p>
+  <p><strong>Mac or Linux user?</strong> You have no special setup. Skip to <span class="icon bookmark">Step 3</span> below.</p>
 </div>
 
-<h2 id="get-your-iot-board-online">5. Get Your IoT Board Online</h2>
+<div id="done-computer-setup">
+  <h2 id="flash-edison-firmware">3. Flash Edison Firmware</h2>
 
-<p>Get your board online in order to turn your IoT board into a true “Internet of Things” device. You also need the IP address of your IoT board to program it using the dev kit IDEs.</p>
+  <p>Some Intel® Edison boards have older firmware images on them. Update the firmware to the latest version to get access to important features.</p>
 
-<p>Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as “Ethernet over USB”.</p>
-
-<div class="link-button-container">
-  <p><span class="link-button-container-title">Select your operating system:</span>
-<a href="connectivity/ethernet_over_usb/windows/index.html" class="link-button">Windows »</a>
-<a href="connectivity/ethernet_over_usb/linux/index.html" class="link-button">Linux »</a></p>
-
-  <p><em>At this time, Ethernet over USB on Mac is not officially supported.
-See below for instructions on using a Wi-Fi connection.</em></p>
+  <p><a href="flash_firmware/index.html" class="link-button centered">Flash Firmware on Intel Edison »</a></p>
 </div>
 
-<div class="callout info">
-  <p><strong>At home? Have a dependable Wi-Fi connection?</strong>
-<a href="connectivity/wifi/index.html">Connect Your Intel Edison to Wi-Fi »</a></p>
+<div id="done-firmware">
+  <h2 id="shell-access">4. Shell Access</h2>
+
+  <p>Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.</p>
+
+  <div class="link-button-container">
+    <p><span class="link-button-container-title">Select your operating system:</span>
+  <a href="shell_access/windows/index.html" class="link-button">Windows »</a>
+  <a href="shell_access/mac/index.html" class="link-button">Mac »</a>
+  <a href="shell_access/linux/index.html" class="link-button">Linux »</a></p>
+  </div>
 </div>
 
-<h2 id="install-an-ide">6. Install an IDE</h2>
+<div id="done-shell-access">
+  <h2 id="get-your-iot-board-online">5. Get Your IoT Board Online</h2>
 
-<p>Based on your programming language preference, install an IDE for Intel® IoT development:</p>
+  <p>Get your board online in order to turn your IoT board into a true “Internet of Things” device. You also need the IP address of your IoT board to program it using the dev kit IDEs.</p>
 
-<ul>
-  <li><strong>For JavaScript:</strong> <a href="ide_setup/xdk/index.html" class="link-button">Set Up Intel XDK for IoT »</a></li>
-  <li><strong>For C/C++:</strong> <a href="ide_setup/eclipse/index.html" class="link-button">Set Up IoT Dev Kit Eclipse »</a></li>
-  <li><strong>For Arduino:</strong> <a href="ide_setup/arduino/index.html" class="link-button">Set Up Arduino IDE »</a></li>
-</ul>
+  <p>Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as “Ethernet over USB”.</p>
 
-<h2 id="sensor-tutorials">7. Sensor Tutorials</h2>
+  <div class="link-button-container">
+    <p><span class="link-button-container-title">Select your operating system:</span>
+  <a href="connectivity/ethernet_over_usb/windows/index.html" class="link-button">Windows »</a>
+  <a href="connectivity/ethernet_over_usb/linux/index.html" class="link-button">Linux »</a></p>
 
-<p>Learn more about the Grove Starter Kit:</p>
+    <p><em>At this time, Ethernet over USB on Mac is not officially supported.<br />
+  Use the below link to read instructions on using a Wi-Fi connection.</em></p>
+  </div>
 
-<p><a href="sensor_examples/grove_starter_kit/index.html" class="link-button centered">Read Grove Starter Kit Intro »</a></p>
+  <div class="callout info">
+    <p><strong>At home? Have a dependable Wi-Fi connection?</strong>
+  <a href="connectivity/wifi/index.html">Connect Your Intel Edison to Wi-Fi »</a></p>
+  </div>
+</div>
 
-<p>Jump to <a href="sensor_examples/grove_starter_kit/arduino/index.html">Arduino</a>, <a href="sensor_examples/grove_starter_kit/javascript/index.html">JavaScript</a>, or <a href="https://software.intel.com/en-us/working-with-sensors-in-eclipse">C++</a> to sample code supplied for available sensors and actuators.</p>
+<div id="done-connectivity">
+  <h2 id="install-an-ide">6. Install an IDE</h2>
 
-<p>Also search for your component on <a href="http://software.intel.com/en-us/iot/sensors">software.intel.com/en-us/iot/sensors</a>.</p>
+  <p>Based on your programming language preference, install an IDE for Intel® IoT development:</p>
 
-<h2 id="now-make-your-own-creation">Now make your own creation!</h2>
+  <ul>
+    <li><strong>For JavaScript:</strong> <a href="ide_setup/xdk/index.html" class="link-button">Set Up Intel XDK for IoT »</a></li>
+    <li><strong>For C/C++:</strong> <a href="ide_setup/eclipse/index.html" class="link-button">Set Up IoT Dev Kit Eclipse »</a></li>
+    <li><strong>For Arduino:</strong> <a href="ide_setup/arduino/index.html" class="link-button">Set Up Arduino IDE »</a></li>
+  </ul>
+</div>
 
-<p>Take pictures along the way. Create your own guide and post them to <a href="http://instructables.com/id/intel">Instructables.com</a>.</p>
+<div id="done-ide">
+  <h2 id="sensor-tutorials">7. Sensor Tutorials</h2>
 
-<h2 id="running-into-issues">Running into issues?</h2>
+  <p>Learn more about the Grove Starter Kit:</p>
 
-<p>Search for answers and post your questions to the <a href="https://communities.intel.com/community/tech/edison">Intel® Edison Support Community</a>.</p>
+  <p><a href="sensor_examples/grove_starter_kit/index.html" class="link-button centered">Read Grove Starter Kit Intro »</a></p>
 
-<h2 id="resources">Resources</h2>
+  <p>Jump to <a href="sensor_examples/grove_starter_kit/arduino/index.html">Arduino</a>, <a href="sensor_examples/grove_starter_kit/javascript/index.html">JavaScript</a>, or <a href="https://software.intel.com/en-us/working-with-sensors-in-eclipse">C++</a> to sample code supplied for available sensors and actuators.</p>
+
+  <p>Also search for your component on <a href="http://software.intel.com/en-us/iot/sensors">software.intel.com/en-us/iot/sensors</a>.</p>
+</div>
+
+<div id="done-sensors">
+  <h2 id="start-hacking">8. Start Hacking!</h2>
+
+  <div id="done-sensors" class="callout done" style="margin-top: 1em">
+    <p><strong>You have completed the set up guide!</strong> Now go make your own creation!</p>
+
+    <p>Take pictures along the way. Create your own guide and post them to <a href="http://instructables.com/id/intel">Instructables.com</a>.</p>
+  </div>
+</div>
+
+<div class="callout troubleshooting">
+  <p><strong>Running into issues?</strong>
+Search for answers and post your questions to the <a href="https://communities.intel.com/community/tech/edison">Intel® Edison Support Community</a>.</p>
+</div>
+
+<h2 id="additional-resources">Additional Resources</h2>
 
 <ul>
   <li><a href="http://www.intel.com/support/edison/sb/CS-035277.htm">Intel® Edison Product Brief</a> (Specs)</li>
@@ -117,7 +144,6 @@ See below for instructions on using a Wi-Fi connection.</em></p>
   </li>
   <li><a href="https://www.youtube.com/watch?v=ztsnQ3p59jA&amp;list=PLg-UKERBljNw254jnyMNZiu8yqF8pPq0m&amp;index=24">Yocto Project: Foundation for the Internet of Things</a> (Introduction to Yocto video)</li>
   <li><a href="https://software.intel.com/en-us/intel-iot-developer-kit-cloud-based-analytics-user-guide">Intel® IoT Developer Kit Cloud-based Analytics User Guide</a> </li>
-  <li><a href="https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_V2.0">Seeed Studio Sketchbook Starter Kit</a> (Sensor sample code for Arduino IDE)</li>
 </ul>
 
     
