@@ -33,20 +33,36 @@
 <em>Don’t know how? Refer to <a href="../../../docs/shell_access/">Shell Access</a>.</em></p>
   </li>
   <li>
-    <p>Use the <code>configure_edison</code> command with the <code>--wifi</code> flag to start the wifi configuration process.</p>
+    <p>Use the <code>configure_edison</code> command with the <code>--setup</code> flag to start the board configuration and wifi setup process.</p>
 
     <p><code>
- configure_edison --wifi
+ configure_edison --setup
 </code></p>
 
-    <div class="callout info">
+    <div class="callout troubleshooting">
       <p><strong>Get a “configure_edison: not found” message?</strong></p>
 
       <p>You need to update your Intel® Edison firmware. Refer to <a href="../../flash_firmware/">Flash Firmware</a> for instructions. </p>
     </div>
   </li>
   <li>
-    <p>If you are asked if you want to set up the wifi, type “<strong>Y</strong>” and press Enter. (This prompt will occur on older Intel® Edison firmware only.)</p>
+    <p>Follow the prompts to set a device name for your board. </p>
+
+    <p>A unique device name will help you identify your board if there are multiple Intel® Edison boards nearby. </p>
+  </li>
+  <li>
+    <p>Follow the prompts to set a password on your board. </p>
+
+    <p>A password is required for many secure features such as SSH and development when using the Intel® XDK and Eclipse IDE.</p>
+
+    <div class="callout danger">
+      <p>Note: If you forget your password, you will need to flash the firmware in order to re-gain access to your board!</p>
+
+      <p>Use a password that you can remember, or try “intel123” for now. You can always update your password by running the <code>configure_edison --password</code> command.</p>
+    </div>
+  </li>
+  <li>
+    <p>If asked if you want to set up the wifi, type “<strong>Y</strong>” and press Enter. (This prompt will occur on older Intel® Edison firmware only.)</p>
   </li>
   <li>
     <p>The Intel® Edison will scan for Wi-Fi networks and display a list of available networks when finished.</p>
