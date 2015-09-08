@@ -5,9 +5,15 @@ parentUrl: index.html#establish-a-serial-connection
 parentTitle: Shell Access - Linux
 ---
 
-1. Open a new Terminal window.
+1. Connect a micro-USB cable to the **UART/serial** micro-USB port of the Intel® Edison expansion board, and the other end to your computer.
 
-2. Connect to the USB serial device using Screen.
+    ![Micro-USB cable being plugged into the bottom micro-USB connector](../../assembly/arduino_expansion_board/images/uart_serial-usb_cable-before_after.png)
+  
+    Refer to [UART/serial micro-USB cable](../../assembly/arduino_expansion_board/details-serial_cable.html) for more detailed cable connection information.
+
+2. Open a new Terminal window.
+
+3. Connect to the USB serial device using Screen.
 
     ```
     sudo screen /dev/ttyUSB0 115200
@@ -17,11 +23,11 @@ parentTitle: Shell Access - Linux
 
     * You may be asked for your root password. Type in your root password and press Enter.
 
-3. When you see a blank screen, **press the Enter key**. 
+4. When you see a blank screen, **press the Enter key**. 
 
     **For Intel® Edison boards running older firmware**: You may need to press the Enter key **twice**.
 
-4. Once connected you will see a login prompt. 
+5. Once connected you will see a login prompt. 
 
     Type in "**root**" for the username and press **Enter**.
 
@@ -31,6 +37,5 @@ parentTitle: Shell Access - Linux
 **Don't see a "usbserial" device listed?**
 
 * **Do you have the UART/serial cable connected?** Refer to [UART/serial micro-USB cable](../../assembly/arduino_expansion_board/details-serial_cable.html).
-
 * Is your IoT board powered on?
 </div>
