@@ -1,8 +1,14 @@
 # Getting Started Guides
 
-To view these docs offline, download a zip of the 'html' branch by clicking on the "Download zip" button to the left.
+To view these docs offline:
 
-Unzip the downloadeded file and run a simple webserver in the root of the extracted files.
+1. Download a zip of the 'html' branch by clicking on the "Download zip" button to the left.
+2. Unzip the contents of the downloaded file to your **local** harddrive (not a USB drive).
+3. Launch docs start page by viewing `index.html` in your web browser.
+
+## Alternative ways of viewing html docs
+
+If you're running into issues viewing the docs, you can run a simple webserver in the root of the extracted files.
 
 ### Python web server
 
