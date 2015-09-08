@@ -22,13 +22,13 @@ Make changes to this branch only. If you try updating 'html' or 'gh-pages', your
 
 **THIS IS THE BRANCH THAT CAN BE DOWNLOADED AND PUT ON USB KEYS FOR ROADSHOWS.** 
 
-Static files need to be generated form the 'jekyll' branch. See [the branch's README](https://github.com/intel-iot-roadshow/getting-started-guides/blob/html/README.md) for details on viewing files.
+Static files need to be generated form the 'master' branch. See [the branch's README](https://github.com/intel-iot-roadshow/getting-started-guides/blob/html/README.md) for details on viewing files.
 
 ### branch: gh-pages
 
 [github.com/intel-iot-roadshow/getting-started-guides/tree/gh-pages](https://github.com/intel-iot-roadshow/getting-started-guides/tree/gh-pages)
 
-Github's built in web server for viewing html files: [intel-iot-roadshow.github.io/getting-started-guides/](http://intel-iot-roadshow.github.io/getting-started-guides/). Feel free to send anyone to this url if they are unable to get the USB key files working. Static files need to be generated form the 'jekyll' branch.
+Github's built in web server for viewing html files: [intel-iot-roadshow.github.io/getting-started-guides/](http://intel-iot-roadshow.github.io/getting-started-guides/). Feel free to send anyone to this url if they are unable to get the USB key files working. Static files need to be generated form the 'master' branch.
 
 ## Installation
 
