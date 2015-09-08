@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Install Intel® XDK IoT Edition
+title: Install Intel® XDK
+parentUrl: index.html#install-intel-xdk-iot-edition
+parentTitle: Intel® XDK IoT Edition - Installation
 ---
 
 1. Get the latest Intel® XDK IoT Edition installer.

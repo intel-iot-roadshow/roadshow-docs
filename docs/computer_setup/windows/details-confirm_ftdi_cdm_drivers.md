@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Confirm installation of FTDI serial drivers
+parentUrl: index-confirm_drivers.html#confirm-installation-of-ftdi-serial-drivers
+parentTitle: Confirm driver installation
+parentParentUrl: index.html
+parentParentTitle: Set Up Your Computer - Windows
 ---
 
 1. **Power** the Intel® Edison via the power barrel connector ***and/or** the device mode micro-USB port.

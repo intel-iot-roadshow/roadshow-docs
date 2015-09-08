@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Getting Started
+title: Using PuTTY
+parentUrl: index.html#next-steps
+parentTitle: Shell Access - Windows
 ---
 
 # Using PuTTY - Windows

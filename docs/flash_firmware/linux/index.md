@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Getting Started
+title: Set up Flash Tool Lite for Linux
+parentUrl: ../index.html#install-flash-tool-lite
+parentTitle: Flash Firmware using Flash Tool Lite
 ---
 
 <div class="callout warning" style="margin-top: 1em;" markdown="1">

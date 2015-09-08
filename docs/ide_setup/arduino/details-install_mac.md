@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Installation - Arduino IDE - Mac
+title: Installation - Mac
+parentUrl: index.html#install-arduino-ide
+parentTitle: Arduino IDE
 ---
 
 1. Get the latest Arduino IDE.

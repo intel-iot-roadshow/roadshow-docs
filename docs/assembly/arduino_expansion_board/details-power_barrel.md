@@ -1,6 +1,10 @@
 ---
 layout: default
 title: DC power supply
+parentUrl: index-connecting_cables.html#dc-power-supply
+parentTitle: Connecting Cables
+parentParentUrl: index.html
+parentParentTitle: Unboxing and Assembly
 ---
 
 1. Plug in a 7 to 15 VDC input DC power supply to the barrel connector.

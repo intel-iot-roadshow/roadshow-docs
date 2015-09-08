@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Set up Flash Tool Lite for Windows
+parentUrl: ../index.html#install-flash-tool-lite
+parentTitle: Flash Firmware using Flash Tool Lite
 ---
 
 1. Get the latest **Flash Tool Lite**.

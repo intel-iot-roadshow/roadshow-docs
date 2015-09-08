@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Share your computer's WiFi connection
+parentUrl: index.html#share-your-computers-wifi-connection-optional
+parentTitle: Ethernet over USB - Windows
 ---
 
 1. Open your **Network Connections** again.

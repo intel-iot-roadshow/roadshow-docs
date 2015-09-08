@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Configure Arduino IDE
+parentUrl: index.html#configure-arduino-ide
+parentTitle: Arduino IDE
 ---
 
 1. Choose **Tools** > **Board**, then select **Intel® Edison**.

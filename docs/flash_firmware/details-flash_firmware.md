@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Flash Intel® Edison firmware
+parentUrl: index.html#flash-intel-edison-firmware
+parentTitle: Flash Firmware using Flash Tool Lite
 ---
 
 1. Unplug any USB or power cables connected to the Intel® Edison.

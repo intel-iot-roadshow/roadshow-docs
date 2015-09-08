@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Install Java - Linux - Eclipse IDE
+title: Install Java - Linux
+parentUrl: index.html#install-java
+parentTitle: Intel® IoT Dev Kit Eclipse - Installation
 ---
 
 1. Check if you have Java installed.

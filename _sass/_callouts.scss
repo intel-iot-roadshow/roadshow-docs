@@ -1,9 +1,36 @@
 /* ==========================================================================
+   Spans with icons
+   ========================================================================== */
+
+.icon {
+  font-weight: bold;
+}
+
+.icon::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 2px;
+}
+
+.folder.icon::before {
+  background-image: url(../img/icon/folder_icon_black.png);
+}
+
+.file.icon::before {
+  background-image: url(../img/icon/file_icon_black.png);
+}
+
+.bookmark.icon::before {
+  background-image: url(../img/icon/bookmark_icon_black.png);
+}
+
+/* ==========================================================================
    TLDR boxes (with inner road sign icon)
    ========================================================================== */
 
 .tldr {
-  // background-color: #d9eaf6;
   color: #0071c5;
   font-size: 0.9em;
   background-image: url(../img/icon/roadsign_icon_23x25.png);
@@ -40,8 +67,8 @@
 
 .note {
   padding: 1em;
-  background-color: #d9eaf6;
-  color: #0071c5;
+  background-color: $blue_lighter;
+  color: $blue_main;
 }
 
 .note > *:first-child {
@@ -56,20 +83,12 @@
   font-size: 0.9em;
 }
 
-// .note a {
-//   font-weight: bold;
-// }
-
-#next-steps.note {
-  margin: 2.5em 0;
-}
+/* ==========================================================================
+   Next step
+   ========================================================================== */
 
 #next-steps a.link-button.centered {
   margin-bottom: 0em;
-}
-
-#next-steps .link-button-container {
-  padding-bottom: 0.5em;
 }
 
 /* ==========================================================================
@@ -222,6 +241,15 @@ li .callout::before {
   background-image: url(../img/icon/bookmark_icon_green.png);
 }
 
+.done.callout a.link-button {
+  background-color: $green_main;
+  color: white;
+}
+
+.done.callout a.link-button:hover {
+  background-color: $green_hover;
+}
+
 // orange callouts:
 
 .warning.callout {
@@ -286,33 +314,4 @@ li .callout::before {
 
 .danger.callout .bookmark.icon::before {
   background-image: url(../img/icon/bookmark_icon_red.png);
-}
-
-/* ==========================================================================
-   Spans with icons
-   ========================================================================== */
-
-.icon {
-  font-weight: bold;
-  // color: $blue_main;
-}
-
-.icon::before {
-  content: '';
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 0 2px;
-}
-
-.folder.icon::before {
-  background-image: url(../img/icon/folder_icon_black.png);
-}
-
-.file.icon::before {
-  background-image: url(../img/icon/file_icon_black.png);
-}
-
-.bookmark.icon::before {
-  background-image: url(../img/icon/bookmark_icon_black.png);
 }

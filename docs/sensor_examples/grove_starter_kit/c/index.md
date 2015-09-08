@@ -1,6 +1,8 @@
 ---
 layout: default
-title: C++ samples for the Grove Starter Kit
+title: C++ samples
+parentUrl: ../index.html#next-steps
+parentTitle: Grove Starter Kit
 ---
 
 <div id="toc" markdown="1">
@@ -244,12 +246,10 @@ I²C (Inter-Integrated Circuit), pronounced both "I-two-C" or "I-squared-C", is 
 
 ```
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+<div id="next-steps" class="callout done" markdown="1">
+You should now know the basics of programming the Grove components with C++. Ready to make your own creation? 
 
-You're done! Now make your own creation. 
-
-Return back to [START HERE »](../../../index.html#now-make-your-own-creation)
+[Return back to the START HERE guide »](../../../#done-sensors){: .link-button .centered}
 </div>
 
 

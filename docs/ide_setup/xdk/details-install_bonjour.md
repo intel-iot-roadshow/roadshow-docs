@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Install Bonjour
+parentUrl: index.html#windows-only-install-bonjour
+parentTitle: Intel® XDK IoT Edition - Installation
 ---
 
 1. Download Bonjour via *Bonjour Print Services for Windows*.

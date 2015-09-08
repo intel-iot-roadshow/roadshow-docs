@@ -4,20 +4,40 @@
    ========================================================================== */
 
 body {
+}
+
+header {
   padding: $content-small-padding;
 }
 
+header img {
+  padding-right: 10px;
+}
+
+.breadcrumb {
+  padding: 0 $content-small-padding;
+}
+
 .content {
+  padding: $content-small-padding;
   min-width: $content-small-width;
 }
 
 @media (min-width: $content-regular-viewport) {
 
   body {
+  }
+
+  header {
     padding: $content-regular-padding;
   }
 
+  .breadcrumb {
+    padding: 0 $content-regular-padding;
+  }
+
   .content {
+    padding: $content-regular-padding;
     width: $content-regular-width;
   }
 
@@ -39,7 +59,7 @@ a.link-button {
   border-radius: 6px;
   padding: 0.5em 1em;
   margin-top: 0.5em;
-  background-color: #0071c5;
+  background-color: $blue_main;
   color: white;
   text-decoration: none;
   letter-spacing: 0.3px;
@@ -47,7 +67,7 @@ a.link-button {
 }
 
 a.link-button:hover {
-  background-color: #00aeef;
+  background-color: $blue_hover;
 }
 
 a.link-button.centered {
@@ -77,6 +97,21 @@ a.link-button.centered {
   display: block;
 }
 
+header {
+  background-color: $blue_main;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.15);
+  margin-bottom: 1em;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+}
+
+.breadcrumb {
+  font-size: 0.8em;
+}
+
 .footnote {
   font-size: 0.8em;
   margin-top: 1em;
@@ -84,6 +119,10 @@ a.link-button.centered {
 
 .content > hr {
   margin: 1em 0;
+}
+
+.content > h1:first-of-type {
+  margin-top: $content-small-padding;
 }
 
 
@@ -110,25 +149,25 @@ img[data-animated].hide-small {
   img[data-animated].hide-small {
     display: block;
   }
+  .has-gif {
+    display: block;
+    position: relative;
+    height: 366px;
+  }
+
+  .play-gif-button::after {
+    content: '';
+    background-image: url(../img/overlay/animated_gif_play.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    pointer-events: none;
+  }
 }
 
-.has-gif {
-  display: block;
-  position: relative;
-  height: 366px;
-}
-
-.play-gif-button::after {
-  content: '';
-  background-image: url(../img/overlay/animated_gif_play.png);
-  background-repeat: no-repeat;
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  pointer-events: none;
-}
 
 /* ==========================================================================
    Code and command line blocks
@@ -159,7 +198,8 @@ pre {
   // margin-bottom: 1em;
 // }
 
-.content > ol {
+.content > ol, 
+.inline-content-loaded ol {
   padding-left: 20px;
 }
 
@@ -199,11 +239,6 @@ ol li ul li ol li {
   font-style: italic;
   font-size: 12pt;
   padding: 12pt 0;
-}
-
-.content > h1:first-child, 
-.content > h3:first-child {
-  margin-top: 0;
 }
 
 h1 {
@@ -299,6 +334,10 @@ $toc-media-query: $toc-position-left + $toc-min-width + ($content-regular-paddin
     left: $toc-position-left;
     min-width: $toc-min-width;
   }
+
+  .content > h1:first-of-type {
+    margin-top: 0;
+  }
 }
 
 #toc > ul {
@@ -341,4 +380,38 @@ $toc-media-query: $toc-position-left + $toc-min-width + ($content-regular-paddin
     margin-right: 3%;
   }
 
+}
+
+
+/* ==========================================================================
+   Inline content
+   ========================================================================== */
+
+@-webkit-keyframes fadeIt {
+  0%   { background-color: #FFFFFF; }
+  50%  { background-color: $orange_lighter; }
+  100% { background-color: #FFFFFF; }
+}
+@-moz-keyframes fadeIt {
+  0%   { background-color: #FFFFFF; }
+  50%  { background-color: $orange_lighter; }
+  100% { background-color: #FFFFFF; }
+}
+@-o-keyframes fadeIt {
+  0%   { background-color: #FFFFFF; }
+  50%  { background-color: $orange_lighter; }
+  100% { background-color: #FFFFFF; }
+}
+@keyframes fadeIt {
+  0%   { background-color: #FFFFFF; }
+  50%  { background-color: $orange_lighter; }
+  100% { background-color: #FFFFFF; }
+}
+
+.inline-content-loaded {   
+    background-image:none !important;
+    -webkit-animation: fadeIt 3s ease-in-out; 
+       -moz-animation: fadeIt 3s ease-in-out; 
+         -o-animation: fadeIt 3s ease-in-out; 
+            animation: fadeIt 3s ease-in-out; 
 }

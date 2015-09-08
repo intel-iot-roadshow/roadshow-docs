@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Identify the IP address
+parentUrl: index.html#identify-the-ip-address
+parentTitle: Wi-Fi
 ---
 
 1. Establish a serial connection to the Intel® Edison. {% strip %}{% include shell_access.md %}{% endstrip %}

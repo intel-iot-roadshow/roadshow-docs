@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Troubleshooting - Intel® XDK
+title: Troubleshooting
+parentUrl: index-create_project.html#troubleshooting
+parentTitle: Intel® XDK IoT Edition - Sample Project
 ---
 
 <div id="toc" markdown="1">

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Install the Grove Base Shield
+parentUrl: index.html#install-the-grove-base-shield
+parentTitle: Grove Starter Kit
 ---
 
 1. Unplug the Arduino expansion board from all power sources.

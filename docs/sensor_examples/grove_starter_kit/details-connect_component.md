@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Connect a Grove component 
+parentUrl: index.html#connect-a-grove-component
+parentTitle: Grove Starter Kit
 ---
 
 1. Choose a component from the Grove System.

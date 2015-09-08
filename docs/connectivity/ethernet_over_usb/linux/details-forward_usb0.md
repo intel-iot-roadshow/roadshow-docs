@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Forward usb0 connection
+parentUrl: index.html#forward-usb0-connection
+parentTitle: Ethernet over USB - Linux
 ---
 
 1. Open a new Terminal window.

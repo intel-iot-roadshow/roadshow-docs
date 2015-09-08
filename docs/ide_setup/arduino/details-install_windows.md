@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Installation - Arduino IDE - Windows
+title: Installation - Windows
+parentUrl: index.html#install-arduino-ide
+parentTitle: Arduino IDE
 ---
 
 1. Get the latest Arduino IDE.

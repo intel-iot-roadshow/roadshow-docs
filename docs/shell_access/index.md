@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Shell Access
 ---
 
 Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.

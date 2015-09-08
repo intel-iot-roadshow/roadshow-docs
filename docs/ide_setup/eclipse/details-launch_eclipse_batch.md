@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Launch Intel® IoT Dev Kit Eclipse using batch file
+parentUrl: index.html#launch-eclipse-using-batch-file
+parentTitle: Intel® IoT Dev Kit Eclipse - Installation
 ---
 
 1. Once the archive file is extracted, go into the resulting <span class="icon folder">iotdk-ide</span> directory.

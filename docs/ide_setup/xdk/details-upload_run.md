@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Upload and run the application - Intel® XDK
+title: Upload and run the application
+parentUrl: index-create_project.html#upload-and-run-the-application
+parentTitle: Intel® XDK IoT Edition - Sample Project
 ---
 
 1. In the bottom toolbar, click the "**Upload**" icon to upload the current project to the device.

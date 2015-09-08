@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Wi-Fi
 ---
 
 <div id="toc" markdown="1">
@@ -49,12 +49,8 @@ Once your Intel® Edison is online, identify the IP address using the `configure
 [View detailed instructions »](details-identify_ip.html){: .link-button .centered}
 
   
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+<div id="next-steps" class="callout done" markdown="1">
+Your Intel® Edison should now be connected to a Wi-Fi network.
 
-Based on your programming language preference, install an IDE for Intel® IoT development:
-
-* **For C/C++:** [Set Up IoT Dev Kit Eclipse »](../../ide_setup/eclipse/index.html){: .link-button}
-* **For JavaScript:** [Set Up Intel XDK for IoT »](../../ide_setup/xdk/index.html){: .link-button}
-* **For Arduino:** [Set Up Arduino IDE »](../../ide_setup/arduino/index.html){: .link-button}
+[Continue to the next step in the START HERE guide »](../../#done-connectivity){: .link-button .centered}
 </div>

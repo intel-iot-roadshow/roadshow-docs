@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Configure network settings
+parentUrl: index.html#configure-network-settings
+parentTitle: Ethernet over USB - Mac
 ---
 
 1. Open your **Network** preference settings.

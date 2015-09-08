@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Getting Started
+title: Once connected...
+parentUrl: docs/connectivity/ethernet_over_usb/
+parentTitle: Ethernet over USB
 ---
 
 <div id="toc" markdown="1">

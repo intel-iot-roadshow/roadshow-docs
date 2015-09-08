@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Establish a serial connection
+parentUrl: index.html#establish-a-serial-connection
+parentTitle: Shell Access - Mac
 ---
 
 1. Connect to the USB serial device using the Terminal "screen" utility. 

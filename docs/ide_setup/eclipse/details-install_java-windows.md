@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Install Java - Windows - Eclipse IDE
+title: Install Java - Windows
+parentUrl: index.html#install-java
+parentTitle: Intel® IoT Dev Kit Eclipse - Installation
 ---
 
 1. If you do not know if you have Java installed, refer to [How can I find which version of Java is installed without running an applet in Windows or Mac?](https://www.java.com/en/download/help/version_manual.xml) on java.com for instructions.

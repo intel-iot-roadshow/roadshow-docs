@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Installation - Intel® XDK IoT Edition
+title: Intel® XDK IoT Edition - Installation
 ---
 
 <div id="toc" markdown="1">
@@ -52,10 +52,8 @@ Before you can use the Intel® XDK, you must sign up for an Intel® XDK account 
 [View detailed instructions »](details-launch_xdk.html){: .link-button .centered}
 
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
-
-Create and run a Hello Word project (blinking the onboard LED) on the Intel® Edison.
+<div id="next-steps" class="callout goto" markdown="1">
+You should now have the Intel® XDK IoT Edition installed. Next, create and run a Hello Word project (blinking the onboard LED) on the Intel® Edison.
 
 [Run a Sample Intel XDK for IoT Project »](index-create_project.html){: .link-button .centered}
 </div>

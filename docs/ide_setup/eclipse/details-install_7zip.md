@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Install 7Zip (Windows only) - Eclipse IDE
+title: Install 7Zip (Windows only)
+parentUrl: index.html#install-7zip-windows-only
+parentTitle: Intel® IoT Dev Kit Eclipse - Installation
 ---
 
 1. Download the **7-Zip** installer software from [7-zip.org](http://www.7-zip.org).

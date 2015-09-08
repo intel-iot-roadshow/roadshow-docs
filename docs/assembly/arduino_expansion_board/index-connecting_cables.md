@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Connecting cables
+parentUrl: docs/assembly/arduino_expansion_board/
+parentTitle: Unboxing and Assembly
 ---
 
 <div id="toc" markdown="1">

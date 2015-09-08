@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Installation - Arduino IDE - Linux
+title: Installation - Linux
+parentUrl: index.html#install-arduino-ide
+parentTitle: Arduino IDE
 ---
 
 1. To check if you have Java installed, open a terminal and enter the command: `java`  

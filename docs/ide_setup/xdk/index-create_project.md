@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Run a Sample Project - Intel® XDK IoT Edition
+title: Intel® XDK IoT Edition - Sample Project
 ---
 
 <div id="toc" markdown="1">
@@ -74,26 +74,20 @@ Upload the project files to the IoT device and run it. Remember that every time 
 [View detailed instructions »](details-upload_run.html){: .link-button .centered}
 
 
-<div class="callout done" markdown="1">
-**Look at your Intel® Edison IoT board for a blinking light.**
-  
+### Check Intel® Edison for a blinking light
+
 The LED is located near the center of the board.
 
 ![Green LED on Intel® Edison](../../assembly/arduino_expansion_board/images/on_board_led.png)
 
 **Congratulations, you just ran your first Intel® XDK application!**
-</div>
 
-<div class="callout troubleshooting" markdown="1">
+<div id="troubleshooting" class="callout troubleshooting" markdown="1">
 **Having troubles?** Refer to the [Troubleshooting »](troubleshooting.html)
 </div>
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+<div id="next-steps" class="callout done" markdown="1">
+You should now be able to successfully program the Intel® Edison and the onboard LED should be blinking.
 
-Learn more about the Grove Starter Kit:
-
-[Read Grove Starter Kit Intro »](../../sensor_examples/grove_starter_kit/index.html){: .link-button .centered}
-
-Or jump to [JavaScript sample code](../../sensor_examples/grove_starter_kit/javascript/index.html) supplied for available sensors and actuators.
+[Continue to the next step in the START HERE guide »](../../#done-ide){: .link-button .centered}
 </div>

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Install Java - Mac - Eclipse IDE
+title: Install Java - Mac
+parentUrl: index.html#install-java
+parentTitle: Intel® IoT Dev Kit Eclipse - Installation
 ---
 
 <div class="callout warning" markdown="1">

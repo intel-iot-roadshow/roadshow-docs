@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Confirm installation of Intel® Edison Drivers
+parentUrl: index-confirm_drivers.html#confirm-installation-of-intel-edison-drivers
+parentTitle: Confirm driver installation
+parentParentUrl: index.html
+parentParentTitle: Set Up Your Computer - Windows
 ---
 
 1. Connect a micro-USB cable to the [device mode](../../assembly/arduino_expansion_board/details-device_mode_cable.html) micro-USB port of the Intel® Edison expansion board, and the other end to your computer.

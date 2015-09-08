@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Getting Started
+title: Using Screen - Mac / Linux
+parentUrl: ../index.html
+parentTitle: Shell Access
 ---
 
 <div id="toc" markdown="1">

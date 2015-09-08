@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Sync device clocks - Intel® XDK
+title: Sync device clocks
+parentUrl: index-create_project.html#sync-device-clocks
+parentTitle: Intel® XDK IoT Edition - Sample Project
 ---
 
 1. In the bottom toolbar, click the "**Manage your daemon/IoT device**"** icon**.

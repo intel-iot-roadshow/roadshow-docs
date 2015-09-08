@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Add static IPv4 address
+parentUrl: index.html#add-static-ipv4-address
+parentTitle: Ethernet over USB - Windows
 ---
 
 <div class="callout warning" markdown="1">

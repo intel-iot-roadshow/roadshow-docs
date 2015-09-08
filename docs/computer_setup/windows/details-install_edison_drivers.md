@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Install Intel® Edison standalone drivers
+parentUrl: index.html#install-intel-edison-standalone-drivers
+parentTitle: Set Up Your Computer - Windows (manual installation)
 ---
 
 1. Get the latest Intel® Edison Device USB drivers for Windows installer.

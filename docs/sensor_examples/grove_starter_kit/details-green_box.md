@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Grove Starter Kit Plus – Intel® IoT Edition for Intel® Galileo Gen 2
+title: Intel® IoT Edition (green box)
+parentUrl: index.html#inside-the-grove-starter-kit-box
+parentTitle: Grove Starter Kit
 ---
 
 The sensors and actuators in the Grove Starter Kit Plus – Intel® IoT Edition for Intel® Galileo Gen 2 work with both the Intel® Galileo and the Intel® Edison.

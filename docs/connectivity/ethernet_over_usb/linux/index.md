@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Ethernet over USB - Linux
 ---
 
 <div id="toc" markdown="1">
@@ -32,17 +32,10 @@ Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing
 [View detailed instructions »](details-share_internet.html){: .link-button .centered}
 
 
-<div class="callout done" markdown="1">
-See what you can do [once connected »](../shared/once_connected.html)
-</div>
+<div id="next-steps" class="callout done" markdown="1">
+You should now have an Ethernet over USB connection set up between your computer and your Intel® Edison. 
 
+[Continue to the next step in the START HERE guide »](../../../#done-connectivity){: .link-button .centered}
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
-
-Based on your programming language preference, install an IDE for Intel® IoT development:
-
-* **For C/C++:** [Set Up IoT Dev Kit Eclipse »](../../../ide_setup/eclipse/index.html){: .link-button}
-* **For JavaScript:** [Set Up Intel XDK for IoT »](../../../ide_setup/xdk/index.html){: .link-button}
-* **For Arduino:** [Set Up Arduino IDE »](../../../ide_setup/arduino/index.html){: .link-button}
+For more info, see what you can do [once connected »](../shared/once_connected.html)
 </div>

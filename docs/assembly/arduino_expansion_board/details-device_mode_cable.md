@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Device mode micro-USB cable
+parentUrl: index-connecting_cables.html#device-mode-micro-usb-cable
+parentTitle: Connecting Cables
+parentParentUrl: index.html
+parentParentTitle: Unboxing and Assembly
 ---
 
 1. Find the microswitch in between the USB ports on the expansion board. 

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Run a Sample Project - Arduino IDE
+title: Run a Sample Project
+parentUrl: index.html#run-a-sample-project
+parentTitle: Arduino IDE
 ---
 
 1. From the Arduino IDE menu, open the LED blink example sketch by choosing **File** > **Examples** > **1.Basics** > **Blink**.
@@ -15,12 +17,3 @@ title: Run a Sample Project - Arduino IDE
   
     ![Transfer Complete Message](images/transfer-blink.png)
 
-<div class="callout done" markdown="1">
-**Look at your Intel® Edison board for a blinking light.**
-  
-  The LED is located near the center of the board.
-
-  ![Green LED on Intel® Edison](../../assembly/arduino_expansion_board/images/on_board_led.png)
-
-**Congratulations, you just ran your first Arduino application!**
-</div>

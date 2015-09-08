@@ -1,6 +1,10 @@
 ---
 layout: default
 title: UART/serial micro-USB cable
+parentUrl: index-connecting_cables.html#uartserial-micro-usb-cable
+parentTitle: Connecting Cables
+parentParentUrl: index.html
+parentParentTitle: Unboxing and Assembly
 ---
 
 1. **Power** the Intel® Edison via the power barrel connector ***and/or** the device mode micro-USB port.

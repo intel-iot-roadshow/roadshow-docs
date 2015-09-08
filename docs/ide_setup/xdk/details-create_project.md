@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Create a project - Intel® XDK
+title: Create a project
+parentUrl: index-create_project.html#create-a-project
+parentTitle: Intel® XDK IoT Edition - Sample Project
 ---
 
 1. Under the "**Internet of Things (IoT) with Node.js Projects**" option in the lefthand menu, select "**Start with a Sample or Template**".

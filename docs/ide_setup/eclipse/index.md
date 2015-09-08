@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Installation - Intel® IoT Dev Kit Eclipse
+title: Intel® IoT Dev Kit Eclipse - Installation
 ---
 
 <div id="toc" markdown="1">
@@ -77,14 +77,12 @@ Use devkit-launcher.bat to launch Eclipse with all the necessary Intel® IoT env
 [View detailed instructions »](details-launch_eclipse_batch.html){: .link-button .centered}
 
 
-<div class="callout troubleshooting" markdown="1">
-Refer to the [Troubleshooting »](troubleshooting.html)
+<div id="troubleshooting" class="callout troubleshooting" markdown="1">
+**Having issues?** Refer to [Troubleshooting »](troubleshooting.html)
 </div>
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
-
-Create and run a Hello Word project (blinking the onboard LED) on the Intel® Edison.
+<div id="next-steps" class="callout goto" markdown="1">
+You should now have the Intel® IoT Dev Kit Eclipse IDE installed. Next, create and run a Hello Word project (blinking the onboard LED) on the Intel® Edison.
 
 [Run a Sample Eclipse Project »](index-create_project.html){: .link-button .centered}
 </div>

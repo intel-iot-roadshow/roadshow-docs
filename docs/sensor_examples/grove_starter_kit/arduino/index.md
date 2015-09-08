@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Arduino samples for the Grove Starter Kit
+title: Arduino samples
+parentUrl: ../index.html#next-steps
+parentTitle: Grove Starter Kit
 ---
 
 # Arduino samples for the Grove Starter Kit
@@ -37,3 +39,9 @@ title: Arduino samples for the Grove Starter Kit
 For a good hardware primer, check out the [Grove Starter Kit Wiki](http://www.seeedstudio.com/wiki/Grove_-_Starter_Kit_Plus), which includes an overview and example code for all the hardware included in the Grove Starter Kit Plus. If you have other hardware, searching for the name of your hardware in conjunction with "Arduino" will come up with example code and libraries to use. 
 
 Note: The Intel Edison board with the Arduino expansion board and the Intel Galileo board can be treated as an Arduino Uno and is compatible with all Arduino Uno sensor shields. However it should be noted that Pins 10 and 11 on the Intel Edison board are NOT in fact capable of variable voltage output (PWM), despite being marked so on the expansion board.
+
+<div id="next-steps" class="callout done" markdown="1">
+You should now know the basics of programming the Grove components with the Arduino IDE. Ready to make your own creation? 
+
+[Return back to the START HERE guide »](../../../#done-sensors){: .link-button .centered}
+</div>

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Install HoRNDIS
+parentUrl: index.html#install-horndis
+parentTitle: Ethernet over USB - Mac
 ---
 
 1. Get the latest version of HoRNDIS. Visit [http://joshuawise.com/horndis#available_versions](http://joshuawise.com/horndis#available_versions) and click on the "**HoRNDIS-rel[version].pkg (bytes)**" link for the latest version.

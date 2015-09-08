@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Getting Started
+title: Troubleshooting
+parentUrl: index.html#troubleshooting
+parentTitle: Intel® IoT Dev Kit Eclipse - Installation
 ---
 
 <div id="toc" markdown="1">

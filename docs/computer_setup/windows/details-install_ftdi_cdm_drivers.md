@@ -1,12 +1,14 @@
 ---
 layout: default
 title: Install FTDI serial drivers
+parentUrl: index.html#install-ftdi-serial-drivers
+parentTitle: Set Up Your Computer - Windows (manual installation)
 ---
 
 <div class="callout info" markdown="1">
 **Do you already have FTDI CDM drivers installed?**
 
-If you have done Arduino development on your current computer before, you may already have the FTDI CDM drivers installed. Refer to [Confirm installation of FTDI serial drivers](confirm_drivers.html#confirm-installation-of-ftdi-serial-drivers){: .icon .bookmark} to see if you need to skip over this step.
+If you have done Arduino development on your current computer before, you may already have the FTDI CDM drivers installed. Refer to [Confirm installation of FTDI serial drivers](index-confirm_drivers.html#confirm-installation-of-ftdi-serial-drivers){: .icon .bookmark} to see if you need to skip over this step.
 
 However, if you see a "New Hardware Found" message when you plug in the Intel® Edison via the UART/serial micro-USB port and the automatic device driver installation fails, you will need to install the FTDI drivers. Ignore Windows' request to install the drivers for you and follow the steps below. 
 

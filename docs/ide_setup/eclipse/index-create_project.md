@@ -47,26 +47,21 @@ This document will guide you through creating and running a Hello Word project (
 
 12. Once your project runs, you'll see an LED blinking on your board, as shown below.
 
-<div class="callout done" markdown="1">
-**Look at your Intel® Edison board for a blinking light.**
-  
-  The LED is located near the center of the board.
 
-  ![Green LED on Intel® Edison](../../assembly/arduino_expansion_board/images/on_board_led.png)
+### Check Intel® Edison for a blinking light
+  
+The LED is located near the center of the board.
+
+![Green LED on Intel® Edison](../../assembly/arduino_expansion_board/images/on_board_led.png)
 
 **Congratulations, you just ran your first C++ application!**
-</div>
 
 <div class="callout troubleshooting" markdown="1">
-Refer to the [Troubleshooting - Intel XDK »](troubleshooting.md)
+**Having issues?** Refer to [Troubleshooting »](troubleshooting.html)
 </div>
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+<div id="next-steps" class="callout done" markdown="1">
+You should now be able to successfully program the Intel® Edison and the onboard LED should be blinking.
 
-Learn more about the Grove Starter Kit:
-
-[Read Grove Starter Kit Intro »](../../sensor_examples/grove_starter_kit/index.html){: .link-button .centered}
-
-Or jump to [C++ sample code](../../sensor_examples/grove_starter_kit/c/index.html) supplied for available sensors and actuators.
+[Continue to the next step in the START HERE guide »](../../#done-ide){: .link-button .centered}
 </div>

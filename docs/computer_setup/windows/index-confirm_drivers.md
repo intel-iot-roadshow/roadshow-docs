@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Confirm driver installation - Windows 
+title: Confirm driver installation 
+parentUrl: index.html#next-steps
+parentTitle: Set Up Your Computer - Windows
 ---
 
 <div id="toc" markdown="1">
@@ -49,10 +51,8 @@ Look for "**USB Serial Port**" in Device Manager under “Ports (COM & LPT)” a
 [View detailed instructions »](details-confirm_ftdi_cdm_drivers.html){: .link-button .centered}
 
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+<div id="next-steps" class="callout done" markdown="1">
+You should now have all drivers required for Intel® Edison development installed on your Windows computer.   
 
-Some Edison boards have older firmware images on them. Update the firmware to the latest version to get access to important features.
-
-[Flash Firmware on Intel Edison »](../../flash_firmware/index.html){: .link-button .centered}
+[Continue to the next step in the START HERE guide »](../../#done-computer-setup){: .link-button .centered}
 </div>

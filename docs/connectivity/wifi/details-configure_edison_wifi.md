@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Connect to a Wi-Fi network
+parentUrl: index.html#connect-to-a-wi-fi-network
+parentTitle: Wi-Fi
 ---
 
 1. Establish a serial connection to the Intel® Edison. {% strip %}{% include shell_access.md %}{% endstrip %}

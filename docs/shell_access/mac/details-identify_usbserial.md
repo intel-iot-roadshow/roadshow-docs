@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Identify the "usbserial" device name 
+parentUrl: index.html#identify-the-usbserial-device-name
+parentTitle: Shell Access - Mac
 ---
 
 1. Launch Terminal.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Set up Flash Tool Lite
+title: Flash Firmware using Flash Tool Lite
 ---
 
 <div id="toc" markdown="1">
@@ -35,16 +35,8 @@ After Flash Tool Lite has been installed, select an Intel® Edison firmware imag
 
 [View detailed instructions »](details-flash_firmware.html){: .link-button .centered}
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+<div id="next-steps" class="callout done" markdown="1">
+You should now have the latest firmware installed on your Intel® Edison.
 
-Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi.
-
-<div class="link-button-container" markdown="1">
-<span class="link-button-container-title">Select your operating system:</span>
-[Windows »](../shell_access/windows/index.html){: .link-button}
-[Mac »](../shell_access/mac/index.html){: .link-button}
-[Linux »](../shell_access/linux/index.html){: .link-button}
-</div>
-
+[Continue to the next step in the START HERE guide »](../#done-firmware){: .link-button .centered}
 </div>

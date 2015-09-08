@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Find serial port - Linux
+parentUrl: index.html#configure-arduino-ide
+parentTitle: Arduino IDE
 ---
 
 ### Finding your port on a system with Linux

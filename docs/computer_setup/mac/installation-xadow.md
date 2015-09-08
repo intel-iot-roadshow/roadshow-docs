@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Set Up Your Computer - Mac
 ---
 
 # Set Up Your Computer - Mac
@@ -48,7 +48,7 @@ FTDI Virtual COM port (VCP) drivers allow your Mac to communicate with the Intel
 
 ---
 
-### Next Steps
+### What to do next
 
 Gain command line access of your IoT board. Execute special Linux commands to configure your IoT board such as setting up Wi-Fi. 
 

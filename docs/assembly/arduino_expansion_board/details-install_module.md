@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Install the Intel® Edison module
+parentUrl: index.html#install-the-intel-edison-module
+parentTitle: Unboxing and Assembly
 ---
 
 1. Locate the Intel® Edison module, Arduino expansion board, and two metal hex nuts.

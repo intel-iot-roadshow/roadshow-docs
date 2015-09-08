@@ -4,27 +4,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ page.title }}{% if page.parentUrl %} | {{ page.parentTitle }}{% endif %}</title>
+    <title>{{ page.title }}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ base }}css/main.css">
   </head>
   <body>
-
+    
     <header>
       <img src="{{ base }}img/intel_logo.png" alt="Intel logo" width="52" height="35">
+      IoT Roadshow START HERE Guide
     </header>
-
-    <div class="breadcrumb">
-      <a href="{{ base }}docs/">START HERE</a>
-      {% if page.parentParentUrl %}
-        &raquo; <a href="{{ page.parentParentUrl }}">{{ page.parentParentTitle }}</a>
-      {% endif %}
-      {% if page.parentUrl %}
-        &raquo; <a href="{{ page.parentUrl }}">{{ page.parentTitle }}</a>
-      {% endif %}
-      &raquo; {{ page.title }}
-    </div>
 
     <div class="content">
     

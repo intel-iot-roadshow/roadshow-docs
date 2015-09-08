@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Flash Firmware Manually
 ---
 
 <div id="toc" markdown="1">
@@ -63,20 +63,8 @@ Run the `reboot ota` command on the Intel® Edison to flash the board with the f
 [View detailed instructions »](details-reboot_ota.html){: .link-button .centered}
 
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+<div id="next-steps" class="callout done" markdown="1">
+You should now have the latest firmware installed on your Intel® Edison.
 
-Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
-
-**At a hackathon? On a busy or restricted Wi-Fi network?**
-
-Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB":
-
-* [Windows »](../../connectivity/ethernet_over_usb/windows/index.html)
-* [Linux »](../../connectivity/ethernet_over_usb/linux/index.html)
-* Note: At this time, Ethernet over USB on Mac is not officially supported.
-
-**At home? Have a dependable Wi-Fi connection?**
-
-* [Get Your Edison Board Online »](../../connectivity/wifi/index.html)
+[Continue to the next step in the START HERE guide »](../../#done-firmware){: .link-button .centered}
 </div>

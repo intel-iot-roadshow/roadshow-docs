@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Find serial port - Windows
+parentUrl: index.html#configure-arduino-ide
+parentTitle: Arduino IDE
 ---
 
 ### Finding your port on a system with Windows

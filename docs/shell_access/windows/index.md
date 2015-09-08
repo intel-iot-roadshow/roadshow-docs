@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Shell Access - Windows
 ---
 
 <div id="toc" markdown="1">
@@ -69,12 +69,8 @@ The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
 For more info on using PuTTY such as saving profiles, read [Using PuTTY »](using_putty.html)
 </div>
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+<div id="next-steps" class="callout done" markdown="1">
+You should now be able to gain command line access to the Intel® Edison.
 
-Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
-
-Connect to the Intel® Edison using the device mode micro-USB cable and a virtual Ethernet connection known as "Ethernet over USB".
-
-[Set up Ethernet over USB on Windows »](../../connectivity/ethernet_over_usb/windows/index.html){: .link-button .centered}
+[Continue to the next step in the START HERE guide »](../../#done-shell-access){: .link-button .centered}
 </div>

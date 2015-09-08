@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Establish a serial connection
+parentUrl: index.html#establish-a-serial-connection
+parentTitle: Shell Access - Linux
 ---
 
 1. Open a new Terminal window.

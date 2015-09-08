@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Open Windows Device Manager
+parentUrl: index-confirm_drivers.html#open-windows-device-manager
+parentTitle: Confirm driver installation
+parentParentUrl: index.html
+parentParentTitle: Set Up Your Computer - Windows
 ---
 
 1. Launch Device Manager.

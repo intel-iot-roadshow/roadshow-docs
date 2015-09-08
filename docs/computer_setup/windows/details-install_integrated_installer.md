@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Download and run the Intel® Edison integrated installer
+parentUrl: index-64bit.html#download-and-run-the-intel-edison-integrated-installer
+parentTitle: Set Up Your Computer - Windows (64-bit integrated installer)
 ---
 
 ## Download and run the Intel® Edison integrated installer

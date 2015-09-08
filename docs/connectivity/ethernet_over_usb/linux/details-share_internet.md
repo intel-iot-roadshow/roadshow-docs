@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Share your computer's WiFi connection
+parentUrl: index.html#share-your-computers-wifi-connection-optional
+parentTitle: Ethernet over USB - Linux
 ---
 
 1. (These steps coming soon! Please do a pull request with screenshots/commands if you can.)

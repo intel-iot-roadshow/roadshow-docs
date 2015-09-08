@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Install Intel® IoT dev kit Eclipse IDE - Linux
+parentUrl: index.html#extract-intel-iot-dev-kit-eclipse-ide
+parentTitle: Intel® IoT Dev Kit Eclipse - Installation
 ---
 
 1. Get the latest IoT dev kit Eclipse IDE package.

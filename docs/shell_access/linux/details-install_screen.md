@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Install a shell session manager (Screen)
+parentUrl: index.html#install-a-shell-session-manager-screen
+parentTitle: Shell Access - Linux
 ---
 
 1. Launch Terminal.

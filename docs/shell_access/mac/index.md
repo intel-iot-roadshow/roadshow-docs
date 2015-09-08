@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Shell Access - Mac
 ---
 
 <div id="toc" markdown="1">
@@ -59,10 +59,8 @@ For more info on using Screen such as quitting, read [Using Screen »](../mac-an
 </div>
 
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+<div id="next-steps" class="callout done" markdown="1">
+You should now be able to gain command line access to the Intel® Edison.
 
-Get your board online in order to turn your IoT board into a true "Internet of Things" device. You also need the IP address of your IoT board to program it using the dev kit IDEs.
-
-[Get Your Intel® Edison Online »](../../connectivity/wifi/index.html){: .link-button .centered}
+[Continue to the next step in the START HERE guide »](../../#done-shell-access){: .link-button .centered}
 </div>

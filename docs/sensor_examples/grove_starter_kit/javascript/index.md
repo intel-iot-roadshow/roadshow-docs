@@ -1,6 +1,8 @@
 ---
 layout: default
-title: JavaScript samples for the Grove Starter Kit
+title: JavaScript samples
+parentUrl: ../index.html#next-steps
+parentTitle: Grove Starter Kit
 ---
 
 <div id="toc" markdown="1">
@@ -309,12 +311,10 @@ lcd.setCursor(0,1); // go to the 1st row, 2nd column (0-indexed)
 lcd.write("hello"); // print characters to the LCD screen
 ```
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+<div id="next-steps" class="callout done" markdown="1">
+You should now know the basics of programming the Grove components with JavaScript. Ready to make your own creation? 
 
-You're done! Now make your own creation. 
-
-Return back to [START HERE »](../../../index.html#now-make-your-own-creation)
+[Return back to the START HERE guide »](../../../#done-sensors){: .link-button .centered}
 </div>
 
 

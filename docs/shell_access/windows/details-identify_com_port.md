@@ -1,11 +1,13 @@
 ---
 layout: default
 title: Identify the serial COM port
+parentUrl: index.html#identify-the-serial-com-port
+parentTitle: Shell Access - Windows
 ---
 
 1. Open Device Manager.
 
-    _Don't know how? Refer to [Confirm Drivers → Open Device Manager](../../computer_setup/windows/confirm_drivers.html#open-windows-device-manager)._
+    _Don't know how? Refer to [Confirm Drivers → Open Device Manager](../../computer_setup/windows/index-confirm_drivers.html#open-windows-device-manager)._
 
 2. Scroll down to the "**Ports (COM & LPT)**" section.
 

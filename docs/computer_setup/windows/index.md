@@ -53,10 +53,8 @@ To ensure driver installation changes take effect, reboot your Windows computer 
 ![Choose Restart from the Windows Start menu](images/restart_windows.png)
 
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+<div id="next-steps" class="callout goto" markdown="1">
+After you have restarted your computer, confirm that the drivers have been installed.
 
-Use Device Manager to confirm that drivers have been installed.
-
-[Confirm driver installation »](confirm_drivers.html){: .link-button .centered}
+[Confirm driver installation »](index-confirm_drivers.html){: .link-button .centered}
 </div>

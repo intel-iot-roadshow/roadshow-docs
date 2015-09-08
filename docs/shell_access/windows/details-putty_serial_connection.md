@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Establish a serial connection with PuTTY
+parentUrl: index.html#establish-a-serial-connection
+parentTitle: Shell Access - Windows
 ---
 
 1. In PuTTY, double-check that you are in the "Session" screen. 

@@ -82,20 +82,10 @@ Fully explore when and how to use all the cables ports on the Intel® Edison kit
 
 ![Cable and microswitch setup for Intel® Edison development](images/cables-full_dev_setup_with_dc.png)
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+<div id="next-steps" class="callout done" markdown="1">
+You should now have the Intel® Edison module installed and all the development cables connected.
 
-  <div class="link-button-container" markdown="1">
-  <span class="link-button-container-title">**Windows user?** Install software and drivers for Windows.</span>
-  [Install on Windows »](../../computer_setup/windows/index.html){: .link-button}
-  </div>
-
-  <div class="link-button-container" markdown="1">
-  <span class="link-button-container-title">**Mac or Linux user?** Install the flashing tool.</span>
-  [Install on Mac »](../../flash_firmware/mac/index.html){: .link-button}
-  [Install on Linux »](../../flash_firmware/linux/index.html){: .link-button}
-  </div>
-
+[Continue to the next step in the START HERE guide »](../../#done-assembly){: .link-button .centered}
 </div>
 
 <div class="footnote">

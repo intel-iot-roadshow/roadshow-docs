@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Installation - Arduino IDE
+title: Arduino IDE
 ---
 
 <div id="toc" markdown="1">
@@ -45,14 +45,18 @@ Create and run a Hello Word project (blinking the onboard LED) on the Intel® Ed
 [View detailed instructions »](details-create_project.html){: .link-button .centered}
 
 
-<div id="next-steps" class="note" markdown="1">
-### Next Steps
+## Check Intel® Edison for a blinking light
+  
+The LED is located near the center of the board.
 
-Learn more about the Grove Starter Kit:
+![Green LED on Intel® Edison](../../assembly/arduino_expansion_board/images/on_board_led.png)
 
-[Read Grove Starter Kit Intro »](../../sensor_examples/grove_starter_kit/index.html){: .link-button .centered}
+**Congratulations, you just ran your first Arduino application!**
 
-Or jump to [Arduino sample code](../../sensor_examples/grove_starter_kit/arduino/index.html) supplied for available sensors and actuators.
+<div id="next-steps" class="callout done" markdown="1">
+You should now have the Arduino IDE installed and the Intel® Edison's onboard LED should be blinking.
+
+[Continue to the next step in the START HERE guide »](../../#done-ide){: .link-button .centered}
 </div>
 
 ### Additional resources

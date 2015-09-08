@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Install the plastic spacers
+parentUrl: index.html#install-the-plastic-spacers
+parentTitle: Unboxing and Assembly
 ---
 
 1. Locate the four metal screws and four plastic spacers in the Intel® Edison Kit for Arduino box.

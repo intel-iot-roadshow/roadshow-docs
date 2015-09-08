@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Grove Starter Kit - brown box variant
+title: Brown Box Variant
+parentUrl: index.html#inside-the-grove-starter-kit-box
+parentTitle: Grove Starter Kit
 ---
 
 <!-- ![Components in the Grove Starter Kit Plus](images/starter_kit_all.jpg) -->
