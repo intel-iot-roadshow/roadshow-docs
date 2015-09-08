@@ -54,15 +54,11 @@ Use PuTTY to establish a **serial** connection to the IoT board using the COM # 
 [View detailed instructions »](details-putty_serial_connection.html){: .link-button .centered}
 
 <div class="callout done" markdown="1">
-You are now logged into your IoT board and can run shell commands. For example, to output the version number of the firmware running on your board:
+You are now logged into your IoT board and can run shell commands. For example, try:
 
 ```
-cat /etc/version
+configure_edison --help
 ```
-
-![example output after running cat command](../images/firmware_version_output.png)
-
-The firmware version is in YYYYMMDDHHMM format so, in this case, Sept 3, 2014.
 </div>
 
 <div class="callout goto" markdown="1">
