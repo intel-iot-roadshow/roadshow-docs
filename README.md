@@ -22,7 +22,7 @@ Make changes to this branch only. If you try updating 'html' or 'gh-pages', your
 
 **THIS IS THE BRANCH THAT CAN BE DOWNLOADED AND PUT ON USB KEYS FOR ROADSHOWS.** 
 
-Static files need to be generated form the 'jekyll' branch. See [the branch's README](https://github.com/intel-iot-roadshow/getting-started-guides/blob/html/README.md) for details on running a local web server to view files.
+Static files need to be generated form the 'jekyll' branch. See [the branch's README](https://github.com/intel-iot-roadshow/getting-started-guides/blob/html/README.md) for details on viewing files.
 
 ### branch: gh-pages
 
