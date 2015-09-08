@@ -43,5 +43,5 @@ Note: The Intel Edison board with the Arduino expansion board and the Intel Gali
 <div id="next-steps" class="callout done" markdown="1">
 You should now know the basics of programming the Grove components with the Arduino IDE. Ready to make your own creation? 
 
-[Return back to the START HERE guide »](../../../#done-sensors){: .link-button .centered}
+[Return back to the START HERE guide »](../../../index.html#done-sensors){: .link-button .centered}
 </div>

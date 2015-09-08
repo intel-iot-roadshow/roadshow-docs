@@ -314,7 +314,7 @@ lcd.write("hello"); // print characters to the LCD screen
 <div id="next-steps" class="callout done" markdown="1">
 You should now know the basics of programming the Grove components with JavaScript. Ready to make your own creation? 
 
-[Return back to the START HERE guide »](../../../#done-sensors){: .link-button .centered}
+[Return back to the START HERE guide »](../../../index.html#done-sensors){: .link-button .centered}
 </div>
 
 

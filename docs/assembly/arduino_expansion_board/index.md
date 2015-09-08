@@ -85,7 +85,7 @@ Fully explore when and how to use all the cables ports on the Intel® Edison kit
 <div id="next-steps" class="callout done" markdown="1">
 You should now have the Intel® Edison module installed and all the development cables connected.
 
-[Continue to the next step in the START HERE guide »](../../#done-assembly){: .link-button .centered}
+[Continue to the next step in the START HERE guide »](../../index.html#done-assembly){: .link-button .centered}
 </div>
 
 <div class="footnote">

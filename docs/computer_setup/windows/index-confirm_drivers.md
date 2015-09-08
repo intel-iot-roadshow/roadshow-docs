@@ -54,5 +54,5 @@ Look for "**USB Serial Port**" in Device Manager under “Ports (COM & LPT)” a
 <div id="next-steps" class="callout done" markdown="1">
 You should now have all drivers required for Intel® Edison development installed on your Windows computer.   
 
-[Continue to the next step in the START HERE guide »](../../#done-computer-setup){: .link-button .centered}
+[Continue to the next step in the START HERE guide »](../../index.html#done-computer-setup){: .link-button .centered}
 </div>

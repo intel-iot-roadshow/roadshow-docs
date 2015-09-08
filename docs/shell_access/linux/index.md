@@ -53,5 +53,5 @@ For more info on using Screen such as quitting, read [Using Screen »](../mac-an
 <div id="next-steps" class="callout done" markdown="1">
 You should now be able to gain command line access to the Intel® Edison.
 
-[Continue to the next step in the START HERE guide »](../../#done-shell-access){: .link-button .centered}
+[Continue to the next step in the START HERE guide »](../../index.html#done-shell-access){: .link-button .centered}
 </div>

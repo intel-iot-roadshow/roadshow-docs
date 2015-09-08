@@ -66,5 +66,5 @@ Run the `reboot ota` command on the Intel® Edison to flash the board with the f
 <div id="next-steps" class="callout done" markdown="1">
 You should now have the latest firmware installed on your Intel® Edison.
 
-[Continue to the next step in the START HERE guide »](../../#done-firmware){: .link-button .centered}
+[Continue to the next step in the START HERE guide »](../../index.html#done-firmware){: .link-button .centered}
 </div>

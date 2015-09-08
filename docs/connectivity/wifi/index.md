@@ -52,5 +52,5 @@ Once your Intel® Edison is online, identify the IP address using the `configure
 <div id="next-steps" class="callout done" markdown="1">
 Your Intel® Edison should now be connected to a Wi-Fi network.
 
-[Continue to the next step in the START HERE guide »](../../#done-connectivity){: .link-button .centered}
+[Continue to the next step in the START HERE guide »](../../index.html#done-connectivity){: .link-button .centered}
 </div>

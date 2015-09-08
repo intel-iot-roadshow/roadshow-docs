@@ -61,7 +61,7 @@ Turn on Internet Sharing to cut down on Wi-Fi traffic in a crowded room. Sharing
 <div id="next-steps" class="callout done" markdown="1">
 You should now have an Ethernet over USB connection set up between your computer and your Intel® Edison. 
 
-[Continue to the next step in the START HERE guide »](../../../#done-connectivity){: .link-button .centered}
+[Continue to the next step in the START HERE guide »](../../../index.html#done-connectivity){: .link-button .centered}
 
 For more info, see what you can do [once connected »](../shared/once_connected.html)
 </div>

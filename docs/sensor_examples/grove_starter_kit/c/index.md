@@ -249,7 +249,7 @@ I²C (Inter-Integrated Circuit), pronounced both "I-two-C" or "I-squared-C", is 
 <div id="next-steps" class="callout done" markdown="1">
 You should now know the basics of programming the Grove components with C++. Ready to make your own creation? 
 
-[Return back to the START HERE guide »](../../../#done-sensors){: .link-button .centered}
+[Return back to the START HERE guide »](../../../index.html#done-sensors){: .link-button .centered}
 </div>
 
 

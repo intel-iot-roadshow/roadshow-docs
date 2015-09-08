@@ -63,5 +63,5 @@ The LED is located near the center of the board.
 <div id="next-steps" class="callout done" markdown="1">
 You should now be able to successfully program the Intel® Edison and the onboard LED should be blinking.
 
-[Continue to the next step in the START HERE guide »](../../#done-ide){: .link-button .centered}
+[Continue to the next step in the START HERE guide »](../../index.html#done-ide){: .link-button .centered}
 </div>
