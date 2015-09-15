@@ -61,12 +61,26 @@ parentTitle: Arduino IDE
 11. Restart udev by entering the following command: `sudo service udev restart`
     If you are using a virtual machine (VM), you may need to reboot Linux within the VM.
 
-12. Choose **Tools** > **Board** > **Boards Manager** to open the Boards Manager.
-    
-    ![Boards Manager - Linux](images/Boardman-linux.png)
+12. To save on internet bandwidth, install the "Intel i686 Boards" toolchain manually to your Arduino IDE installation.
 
-13. In the list of boards, select **Intel i686 Boards** which includes the Intel® Edison board.
+    <div class="callout goto" markdown="1">
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span>
+    2. Copy <span class="icon file">IntelArduinoToolChain_linux.gz</span> to your computer and unarchive it.
+    3. Copy the uncompressed <span class="icon folder">Intel</span> folder and its contents to <span class="icon folder">/home/[YOUR_USER_NAME]/.arduino15/packages</span> on your computer.
+    </div>
 
-14. Click **Install**.
+13. Restart the Arduino IDE.
 
-15. When the installation process is finished, click **OK**.
+<div class="callout info" markdown="1">
+When you are using a more reliable internet connection, you can use the method below to update the Arduino boards list:
+
+1. Choose **Tools** > **Board** > **Boards Manager** to open the Boards Manager.
+  
+    ![Boards Manager - Windows](images/Boardman-linux.png)
+
+2. In the list of boards, select **Intel i686 Boards** which includes the Intel® Edison board.
+
+3. Click **Install**.
+
+4. When the installation process is finished, click **OK**.
+</div>
