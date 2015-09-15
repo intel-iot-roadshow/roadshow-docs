@@ -20,7 +20,7 @@ Make changes to this branch only. If you try updating 'html' or 'gh-pages', your
 
 [github.com/intel-iot-roadshow/getting-started-guides/tree/html](https://github.com/intel-iot-roadshow/getting-started-guides/tree/html)
 
-**THIS IS THE BRANCH THAT CAN BE DOWNLOADED AND PUT ON USB KEYS FOR ROADSHOWS.** 
+This is the branch that can be downloaded and put on USB keys for Roadshows. **HOWEVER, IF YOU'RE LOOKING FOR STABLE RELEASES, THEY WILL BE TAGGED AND CAN BE FOUND HERE: [https://github.com/intel-iot-roadshow/getting-started-guides/releases](https://github.com/intel-iot-roadshow/getting-started-guides/releases)**
 
 Static files need to be generated form the 'master' branch. See [the branch's README](https://github.com/intel-iot-roadshow/getting-started-guides/blob/html/README.md) for details on viewing files.
 
