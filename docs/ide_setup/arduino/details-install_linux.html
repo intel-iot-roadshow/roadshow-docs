@@ -105,20 +105,41 @@
 If you are using a virtual machine (VM), you may need to reboot Linux within the VM.</p>
   </li>
   <li>
-    <p>Choose <strong>Tools</strong> &gt; <strong>Board</strong> &gt; <strong>Boards Manager</strong> to open the Boards Manager.</p>
+    <p>To save on internet bandwidth, install the “Intel i686 Boards” toolchain manually to your Arduino IDE installation.</p>
 
-    <p><img src="images/Boardman-linux.png" alt="Boards Manager - Linux" /></p>
+    <div class="callout goto">
+      <ol>
+        <li>On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span></li>
+        <li>Copy <span class="icon file">IntelArduinoToolChain_linux.gz</span> to your computer and unarchive it.</li>
+        <li>Copy the uncompressed <span class="icon folder">Intel</span> folder and its contents to <span class="icon folder">/home/[YOUR_USER_NAME]/.arduino15/packages</span> on your computer.</li>
+      </ol>
+    </div>
   </li>
   <li>
-    <p>In the list of boards, select <strong>Intel i686 Boards</strong> which includes the Intel® Edison board.</p>
-  </li>
-  <li>
-    <p>Click <strong>Install</strong>.</p>
-  </li>
-  <li>
-    <p>When the installation process is finished, click <strong>OK</strong>.</p>
+    <p>Restart the Arduino IDE.</p>
   </li>
 </ol>
+
+<div class="callout info">
+  <p>When you are using a more reliable internet connection, you can use the method below to update the Arduino boards list:</p>
+
+  <ol>
+    <li>
+      <p>Choose <strong>Tools</strong> &gt; <strong>Board</strong> &gt; <strong>Boards Manager</strong> to open the Boards Manager.</p>
+
+      <p><img src="images/Boardman-linux.png" alt="Boards Manager - Windows" /></p>
+    </li>
+    <li>
+      <p>In the list of boards, select <strong>Intel i686 Boards</strong> which includes the Intel® Edison board.</p>
+    </li>
+    <li>
+      <p>Click <strong>Install</strong>.</p>
+    </li>
+    <li>
+      <p>When the installation process is finished, click <strong>OK</strong>.</p>
+    </li>
+  </ol>
+</div>
 
     
     </div>
