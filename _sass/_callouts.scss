@@ -12,6 +12,7 @@
   width: 10px;
   height: 10px;
   margin: 0 2px;
+  background-repeat: no-repeat;
 }
 
 .folder.icon::before {
@@ -26,6 +27,17 @@
   background-image: url(../img/icon/bookmark_icon_black.png);
 }
 
+.windows.icon::before {
+  background-image: url(../img/icon/os_icon_windows-black.png);
+}
+
+.mac.icon::before {
+  background-image: url(../img/icon/os_icon_mac-black.png);
+}
+
+.linux.icon::before {
+  background-image: url(../img/icon/os_icon_linux-black.png);
+}
 /* ==========================================================================
    TLDR boxes (with inner road sign icon)
    ========================================================================== */
@@ -59,6 +71,18 @@
 
 .tldr .bookmark.icon::before {
   background-image: url(../img/icon/bookmark_icon_blue.png);
+}
+
+.tldr .windows.icon::before {
+  background-image: url(../img/icon/os_icon_windows-blue.png); 
+}
+
+.tldr .mac.icon::before {
+  background-image: url(../img/icon/os_icon_mac-blue.png); 
+}
+
+.tldr .linux.icon::before {
+  background-image: url(../img/icon/os_icon_linux-blue.png); 
 }
 
 /* ==========================================================================
@@ -166,6 +190,18 @@ li .callout::before {
   background-image: url(../img/icon/bookmark_icon_blue.png);
 }
 
+.callout .windows.icon::before {
+  background-image: url(../img/icon/os_icon_windows-blue.png); 
+}
+
+.callout .mac.icon::before {
+  background-image: url(../img/icon/os_icon_mac-blue.png); 
+}
+
+.callout .linux.icon::before {
+  background-image: url(../img/icon/os_icon_linux-blue.png); 
+}
+
 // other blue callouts
 
 .video.callout {
@@ -241,6 +277,18 @@ li .callout::before {
   background-image: url(../img/icon/bookmark_icon_green.png);
 }
 
+.done.callout .windows.icon::before {
+  background-image: url(../img/icon/os_icon_windows-green.png); 
+}
+
+.done.callout .mac.icon::before {
+  background-image: url(../img/icon/os_icon_mac-green.png); 
+}
+
+.done.callout .linux.icon::before {
+  background-image: url(../img/icon/os_icon_linux-green.png); 
+}
+
 .done.callout a.link-button {
   background-color: $green_main;
   color: white;
@@ -283,6 +331,18 @@ li .callout::before {
   background-image: url(../img/icon/bookmark_icon_orange.png);
 }
 
+.warning.callout .windows.icon::before {
+  background-image: url(../img/icon/os_icon_windows-orange.png); 
+}
+
+.warning.callout .mac.icon::before {
+  background-image: url(../img/icon/os_icon_mac-orange.png); 
+}
+
+.warning.callout .linux.icon::before {
+  background-image: url(../img/icon/os_icon_linux-orange.png); 
+}
+
 // red callouts:
 
 .danger.callout {
@@ -315,3 +375,16 @@ li .callout::before {
 .danger.callout .bookmark.icon::before {
   background-image: url(../img/icon/bookmark_icon_red.png);
 }
+
+.danger.callout .windows.icon::before {
+  background-image: url(../img/icon/os_icon_windows-red.png); 
+}
+
+.danger.callout .mac.icon::before {
+  background-image: url(../img/icon/os_icon_mac-red.png); 
+}
+
+.danger.callout .linux.icon::before {
+  background-image: url(../img/icon/os_icon_linux-red.png); 
+}
+
