@@ -97,6 +97,12 @@ a.link-button.centered {
   display: block;
 }
 
+.go-back-link {
+  padding: $content-small-padding;
+  font-size: 0.8em;
+  color: #666;
+}
+
 header {
   background-color: $blue_main;
   box-shadow: 0 3px 3px rgba(0,0,0,0.15);

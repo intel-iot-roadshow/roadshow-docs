@@ -28,8 +28,14 @@
 
     <div class="content">
     
-        {{ content }}
-    
+      {{ content }}
+        
+    </div>
+
+    <div class="go-back-link">
+      {% if page.parentUrl %}
+      &laquo; Return to <a href="{{ page.parentUrl }}">{{ page.parentTitle }}</a>
+      {% endif %}
     </div>
 
   {% include scripts.html %}
