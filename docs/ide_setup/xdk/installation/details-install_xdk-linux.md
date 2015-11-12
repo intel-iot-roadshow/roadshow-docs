@@ -1,30 +1,18 @@
 ---
 layout: default
-title: Install Intel® XDK
+title: Install Intel® XDK - Linux
 parentUrl: index.html#install-intel-xdk-iot-edition
-parentTitle: Intel® XDK IoT Edition - Installation
+parentTitle: Intel® XDK IoT Edition - Standalone Installation
 ---
 
 1. Get the latest Intel® XDK IoT Edition installer.
 
     <div class="callout goto" markdown="1">
-    1.  On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">[your OS]</span>.
+    1.  On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span> → <span class="icon folder">edison_media</span>.
     2.  Copy the <span class="icon file">iot_web_[your OS]\_master\_[version]</span> installer file to your computer.
     </div>
 
-### On Windows
-
-2. Double-click on <span class="icon file">iot_web_win_master_[version].exe</span> to start the installer. 
-
-### On Mac
-
-2. Double-click on <span class="icon file">iot_web_mac_master_[version].dmg</span> to open the Apple Disk Image.
-
-3. Double-click on the extracted <span class="icon file">xdk_full_[version].pkg</span> to start the installer.
-
-### On Linux
-
-2. Open Terminal.
+2. Open <span class="icon linux">Terminal</span>.
 
 3. Use the `cd` command to go into the folder where the installer file is. For example:
 
@@ -47,8 +35,6 @@ parentTitle: Intel® XDK IoT Edition - Installation
     ./install.sh
     ```
 
-### All platforms
+6. After launching the Intel® XDK installer, follow the installation wizard and click **Next** where needed.
 
-After launching the Intel® XDK installer, follow the installation wizard and click **Next** where needed.
-
-![First screen of the Intel® XDK installer](images/xdk_installer.jpg)
+    ![First screen of the Intel® XDK installer](images/xdk_installer.jpg)

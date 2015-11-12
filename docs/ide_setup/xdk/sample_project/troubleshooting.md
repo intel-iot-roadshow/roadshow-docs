@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Troubleshooting
-parentUrl: index-create_project.html#troubleshooting
+parentUrl: index.html#troubleshooting
 parentTitle: Intel® XDK IoT Edition - Sample Project
 ---
 
 <div id="toc" markdown="1">
 * [Don't see your device in the "IoT Device" drop down list?](#dont-see-your-device-in-the-iot-device-drop-down-list)
   * [Add a device manually](#add-a-device-manually)
-  * [Restart the Intel XDK app daemon](#restart-the-intel-xdk-app-daemon)
+  * [Restart the Intel® XDK app daemon](#restart-the-intel-xdk-app-daemon)
 * [Additional resources](#additional-resources)
 </div>
 
@@ -46,7 +46,7 @@ You will need to add the IP address of your IoT device manually if you are using
 3. Click "**Connect**" to try connecting to the IoT device using the manual settings.
 
 
-### Restart the Intel XDK app daemon
+### Restart the Intel® XDK app daemon
 
 The Intel® XDK app daemon may not be running on the Intel® IoT board.
 
@@ -66,7 +66,7 @@ The Intel® XDK app daemon may not be running on the Intel® IoT board.
 
 For additional help using the Intel® XDK, explore the articles or videos listed below.
 
-* Official [Intel XDK Documentation](https://software.intel.com/en-us/html5/xdkdocs)
+* Official [Intel® XDK Documentation](https://software.intel.com/en-us/html5/xdkdocs)
 
 * [Intel® IoT Edition Demo Video](https://software.intel.com/en-us/html5/iot-demo) (video)
 

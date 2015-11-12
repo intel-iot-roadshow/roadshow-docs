@@ -2,7 +2,7 @@
 layout: default
 title: Launch and sign into Intel® XDK
 parentUrl: index.html#launch-and-sign-into-intel-xdk
-parentTitle: Intel® XDK IoT Edition - Installation
+parentTitle: Intel® XDK IoT Edition - Standalone Installation
 ---
 
 1. Launch Intel® XDK IoT Edition.

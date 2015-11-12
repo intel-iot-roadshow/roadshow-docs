@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Build the application
-parentUrl: index-create_project.html#build-the-application
-parentTitle: Intel® XDK IoT Edition - Sample Project
+parentUrl: index.html#build-the-application
+parentTitle: Intel® XDK IoT Edition - Run a Sample Project
 ---
 
 1. In the bottom toolbar, click the "**Install/Build**" icon.

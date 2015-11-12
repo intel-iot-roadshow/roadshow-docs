@@ -31,7 +31,7 @@ You will need to install the Windows drivers manually. Refer to [Set Up Your Com
 The Windows 64-bit Integrated Installer gives you options to automatically install:
 
 * Intel® Edison and FTDI serial drivers on your Windows computer,
-* an IDE of your choice (Arduino, Intel XDK® for IoT, and/or Eclipse), and
+* an IDE of your choice (Arduino, Intel® XDK for IoT, and/or Eclipse), and
 * the latest firmware image on your Intel® Edison.
 </div>
 

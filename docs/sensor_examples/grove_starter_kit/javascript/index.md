@@ -21,20 +21,8 @@ parentTitle: Grove Starter Kit
 
 # JavaScript samples for the Grove Starter Kit
 
-To follow the instructions in this guide, you should have already completed the [Set Up Intel XDK for IoT](../../../ide_setup/xdk/index.html) guide, and you can successfully [blink the onboard LED](../../../ide_setup/xdk/index-create_project.html) on your Intel® Edison or Intel® Galileo.
+To follow the instructions in this guide, you should have the [Intel® XDK for IoT installed](../../../ide_setup/xdk/installation/index.html), and you can successfully [blink the onboard LED](../../../ide_setup/xdk/sample_project/index.html) on your Intel® Edison.
 
-<div class="callout goto" markdown="1">
-**Sample Projects**
-
-* [Create a Temperature Monitoring application](https://software.intel.com/en-us/creating-a-temperature-monitoring-app-using-intel-xdk-iot-edition)
-* [Create a Touch Monitoring application](https://software.intel.com/en-us/creating-a-touch-monitoring-app-using-intel-xdk-iot-edition)
-* [Create a Web Server](https://software.intel.com/en-us/xdk-sample-creating-a-web-server)
-* [Using a LCD](https://software.intel.com/en-us/xdk-sample-creating-lcd-display-app)
-</div>
-
-<!-- <div id="related-videos" class="callout video">
-* [Create Intel® IoT projects with the Grove Starter Kit - Part 2: JavaScript (preview)](https://drive.google.com/open?id=0B6gHgawzKtxCZU56NmJfei1GX00&authuser=0)
-</div> -->
 
 ## Programming Grove components
 
@@ -317,9 +305,17 @@ You should now know the basics of programming the Grove components with JavaScri
 [Return back to the START HERE guide »](../../../index.html#done-sensors){: .link-button .centered}
 </div>
 
-
 <div class="callout goto" markdown="1">
-### Additional resources
+**Sample Projects**
+
+* [Create a Temperature Monitoring application](https://software.intel.com/en-us/creating-a-temperature-monitoring-app-using-intel-xdk-iot-edition)
+* [Create a Touch Monitoring application](https://software.intel.com/en-us/creating-a-touch-monitoring-app-using-intel-xdk-iot-edition)
+* [Create a Web Server](https://software.intel.com/en-us/xdk-sample-creating-a-web-server)
+* [Using a LCD](https://software.intel.com/en-us/xdk-sample-creating-lcd-display-app)
+
+---
+
+**Additional resources**
 
 * Article: [Using MRAA to Abstract Platform I/O Capabilities](https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities) 
 </div>

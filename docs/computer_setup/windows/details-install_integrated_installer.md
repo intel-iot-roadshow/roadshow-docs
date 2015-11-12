@@ -10,7 +10,7 @@ parentTitle: Set Up Your Computer - Windows (64-bit integrated installer)
 The Windows 64-bit Integrated Installer gives you options to automatically install:
 
 * Intel® Edison and FTDI serial drivers on your Windows computer,
-* an IDE of your choice (Arduino, Intel XDK® for IoT, and/or Eclipse), and
+* an IDE of your choice (Arduino, Intel® XDK for IoT, and/or Eclipse), and
 * the latest firmware image on your Intel® Edison.
 
 ![Animated gif: installing Intel® Edison drivers using integrated installer](images/install_integrated_installer-animated.gif)

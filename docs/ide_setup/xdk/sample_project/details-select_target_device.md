@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Select a target IoT device
-parentUrl: index-create_project.html#select-a-target-iot-device
-parentTitle: Intel® XDK IoT Edition - Sample Project
+parentUrl: index.html#select-a-target-iot-device
+parentTitle: Intel® XDK IoT Edition - Run a Sample Project
 ---
 
 1. In the bottom left corner of the Intel® XDK, click the "**IoT Device**" drop down list which currently indicates " - Select a Device - ".
