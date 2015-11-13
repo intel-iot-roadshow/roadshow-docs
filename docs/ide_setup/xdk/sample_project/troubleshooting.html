@@ -1,0 +1,222 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Troubleshooting | Intel® XDK IoT Edition - Sample Project</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../css/main.css">
+  </head>
+  <body>
+
+    <header>
+      <img src="../../../../img/intel_logo.png" alt="Intel logo" width="52" height="35">
+    </header>
+
+    <div class="breadcrumb">
+      <a href="../../../../docs/">START HERE</a>
+      
+      
+        &raquo; <a href="index.html#troubleshooting">Intel® XDK IoT Edition - Sample Project</a>
+      
+      &raquo; Troubleshooting
+    </div>
+
+    <div class="content">
+    
+      <div id="toc">
+  <ul>
+    <li><a href="#problems-with-wi-fi-need-to-program-while-offline">Problems with Wi-Fi? Need to program while offline?</a></li>
+    <li><a href="#dont-see-your-device-in-the-iot-device-drop-down-list">Don’t see your device in the “IoT Device” drop down list?</a>
+      <ul>
+        <li><a href="#add-a-device-manually">Add a device manually</a></li>
+        <li><a href="#restart-the-intel-xdk-app-daemon">Restart the Intel® XDK app daemon</a></li>
+      </ul>
+    </li>
+    <li><a href="#get-a-cannot-find-module-mraa-message">Get a “cannot find module mraa” message?</a></li>
+    <li><a href="#auto-run-projects-upon-upload">Auto-run projects upon upload</a></li>
+    <li><a href="#install-node-modules">Install Node modules</a></li>
+    <li><a href="#additional-resources">Additional resources</a></li>
+  </ul>
+</div>
+
+<h1 id="troubleshooting---intel-xdk">Troubleshooting - Intel® XDK</h1>
+
+<p>Some common issues have been listed below. For additional troubleshooting and FAQ, visit <a href="https://software.intel.com/en-us/articles/intel-xdk-iot-edition-troubleshooting-and-faq">software.intel.com/en-us/articles/intel-xdk-iot-edition-troubleshooting-and-faq</a>. </p>
+
+<h2 id="problems-with-wi-fi-need-to-program-while-offline">Problems with Wi-Fi? Need to program while offline?</h2>
+
+<p>The Intel® XDK requires the IP address of your IoT board in order to program it. If your IoT board is online, the IP address is automatically detected in most cases. </p>
+
+<p>However, if you are unable to get your IoT board online to the same network as your computer due to restricted or busy Wi-Fi networks, try <a href="../../../connectivity/ethernet_over_usb/">Ethernet over USB</a> and <span class="icon bookmark"><a href="#add-a-device-manually">Add a device manually</a></span> to the drop down list.</p>
+
+<h2 id="dont-see-your-device-in-the-iot-device-drop-down-list">Don’t see your device in the “IoT Device” drop down list?</h2>
+
+<ul>
+  <li>
+    <p>Check that your Intel® IoT board is online via Wi-Fi or ethernet, and that your development computer is on the same network as the IoT board.</p>
+  </li>
+  <li>
+    <p>If your internet network requires additional login credentials (e.g. a university Wi-Fi network), you may need to add the IP address manually. Refer to <span class="icon bookmark"><a href="#add-a-device-manually">Add a device manually</a></span> below.</p>
+  </li>
+  <li>
+    <p>If you are using Ethernet over USB for the Intel® Edison, you may need to add the IP address manually. Refer to <span class="icon bookmark"><a href="#add-a-device-manually">Add a device manually</a></span> below.</p>
+  </li>
+</ul>
+
+<h3 id="add-a-device-manually">Add a device manually</h3>
+
+<p>You will need to add the IP address of your IoT device manually if you are using:</p>
+
+<ul>
+  <li>Ethernet over USB for the Intel® Edison, or</li>
+  <li>an internet network that requires additional login credentials (e.g. a university Wi-Fi network)</li>
+</ul>
+
+<ol>
+  <li>
+    <p>From the “<strong>IoT Device</strong>” drop down list, select “<strong>Add Manual Connection</strong>”.</p>
+
+    <p><img src="images/xdk-add_manual_connection.png" alt="&quot;Add Manual Connection&quot; option in &quot;IoT Device&quot; drop down list" /></p>
+  </li>
+  <li>
+    <p>A dialog window will appear to input the login credentials of your Intel® Edison.</p>
+
+    <p><img src="images/xdk-username_password.png" alt="Device credentials input screen" /></p>
+
+    <ul>
+      <li><strong>Address:</strong> 
+        <ul>
+          <li>Refer to <a href="../../../connectivity/wifi/details-identify_ip.html">Identify the IP address</a> find your IP address when it is not discoverable. </li>
+          <li>Or use “<strong>192.168.2.15</strong>” if you’re using <a href="../../../connectivity/ethernet_over_usb/">Ethernet over USB</a>.</li>
+        </ul>
+      </li>
+      <li><strong>Port:</strong> Leave port as “<strong>58888</strong>”</li>
+      <li><strong>User Name:</strong> Unless you have changed it, use “<strong>root</strong>”</li>
+      <li><strong>Password:</strong> Unless you have changed it, use “<strong>intel123</strong>”</li>
+    </ul>
+  </li>
+  <li>
+    <p>Click “<strong>Connect</strong>” to try connecting to the IoT device using the manual settings.</p>
+  </li>
+</ol>
+
+<h3 id="restart-the-intel-xdk-app-daemon">Restart the Intel® XDK app daemon</h3>
+
+<p>The Intel® XDK app daemon may not be running on the Intel® IoT board.</p>
+
+<ol>
+  <li>
+    <p>Establish a serial connection to your Intel® Edison. <br />
+<em>Don’t know how? Refer to <a href="../../../../docs/shell_access/">Shell Access</a>.</em></p>
+  </li>
+  <li>
+    <p>Use the <code>systemctl</code> command to enable and restart the xdk-daemon on the IoT board.</p>
+
+    <p><code>
+ systemctl enable xdk-daemon
+ systemctl restart xdk-daemon
+</code></p>
+  </li>
+  <li>
+    <p>Re-check the “IoT Device” drop down list for your device.</p>
+  </li>
+</ol>
+
+<h2 id="get-a-cannot-find-module-mraa-message">Get a “cannot find module mraa” message?</h2>
+
+<p><img src="images/xdk-console-mraa_missing.png" alt="&quot;cannot find module mraa&quot; message" /></p>
+
+<p>If you see this error message, your board is missing libmraa, a library for GPIO communication on Linux platforms. </p>
+
+<ol>
+  <li>
+    <p>In the bottom toolbar, click the “<strong>Manage your daemon/IoT device</strong>” icon.</p>
+  </li>
+  <li>
+    <p>Click the “<strong>Update libraries on board</strong>” option.</p>
+
+    <p><img src="images/xdk-update_libraries_on_board.png" alt="&quot;Update libraries on board&quot; option highlighted" /></p>
+  </li>
+  <li>
+    <p>After updating the MRAA libraries, click the “<strong>Run</strong>” icon again to re-run the project on the device.</p>
+  </li>
+</ol>
+
+<p>If you continue to see errors, you may need to update MRAA manually. </p>
+
+<p>Connect to your IoT board via serial or SSH. Then run the following commands: </p>
+
+<pre><code>echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" &gt; /etc/opkg/mraa-upm.conf
+opkg update
+opkg install libmraa0
+</code></pre>
+
+<h2 id="auto-run-projects-upon-upload">Auto-run projects upon upload</h2>
+
+<p>By default (in Intel® XDK version 2571 and higher), projects do not auto start upon upload completion.</p>
+
+<p><img src="images/xdk-not_auto_starting.png" alt="&quot;Not auto starting by request&quot; message in console" /></p>
+
+<p>To change this behavior:</p>
+
+<ol>
+  <li>
+    <p>In the bottom toolbar, click the “<strong>Manage your daemon/IoT device</strong>” icon.</p>
+  </li>
+  <li>
+    <p>Click “<strong>Upload Control</strong>”.</p>
+  </li>
+  <li>
+    <p>In the “<strong>Automatic Start</strong>” section, select “<strong>Automatically run after upload</strong>”.</p>
+  </li>
+  <li>
+    <p>Click “<strong>OK</strong>” to save your options and close the dialog window.</p>
+  </li>
+  <li>
+    <p>Click the “<strong>Upload</strong>” icon again to re-upload the project on the device and see it auto-start.</p>
+  </li>
+</ol>
+
+<h2 id="install-node-modules">Install Node modules</h2>
+
+<p>If you have any dependencies listed in <strong>package.json</strong>, clicking the “<strong>Upload</strong>” icon will also fetch all the Node modules specified in <code>"dependencies": {}</code> and install them on the IoT device.</p>
+
+<h2 id="additional-resources">Additional resources</h2>
+
+<p>For additional help using the Intel® XDK, explore the articles or videos listed below.</p>
+
+<ul>
+  <li>
+    <p>Official <a href="https://software.intel.com/en-us/html5/xdkdocs">Intel® XDK Documentation</a></p>
+  </li>
+  <li>
+    <p><a href="https://software.intel.com/en-us/html5/iot-demo">Intel® IoT Edition Demo Video</a> (video)</p>
+  </li>
+  <li>
+    <p><a href="https://software.intel.com/en-us/html5/documentation/secure-communication-intel-xdk-iot-edition">Securely Accessing Your Internet of Things (IoT) Device</a></p>
+  </li>
+  <li>
+    <p><a href="https://software.intel.com/en-us/html5/blogs/remove-xdk-local-data">Removing Intel® XDK Local Data on Windows, Apple OS X, &amp; Linux</a></p>
+  </li>
+</ul>
+
+        
+    </div>
+
+    <div class="go-back-link">
+      
+      &laquo; Return to <a href="index.html#troubleshooting">Intel® XDK IoT Edition - Sample Project</a>
+      
+    </div>
+
+  
+
+<script src="../../../../js/jquery-2.1.4.min.js"></script>
+<script src="../../../../js/main.js"></script>
+
+  </body>
+</html>
