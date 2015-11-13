@@ -639,6 +639,11 @@ a.link-button.centered {
 .link-button-container-title {
   display: block; }
 
+.go-back-link {
+  padding: 10px;
+  font-size: 0.8em;
+  color: #666; }
+
 header {
   background-color: #0071c5;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
@@ -695,6 +700,16 @@ img[data-animated].hide-small {
     position: absolute;
     top: 0;
     pointer-events: none; } }
+figure {
+  margin: 0; }
+
+figcaption {
+  font-style: italic;
+  font-size: 0.8em;
+  margin-top: -1em;
+  text-align: center;
+  color: #666; }
+
 /* ==========================================================================
    Code and command line blocks
    ========================================================================== */
@@ -900,7 +915,8 @@ dd {
   display: inline-block;
   width: 10px;
   height: 10px;
-  margin: 0 2px; }
+  margin: 0 2px;
+  background-repeat: no-repeat; }
 
 .folder.icon::before {
   background-image: url(../img/icon/folder_icon_black.png); }
@@ -910,6 +926,15 @@ dd {
 
 .bookmark.icon::before {
   background-image: url(../img/icon/bookmark_icon_black.png); }
+
+.windows.icon::before {
+  background-image: url(../img/icon/os_icon_windows-black.png); }
+
+.mac.icon::before {
+  background-image: url(../img/icon/os_icon_mac-black.png); }
+
+.linux.icon::before {
+  background-image: url(../img/icon/os_icon_linux-black.png); }
 
 /* ==========================================================================
    TLDR boxes (with inner road sign icon)
@@ -939,6 +964,15 @@ dd {
 
 .tldr .bookmark.icon::before {
   background-image: url(../img/icon/bookmark_icon_blue.png); }
+
+.tldr .windows.icon::before {
+  background-image: url(../img/icon/os_icon_windows-blue.png); }
+
+.tldr .mac.icon::before {
+  background-image: url(../img/icon/os_icon_mac-blue.png); }
+
+.tldr .linux.icon::before {
+  background-image: url(../img/icon/os_icon_linux-blue.png); }
 
 /* ==========================================================================
    Blue solid boxes (no icons)
@@ -1008,6 +1042,15 @@ li .callout::before {
 .callout .bookmark.icon::before {
   background-image: url(../img/icon/bookmark_icon_blue.png); }
 
+.callout .windows.icon::before {
+  background-image: url(../img/icon/os_icon_windows-blue.png); }
+
+.callout .mac.icon::before {
+  background-image: url(../img/icon/os_icon_mac-blue.png); }
+
+.callout .linux.icon::before {
+  background-image: url(../img/icon/os_icon_linux-blue.png); }
+
 .video.callout {
   border: 2px solid #d9eaf6;
   padding-top: 1em;
@@ -1060,6 +1103,15 @@ li .callout::before {
 .done.callout .bookmark.icon::before {
   background-image: url(../img/icon/bookmark_icon_green.png); }
 
+.done.callout .windows.icon::before {
+  background-image: url(../img/icon/os_icon_windows-green.png); }
+
+.done.callout .mac.icon::before {
+  background-image: url(../img/icon/os_icon_mac-green.png); }
+
+.done.callout .linux.icon::before {
+  background-image: url(../img/icon/os_icon_linux-green.png); }
+
 .done.callout a.link-button {
   background-color: #53a653;
   color: white; }
@@ -1091,6 +1143,15 @@ li .callout::before {
 .warning.callout .bookmark.icon::before {
   background-image: url(../img/icon/bookmark_icon_orange.png); }
 
+.warning.callout .windows.icon::before {
+  background-image: url(../img/icon/os_icon_windows-orange.png); }
+
+.warning.callout .mac.icon::before {
+  background-image: url(../img/icon/os_icon_mac-orange.png); }
+
+.warning.callout .linux.icon::before {
+  background-image: url(../img/icon/os_icon_linux-orange.png); }
+
 .danger.callout {
   border: 2px solid #e21f20;
   background-color: #f2dede;
@@ -1114,3 +1175,12 @@ li .callout::before {
 
 .danger.callout .bookmark.icon::before {
   background-image: url(../img/icon/bookmark_icon_red.png); }
+
+.danger.callout .windows.icon::before {
+  background-image: url(../img/icon/os_icon_windows-red.png); }
+
+.danger.callout .mac.icon::before {
+  background-image: url(../img/icon/os_icon_mac-red.png); }
+
+.danger.callout .linux.icon::before {
+  background-image: url(../img/icon/os_icon_linux-red.png); }
