@@ -1,0 +1,122 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Install Intel® IoT DevKit offline installer - Windows | Set Up Your Computer - Offline Installer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/main.css">
+  </head>
+  <body>
+
+    <header>
+      <img src="../../img/intel_logo.png" alt="Intel logo" width="52" height="35">
+    </header>
+
+    <div class="breadcrumb">
+      <a href="../../docs/">START HERE</a>
+      
+      
+        &raquo; <a href="index.html#install-and-run-offline-installer">Set Up Your Computer - Offline Installer</a>
+      
+      &raquo; Install Intel® IoT DevKit offline installer - Windows
+    </div>
+
+    <div class="content">
+    
+      <ol>
+  <li>
+    <p>Get the latest Intel® IoT DevKit offline installer.</p>
+
+    <div class="callout goto">
+      <ol>
+        <li>On the USB key: <span class="icon folder">downloads</span></li>
+        <li>Copy the entire <span class="icon folder">Windows</span> folder to your computer</li>
+      </ol>
+    </div>
+  </li>
+  <li>
+    <p>When the file transfer is complete, go into the <span class="icon folder">Windows</span> folder you copied to your development machine.</p>
+  </li>
+  <li>
+    <p>Double-click <span class="icon file">install.bat</span> to start installer.</p>
+
+    <p>NOTE: Installation requires administrative rights. If you get a “Do you want to allow following program to make changes to this computer” dialog, click <strong>Yes</strong>.</p>
+
+    <p><img src="images/installer-launch_screen.png" alt="Launch screen" /></p>
+  </li>
+  <li>
+    <p>Follow the installation wizard prompts. Click <strong>Next</strong> where needed.</p>
+  </li>
+  <li>
+    <p>If you do not have the required Java version installed, you will see a message. </p>
+
+    <p><img src="images/installer-java_required.jpg" alt="Required Java not installed message" /></p>
+
+    <p>If you see a message, visit <a href="www.oracle.com/technetwork/java/javase/downloads/index.html">oracle.com</a> to download <em>Java Platform (JDK) 8u65 / 8u66</em> or higher.</p>
+
+    <p>Install Java, then click <strong>Next</strong> in the Intel® IoT DevKit offline installer to continue.</p>
+  </li>
+  <li>When you reach the components option screen, leave the first three options <strong><em>selected</em></strong>:
+    <ul>
+      <li><strong>Drivers</strong> – installs the Intel® Edison drivers and FTDI serial drivers for Windows,</li>
+      <li><strong>Intel® Phone Flash Tool Lite</strong> – installs tool to flash Intel® Edison firmware</li>
+      <li><strong>Update image</strong> – flashes the latest firmware image directly on your Intel® Edison </li>
+    </ul>
+
+    <p>Under “<strong>Development Environment</strong>”, <strong><em>select one or more</em></strong> of the IDEs to install: </p>
+
+    <ul>
+      <li><strong>Arduino™ Software</strong> – for simplified C++ development </li>
+      <li><strong>Intel® XDK IoT Edition</strong> – for JavaScript / NodeJS development</li>
+      <li><strong>Eclipse™</strong> – for C/C++ development</li>
+    </ul>
+
+    <p><strong>WARNING: If you have a previous version of an IDE installed, it will be replaced.</strong></p>
+
+    <p>Click <strong>Next</strong>.</p>
+
+    <p><img src="images/installer-config_options.png" alt="Components screen" /></p>
+  </li>
+  <li>
+    <p>Since you will be updating the firmware, connect the device mode and UART/serial cables to your computer, along with powering the board using DC power. </p>
+
+    <p><img src="images/installer-cable_screen.png" alt="Intel® Edison cables screen" /></p>
+
+    <p>Click <strong>Next</strong> when ready. </p>
+
+    <p>If the Next button is greyed out, wait one minute for the Intel® Edison to finish booting up.</p>
+  </li>
+  <li>
+    <p>Follow the instructions on the screens and click <strong>Install</strong> or <strong>Next</strong> when prompted to continue with the installation wizard. </p>
+
+    <p><img src="images/installer-disconnect_SoC.png" alt="Disconnect SoC message" /></p>
+
+    <p>If prompted to disconnect all SoC devices, click <strong>OK</strong> to let installation continue.</p>
+  </li>
+  <li>
+    <p>The entire installation and flashing process may take up to 30 minutes. When done, click <strong>Finish</strong> to close the installation wizard.</p>
+
+    <p><img src="images/installer-finish_screen.png" alt="Final installer screen" /></p>
+  </li>
+</ol>
+
+        
+    </div>
+
+    <div class="go-back-link">
+      
+      &laquo; Return to <a href="index.html#install-and-run-offline-installer">Set Up Your Computer - Offline Installer</a>
+      
+    </div>
+
+  
+
+<script src="../../js/jquery-2.1.4.min.js"></script>
+<script src="../../js/main.js"></script>
+
+  </body>
+</html>
