@@ -45,6 +45,6 @@ parentTitle: Shell Access - Mac
 <div class="callout troubleshooting" markdown="1">
 **Don't see a "usbserial" device listed?**
 
-* **Do you have the UART/serial cable connected?** Refer to [UART/serial micro-USB cable](../../assembly/arduino_expansion_board/details-serial_cable.html).
 * Is your IoT board powered on?
+* **Do you have the UART/serial cable connected?** Refer to [UART/serial micro-USB cable](../../assembly/arduino_expansion_board/details-serial_cable.html).
 </div>

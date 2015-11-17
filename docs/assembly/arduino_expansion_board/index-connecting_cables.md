@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Connecting cables
-parentUrl: docs/assembly/arduino_expansion_board/
+parentUrl: index.html
 parentTitle: Unboxing and Assembly
 ---
 
@@ -16,10 +16,6 @@ parentTitle: Unboxing and Assembly
 # Connecting cables
 
 Explore when and how to use all the cables ports on the Intel® Edison kit for Arduino. 
-
-<!-- <div id="related-videos" class="callout video">
-  <object id="flashObj" width="565" height="367" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,47,0"><param name="movie" value="http://c.brightcove.com/services/viewer/federated_f9?isVid=1" /><param name="bgcolor" value="#FFFFFF" /><param name="flashVars" value="videoId=4117768692001&playerID=741496470001&playerKey=AQ~~,AAAArH1stHk~,LuRqJUw7MaeYQkat5frTpWWPINh71g7p&domain=embed&dynamicStreaming=true" /><param name="base" value="http://admin.brightcove.com" /><param name="seamlesstabbing" value="false" /><param name="allowFullScreen" value="true" /><param name="swLiveConnect" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://c.brightcove.com/services/viewer/federated_f9?isVid=1" bgcolor="#FFFFFF" flashVars="videoId=4117768692001&playerID=741496470001&playerKey=AQ~~,AAAArH1stHk~,LuRqJUw7MaeYQkat5frTpWWPINh71g7p&domain=embed&dynamicStreaming=true" base="http://admin.brightcove.com" name="flashObj" width="565" height="367" seamlesstabbing="false" type="application/x-shockwave-flash" allowFullScreen="true" swLiveConnect="true" allowScriptAccess="always" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed></object>
-</div> -->
 
 ## Device mode vs host mode
 
@@ -47,7 +43,7 @@ Use the top micro-USB port in USB device mode for:
 
 [![Animated gif: using device mode](){: .animated data-still="images/device_mode-sampleframe.jpg" data-animated="images/device_mode-animated.gif"}](details-device_mode_cable.html)
 
-[View detailed instructions »](details-device_mode_cable.html){: .link-button .centered}
+[View detailed instructions for the device mode cable »](details-device_mode_cable.html){: .link-button .centered}
 
 
 ## UART/serial micro-USB cable
@@ -58,7 +54,7 @@ Use the bottom micro-USB port to send serial commands to your Intel® Edison via
 
 [![Animated gif: using UART/serial cable](){: .animated data-still="images/serial-sampleframe.jpg" data-animated="images/serial-animated.gif"}](details-serial_cable.html)
 
-[View detailed instructions »](details-serial_cable.html){: .link-button .centered}
+[View detailed instructions for the serial cable »](details-serial_cable.html){: .link-button .centered}
 
 
 ## DC power supply
@@ -69,7 +65,7 @@ The Arduino expansion board for Intel® Edison can be powered via the DC power j
 
 [![Animated gif: using power barrel connector](){: .animated data-still="images/power_barrel-firstframe.jpg" data-animated="images/power_barrel-animated.gif"}](details-power_barrel.html)
 
-[View detailed instructions »](details-power_barrel.html){: .link-button .centered}
+[View detailed instructions for the power supply cable»](details-power_barrel.html){: .link-button .centered}
 
 
 ## Host mode USB cable
@@ -80,5 +76,5 @@ Use the standard-sized USB port in USB host mode to allow the Intel® Edison to 
 
 [![Animated gif: using host mode](){: .animated data-still="images/host_mode-sampleframe.jpg" data-animated="images/host_mode-animated.gif"}](details-host_mode_cable.html)
 
-[View detailed instructions »](details-host_mode_cable.html){: .link-button .centered}
+[View detailed instructions for the host mode cable »](details-host_mode_cable.html){: .link-button .centered}
 

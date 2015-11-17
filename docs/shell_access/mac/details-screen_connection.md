@@ -26,3 +26,7 @@ parentTitle: Shell Access - Mac
     Type in "**root**" for the username and press **Enter**.
 
     ![login as "root"](images/screen-login_root.png)
+
+<div class="callout goto" markdown="1">
+For more info on using Screen such as quitting, read [Using Screen »](../mac-and-linux/using_screen.html)
+</div>

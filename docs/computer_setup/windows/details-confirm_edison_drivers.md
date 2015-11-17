@@ -25,5 +25,5 @@ If you see both "**Intel Edison USB Composite Device**" and "**Intel Edison Virt
 * Check that the micro-USB cable is securely connected to the [device mode micro-USB port](../../assembly/arduino_expansion_board/index-connecting_cables.html#device-mode-micro-usb-cable) of the Intel® Edison expansion board.
 * Restart your computer to ensure driver changes to take effect.
 * Try a different micro-USB cable to eliminate errors due to a bad cable.
-* Update the firmware on the Intel® Edison. Refer to [Flash Edison Firmware Manually](../../flash_firmware/manually/index.html).
+* Update the firmware on the Intel® Edison. <!-- Refer to [Flash Edison Firmware Manually](../../flash_firmware/manually/index.html). -->
 </div>

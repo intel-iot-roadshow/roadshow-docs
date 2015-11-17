@@ -3,7 +3,7 @@ layout: default
 title: Run a Sample Project - Intel® IoT Dev Kit Eclipse
 ---
 
-# Set Up Intel® IoT Dev Kit Eclipse - Part 2: Run a Sample Project
+# Set Up Intel® IoT Dev Kit Eclipse - Run a Sample Project
 
 This document will guide you through creating and running a Hello Word project (blinking the onboard LED) on the Intel® Edison.
 
@@ -47,12 +47,9 @@ This document will guide you through creating and running a Hello Word project (
 
 12. Once your project runs, you'll see an LED blinking on your board, as shown below.
 
+13. Check your Intel® Edison for a blinking light. The LED is located near the center of the board.
 
-### Check Intel® Edison for a blinking light
-  
-The LED is located near the center of the board.
-
-![Green LED on Intel® Edison](../../assembly/arduino_expansion_board/images/on_board_led.png)
+    ![Green LED on Intel® Edison](../../assembly/arduino_expansion_board/images/on_board_led.png)
 
 **Congratulations, you just ran your first C++ application!**
 

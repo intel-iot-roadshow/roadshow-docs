@@ -17,3 +17,8 @@ parentTitle: Arduino IDE
   
     ![Transfer Complete Message](images/transfer-blink.png)
 
+4. Check your Intel® Edison for a blinking light. The LED is located near the center of the board.
+
+    ![Green LED on Intel® Edison](../../assembly/arduino_expansion_board/images/on_board_led.png)
+
+**Congratulations, you just ran your first Arduino application!**

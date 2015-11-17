@@ -42,10 +42,6 @@ configure_edison --help
 ```
 </div>
 
-<div class="callout goto" markdown="1">
-For more info on using Screen such as quitting, read [Using Screen »](../mac-and-linux/using_screen.html)
-</div>
-
 <div id="next-steps" class="callout done" markdown="1">
 You should now be able to gain command line access to the Intel® Edison.
 

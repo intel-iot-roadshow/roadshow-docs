@@ -17,9 +17,6 @@ The Intel® IoT Developer Kit ("dev kit") lets you create and test applications 
 
 This document will guide you through installing the Eclipse IDE distributed with the Intel® IoT Developer Kit for Intel® Edison development.
 
-<!-- <div id="related-videos" class="callout video">
-* [Set Up Intel IoT Dev Kit Eclipse – Part 1: Installation](https://software.intel.com/en-us/videos/set-up-intel-iot-dev-kit-eclipse-part-1-installation)
-</div> -->
 
 ## Install prerequisite software
 
@@ -81,8 +78,13 @@ Use devkit-launcher.bat to launch Eclipse with all the necessary Intel® IoT env
 **Having issues?** Refer to [Troubleshooting »](troubleshooting.html)
 </div>
 
-<div id="next-steps" class="callout goto" markdown="1">
+<!-- <div id="next-steps" class="callout goto" markdown="1">
 You should now have the Intel® IoT Dev Kit Eclipse IDE installed. Next, create and run a Hello Word project (blinking the onboard LED) on the Intel® Edison.
 
 [Run a Sample Eclipse Project »](index-create_project.html){: .link-button .centered}
+</div> -->
+<div id="next-steps" class="callout done" markdown="1">
+You should now have the Intel® IoT Dev Kit Eclipse IDE installed.
+
+[Continue to the next step in the START HERE guide »](../../index.html#done-computer-setup){: .link-button .centered}
 </div>

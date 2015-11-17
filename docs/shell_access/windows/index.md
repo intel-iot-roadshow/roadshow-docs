@@ -17,9 +17,6 @@ If you need to configure your IoT board, you will need to remotely connect to th
 
 You can then execute special Linux commands such: changing the hostname and password, setting up Wi-Fi, or flashing new firmware.
 
-<!-- <div id="related-videos" class="callout video">
-[Shell Access – Windows](https://software.intel.com/en-us/videos/shell-access-windows)
-</div> -->
 
 ## Download a terminal client (PuTTY)
 
@@ -59,10 +56,6 @@ You are now logged into your IoT board and can run shell commands. For example, 
 ```
 configure_edison --help
 ```
-</div>
-
-<div class="callout goto" markdown="1">
-For more info on using PuTTY such as saving profiles, read [Using PuTTY »](using_putty.html)
 </div>
 
 <div id="next-steps" class="callout done" markdown="1">

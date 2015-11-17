@@ -35,3 +35,7 @@ parentTitle: Shell Access - Windows
     Type in "**root**" for the username and press **Enter**.
 
     ![Login as root user](images/putty-login_as_root.png)
+
+<div class="callout goto" markdown="1">
+For more info on using PuTTY such as saving profiles, read [Using PuTTY »](using_putty.html)
+</div>

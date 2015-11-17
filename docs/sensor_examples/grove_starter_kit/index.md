@@ -42,7 +42,7 @@ Arduino "shields" are add-ons that plug into standard Arduino header pin configu
 
 [![Animated gif: installing the Grove Base Shield](){: .animated data-still="images/install_base_shield-sampleframe.jpg" data-animated="images/install_base_shield-animated.gif"}](details-base_shield.html)
 
-[View detailed instructions »](details-base_shield.html){: .link-button .centered}
+[View detailed instructions for installing the shield »](details-base_shield.html){: .link-button .centered}
 
 
 ## Connect a Grove component 
@@ -53,16 +53,10 @@ All components in the Grove System use a 4-pin cable with JST connectors. This a
 
 [![Animated gif: connecting the Grove LED component](){: .animated data-still="images/connect_component-sampleframe.jpg" data-animated="images/connect_component-animated.gif"}](details-connect_component.html)
 
-[View detailed instructions »](details-connect_component.html){: .link-button .centered}
+[View detailed instructions for connecting components »](details-connect_component.html){: .link-button .centered}
 
 <div id="next-steps" class="callout done" markdown="1">
-You now know the basics about the Grove Starter Kit. Try code samples for the IDE you installed.
+You now know the basics of the Grove Starter Kit.
 
-<div class="link-button-container" markdown="1">
-[Arduino »](arduino/index.html){: .link-button}
-[JavaScript »](javascript/index.html){: .link-button}
-<!-- [C++ »](https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities#_Toc4) -->
-[C++ »](https://software.intel.com/en-us/working-with-sensors-in-eclipse){: .link-button}
-</div>
-
+[Continue to the next step in the START HERE guide »](../../index.html#done-grove-intro){: .link-button .centered}
 </div>

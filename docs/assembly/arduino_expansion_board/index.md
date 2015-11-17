@@ -17,10 +17,6 @@ Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is re
 
 ![Closed Intel® Edison retail box](images/retail_box.png)
 
-<!-- <div id="related-videos" class="callout video">
-  <object id="flashObj" width="565" height="367" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,47,0"><param name="movie" value="http://c.brightcove.com/services/viewer/federated_f9?isVid=1" /><param name="bgcolor" value="#FFFFFF" /><param name="flashVars" value="videoId=4117865880001&playerID=741496470001&playerKey=AQ~~,AAAArH1stHk~,LuRqJUw7MaeYQkat5frTpWWPINh71g7p&domain=embed&dynamicStreaming=true" /><param name="base" value="http://admin.brightcove.com" /><param name="seamlesstabbing" value="false" /><param name="allowFullScreen" value="true" /><param name="swLiveConnect" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://c.brightcove.com/services/viewer/federated_f9?isVid=1" bgcolor="#FFFFFF" flashVars="videoId=4117865880001&playerID=741496470001&playerKey=AQ~~,AAAArH1stHk~,LuRqJUw7MaeYQkat5frTpWWPINh71g7p&domain=embed&dynamicStreaming=true" base="http://admin.brightcove.com" name="flashObj" width="565" height="367" seamlesstabbing="false" type="application/x-shockwave-flash" allowFullScreen="true" swLiveConnect="true" allowScriptAccess="always" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed></object>
-</div> -->
-
 ## Look in the Intel® Edison Kit for Arduino box
 
 ![Unpacked Intel® Edison retail box](images/retail_box-unpacked.png)
@@ -53,7 +49,7 @@ The Intel® Edison module is meant to be used with breakout boards or custom PCB
 
 [![Animated gif: installing the Intel® Edison module](){: .animated data-still="images/module_install-firstframe.jpg" data-animated="images/module_install-animated.gif"}](details-install_module.html)
 
-[View detailed instructions »](details-install_module.html){: .link-button .centered}
+[View detailed instructions on installing the module »](details-install_module.html){: .link-button .centered}
 
 
 ### Install the plastic spacers
@@ -64,7 +60,7 @@ To add stability to the expansion board and to help avoid accidental short circu
 
 [![Animated gif: installing the plastic spacers](){: .animated data-still="images/spacer_install-firstframe.jpg" data-animated="images/spacer_install-animated.gif"}](details-install_spacers.html)
 
-[View detailed instructions »](details-install_spacers.html){: .link-button .centered}
+[View detailed instructions on installing the spacers »](details-install_spacers.html){: .link-button .centered}
 
 
 ## Example of a full development setup
@@ -74,11 +70,11 @@ While plugging in every cable is not required at this very moment, a development
 (1) microswitch set to **[USB device mode](index-connecting_cables.html#device-mode-vs-host-mode)** (i.e. toggled **_down_** towards the micro-USB ports)
 (2) **[device mode cable](index-connecting_cables.html#device-mode-micro-usb-cable)** plugged into your computer (i.e. **top** micro-USB port)
 (3) **[UART/serial cable](index-connecting_cables.html#uartserial-micro-usb-cable)** plugged into your computer (i.e. **bottom** micro-USB port)
-(4) _Optional but recommended:_ connected to a **[DC power supply ](index-connecting_cables.html#dc-power-supply)**
+(4) _Optional but **highly recommended**:_ connected to a **[DC power supply ](index-connecting_cables.html#dc-power-supply)**
 
-<div class="callout info" markdown="1">
+<!-- <div class="callout info" markdown="1">
 Fully explore when and how to use all the cables ports on the Intel® Edison kit for Arduino in [Connecting Cables »](index-connecting_cables.html).
-</div>
+</div> -->
 
 ![Cable and microswitch setup for Intel® Edison development](images/cables-full_dev_setup_with_dc.png)
 

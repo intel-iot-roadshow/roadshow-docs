@@ -13,11 +13,6 @@ parentTitle: Set Up Your Computer - Windows
 
 # Confirm driver installation - Windows 
 
-<!-- <div class="related-videos" class="callout video">
-* [Intel Edison: Set Up Your Computer Manually - Windows (preview video)](https://drive.google.com/open?id=0B6gHgawzKtxCbUxicmpBc2JZSmM&authuser=0)
-* [Intel Edison: Set Up Your Computer - Windows Integrated Installer (preview video)](https://drive.google.com/open?id=0B6gHgawzKtxCejNuYjc3a216X3M&authuser=0)
-</div> -->
-
 ## Open Windows Device Manager
 
 <div class="tldr" markdown="1">

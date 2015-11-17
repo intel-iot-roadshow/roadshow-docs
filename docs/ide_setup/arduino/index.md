@@ -45,14 +45,6 @@ Create and run a Hello Word project (blinking the onboard LED) on the Intel® Ed
 [View detailed instructions »](details-create_project.html){: .link-button .centered}
 
 
-## Check Intel® Edison for a blinking light
-  
-The LED is located near the center of the board.
-
-![Green LED on Intel® Edison](../../assembly/arduino_expansion_board/images/on_board_led.png)
-
-**Congratulations, you just ran your first Arduino application!**
-
 <div id="next-steps" class="callout done" markdown="1">
 You should now have the Arduino IDE installed and the Intel® Edison's onboard LED should be blinking.
 

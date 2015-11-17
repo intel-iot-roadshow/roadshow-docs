@@ -7,7 +7,7 @@ title: Getting Started
 
 # How to go from Zero to Blinking Light Hero
 
-_Instructions for **Intel® Edison** installed on an **Arduino-compatible expansion board** using the Intel® IoT Developer Kit **(C/C++, JavaScript or Arduino development workflow)**_
+<!-- _Instructions for **Intel® Edison** installed on an **Arduino-compatible expansion board** using the Intel® IoT Developer Kit **(C/C++, JavaScript or Arduino development workflow)**_ -->
 
 
 <div id="start" markdown="1">
@@ -17,6 +17,7 @@ Find out what hardware is included with your Intel® IoT Developer Kit ("dev kit
 
 [Assemble your Arduino expansion board »](assembly/arduino_expansion_board/index.html){: .link-button .centered}
 </div>
+
 
 <div id="done-assembly" markdown="1">
 ## 2. Set Up Your Computer
@@ -85,16 +86,34 @@ Based on your programming language preference, install an IDE for Intel® IoT de
 </div>
 
 <div id="done-ide" markdown="1">
-## 7. Sensor Tutorials
+## 6. Get Familiar with the Grove Starter Kit
 
-Learn more about the Grove Starter Kit:
+Install the Grove Base Shield and learn how to connect Grove components.
 
 [Read Grove Starter Kit Intro »](sensor_examples/grove_starter_kit/index.html){: .link-button .centered}
 
-Jump to [Arduino](sensor_examples/grove_starter_kit/arduino/index.html), [JavaScript](sensor_examples/grove_starter_kit/javascript/index.html), or [C++](https://software.intel.com/en-us/working-with-sensors-in-eclipse) to sample code supplied for available sensors and actuators.
-
-Also search for your component on [software.intel.com/en-us/iot/sensors](http://software.intel.com/en-us/iot/sensors).
 </div>
+
+<div id="done-grove-intro" markdown="1">
+## 7. Sensor Tutorials
+
+See code samples for your programming language and IDE.
+
+  <div class="link-button-container" markdown="1">
+  [JavaScript / XDK »](sensor_examples/grove_starter_kit/javascript/index.html){: .link-button}
+  <!-- [C++ »](https://software.intel.com/en-us/articles/internet-of-things-using-mraa-to-abstract-platform-io-capabilities#_Toc4) -->
+  [C++ / Eclipse »](https://software.intel.com/en-us/working-with-sensors-in-eclipse){: .link-button}
+  [Arduino »](sensor_examples/grove_starter_kit/arduino/index.html){: .link-button}
+  </div>
+
+  <div style="text-align:center;" markdown="1">
+  **Need more examples?**<br>
+  Search for your component on [software.intel.com/en-us/iot/sensors](http://software.intel.com/en-us/iot/sensors).<br>
+  View app examples on [github.com/intel-iot-devkit/how-to-code-samples](https://github.com/intel-iot-devkit/how-to-code-samples).
+  </div>
+</div>
+
+
 
 <div id="done-sensors" markdown="1">
 ## 8. Start Hacking!

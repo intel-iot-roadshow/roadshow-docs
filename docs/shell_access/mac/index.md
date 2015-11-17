@@ -16,9 +16,6 @@ If you need to configure your IoT board, you will need to remotely connect to th
 
 You can then execute special Linux commands such: changing the hostname and password, setting up Wi-Fi, or flashing new firmware.
 
-<!-- <div id="related-videos" class="callout video">
-[Shell Access – Mac](https://software.intel.com/en-us/videos/shell-access-mac)
-</div> -->
 
 ## Identify the "usbserial" device name 
 
@@ -48,10 +45,6 @@ You are now logged into your IoT board and can run shell commands. For example, 
 ```
 configure_edison --help
 ```
-</div>
-
-<div class="callout goto" markdown="1">
-For more info on using Screen such as quitting, read [Using Screen »](../mac-and-linux/using_screen.html)
 </div>
 
 

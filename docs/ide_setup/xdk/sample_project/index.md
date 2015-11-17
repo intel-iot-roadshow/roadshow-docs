@@ -58,7 +58,7 @@ Upload the project files to the IoT device and run it. Remember that every time 
 [View detailed instructions on uploading and running an app »](details-upload_run.html){: .link-button .centered}
 
 
-### Check Intel® Edison for a blinking light
+### Check your Intel® Edison for a blinking light
 
 The LED is located near the center of the board.
 
