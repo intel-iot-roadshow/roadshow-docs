@@ -1020,6 +1020,10 @@ dd {
 .callout > *:last-child {
   margin-bottom: 0; }
 
+.callout ol li ul,
+.callout ul li ul {
+  margin-bottom: 0em; }
+
 .callout::before {
   content: '';
   display: block;
