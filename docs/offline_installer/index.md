@@ -18,12 +18,12 @@ The offline installer for Intel® Edison includes the ability to install the fol
 * the latest firmware on the Intel® Edison board.
 </div>
 
-<!-- 
+ 
 <figure markdown="1">
-![Animated gif: installing Intel® Edison offline installer](){: .animated data-still="images/install_offline-sampleframe.jpg" data-animated="images/install_offline-animated.gif"}
+![Animated gif: installing Intel® Edison offline installer](){: .animated data-still="images/offline_installer_mac-sampleframe.jpg" data-animated="images/offline_installer_mac-animated.gif"}
 <figcaption>Example installation on Mac OSX</figcaption>
 </figure>
--->
+
 
 <div class="link-button-container" markdown="1">
   <span class="link-button-container-title">Select your operating system:</span>
