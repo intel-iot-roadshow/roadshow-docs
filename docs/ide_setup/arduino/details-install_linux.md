@@ -18,7 +18,7 @@ parentTitle: Arduino IDE
 3. Get the latest Arduino IDE.
 
     <div class="callout goto" markdown="1">
-    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span>
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span> → <span class="icon folder">edison_media</span>
     2. Based on your Linux operating system (32 bit or 64 bit), copy <span class="icon file">arduino-[version]-linux32.tar.xz</span> or <span class="icon file">arduino-[version]-linux64.tar.xz</span>to your computer.
     </div>
 
@@ -64,7 +64,7 @@ parentTitle: Arduino IDE
 12. To save on internet bandwidth, install the "Intel i686 Boards" toolchain manually to your Arduino IDE installation.
 
     <div class="callout goto" markdown="1">
-    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span>
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span> → <span class="icon folder">edison_media</span>
     2. Copy <span class="icon file">IntelArduinoToolChain_linux.gz</span> to your computer and unarchive it.
     3. Copy the uncompressed <span class="icon folder">Intel</span> folder and its contents to <span class="icon folder">/home/[YOUR_USER_NAME]/.arduino15/packages</span> on your computer.
     </div>

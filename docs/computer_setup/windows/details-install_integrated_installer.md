@@ -20,8 +20,8 @@ The Windows 64-bit Integrated Installer gives you options to automatically insta
 1. Get the latest Intel® Edison 64-bit Windows installer.
 
     <div class="callout goto" markdown="1">
-    1. On the USB key: **downloads → Windows**
-    2. Copy **iotdk_win_installer.exe** to your computer.
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Windows<span> → <span class="icon folder">edison_media</span>
+    2. Copy <span class="icon file">iotdk_win_installer.exe</span> to your computer.
     </div>
 
 2. Connect a micro-USB cable to the **device mode** micro-USB port of the Intel® Edison expansion board, and the other end to your computer.

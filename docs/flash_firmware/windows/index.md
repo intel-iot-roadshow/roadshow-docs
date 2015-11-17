@@ -8,7 +8,7 @@ parentTitle: Flash Firmware using Flash Tool Lite
 1. Get the latest **Flash Tool Lite**.
    
    <div class="callout goto" markdown="1">
-   1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Windows</span>
+   1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Windows</span> → <span class="icon folder">edison_media</span>
    2. Copy <span class="icon file">PhoneFlashToolLite_[version]_win32.exe</span> to your computer.
    </div>
 

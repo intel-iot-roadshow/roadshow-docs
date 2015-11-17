@@ -6,8 +6,8 @@ title: Copy over the latest image
 1. Get the latest Yocto firmware image for the Intel® Edison.
 
     <div class="callout goto" markdown="1">
-    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Firmware - Edison Yocto</span>
-    2. Copy <span class="icon file">edison-image-[version].zip</span> to your computer.
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Mac/Windows/Linux</span> → <span class="icon folder">edison_media</span>
+    2. Copy <span class="icon file">edison-iotdk-image-[version].zip</span> to your computer.
     </div>
       
     <div class="callout info" markdown="1">

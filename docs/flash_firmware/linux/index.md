@@ -26,8 +26,8 @@ The Linux installation set up is only for 64 bit operating system. The versions 
 2. Get the latest **Flash Tool Lite**.
    
    <div class="callout goto" markdown="1">
-   1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span>
-   2. Copy <span class="icon file">phoneflashtoollite_[version]_linux_x86_64.deb</span> to your computer.
+   1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span> → <span class="icon folder">edison_media</span>
+   2. Based on your Linux operating system (32 bit or 64 bit), copy <span class="icon file">phoneflashtoollite_[version]_linux_x86_32.deb</span> or copy <span class="icon file">phoneflashtoollite_[version]_linux_x86_64.deb</span> to your computer.
    </div>
 
 3. Complete the installation either through Terminal or Ubunutu software center.

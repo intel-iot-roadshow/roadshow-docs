@@ -8,7 +8,7 @@ parentTitle: Intel® IoT Dev Kit Eclipse - Installation
 1. Get the latest IoT dev kit Eclipse IDE package.
 
     <div class="callout goto" markdown="1">
-    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span>
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Linux</span> → <span class="icon folder">edison_media</span>
     2. Copy <span class="icon file">iotdk-ide-linux.tar.b2</span> to your computer.
     </div>
 

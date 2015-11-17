@@ -10,13 +10,13 @@ parentTitle: Flash Firmware using Flash Tool Lite
 2. Get the latest Yocto firmware image for the Intel® Edison.
 
     <div class="callout goto" markdown="1">
-    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Firmware</span>
-    2. Copy <span class="icon file">edison-image-[version].zip</span> to your computer.
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Windows/Mac/Linux</span> → <span class="icon folder">edison_media</span>
+    2. Copy <span class="icon file">edison-iotdk-image-[version].zip</span> to your computer.
     </div>
 
 3. Launch the **Flash Tool Lite** program installed in the previous section.
 
-4. Click **Browse** in the upper righthand corner. Select <span class="icon file">edison-image-[version].zip</span> file.
+4. Click **Browse** in the upper righthand corner. Select <span class="icon file">edison-iotdk-image-[version].zip</span> file.
  
     ![Browse Edison Image](images/browse_flash_tool.jpg)
 

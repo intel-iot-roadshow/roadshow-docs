@@ -18,7 +18,7 @@ However, if you see a "New Hardware Found" message when you plug in the Intel® 
 1. Get the latest FTDI CDM driver installer.
 
     <div class="callout goto" markdown="1">
-    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Windows</span>
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Windows</span> → <span class="icon folder">edison_media</span>
     2. Copy <span class="icon file">CDM [version] WHQL Certified.exe</span> to your computer.
     </div>
 

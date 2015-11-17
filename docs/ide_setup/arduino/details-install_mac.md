@@ -27,7 +27,7 @@ parentTitle: Arduino IDE
 6. To save on internet bandwidth, install the "Intel i686 Boards" toolchain manually to your Arduino IDE installation.
 
     <div class="callout goto" markdown="1">
-    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Mac</span>
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Mac</span> → <span class="icon folder">edison_media</span>
     2. Copy <span class="icon file">IntelArduinoToolChain_mac.zip</span> to your computer and unzip it.
     3. Copy the uncompressed <span class="icon folder">Intel</span> folder and its contents to <span class="icon folder">/Users/[YOUR_USER_NAME]/Library/Arduino15/packages</span> on your computer.
     </div>

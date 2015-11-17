@@ -8,7 +8,7 @@ parentTitle: Arduino IDE
 1. Get the latest Arduino IDE.
 
     <div class="callout goto" markdown="1">
-    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Windows</span>
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Windows</span> → <span class="icon folder">edison_media</span>
     2. Copy <span class="icon file">arduino-[version]-windows.exe</span> to your computer.
     </div>
 
@@ -23,7 +23,7 @@ parentTitle: Arduino IDE
 6. To save on internet bandwidth, install the "Intel i686 Boards" toolchain manually to your Arduino IDE installation.
 
     <div class="callout goto" markdown="1">
-    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Windows</span>
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Windows</span> → <span class="icon folder">edison_media</span>
     2. Copy <span class="icon file">IntelArduinoToolchain.7z</span> to your computer and unzip it using **7zip**.
     3. Copy the uncompressed <span class="icon folder">Intel</span> folder and its contents to <span class="icon folder">C:\Users\\[YOUR_USER_NAME]\AppData\Roaming\Arduino15\packages\Intel</span> on your computer.
     </div>

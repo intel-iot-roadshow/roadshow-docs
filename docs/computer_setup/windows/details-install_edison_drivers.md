@@ -8,7 +8,7 @@ parentTitle: Set Up Your Computer - Windows (manual installation)
 1. Get the latest Intel® Edison Device USB drivers for Windows installer.
 
     <div class="callout goto" markdown="1">
-    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Windows</span>
+    1. On the USB key: <span class="icon folder">downloads</span> → <span class="icon folder">Windows</span> → <span class="icon folder">edison_media</span>
     2. Copy <span class="icon file">IntelEdisonDriverSetup[version].exe</span> to your computer.
     </div>
 
