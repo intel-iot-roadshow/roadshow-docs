@@ -22,7 +22,8 @@ parentTitle: Unboxing and Assembly
     ![All spacers installed](images/spacer_install-all_spacers.png)
 
 <div class="callout done" markdown="1">
-**Done!** Your Arduino expansion board should look like this when you are complete.
+**Done!**<br>
+Your Arduino expansion board should look like the photo below when the plastic spacer legs are attached.
 
-![Side view of Intel® Edison with plastic spacers installed](images/spacer_install-side_view.png)
+![Side view of Arduino expansion board with plastic spacers installed](images/spacer_install-side_view.png)
 </div>
