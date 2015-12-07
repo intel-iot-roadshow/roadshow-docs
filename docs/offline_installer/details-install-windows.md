@@ -26,7 +26,11 @@ parentTitle: Set Up Your Computer - Offline Installer
 
     ![Required Java not installed message](images/installer-java_required.jpg)
   
-    If you see a message, visit [oracle.com](www.oracle.com/technetwork/java/javase/downloads/index.html) to download _Java Platform (JDK) 8u65 / 8u66_ or higher.
+    If you are planning on only using the XDK to program in Javascript or the Aruino IDE ignore the JDK warning message.
+    
+    
+    If you are planning to use Eclipse IDE to program in C/C++ AND you see the message above, visit [oracle.com](www.oracle.com/technetwork/java/javase/downloads/index.html) to download _Java Platform (JDK) 8u65 / 8u66_ or higher.
+    
 
     Install Java, then click **Next** in the Intel® IoT DevKit offline installer to continue.
 
