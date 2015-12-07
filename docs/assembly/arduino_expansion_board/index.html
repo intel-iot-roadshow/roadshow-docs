@@ -27,49 +27,86 @@
     
       <div id="toc">
   <ul>
-    <li><a href="#look-in-the-intel-edison-kit-for-arduino-box">Look in the Intel® Edison Kit for Arduino box »</a></li>
-    <li><a href="#quick-start-assembly-instructions">Quick Start Assembly Instructions »</a>
+    <li><a href="#inside-the-intel-edison-kit-for-arduino-box">Inside the Intel® Edison Kit for Arduino box »</a></li>
+    <li><a href="#additional-cables-required">Additional cables required »</a></li>
+    <li><a href="#assembling-the-intel-edison-kit-for-arduino">Assembling the Intel® Edison Kit for Arduino »</a>
       <ul>
-        <li><a href="#install-the-intel-edison-module">Install the Intel® Edison module »</a></li>
+        <li><a href="#install-the-intel-edison-compute-module">Install the Intel® Edison compute module »</a></li>
         <li><a href="#install-the-plastic-spacers">Install the plastic spacers »</a></li>
       </ul>
     </li>
-    <li><a href="#example-of-a-full-development-setup">Example of a full development setup »</a></li>
+    <li><a href="#connect-the-intel-edison-to-your-computer-for-development">Connect the Intel® Edison to your computer for development »</a>
+      <ul>
+        <li><a href="#led-indicator">LED indicator</a></li>
+      </ul>
+    </li>
   </ul>
 </div>
 
 <h1 id="unboxing-and-assembly">Unboxing and Assembly</h1>
 
-<p>Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is required. ;)</p>
+<p>Find out what is in your Intel® Edison Kit for Arduino box. Some assembly is required.</p>
 
 <p><img src="images/retail_box.png" alt="Closed Intel® Edison retail box" /></p>
 
-<h2 id="look-in-the-intel-edison-kit-for-arduino-box">Look in the Intel® Edison Kit for Arduino box</h2>
+<h2 id="inside-the-intel-edison-kit-for-arduino-box">Inside the Intel® Edison Kit for Arduino box</h2>
 
 <p><img src="images/retail_box-unpacked.png" alt="Unpacked Intel® Edison retail box" /></p>
 
 <dl>
 
-  <dt>Intel® Edison compute module</dt>
-  <dd>Refer to the <a href="http://www.intel.com/support/edison/sb/CS-035277.htm">product brief</a> for specs.</dd>
+  <dt>(1) Intel® Edison compute module</dt>
+  <dd>Refer to the <a href="http://www.intel.com/support/edison/sb/CS-035277.htm">Intel® Edison product brief</a> for specs.</dd>
 
-  <dt>Intel® Edison kit for Arduino expansion board.</dt>
-  <dd>Software and hardware pin-compatible with Arduino Uno R3 shields. Refer to the <a href="http://www.intel.com/support/edison/sb/CS-035275.htm">hardware guide</a> for specs.</dd>
+  <dt>(2) Arduino expansion board</dt>
+  <dd>Hardware pin-compatible with Arduino Uno R3 shields. Refer to the <a href="http://www.intel.com/support/edison/sb/CS-035275.htm">Intel® Edison Kit for Arduino hardware guide</a> for specs.</dd>
 
-  <dt>Small hex nuts (x2)</dt>
-  <dd>For attaching the Intel® Edison module to the expansion board.</dd>
-
-  <dt>Screws (x4) &amp; plastic spacers (x4)</dt>
-  <dd>To keep the expansion board stable and lifted off of surfaces.</dd>
+  <dt>(3) Assembly hardware</dt>
+  <dd>
+    <ul>
+      <li><strong>Small hex nuts (x2)</strong> - For securing the Intel® Edison compute module to the expansion board.</li>
+      <li><strong>Screws (x4) &amp; plastic spacers (x4)</strong> - To keep the expansion board stable and lifted off of surfaces that may cause a short circuit.</li>
+    </ul>
+  </dd>
 
 </dl>
 
-<h2 id="quick-start-assembly-instructions">Quick Start Assembly Instructions</h2>
+<h2 id="additional-cables-required">Additional cables required</h2>
 
-<h3 id="install-the-intel-edison-module">Install the Intel® Edison module</h3>
+<p><img src="images/cables-additional_required.png" alt="Additional cables include two micro-USB cables and DC power supply" /></p>
+
+<dl>
+
+  <dt>(4) Micro-B USB to Standard-B USB cables (x2)</dt>
+  <dd>These common micro-USB cables are used for charging mobile phones and other consumer electronics.</dd>
+
+  <dt>(5) Direct current (DC) power supply <span style="font-weight:normal;">rated as follows:</span></dt>
+  <dd>
+    <ul>
+      <li>7-15V DC</li>
+      <li>At least 1500mA</li>
+      <li>Center/inner pin is positive pole</li>
+    </ul>
+  </dd>
+
+</dl>
+
+<div class="callout info">
+  <p><strong>Do not have an external power supply?</strong></p>
+
+  <p>An external power supply is the most stable and reliable way of powering the Intel® Edison board.</p>
+
+  <p>However, you can power your board using the device mode USB cable if you do not have an external power supply. Refer to the <a href="#connect-the-intel-edison-to-your-computer-for-development">Connect the Intel® Edison to your computer for development</a> section later on this page for more details.</p>
+
+  <p>The recommended EMSA120150 power supply can be purchased from <a href="http://www.digikey.com/product-detail/en/EMSA120150-P5P-SZ/T1091-P5P-ND/2352085" rel="nofollow" target="_blank">digikey.com</a> or <a href="http://www.futureelectronics.com/en/Technologies/Franchised/Product.aspx?ProductID=EMSA120150-045P5RP-045SZCUI&amp;IM=0" rel="nofollow" target="_blank">futureelectronics.com</a>.</p>
+</div>
+
+<h2 id="assembling-the-intel-edison-kit-for-arduino">Assembling the Intel® Edison Kit for Arduino</h2>
+
+<h3 id="install-the-intel-edison-compute-module">Install the Intel® Edison compute module</h3>
 
 <div class="tldr">
-  <p>The Intel® Edison module is meant to be used with breakout boards or custom PCBs. You will need to secure your Intel® Edison module to the Arduino expansion board before you can use it. </p>
+  <p>The Intel® Edison compute module is meant to be used with breakout boards or custom PCBs. You will need to secure the compute module to the Arduino expansion board before you can use it. </p>
 </div>
 
 <p><a href="details-install_module.html"><img src="" alt="Animated gif: installing the Intel® Edison module" class="animated" data-still="images/module_install-firstframe.jpg" data-animated="images/module_install-animated.gif" /></a></p>
@@ -86,23 +123,44 @@
 
 <p><a href="details-install_spacers.html" class="link-button centered">View detailed instructions on installing the spacers »</a></p>
 
-<h2 id="example-of-a-full-development-setup">Example of a full development setup</h2>
+<h2 id="connect-the-intel-edison-to-your-computer-for-development">Connect the Intel® Edison to your computer for development</h2>
 
-<p>While plugging in every cable is not required at this very moment, a development setup with serial communication for shell access would look like this:</p>
-
-<p>(1) microswitch set to <strong><a href="index-connecting_cables.html#device-mode-vs-host-mode">USB device mode</a></strong> (i.e. toggled <strong><em>down</em></strong> towards the micro-USB ports)<br />
-(2) <strong><a href="index-connecting_cables.html#device-mode-micro-usb-cable">device mode cable</a></strong> plugged into your computer (i.e. <strong>top</strong> micro-USB port)<br />
-(3) <strong><a href="index-connecting_cables.html#uartserial-micro-usb-cable">UART/serial cable</a></strong> plugged into your computer (i.e. <strong>bottom</strong> micro-USB port)<br />
-(4) <em>Optional but <strong>highly recommended</strong>:</em> connected to a <strong><a href="index-connecting_cables.html#dc-power-supply">DC power supply </a></strong></p>
-
-<!-- <div class="callout info" markdown="1">
-Fully explore when and how to use all the cables ports on the Intel® Edison kit for Arduino in [Connecting Cables »](index-connecting_cables.html).
-</div> -->
+<p>While plugging in every cable is not required all the time, a cable setup for initial development purposes would look like the photo below:</p>
 
 <p><img src="images/cables-full_dev_setup_with_dc.png" alt="Cable and microswitch setup for Intel® Edison development" /></p>
 
+<p><strong>(1)</strong> Microswitch set to <strong><a href="index-connecting_cables.html#device-mode-vs-host-mode">USB device mode</a></strong> (i.e. toggled <strong><em>down</em></strong> towards the micro-USB ports).</p>
+
+<p><strong>(2)</strong> <strong><a href="index-connecting_cables.html#device-mode-micro-usb-cable">Device mode cable</a></strong> (i.e. <strong><em>top</em></strong> micro-USB port) plugged into your computer for 5V power, programming the Intel® Edison using the Arduino IDE, writing to the onboard flash memory from your computer, and/or using Ethernet over USB.</p>
+
+<p><strong>(3)</strong> <strong><a href="index-connecting_cables.html#uartserial-micro-usb-cable">UART/serial cable</a></strong> (i.e. <strong><em>bottom</em></strong> micro-USB port) plugged into your computer for shell access via serial communication.</p>
+
+<p><strong>(4)</strong> Connected to a <strong><a href="index-connecting_cables.html#dc-power-supply">DC power supply</a></strong> for stable and reliable power — <em>optional but <strong>highly recommended</strong></em></p>
+
+<h3 id="led-indicator">LED indicator</h3>
+
+<p>A green LED (labeled <strong>DS1</strong> on the Arduino expansion board) should light up when the <strong>device mode (2)</strong> and/or <strong>DC power supply (4)</strong> cables are connected.</p>
+
+<p><img src="images/device_mode-led_on-zoom_in.png" alt="Green LED lit up on expansion board" /></p>
+
+<div class="callout troubleshooting">
+  <p><!-- **Troubleshooting** -->
+  <strong>The green LED does not light up</strong> <br />
+  Check your power supply and/or device mode cable connections.</p>
+
+  <p><strong>The green LED is turning on and off</strong> <br />
+  If you are using only the device mode micro-USB cable for power, your computer’s USB port is not reliably supplying power to the board. Use an external DC power supply or a powered USB hub.</p>
+
+  <hr />
+
+  <p>One sign that your board is fully initialized is when your computer mounts a new drive named “Edison”, much like inserting a SD card into your computer.</p>
+
+  <p><img src="images/win-drive.png" alt="" /></p>
+
+</div>
+
 <div id="next-steps" class="callout done">
-  <p>You should now have the Intel® Edison module installed and all the development cables connected.</p>
+  <p>You should now have the Intel® Edison compute module installed, all the development cables connected, and the Intel® Edison powered on.</p>
 
   <p><a href="../../index.html#done-assembly" class="link-button centered">Continue to the next step in the START HERE guide »</a></p>
 </div>
