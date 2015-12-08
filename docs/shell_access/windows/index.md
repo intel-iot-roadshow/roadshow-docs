@@ -50,6 +50,22 @@ Use PuTTY to establish a **serial** connection to the IoT board using the COM # 
 
 [View detailed instructions »](details-putty_serial_connection.html){: .link-button .centered}
 
+## First time setup
+
+<div class="tldr" markdown="1">
+You must enable SSH of WiFi in order to work with the Intel XDK and Eclipse. To do this configure the Intel Edison password:
+</div>
+
+```
+configure_edison --password
+```
+
+![screen shot of password setup](../images/password_setup.png)
+
+Enter a password, but make sure you do not forget it. There is no way to recover a lost password without reflashing the board. 
+
+
+
 <div class="callout done" markdown="1">
 You are now logged into your IoT board and can run shell commands. For example, try:
 
