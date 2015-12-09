@@ -30,6 +30,7 @@
     <li><a href="#download-a-terminal-client-putty">Download a terminal client (PuTTY) »</a></li>
     <li><a href="#identify-the-serial-com-port">Identify the serial COM port »</a></li>
     <li><a href="#establish-a-serial-connection">Establish a serial connection »</a></li>
+    <li><a href="#configure-a-password-to-enable-ssh">Configure a password to enable SSH</a></li>
   </ul>
 </div>
 
@@ -71,15 +72,18 @@
 
 <p><a href="details-putty_serial_connection.html" class="link-button centered">View detailed instructions »</a></p>
 
-<div class="callout done">
-  <p>You are now logged into your IoT board and can run shell commands. For example, try:</p>
+<h2 id="configure-a-password-to-enable-ssh">Configure a password to enable SSH</h2>
 
-  <pre><code>configure_edison --help
-</code></pre>
+<div class="tldr">
+  <p>You must enable SSH in order to work with the Intel® XDK and Eclipse over Wi-Fi. Setting a password on your Intel® Edison by running <code>configure_edison --password</code> will enable SSH.</p>
 </div>
 
+<p><img src="images/configure_edison_password.png" alt="screen shot of password setup" /></p>
+
+<p><a href="details-configure_password.html" class="link-button centered">View detailed instructions »</a></p>
+
 <div id="next-steps" class="callout done">
-  <p>You should now be able to gain command line access to the Intel® Edison.</p>
+  <p>You are now logged into your IoT board and can run shell commands.</p>
 
   <p><a href="../../index.html#done-shell-access" class="link-button centered">Continue to the next step in the START HERE guide »</a></p>
 </div>
