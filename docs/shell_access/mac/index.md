@@ -6,6 +6,7 @@ title: Shell Access - Mac
 <div id="toc" markdown="1">
 * [Identify the "usbserial" device name »](#identify-the-usbserial-device-name)
 * [Establish a serial connection »](#establish-a-serial-connection)
+* [Configure a password to enable SSH](#configure-a-password-to-enable-ssh)
 </div>
 
 # Shell Access - Mac 
@@ -39,33 +40,19 @@ Use the Screen utility in Terminal to gain command line access of your IoT board
 [View detailed instructions »](details-screen_connection.html){: .link-button .centered}
 
 
-<div class="callout done" markdown="1">
-You are now logged into your IoT board and can run shell commands. For example, try:
-
-```
-configure_edison --help
-```
-</div>
-
-## First time setup
+## Configure a password to enable SSH 
 
 <div class="tldr" markdown="1">
-You must enable SSH of WiFi in order to work with the Intel XDK and Eclipse. To do this configure the Intel Edison password:
+You must enable SSH in order to work with the Intel® XDK and Eclipse over Wi-Fi. Setting a password on your Intel® Edison by running `configure_edison --password` will enable SSH.
 </div>
 
-```
-configure_edison --password
-```
+![screen shot of password setup](images/configure_edison_password_mac.png)
 
-![screen shot of password setup](./images/configure_edison_password_mac.png)
-
-Enter a password, but make sure you do not forget it. There is no way to recover a lost password without reflashing the board. 
-
-![screen shot of password setup](./images/enter_password_mac.png)
+[View detailed instructions »](details-configure_password.html){: .link-button .centered}
 
 
 <div id="next-steps" class="callout done" markdown="1">
-You should now be able to gain command line access to the Intel® Edison.
+You are now logged into your IoT board and can run shell commands.
 
 [Continue to the next step in the START HERE guide »](../../index.html#done-shell-access){: .link-button .centered}
 </div>
