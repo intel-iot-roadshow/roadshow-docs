@@ -47,6 +47,22 @@ configure_edison --help
 ```
 </div>
 
+## First time setup
+
+<div class="tldr" markdown="1">
+You must enable SSH of WiFi in order to work with the Intel XDK and Eclipse. To do this configure the Intel Edison password:
+</div>
+
+```
+configure_edison --password
+```
+
+![screen shot of password setup](./images/configure_edison_password_mac.png)
+
+Enter a password, but make sure you do not forget it. There is no way to recover a lost password without reflashing the board. 
+
+![screen shot of password setup](./images/enter_password_mac.png)
+
 
 <div id="next-steps" class="callout done" markdown="1">
 You should now be able to gain command line access to the Intel® Edison.
