@@ -51,9 +51,11 @@ You will need to have Jekyll (and Ruby) installed to preview the site on your co
 gem install jekyll
 ```
 
+If you look at the Gemfile, there is one Ruby dependency (`github-pages`) which can be installed using Bundler (`bundle install`) or directly (`gem install github-pages`).
+
 ## Previewing site locally
 
-Run the following command, then visit http://localhost:4000/.
+Run the following command from the root folder (the one that contains `_config.yml`), then visit http://localhost:4000/.
 
 ```
 jekyll serve
@@ -68,6 +70,8 @@ bundle exec jekyll serve
 
 ## Building static html files
 
+Run the following command from the root folder (the one that contains `_config.yml`)
+
 ```
 jekyll build
 ```
@@ -76,6 +80,8 @@ Generated files end up in a folder named `_site`. Copy the contents of _site in 
 
 
 ## Building static html files for gh-pages
+
+Run the following command from the root folder (the one that contains `_config.gh-pages.yml`):
 
 ```
 jekyll build --config _config.gh-pages.yml
