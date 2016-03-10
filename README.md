@@ -10,7 +10,7 @@ We welcome pull requests and bug reports on these docs. Please read the [Intel®
 
 ### branch: master
 
-[github.com/intel-iot-roadshow/getting-started-guides](https://github.com/intel-iot-roadshow/getting-started-guides)
+[github.com/intel-iot-roadshow/getting-started-guides](https://github.com/ssg-drd-iot/getting-started-guides)
 
 This is the [Jekyll](http://jekyllrb.com/) templating source code to produce the static html files for both the 'gh-pages' and 'html' branches.
 
@@ -18,15 +18,15 @@ Make changes to this branch only. If you try updating 'html' or 'gh-pages', your
 
 ### branch: html
 
-[github.com/intel-iot-roadshow/getting-started-guides/tree/html](https://github.com/intel-iot-roadshow/getting-started-guides/tree/html)
+[github.com/intel-iot-roadshow/getting-started-guides/tree/html](https://github.com/ssg-drd-iot/getting-started-guides/tree/html)
 
 This is the branch that can be downloaded and put on USB keys for Roadshows. **HOWEVER, IF YOU'RE LOOKING FOR STABLE RELEASES, THEY WILL BE TAGGED AND CAN BE FOUND HERE: [https://github.com/intel-iot-roadshow/getting-started-guides/releases](https://github.com/intel-iot-roadshow/getting-started-guides/releases)**
 
-Static files need to be generated form the 'master' branch. See [the branch's README](https://github.com/intel-iot-roadshow/getting-started-guides/blob/html/README.md) for details on viewing files.
+Static files need to be generated form the 'master' branch. See [the branch's README](https://github.com/ssg-drd-iot/getting-started-guides/blob/html/README.md) for details on viewing files.
 
 #### Making releases
 
-1. Go to [https://github.com/intel-iot-roadshow/getting-started-guides/releases](https://github.com/intel-iot-roadshow/getting-started-guides/releases).
+1. Go to [https://github.com/ssg-drd-iot/getting-started-guides/releases](https://github.com/ssg-drd-iot/getting-started-guides/releases).
 2. Click "Draft a new release" button.
 3. In new screen:
     1. Make the tag version related to the date (e.g. "2015-Dec-9)
@@ -38,9 +38,9 @@ Static files need to be generated form the 'master' branch. See [the branch's RE
 
 ### branch: gh-pages
 
-[github.com/intel-iot-roadshow/getting-started-guides/tree/gh-pages](https://github.com/intel-iot-roadshow/getting-started-guides/tree/gh-pages)
+[github.com/ssg-drd-iot/getting-started-guides/tree/gh-pages](https://github.com/ssg-drd-iot/getting-started-guides/tree/gh-pages)
 
-Github's built in web server for viewing html files: [intel-iot-roadshow.github.io/getting-started-guides/](http://intel-iot-roadshow.github.io/getting-started-guides/). Feel free to send anyone to this url if they are unable to get the USB key files working. Static files need to be generated form the 'master' branch.
+Github's built in web server for viewing html files: [ssg-drd-iot.github.io/getting-started-guides/](http://ssg-drd-iot.github.io/getting-started-guides/). Feel free to send anyone to this url if they are unable to get the USB key files working. Static files need to be generated form the 'master' branch.
 
 
 ## Installation
@@ -89,4 +89,4 @@ jekyll build --config _config.gh-pages.yml
 
 The extra flag uses a config file that includes "/getting-started-guides" (which is the name of this Github repo) as a base url instead of "" or "/" in order to make it compatible when viewing on the github.io domain.
 
-Generated files end up in the `_site` folder too. Copy the contents of _site in order to commit new files to the 'gh-pages' branch. Once commits have been pushed to 'gh-pages', the docs can be viewed at [intel-iot-roadshow.github.io/getting-started-guides/](http://intel-iot-roadshow.github.io/getting-started-guides/)
+Generated files end up in the `_site` folder too. Copy the contents of _site in order to commit new files to the 'gh-pages' branch. Once commits have been pushed to 'gh-pages', the docs can be viewed at [ssg-drd-iot.github.io/getting-started-guides/](http://ssg-drd-iot.github.io/getting-started-guides/)
