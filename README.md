@@ -1,10 +1,12 @@
 # Getting Started Guides
 
-To view these docs offline:
+If you're viewing this README from Github and not a supplied Roadshow USB thumb drive, go to https://github.com/ssg-drd-iot/getting-started-guides/releases to download the latest zip package.
 
-1. Download a zip of the 'html' branch by clicking on the "Download zip" button to the left.
-2. Unzip the contents of the downloaded file to your **local** harddrive (not a USB drive).
-3. Launch docs start page by viewing `index.html` in your web browser.
+Unzip the contents of the downloaded file to your **local** harddrive (not a USB drive).
+
+## To view these docs offline
+
+**Launch docs start page by viewing the local `index.html` from the zip in your web browser.**
 
 ## Alternative ways of viewing html docs
 
